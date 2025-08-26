@@ -2,5 +2,9 @@
 
 A place where you can play "definitely educational" games at school or work. And surf the web uncensored!
 
-# ok
-ok
+# What can I expect?
+250+ Games 🎮
+100+ Apps 📱
+Ultraviolet Proxy 🔎
+Tab Cloaker 🕴
+
