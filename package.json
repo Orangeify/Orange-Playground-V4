@@ -18,4 +18,14 @@
     "express": "^4.19.2",
     "wisp-server-node": "^1.1.3"
   }
+  
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "serve public"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
+
 }
