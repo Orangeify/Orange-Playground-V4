@@ -1,7 +1,24 @@
 {
   "version": 2,
-  "public": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "builds": [
+    { "src": "index.html",       "use": "@vercel/static" },
+    { "src": "public/sw.js",     "use": "@vercel/static" },
+    { "src": "public/uv/**",     "use": "@vercel/static" },
+    { "src": "public/baremux/**","use": "@vercel/static" },
+    { "src": "public/epoxy/**",  "use": "@vercel/static" }
+  ],
+  "routes": [
+    {
+      "src": "/sw.js",
+      "dest": "/public/sw.js",
+      "headers": {
+        "Service-Worker-Allowed": "/"
+      }
+    },
+    {
+      "src": "/(uv|baremux|epoxy)/(.*)",
+      "dest": "/public/$1/$2"
+    }
   ]
 }
+
