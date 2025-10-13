@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "@mercuryworkshop/bare-mux": "^2.1.7",
     "@mercuryworkshop/epoxy-transport": "^2.1.28",
