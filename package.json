@@ -1,0 +1,22 @@
+{
+  "name": "orange-playground-v4",
+  "version": "4.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^2.1.28",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "express": "^5.1.0",
+    "wisp-server-node": "^1.1.7"
+  },
+  "devDependencies": {}
+}
