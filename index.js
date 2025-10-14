@@ -1,10 +1,12 @@
 //Import express, http and wisp
+import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import http from 'node:http';
 import express from 'express';
 import wisp from 'wisp-server-node';
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet"; // ADD THIS TO THE TOP OF THE FILE!!!!
+import { path } from 'node:path'; 
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
+import { createBareServer } from "@tomphttp/bare-server-node";
 
 //create the express "app"
 const app = express();
@@ -13,8 +15,6 @@ const httpServer = http.createServer();
 //define the port to listen on
 //change this to your liking!
 const port = 8080;
-
-import { path } from 'node:path'; // ADD this at the TOP of the file!! NOT here!
 
 app.use(express.static(path.join(import.meta.dirname, "public" /* This is the folder you created with the index.html file in it */)));
 
