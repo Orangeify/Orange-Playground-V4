@@ -58,6 +58,16 @@ body {
   display: none;
 }
 
+#iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 999; /* ensures it appears above other elements */
+}
+
 h1 {
     font-family: "Boldonse", sans-serif;
     font-size: 2.5rem;
