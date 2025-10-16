@@ -1,12 +1,11 @@
 //Import express, http and wisp
-import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import http from 'node:http';
 import express from 'express';
 import wisp from 'wisp-server-node';
-import { path } from 'node:path'; 
+import path from 'node:path';
+import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
+import { baremuxPath } from "@mercuryworkshop/bare-mux/node"; //Note how we are using /node at the end of this import. This provides the correct types when using TypeScript.
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
-import { baremuxPath } from "@mercuryworkshop/bare-mux/node";
-import { createBareServer } from "@tomphttp/bare-server-node";
 
 //create the express "app"
 const app = express();
