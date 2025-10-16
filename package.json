@@ -17,7 +17,6 @@
   "type": "module",
   "dependencies": {
     "@mercuryworkshop/bare-mux": "^2.1.7",
-    "@mercuryworkshop/libcurl-transport": "^2.1.28",
     "@mercuryworkshop/epoxy-transport": "^2.1.28",
     "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
     "@tomphttp/bare-server-node": "2.0.6",
