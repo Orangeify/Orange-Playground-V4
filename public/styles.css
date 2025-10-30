@@ -58,14 +58,16 @@ body {
   display: none;
 }
 
-#iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  z-index: 999; /* ensures it appears above other elements */
+ #frame {
+   width: 100%;
+   height: 100%;
+   /** Set position to absolute. This allows us to open the iframe ON TOP of everything **/
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   background: black;
+   outline: none;
+   border: none;
 }
 
 h1 {
