@@ -156,7 +156,7 @@ h1 {
 }
 
 .search-icon {
-  position: absolute;
+  position: static;
   left: 1rem;
   fill: #bdbecb;
   width: 1em;
