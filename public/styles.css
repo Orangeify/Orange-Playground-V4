@@ -16,6 +16,44 @@ body {
     min-height: 100%;
 }
 
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #7e4300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 8px solid #A86B0E;
+  border-top-color: orange;
+  border-radius: 50%;
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .page-content {
     padding: 24px;
     padding-bottom: 96px;
@@ -67,43 +105,6 @@ body {
   border: none;
   z-index: 999; /* ensures it appears above other elements */
   background: black; 
-}
-
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #7e4300;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: opacity 0.75s, visibility 0.75s;
-}
-
-.loader--hidden {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.loader::after {
-  content: "";
-  width: 75px;
-  height: 75px;
-  border: 8px solid #A86B0E;
-  border-top-color: orange;
-  border-radius: 50%;
-  animation: loading 1s linear infinite;
-}
-
-@keyframes loading {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 h1 {
