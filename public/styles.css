@@ -35,6 +35,15 @@ body {
   visibility: hidden;
 }
 
+.loader-message {
+  font-family: DM Sans, sans-serif;
+  position: absolute;
+  top: 20%;
+  font-size: 1.5rem;
+  color: orange;
+  font-weight: 500;
+}
+
 .loader::after {
   content: "";
   width: 75px;
