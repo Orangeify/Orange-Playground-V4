@@ -13,6 +13,11 @@
     </script>
     <script src="assets/js/loader-message.js" defer></script>
     <script src="assets/js/particles.js" defer></script>
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 </head>
 <body>
 <iframe id="frame" class="dnone"></iframe>
