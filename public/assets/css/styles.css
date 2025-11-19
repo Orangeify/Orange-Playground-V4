@@ -88,6 +88,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    top: center;
+    left: center;
     width: 200px;
     height: auto;
     margin-bottom: 24px;
