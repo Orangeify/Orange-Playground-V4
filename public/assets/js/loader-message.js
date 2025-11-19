@@ -39,6 +39,14 @@ const messages = [
       "Google Sites sucks.",
       "Fact of the Day: AAAAAA",
       "YABBA DABBA DOO!",
+      "Was that the bite of '87?",
+      "GRAND DAD?! Flintstones?",
+      "ERROR 404: MESSAGE NOT FOUND",
+      "S p e e n",
+      "Hey Vsauce! Michael here.",
+      "Scramming my jets...",
+      "Blue, red, blue, yellow.",
+      "''My breath is offensive to my wife.'' -Job 19:17",
       "You just want to find every message..."
     ];
 
