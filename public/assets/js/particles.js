@@ -65,7 +65,7 @@ var pJS = function(tag_id, params){
         }
       },
       line_linked: {
-        enable: false,
+        enable: true,
         distance: 100,
         color: '#fff',
         opacity: 1,
@@ -73,9 +73,9 @@ var pJS = function(tag_id, params){
       },
       move: {
         enable: true,
-        speed: 3,
-        direction: 'top',
-        random: true,
+        speed: 2,
+        direction: 'none',
+        random: false,
         straight: false,
         out_mode: 'out',
         bounce: false,
