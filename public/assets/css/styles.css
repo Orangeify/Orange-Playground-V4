@@ -85,10 +85,10 @@ body {
 
 .playground-logo {
     background-image: url('../imgs/themes/playground-logo.png');
-    background-position: center;
+    background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1080px;
+    width: 200px;
     height: auto;
     margin-bottom: 24px;
 }
