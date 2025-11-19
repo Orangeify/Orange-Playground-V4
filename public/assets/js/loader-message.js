@@ -47,7 +47,7 @@ const messages = [
       "Scramming my jets...",
       "Blue, red, blue, yellow.",
       "''My breath is offensive to my wife.'' -Job 19:17",
-      "Unblocking Games since June 2024.",
+      "Unbl*cking Games since June 2024.",
       "You just want to find every message..."
     ];
 
