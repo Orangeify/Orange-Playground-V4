@@ -31,6 +31,14 @@ const messages = [
       "It took me 3 months to make this.",
       "''I'm gonna eat your dog.''",
       "SYNTAX Error",
+      "SHE SAID SHE WAS 12!",
+      "SYBAU",
+      "Used to be Orange Playground V3.",
+      "SDIYBT",
+      "spinny thing",
+      "Google Sites sucks.",
+      "Fact of the Day: AAAAAA",
+      "YABBA DABBA DOO!",
       "You just want to find every message..."
     ];
 
