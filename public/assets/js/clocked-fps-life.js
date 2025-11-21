@@ -11,7 +11,7 @@ class DigitalClock {
 
         console.log(timeFormatted);
 
-        this.element.querySelector('.clock-time').textContent = timeFormatted;
+        this.element.textContent = timeFormatted;
     }
         
 
