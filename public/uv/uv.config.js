@@ -1,6 +1,6 @@
 self.__uv$config = {
   // The prefix is where we "intercept" the request. 
-  prefix: "/uv/service/",
+  prefix: "/math/",
   //where Ultraviolet encodes & decodes the urls.
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
@@ -11,3 +11,4 @@ self.__uv$config = {
   config: "/uv/uv.config.js",
   sw: "/uv/uv.sw.js",
 };
+
