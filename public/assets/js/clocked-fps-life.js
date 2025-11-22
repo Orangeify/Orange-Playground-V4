@@ -5,7 +5,7 @@ class DigitalClock {
 
     start() {
         this.update();
-        setInterval(() => this.update(), 1000);
+        setInterval(() => this.update(), 10);
     }
 
     update() {
