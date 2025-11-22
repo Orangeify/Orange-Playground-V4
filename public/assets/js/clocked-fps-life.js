@@ -3,6 +3,11 @@ class DigitalClock {
         this.element = element;
     }
 
+    start() {
+        this.update();
+        setInterval(() => this.update(), 1000);
+    }
+
     update() {
         const parts = this.getTimeParts();
         const minuteFormatted = parts.minute.toString().padStart(2, '0');
