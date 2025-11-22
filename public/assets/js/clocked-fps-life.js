@@ -5,7 +5,7 @@ class DigitalClock {
 
     start() {
         this.update();
-        setInterval(() => this.update(), 10);
+        setInterval(() => this.update(), 1000);
     }
 
     update() {
@@ -34,4 +34,4 @@ class DigitalClock {
 const clockElement = document.querySelector('.clock-time');
 const clockObject = new DigitalClock(clockElement);
 
-clockObject.update();
+clockObject.start();
