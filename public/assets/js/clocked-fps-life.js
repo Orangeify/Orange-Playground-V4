@@ -35,3 +35,27 @@ const clockElement = document.querySelector('.clock-time');
 const clockObject = new DigitalClock(clockElement);
 
 clockObject.start();
+
+// Simple live FPS tracker using requestAnimationFrame
+(function () {
+  const fpsEl = document.querySelector('.fps-counter');
+  if (!fpsEl) return;
+
+  let last = performance.now();
+  let frames = 0;
+  let lastUpdate = performance.now();
+
+  function tick(now) {
+    frames++;
+    const elapsed = now - lastUpdate;
+    if (elapsed >= 500) { // update twice a second
+      const fps = Math.round((frames * 1000) / elapsed);
+      fpsEl.textContent = `${fps} FPS`;
+      frames = 0;
+      lastUpdate = now;
+    }
+    requestAnimationFrame(tick);
+  }
+
+  requestAnimationFrame(tick);
+})();
