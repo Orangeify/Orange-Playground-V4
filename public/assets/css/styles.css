@@ -126,6 +126,12 @@ body {
     z-index: 1;
 }
 
+.spacer {
+    color: white;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+
 .fps-counter {
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
