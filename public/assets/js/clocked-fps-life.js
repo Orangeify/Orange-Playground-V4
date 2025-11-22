@@ -14,8 +14,6 @@ class DigitalClock {
         const secondFormatted = parts.second.toString().padStart(2, '0');
         const timeFormatted = `${parts.hour}:${minuteFormatted}:${secondFormatted}`;
 
-        console.log(timeFormatted);
-
         this.element.textContent = timeFormatted;
     }
         
