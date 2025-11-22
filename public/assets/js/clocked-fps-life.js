@@ -11,12 +11,13 @@ class DigitalClock {
 
         console.log(timeFormatted);
 
-        this.element.textContent = timeFormatted;
+        this.element.querySelector('.clock-time').textContent = timeFormatted;
     }
         
 
     getTimeParts() {
         const now = new Date();
+        
         return {
             hour: now.getHours() % 12 || 12,
             minute: now.getMinutes(),
@@ -27,3 +28,5 @@ class DigitalClock {
 
 const clockElement = document.querySelector('.clock-time');
 const clockObject = new DigitalClock(clockElement);
+
+clockObject.update();
