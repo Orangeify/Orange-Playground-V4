@@ -63,7 +63,7 @@ const batteryLevelEl = document.querySelector('battery-level');
 navigator.getBattery().then(function(battery) {
     function updateBatteryLevel() {
         const level = battery.level;
-        const status = level * 100 + '%';
+        const status = level * 100 + "%";
         console.log(status);
     }
 });
