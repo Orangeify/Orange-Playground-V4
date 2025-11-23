@@ -64,6 +64,6 @@ navigator.getBattery().then(function(battery) {
     function updateBatteryLevel() {
         const level = battery.level;
         const status = level * 100 + '%';
-        console.log('Battery level:', status);
+        console.log(status);
     }
 });
