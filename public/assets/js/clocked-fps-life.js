@@ -57,3 +57,12 @@ clockObject.start();
 
   requestAnimationFrame(tick);
 })();
+
+const batteryLevelEl = document.getElementById('battery-level');
+
+navigator.getBattery().then(function(battery) {
+    function updateBatteryLevel() {
+        const level = battery.level;
+        const status = level * 100 + '%';
+        console.log('Battery level:', status);
+    }
