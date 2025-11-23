@@ -158,6 +158,13 @@ body {
     border-radius: 1px;
 }
 
+.battery-level {
+    height: 100%;
+    background: #4ade80;
+    width: 50%; /* Default to 50%, will be updated via JS */
+    border-radius: 2px 0 0 2px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
