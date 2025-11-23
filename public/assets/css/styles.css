@@ -148,6 +148,16 @@ body {
     z-index: 1;
 }
 
+.battery-cap {
+    width: 6px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    right: -8px;
+    border-radius: 1px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
