@@ -149,7 +149,7 @@ body {
 }
 
 .battery-cap {
-    width: 4px;
+    width: 6px;
     height: 8px;
     background: white;
     position: absolute;
