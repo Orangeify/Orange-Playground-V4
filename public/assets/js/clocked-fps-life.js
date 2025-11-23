@@ -58,7 +58,7 @@ clockObject.start();
   requestAnimationFrame(tick);
 })();
 
-const batteryLevelEl = document.getElementById('battery-level');
+const batteryLevelEl = document.querySelector('battery-level');
 
 navigator.getBattery().then(function(battery) {
     function updateBatteryLevel() {
