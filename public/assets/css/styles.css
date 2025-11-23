@@ -139,6 +139,15 @@ body {
     z-index: 1;
 }
 
+.battery-outline {
+    width: 40px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
