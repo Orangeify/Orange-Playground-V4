@@ -65,7 +65,7 @@ initBattery();
 function initBattery() {
     const batteryLevelEl = document.getElementById('battery-level');
     batteryPercent = document.getElementById('battery-percent');
-}
+};
 navigator.getBattery().then((batt) => {
     updateBattery = () => {
         let level = Math.floor(batt.level * 100);
