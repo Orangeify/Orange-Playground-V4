@@ -69,7 +69,7 @@ function initBattery() {
 navigator.getBattery().then((batt) => {
     updateBattery = () => {
         let level = Math.floor(batt.level * 100);
-        batteryPercent.innerHTML = `${level}%`;
+        batteryPercent.textContent = `${level}%`;
         batteryLevelEl.style.width = `${parseInt(batt.level * 100)}`;
     };
 });
