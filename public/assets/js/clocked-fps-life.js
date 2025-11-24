@@ -59,29 +59,25 @@ clockObject.start();
 })();
 
 document.addEventListener('DOMContentLoaded', () => {
-  const batteryLevelEl = document.querySelector('.battery-level');
-  const batteryPercentEl = document.querySelector('.battery-percent');
+  let batteryLevelEl = document.querySelector('.battery-level');
+  let batteryPercentEl = document.querySelector('.battery-percent');
 
   // If elements are missing, create them dynamically
   if (!batteryLevelEl || !batteryPercentEl) {
     const container = document.createElement('div');
     container.className = 'battery-container';
 
-    const level = document.createElement('div');
-    level.className = 'battery-level';
-    level.style.width = '0%';
+    batteryLevelEl = document.createElement('div');
+    batteryLevelEl.className = 'battery-level';
+    batteryLevelEl.style.width = '0%';
 
-    const percent = document.createElement('span');
-    percent.className = 'battery-percent';
-    percent.textContent = '--%';
+    batteryPercentEl = document.createElement('span');
+    batteryPercentEl.className = 'battery-percent';
+    batteryPercentEl.textContent = '--%';
 
-    container.appendChild(level);
-    container.appendChild(percent);
+    container.appendChild(batteryLevelEl);
+    container.appendChild(batteryPercentEl);
     document.body.appendChild(container);
-
-    // reassign references
-    batteryLevelEl = level;
-    batteryPercentEl = percent;
   }
 
   if (typeof navigator.getBattery !== 'function') {
