@@ -63,8 +63,8 @@ clockObject.start();
 initBattery();
 
 function initBattery() {
-    const batteryLevelEl = document.getElementById('battery-level');
-    batteryPercent = document.getElementById('battery-percent');
+    const batteryLevelEl = document.querySelector('battery-level');
+    batteryPercent = document.querySelector('battery-percent');
 };
 navigator.getBattery().then((batt) => {
     updateBattery = () => {
