@@ -167,6 +167,13 @@ body {
     font-size: 12px;
 }
 
+.battery-percentage {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    z-index: 1;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;

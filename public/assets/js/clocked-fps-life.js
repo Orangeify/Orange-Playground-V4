@@ -1,3 +1,5 @@
+const { upgrade } = require("undici-types");
+
 class DigitalClock {
     constructor(element) {
         this.element = element;
@@ -58,14 +60,20 @@ clockObject.start();
   requestAnimationFrame(tick);
 })();
 
-const batteryLevelEl = document.querySelector('.battery-level');
+initBattery();
 
-navigator.getLevel().then(function(battery) {
-    function updateBatteryLevel() {
-        const level = battery.level;
-        const status = level * 100 + "%";
-        console.log(status);
-        batteryLevelEl.style.width = status;
-        batteryLevelEl.textContent = status;
-    }
+function initBattery() {
+    const batteryLevelEl = document.getElementById('battery-level');
+    batteryPercent = document.getElementById('battery-percent');
+}
+navigator.getBattery().then((batt) => {
+    updateBattery = () => {
+        let level = Math.floor(batt.level * 100);
+        batteryPercent.textContent = `${level}%`;
+        batteryLevelEl.style.width = `${parseInt(batt.level * 100)}`;
+    };
+});
+updateBattery();
+    batt.addEventListener('levelchange', () => {
+    updateBattery();
 });
