@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // If elements are missing, create them dynamically
   if (!batteryLevelEl || !batteryPercentEl) {
     const container = document.createElement('div');
-    container.className = 'battery-outline';
+    container.className = 'battery-container';
 
     batteryLevelEl = document.createElement('div');
     batteryLevelEl.className = 'battery-level';
