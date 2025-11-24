@@ -78,4 +78,4 @@ function initBattery() {
     batt.addEventListener('levelchange', () => {
         updateBattery();
     });
-};
+}
