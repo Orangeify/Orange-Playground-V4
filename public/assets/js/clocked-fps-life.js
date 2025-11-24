@@ -1,5 +1,3 @@
-const { upgrade } = require("undici-types");
-
 class DigitalClock {
     constructor(element) {
         this.element = element;
