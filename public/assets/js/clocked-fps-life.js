@@ -60,26 +60,23 @@ clockObject.start();
   requestAnimationFrame(tick);
 })();
 
-function initBattery() {
-    const batteryLevelEl = document.querySelector('.battery-level');
-    const batteryPercent = document.querySelector('.battery-percent');
+document.addEventListener('DOMContentLoaded', () => {
+  const batteryLevelEl = document.querySelector('.battery-level');
+  const batteryPercentEl = document.querySelector('.battery-percent');
 
-    if (!navigator.getBattery) {
-        batteryPercent.textContent = "Battery API not supported";
-        return;
-    }
+  if (!navigator.getBattery) {
+    console.warn('Battery Status API not supported');
+    return;
+  }
 
-    navigator.getBattery().then((batt) => {
-        const updateBattery = () => {
-            const level = Math.floor(batt.level * 100);
-            batteryPercent.textContent = `${level}%`;
-            batteryLevelEl.style.width = `${level}%`;
-        };
+  navigator.getBattery().then(battery => {
+    const updateBattery = () => {
+      const level = Math.round(battery.level * 100);
+      batteryPercentEl.textContent = `${level}%`;
+      batteryLevelEl.style.width = `${level}%`;
+    };
 
-        updateBattery();
-
-        batt.addEventListener('levelchange', updateBattery);
-    });
-}
-
-initBattery();
+    updateBattery();
+    battery.addEventListener('levelchange', updateBattery);
+  });
+});
