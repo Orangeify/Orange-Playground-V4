@@ -74,6 +74,7 @@ navigator.getBattery().then((batt) => {
     };
 });
 updateBattery();
-    batt.addEventListener('levelchange', () => {
+
+batt.addEventListener('levelchange', () => {
     updateBattery();
 });
