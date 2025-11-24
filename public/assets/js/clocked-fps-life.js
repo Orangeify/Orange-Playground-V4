@@ -64,19 +64,27 @@ document.addEventListener('DOMContentLoaded', () => {
   const batteryLevelEl = document.querySelector('.battery-level');
   const batteryPercentEl = document.querySelector('.battery-percent');
 
-  if (!navigator.getBattery) {
-    console.warn('Battery Status API not supported');
+  if (!batteryLevelEl || !batteryPercentEl) {
+    console.error('Missing battery elements in the DOM.');
+    return;
+  }
+
+  if (typeof navigator.getBattery !== 'function') {
+    batteryPercentEl.textContent = 'Battery API not supported';
     return;
   }
 
   navigator.getBattery().then(battery => {
-    const updateBattery = () => {
+    function updateBattery() {
       const level = Math.round(battery.level * 100);
       batteryPercentEl.textContent = `${level}%`;
       batteryLevelEl.style.width = `${level}%`;
-    };
+    }
 
     updateBattery();
     battery.addEventListener('levelchange', updateBattery);
+  }).catch(err => {
+    console.error('Battery API error:', err);
+    batteryPercentEl.textContent = 'Error reading battery';
   });
 });
