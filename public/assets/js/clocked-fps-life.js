@@ -88,3 +88,4 @@ document.addEventListener('DOMContentLoaded', () => {
     batteryPercentEl.textContent = 'Error reading battery';
   });
 });
+//Change for notes
