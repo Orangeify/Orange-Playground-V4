@@ -60,7 +60,7 @@ clockObject.start();
 
 const batteryLevelEl = document.querySelector('.battery-level');
 
-navigator.getBattery().then(function(battery) {
+navigator.getLevel().then(function(battery) {
     function updateBatteryLevel() {
         const level = battery.level;
         const status = level * 100 + "%";
