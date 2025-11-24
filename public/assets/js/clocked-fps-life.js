@@ -62,9 +62,26 @@ document.addEventListener('DOMContentLoaded', () => {
   const batteryLevelEl = document.querySelector('.battery-level');
   const batteryPercentEl = document.querySelector('.battery-percent');
 
+  // If elements are missing, create them dynamically
   if (!batteryLevelEl || !batteryPercentEl) {
-    console.error('Missing .battery-level or .battery-percent elements in the DOM.');
-    return;
+    const container = document.createElement('div');
+    container.className = 'battery-container';
+
+    const level = document.createElement('div');
+    level.className = 'battery-level';
+    level.style.width = '0%';
+
+    const percent = document.createElement('span');
+    percent.className = 'battery-percent';
+    percent.textContent = '--%';
+
+    container.appendChild(level);
+    container.appendChild(percent);
+    document.body.appendChild(container);
+
+    // reassign references
+    batteryLevelEl = level;
+    batteryPercentEl = percent;
   }
 
   if (typeof navigator.getBattery !== 'function') {
@@ -79,10 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
       batteryLevelEl.style.width = `${level}%`;
     }
 
-    // Initial update
     updateBattery();
-
-    // Update when battery level changes
     battery.addEventListener('levelchange', updateBattery);
   }).catch(err => {
     console.error('Battery API error:', err);
