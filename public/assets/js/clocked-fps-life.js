@@ -57,3 +57,24 @@ clockObject.start();
 
   requestAnimationFrame(tick);
 })();
+
+const chargeLevel = document.querySelector('.battery-percentage');
+const chargeBar = document.querySelector('.battery-level');
+
+function updateBatteryStatus(battery) {
+    const chargePercentage = battery.level * 100;
+    chargeLevel.textContent = chargePercentage + "%";
+    chargeBar.style.width = chargePercentage + "%";
+};
+
+navigator.getBattery().then(battery => {
+    updateBatteryStatus(battery);
+    
+    battery.addEventListener("chargingchange", () => {
+        updateBatteryStatus(battery);
+    });
+    
+    battery.addEventListener("levelchange", () => {
+        updateBatteryStatus(battery);
+    });
+});
