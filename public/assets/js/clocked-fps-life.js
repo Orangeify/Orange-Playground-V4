@@ -64,7 +64,7 @@ const chargeStatus = document.getElementById('charging-icon');
 
 function updateBatteryStatus(battery) {
      if (battery.charging === true) {
-        chargeStatus.classList.remove = "dnone";
+        chargeStatus.classList.add = "#charging-icon";
     } else {
     }
 
