@@ -174,14 +174,10 @@ body {
     z-index: 1;
 }
 
-#charging-icon {
-    width: 24;
-    height: 24;
-    fill: none;
-    stroke: "currentColor";
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+.charging-icon {
+    font-size: 1.5rem;
+    color: white;
+    z-index: 1;
 }
 
 .container {
