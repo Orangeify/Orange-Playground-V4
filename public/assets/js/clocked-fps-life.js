@@ -60,8 +60,15 @@ clockObject.start();
 
 const chargeLevel = document.querySelector('.battery-percentage');
 const chargeBar = document.querySelector('.battery-level');
+const chargeStatus = document.getElementById('charging-icon');
 
 function updateBatteryStatus(battery) {
+     if (battery.charging === true) {
+        chargeStatus.classList.remove = ".dnone";
+    } else {
+        chargeStatus.classList.add = ".dnone";
+    }
+
     const chargePercentage = battery.level * 100;
     chargeLevel.textContent = chargePercentage + "%";
     chargeBar.style.width = chargePercentage + "%";
