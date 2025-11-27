@@ -583,6 +583,7 @@ h1 {
 }
 
 .nav-label {
+    align-items: start;
     font-size: 14px;
     font-weight: 500;
     color: white;
