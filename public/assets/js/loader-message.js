@@ -45,6 +45,7 @@ const messages = [
       "S p e e n",
       "Hey Vsauce! Michael here.",
       "Scramming my jets...",
+      "Ultraing the Violets",
       "Blue, red, blue, yellow.",
       "''My breath is offensive to my wife.'' -Job 19:17",
       "Unbl*cking Games since June 2024.",
