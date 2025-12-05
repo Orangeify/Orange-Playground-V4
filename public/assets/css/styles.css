@@ -303,7 +303,7 @@ h1 {
 }
 
 .square-card {
-    aspect-ratio: 1;
+    aspect-ratio: 0;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -319,8 +319,8 @@ h1 {
 }
 
 .square-image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 16px;
     border-radius: 12px;
     object-fit: cover;
