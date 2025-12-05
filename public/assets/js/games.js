@@ -1,7 +1,7 @@
 // games.js
 async function loadCards() {
   try {
-    const response = await fetch("../json/games.json");
+    const response = await fetch("./assets/json/games.json");
     const data = await response.json();
 
     const container = document.querySelector(".square-grid");
