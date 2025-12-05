@@ -2,17 +2,17 @@
   "cards": [
     {
       "title": "Action Games",
-      "image": "images/action.png",
+      "image": "../imgs/icons/1v1lol.jpg",
       "link": "/games/1v1lol.html"
     },
     {
       "title": "Adventure Games",
-      "image": "images/adventure.png",
+      "image": "../imgs/icons/1v1lol.jpg",
       "link": "/games/8-ball-pool.html"
     },
     {
       "title": "Puzzle Games",
-      "image": "images/puzzle.png",
+      "image": "../imgs/icons/1v1lol.jpg",
       "link": "/games/2048.html"
     }
   ]
