@@ -1,18 +1,18 @@
 {
   "cards": [
     {
-      "title": "Action Games",
-      "image": "../imgs/icons/1v1lol.jpg",
+      "title": "1v1.LOL",
+      "image": "./assets/imgs/icons/1v1lol.jpg",
       "link": "/games/1v1lol.html"
     },
     {
-      "title": "Adventure Games",
-      "image": "../imgs/icons/1v1lol.jpg",
+      "title": "8-Ball Pool",
+      "image": "./assets/imgs/icons/1v1lol.jpg",
       "link": "/games/8-ball-pool.html"
     },
     {
-      "title": "Puzzle Games",
-      "image": "../imgs/icons/1v1lol.jpg",
+      "title": "2048",
+      "image": "./assets/imgs/icons/1v1lol.jpg",
       "link": "/games/2048.html"
     }
   ]
