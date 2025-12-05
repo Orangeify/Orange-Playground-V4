@@ -1,6 +1,11 @@
 {
   "cards": [
     {
+      "title": "Request a Game (Discord)",
+      "image": "./assets/imgs/icons/Discord-Logo.png",
+      "link": "https://discord.gg/wx3rzuEBRn"
+    },
+    {
       "title": "1v1.LOL",
       "image": "./assets/imgs/icons/1v1lol.jpg",
       "link": "/games/1v1lol.html"
