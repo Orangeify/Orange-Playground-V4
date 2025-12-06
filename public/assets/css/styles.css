@@ -319,8 +319,8 @@ h1 {
 }
 
 .square-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 16px;
     border-radius: 12px;
     object-fit: cover;
