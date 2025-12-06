@@ -19,6 +19,16 @@
       "title": "2048",
       "image": "./assets/imgs/icons/2048.png",
       "link": "/games/2048.html"
+    },
+    {
+      "title": "AaronOS",
+      "image": "./assets/imgs/icons/aaronos.png",
+      "link": "/games/aaronos.html"
+    },
+    {
+      "title": "Achievement Unlocked",
+      "image": "./assets/imgs/icons/achievement-unlocked.jpg",
+      "link": "/games/achievement-unlocked.html"
     }
   ]
 }
