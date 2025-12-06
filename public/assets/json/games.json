@@ -12,12 +12,12 @@
     },
     {
       "title": "8-Ball Pool",
-      "image": "./assets/imgs/icons/1v1lol.jpg",
+      "image": "./assets/imgs/icons/8-ball-pool.webp",
       "link": "/games/8-ball-pool.html"
     },
     {
       "title": "2048",
-      "image": "./assets/imgs/icons/1v1lol.jpg",
+      "image": "./assets/imgs/icons/2048.png",
       "link": "/games/2048.html"
     }
   ]
