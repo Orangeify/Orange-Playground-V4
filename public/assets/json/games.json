@@ -8,27 +8,27 @@
     {
       "title": "1v1.LOL",
       "image": "./assets/imgs/icons/1v1lol.jpg",
-      "link": "/games/1v1lol.html"
+      "link": "/worksheets/1v1lol.html"
     },
     {
       "title": "8-Ball Pool",
       "image": "./assets/imgs/icons/8-ball-pool.webp",
-      "link": "/games/8-ball-pool.html"
+      "link": "/worksheets/8-ball-pool.html"
     },
     {
       "title": "2048",
       "image": "./assets/imgs/icons/2048.png",
-      "link": "/games/2048.html"
+      "link": "/worksheets/2048.html"
     },
     {
       "title": "AaronOS",
       "image": "./assets/imgs/icons/aaronos.png",
-      "link": "/games/aaronos.html"
+      "link": "/worksheets/aaronos.html"
     },
     {
       "title": "Achievement Unlocked",
       "image": "./assets/imgs/icons/achievement-unlocked.jpg",
-      "link": "/games/achievement-unlocked.html"
+      "link": "/worksheets/achievement-unlocked.html"
     }
   ]
 }
