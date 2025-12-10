@@ -6,6 +6,7 @@ import path from 'node:path';
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node"; //Note how we are using /node at the end of this import. This provides the correct types when using TypeScript.
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
+import { scramjetPath } from '@mercuryworkshop/scramjet/path';
 
 //create the express "app"
 const app = express();
@@ -19,6 +20,8 @@ app.use(express.static(path.join(import.meta.dirname, "public" /* This is the fo
 
 // "/uv/" is where the uv files will be available from. uvPath is just where those files are located
 app.use("/uv/", express.static(uvPath));
+// "/scram/" is where the scramjet files will be served from. scramjetPath is just the location to those files.
+app.use("/scram/", express.static(scramjetPath));
 // "/baremux/" is where the bare-mux files will be available from. baremuxPath is just where those files are located
 app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
