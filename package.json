@@ -21,7 +21,7 @@
     "@titaniumnetwork-dev/ultraviolet": "3.2.7",
     "dotenv": "^16.0.3",
     "express": "^5.1.0",
-    "wisp-server-node": "^1.1.7"
+    "@mercuryworkshop/wisp-js": "^0.3.3"
   },
   "devDependencies": {}
 }
