@@ -19,8 +19,6 @@ app.use(express.static(path.join(import.meta.dirname, "public" /* This is the fo
 
 // "/uv/" is where the uv files will be available from. uvPath is just where those files are located
 app.use("/uv/", express.static(uvPath));
-// "/scram/" is where the scramjet files will be served from. scramjetPath is just the location to those files.
-app.use("/scram/", express.static(scramjetPath));
 // "/baremux/" is where the bare-mux files will be available from. baremuxPath is just where those files are located
 app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
