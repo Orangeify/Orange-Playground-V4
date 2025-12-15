@@ -13,9 +13,9 @@ const app = express();
 //change this to your liking!
 const port = 8080;
 
-const server = http.createServer();
+const server = http.createServer(app);
 
-app.use(express.static(path.join(import.meta.dirname, "public" /* This is the folder you created with the index.html file in it */)));
+app.use(express.static(path.join(path.dirname(new URL(import.meta.url).pathname), "public" /* This is the folder you created with the index.html file in it */)));
 
 // "/uv/" is where the uv files will be available from. uvPath is just where those files are located
 app.use("/uv/", express.static(uvPath));
@@ -24,13 +24,12 @@ app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
 app.use("/epoxy/", express.static(epoxyPath));
 
-logging.set_level(logging.NONE); //set wisp logging to none. Change to logging.INFO or logging.DEBUG for more verbose logging.
+// Set wisp logging to none. Available log levels: logging.NONE, logging.INFO, logging.DEBUG.
+// Change to logging.INFO or logging.DEBUG for more verbose logging.
+logging.set_level(logging.NONE);
 
 //listen for requests on the http server.
-server.on('request', (req, res) => {
-    //make express handle all of the requests
-    app(req, res)
-});
+// No need to manually handle requests here, as http.createServer(app) already does this.
 
 //listen for websocket upgrades on the http server
 server.on("upgrade", (req, socket, head) => {
@@ -43,4 +42,4 @@ server.on("listening", () => {
 
 server.listen({
     port: port 
-});
+});server.listen(port);
