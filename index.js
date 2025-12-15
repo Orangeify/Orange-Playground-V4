@@ -13,8 +13,9 @@ const app = express();
 //change this to your liking!
 const port = 8080;
 
-const server = app.listen(port, () => {
-  console.log("Listening on port: ", port)
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.end("wisp server js rewrite");
 });
 
 app.use(express.static(path.join(import.meta.dirname, "public" /* This is the folder you created with the index.html file in it */)));
@@ -35,12 +36,10 @@ server.on('request', (req, res) => {
 });
 
 //listen for websocket upgrades on the http server
-server.on('upgrade', (req, socket, head) => {
-    if (req.url.endsWith('/wisp/')) {
-        //route the request to the wisp server if the url ends in /wisp/
-        wisp.routeRequest(req, socket, head);
-    }
-    else {
-        socket.end();
-    }
+server.on("upgrade", (req, socket, head) => {
+  wisp.routeRequest(req, socket, head);
+});
+
+server.on("listening", () => {
+  console.log("listening on port " + port);
 });
