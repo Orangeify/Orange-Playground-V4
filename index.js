@@ -13,10 +13,7 @@ const app = express();
 //change this to your liking!
 const port = 8080;
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("wisp server js rewrite");
-});
+const server = http.createServer();
 
 app.use(express.static(path.join(import.meta.dirname, "public" /* This is the folder you created with the index.html file in it */)));
 
