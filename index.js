@@ -43,3 +43,7 @@ server.on("upgrade", (req, socket, head) => {
 server.on("listening", () => {
   console.log("listening on port " + port);
 });
+
+server.listen({
+    port: port 
+});
