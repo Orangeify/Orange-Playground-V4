@@ -10,7 +10,7 @@ import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 //create the express "app"
 const app = express();
 //create an http server
-const server = http.createServer();
+const server = createServer();
 //define the port to listen on
 //change this to your liking!
 const port = 8080;
