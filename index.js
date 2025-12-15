@@ -9,11 +9,13 @@ import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 
 //create the express "app"
 const app = express();
-//create an http server
-const server = http.createServer();
 //define the port to listen on
 //change this to your liking!
 const port = 8080;
+
+const server = app.listen(port, () => {
+  console.log("Listening on port: ", port)
+});
 
 app.use(express.static(path.join(import.meta.dirname, "public" /* This is the folder you created with the index.html file in it */)));
 
@@ -42,14 +44,3 @@ server.on('upgrade', (req, socket, head) => {
         socket.end();
     }
 });
-
-//when the server is ready, console.log that it is ready
-server.on('listening', () => {
-    console.log(`Server listening on http://localhost:${port}`);
-});
-
-//start the http server
-server.listen({
-    port: port 
-});
-
