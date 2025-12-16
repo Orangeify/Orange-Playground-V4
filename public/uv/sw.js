@@ -12,22 +12,50 @@ const uv = new UVServiceWorker();
 self.addEventListener('fetch', function (event) {
     //If the request starts with the websites origin (eg. https://localhost:8080) and the uv prefix (/uv/service), then proxy the request.
     if (event.request.url.startsWith(location.origin + __uv$config.prefix)) {
-        //respond (proxy) the request. Wrap uv.fetch in try/catch so the
-        //service worker doesn't crash if Ultraviolet fails to parse or
-        //construct a URL for the proxied request.
+        //respond (proxy) the request. Validate and log the proxied URL
+        //before calling uv.fetch so we can avoid URL constructor errors
+        //and provide clearer diagnostics.
         event.respondWith(
             (async function () {
+                const prefix = location.origin + (__uv$config && __uv$config.prefix ? __uv$config.prefix : '/uv/service/');
+                const fullUrl = event.request.url;
+                const proxiedPart = fullUrl.slice(prefix.length);
+
+                // Attempt to decode the proxied part (config may provide decodeUrl)
+                let decodedTarget = proxiedPart;
+                try {
+                    if (__uv$config && typeof __uv$config.decodeUrl === 'function') {
+                        decodedTarget = __uv$config.decodeUrl(proxiedPart);
+                    }
+                } catch (e) {
+                    console.warn('uv.sw: decodeUrl threw an error for', proxiedPart, e);
+                }
+
+                // Validate that decodedTarget is a usable URL string
+                try {
+                    // This will throw if it's not a valid absolute URL
+                    new URL(decodedTarget);
+                } catch (e) {
+                    // Not a valid absolute URL. Log and fallback to a normal fetch
+                    console.error('uv.sw: Proxied target is not a valid URL:', decodedTarget, 'original:', proxiedPart, e);
+                    try {
+                        return await fetch(event.request);
+                    } catch (fetchErr) {
+                        console.error('uv.sw: fallback fetch failed:', fetchErr);
+                        return new Response('Bad proxied URL and fallback failed', { status: 502, statusText: 'Bad Gateway' });
+                    }
+                }
+
+                // If validation passed, call uv.fetch and catch any runtime errors.
                 try {
                     return await uv.fetch(event);
                 } catch (err) {
-                    // Log and fallback to a normal fetch to avoid unhandled
-                    // exceptions in the service worker.
                     console.error('Ultraviolet fetch failed, falling back:', err);
                     try {
                         return await fetch(event.request);
                     } catch (fetchErr) {
                         console.error('Fallback fetch also failed:', fetchErr);
-                        throw fetchErr;
+                        return new Response('Ultraviolet and fallback fetch failed', { status: 502, statusText: 'Bad Gateway' });
                     }
                 }
             })()
