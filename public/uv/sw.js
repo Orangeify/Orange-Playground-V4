@@ -31,13 +31,29 @@ self.addEventListener('fetch', function (event) {
                     console.warn('uv.sw: decodeUrl threw an error for', proxiedPart, e);
                 }
 
-                // Validate that decodedTarget is a usable URL string
+                // Normalize and validate decodedTarget so it's an absolute URL.
+                // If the decoded target lacks a scheme, try prefixing with https://
+                let normalizedTarget = decodedTarget;
                 try {
-                    // This will throw if it's not a valid absolute URL
-                    new URL(decodedTarget);
+                    // Quick check for scheme
+                    if (!/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(normalizedTarget)) {
+                        // No scheme found — assume https and try to normalize
+                        const tried = 'https://' + normalizedTarget;
+                        try {
+                            new URL(tried);
+                            normalizedTarget = tried;
+                            console.info('uv.sw: normalized proxied target by adding https://', normalizedTarget);
+                        } catch (inner) {
+                            // Still invalid; leave as-is and let the outer check handle it
+                            console.warn('uv.sw: attempted normalization failed for', tried, inner);
+                        }
+                    }
+
+                    // Final validation — will throw if not absolute URL
+                    new URL(normalizedTarget);
                 } catch (e) {
                     // Not a valid absolute URL. Log and fallback to a normal fetch
-                    console.error('uv.sw: Proxied target is not a valid URL:', decodedTarget, 'original:', proxiedPart, e);
+                    console.error('uv.sw: Proxied target is not a valid URL after normalization:', normalizedTarget, 'original:', proxiedPart, e);
                     try {
                         return await fetch(event.request);
                     } catch (fetchErr) {
