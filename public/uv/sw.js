@@ -21,14 +21,26 @@ self.addEventListener('fetch', function (event) {
                 const fullUrl = event.request.url;
                 const proxiedPart = fullUrl.slice(prefix.length);
 
-                // Attempt to decode the proxied part (config may provide decodeUrl)
+                // Attempt to decode the proxied part (config may provide decodeUrl),
+                // but only when the proxied part does NOT already look like an
+                // absolute URL (has a scheme). If the proxiedPart already starts
+                // with a scheme like "http:" or "https:", it should not be
+                // decoded because decodeUrl expects an encoded string.
                 let decodedTarget = proxiedPart;
-                try {
-                    if (__uv$config && typeof __uv$config.decodeUrl === 'function') {
-                        decodedTarget = __uv$config.decodeUrl(proxiedPart);
+                const hasScheme = /^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(proxiedPart);
+                if (!hasScheme) {
+                    try {
+                        if (__uv$config && typeof __uv$config.decodeUrl === 'function') {
+                            decodedTarget = __uv$config.decodeUrl(proxiedPart);
+                            console.info('uv.sw: decoded proxied part', proxiedPart, '->', decodedTarget);
+                        }
+                    } catch (e) {
+                        console.warn('uv.sw: decodeUrl threw an error for', proxiedPart, e);
                     }
-                } catch (e) {
-                    console.warn('uv.sw: decodeUrl threw an error for', proxiedPart, e);
+                } else {
+                    // Already absolute URL — leave as-is.
+                    // This avoids double-decoding an unencoded absolute URL.
+                    console.info('uv.sw: proxied part already absolute URL, skipping decode:', proxiedPart);
                 }
 
                 // Normalize and validate decodedTarget so it's an absolute URL.
