@@ -40,6 +40,5 @@ server.on("listening", () => {
   console.log("listening on port " + port);
 });
 
-server.listen({
-    port: port 
-});server.listen(port);
+// Start server (single listen call)
+server.listen(port);
