@@ -1,3 +1,19 @@
+"use strict";
+
+/* ---------------------------
+   register-sw.js (merged)
+   --------------------------- */
+const stockSW = "./sw.js";
+
+/**
+ * List of hostnames that are allowed to run serviceworkers on http://
+ */
+const swAllowedHostnames = ["localhost", "127.0.0.1"];
+
+/**
+ * Global util
+ * Used in 404.html and index.html
+ */
 async function registerSW() {
 	if (!navigator.serviceWorker) {
 		if (
@@ -9,51 +25,19 @@ async function registerSW() {
 		throw new Error("Your browser doesn't support service workers.");
 	}
 
-	await navigator.serviceWorker.register("/scram/sw.js");
+	await navigator.serviceWorker.register(stockSW);
 }
 
-const address = document.getElementById("address");
-
-const { ScramjetController } = $scramjetLoadController();
-
-const scramjet = new ScramjetController({
-  files: {
-	  wasm: "/scram/scramjet.wasm.wasm",
-	  all: "/scram/scramjet.all.js",
-	  sync: "/scram/scramjet.sync.js",
-  }
-});
-
-scramjet.init();
-
-navigator.serviceWorker.register("/scram/sw.js");
-
-// Init BareMux
-const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
-
-form.addEventListener("submit", async (event) => {
-	event.preventDefault();
-
-	try {
-		await registerSW();
-	} catch (err) {
-		error.textContent = "Failed to register service worker.";
-		errorCode.textContent = err.toString();
-		throw err;
-	}
-
-	const url = search(address.value, searchEngine.value);
-
-	let wispUrl =
-		(location.protocol === "https:" ? "wss" : "ws") +
-		"://" +
-		location.host +
-		"/wisp/";
-	if ((await connection.getTransport()) !== "/epoxy/index.mjs") {
-		await connection.setTransport("/epoxy/index.mjs", [{ wisp: wispUrl }]);
-	}
-
-	function search(input, template) {
+/* ---------------------------
+   search.js (merged)
+   --------------------------- */
+/**
+ *
+ * @param {string} input
+ * @param {string} template Template for a search query.
+ * @returns {string} Fully qualified URL
+ */
+function search(input, template) {
 	try {
 		// input is a valid URL:
 		// eg: https://example.com, https://example.com/test?q=param
@@ -77,8 +61,71 @@ form.addEventListener("submit", async (event) => {
 	// Attempts to convert the input to a fully qualified URL have failed
 	// Treat the input as a search query
 	return template.replace("%s", encodeURIComponent(input));
-  const frame = scramjet.createFrame();
-  frame.frame.id = "frame";
-	document.body.appendChild(frame.frame);	
-	frame.go(url);
-}});
+}
+
+/* ---------------------------
+   index.js (merged)
+   --------------------------- */
+
+/**
+ * @type {HTMLFormElement}
+ */
+const form = document.getElementById("sj-form");
+/**
+ * @type {HTMLInputElement}
+ */
+const address = document.getElementById("sj-address");
+/**
+ * @type {HTMLInputElement}
+ */
+const searchEngine = document.getElementById("sj-search-engine");
+/**
+ * @type {HTMLParagraphElement}
+ */
+const error = document.getElementById("sj-error");
+/**
+ * @type {HTMLPreElement}
+ */
+const errorCode = document.getElementById("sj-error-code");
+
+const { ScramjetController } = $scramjetLoadController();
+
+const scramjet = new ScramjetController({
+	files: {
+		wasm: '/scram/scramjet.wasm.wasm',
+		all: '/scram/scramjet.all.js',
+		sync: '/scram/scramjet.sync.js',
+	},
+});
+
+scramjet.init();
+
+const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
+
+form.addEventListener("submit", async (event) => {
+	event.preventDefault();
+
+	try {
+		await registerSW();
+	} catch (err) {
+		error.textContent = "Failed to register service worker.";
+		errorCode.textContent = err.toString();
+		throw err;
+	}
+
+	const url = search(address.value, searchEngine.value);
+
+	let frame = document.getElementById("sj-frame");
+	frame.style.display = "block";
+	// Allow runtime override from `public/config.js` (written at build-time)
+	// window._CONFIG.wispUrl can be set to a full ws/wss URL.
+	const cfgWisp = (window._CONFIG && window._CONFIG.wispUrl) || null;
+	const wispUrl = cfgWisp
+		? cfgWisp
+		: (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
+	if ((await connection.getTransport()) !== "/epoxy/index.mjs") {
+		await connection.setTransport("/epoxy/index.mjs", [{ wisp: wispUrl }]);
+	}
+	const sjEncode = scramjet.encodeUrl.bind(scramjet);
+	frame.src = sjEncode(url);
+});
