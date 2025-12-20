@@ -4,6 +4,7 @@ import express from 'express';
 import { server as wisp, logging } from "@mercuryworkshop/wisp-js/server";
 import path from 'node:path';
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
+import { scramjetPath } from "@mercuryworkshop/scramjet/path";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node"; //Note how we are using /node at the end of this import. This provides the correct types when using TypeScript.
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 
@@ -19,6 +20,8 @@ app.use(express.static(path.join(path.dirname(new URL(import.meta.url).pathname)
 
 // "/uv/" is where the uv files will be available from. uvPath is just where those files are located
 app.use("/uv/", express.static(uvPath));
+// "/scram/" is where the uv files will be available from. scramjetPath is just where those files are located
+app.use("/scram/", express.static(scramjetPath));
 // "/baremux/" is where the bare-mux files will be available from. baremuxPath is just where those files are located
 app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
