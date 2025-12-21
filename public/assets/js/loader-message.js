@@ -49,6 +49,11 @@ const messages = [
       "Blue, red, blue, yellow.",
       "''My breath is offensive to my wife.'' -Job 19:17",
       "Unbl*cking Games since June 2024.",
+      "Fuck Spez.",
+      "Wazgul is gay.",
+      "Is blud Epstein or Einstein?",
+      "Ocean Man, take me by the hand. Lead me to the land.",
+      "I am 60 kilometers away from you. R U N .",
       "You just want to find every message..."
     ];
 
