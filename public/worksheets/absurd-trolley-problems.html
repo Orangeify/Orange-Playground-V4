@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -7,16 +8,17 @@
         <script>
           // Wait for the window to load
           window.addEventListener('load', () => {
-              document.querySelector('.loader').classList.add('loader--hidden');
+              const loader = document.querySelector('.loader');
+              if (loader) loader.classList.add('loader--hidden');
           });
         </script>
         <script src="../assets/js/loader-message.js" defer></script>
     </head>
    <body>
-    <iframe id="frame" src="https://aaronos.dev/AaronOS/aosBeta.php"></iframe>
     <div class="loader">
         <div id="message" class="loader-message">Loading...</div>
     </div>
+    <iframe id="frame" class="dnone"></iframe>
     <nav class="bottom-nav">
         <div class="nav-container">
             <a href="../index.html" class="nav-item nav-home active">
@@ -25,7 +27,7 @@
                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
             </svg>
         </a>
-    <span class="nav-label">2048</span>
+    <span class="nav-label">Absurd Trolley Problems</span>
         
         <div class="nav-right">
             <a href="../worksheets.html" class="nav-item">
@@ -36,12 +38,45 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid-icon lucide-layout-grid"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
             </a>
             
-            <a href="settings.html" class="nav-item">
+            <a href="../index.html" class="nav-item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></svg>
             </a>
         </div>
         </div>
     </nav>
+
+    <!-- Scramjet bundles -->
+    <script src="../scram/scramjet.all.js"></script>
+    <!-- BareMux -->
+    <script src="../baremux/index.js" defer></script>
+
+    <!-- Hidden address input for Scramjet proxy control -->
+    <input id="address" type="hidden" value="neal.fun/absurd-trolley-problems/">
+
+    <!-- Scramjet index-load script -->
+    <script src="../scram/index-load.js" defer></script>
+
+    <!-- Auto-load on page ready -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Set the address field value
+            const addressInput = document.getElementById('address');
+            if (addressInput) {
+                addressInput.value = 'neal.fun/absurd-trolley-problems/';
+            }
+            
+            // Wait a moment for dependencies to load, then call proxy
+            setTimeout(async () => {
+                if (typeof proxy === 'function') {
+                    try {
+                        await proxy('neal.fun/absurd-trolley-problems/');
+                    } catch (err) {
+                        console.error('Failed to load URL:', err);
+                    }
+                }
+            }, 500);
+        });
+    </script>
 
     <script src="navigation.js"></script>
 </body>
