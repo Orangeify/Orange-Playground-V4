@@ -1,8 +1,16 @@
 (function(){
   const educationalLinks = [
     'https://www.khanacademy.org',
-    'https://www.coursera.org',
-    'https://www.edx.org',
+    'https://www.study.com',
+    'https://www.kahoot.it',
+    'https://www.blooket.com',
+    'https://www.gimkit.com/me',
+    'https://canvas.instructure.com',
+    'https://www.ck12.org/student/',
+    'https://www.ixl.com',
+    'https://www.edpuzzle.com',
+    'https://www.dictionary.com',
+    'https://www.brainpop.com',
     'https://www.nationalgeographic.org/education',
     'https://www.nasa.gov'
   ];
