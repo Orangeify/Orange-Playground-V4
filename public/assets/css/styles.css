@@ -8,11 +8,11 @@
 
 body {
     font-family: "DM Sans", sans-serif;
-    background-image: url('../imgs/themes/original-orange.jpeg');
+    background-image: var(--background-image);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
+    color: var(--light-or-dark);
     min-height: 100%;
     overflow-x: hidden;
 }
@@ -23,7 +23,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: #7e4300;
+  background: var(--loader-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ body {
   position: absolute;
   top: 20%;
   font-size: 1.5rem;
-  color: orange;
+  color: var(--loader-message-color);
   font-weight: 500;
 }
 
@@ -49,8 +49,8 @@ body {
   content: "";
   width: 75px;
   height: 75px;
-  border: 8px solid #A86B0E;
-  border-top-color: orange;
+  border: var(--loader-border);
+  border-top-color: var(--loader-top-border);
   border-radius: 50%;
   animation: loading 1s linear infinite;
 }
@@ -94,7 +94,7 @@ body {
 }
 
 .playground-logo {
-    background-image: url('../imgs/themes/playground-logo.png');
+    background-image: var(--playground-logo);
     background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -107,7 +107,7 @@ body {
 .home-title {
     font-size: 3em;
     font-weight: 700;
-    color: #f97316;
+    color: var(--home-title-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -122,13 +122,13 @@ body {
 .clock-time {
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: var(--light-or-dark);
     margin-top: 0;
     z-index: 1;
 }
 
 .spacer {
-    color: white;
+    color: var(--light-or-dark);
     font-size: 1.5rem;
     z-index: 1;
 }
@@ -136,7 +136,7 @@ body {
 .fps-counter {
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: var(--light-or-dark);
     z-index: 1;
 }
 
@@ -144,7 +144,7 @@ body {
     background-color: transparent;
     width: 40px;
     height: 20px;
-    border: 2px solid white;
+    border: var(--battery-light-or-dark);
     border-radius: 4px;
     position: relative;
     z-index: 1;
@@ -153,7 +153,7 @@ body {
 .battery-cap {
     width: 6px;
     height: 8px;
-    background: white;
+    background: var(--light-or-dark);
     position: absolute;
     top: 4px;
     right: -8px;
@@ -162,7 +162,7 @@ body {
 
 .battery-level {
     height: 100%;
-    background: #4ade80;
+    background: var(--light-or-dark);
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -171,7 +171,7 @@ body {
 .battery-percentage {
     font-family: "DM Sans", sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: var(--light-or-dark);
     z-index: 1;
 }
 
@@ -194,7 +194,7 @@ body {
 .external-icon-github img {
     width: 32px;
     height: 32px;
-    filter: invert(1);
+    filter: var(--invert-light-or-dark);
     transition: transform 0.2s ease, filter 0.2s ease;
 }
 
@@ -223,7 +223,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 16px;
-    color: white;
+    color: var(--light-or-dark);
     z-index: 1;
 }
 
@@ -241,23 +241,23 @@ h1 {
   width: 700px;
   height: 45px;
   padding-left: 2.5rem;
-  box-shadow: 0 0 0 1.5px #b95b13, 0 0 25px -17px #000;
+  box-shadow: 0 0 0 1.5px var(--search-bar-bg), 0 0 25px -17px #000;
   border: 0;
   border-radius: 12px;
-  background-color: #b95b13;
+  background-color: var(--search-bar-bg);
   outline: none;
-  color: #bdbecb;
+  color: var(--search-bar-light-or-dark);
   transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
   cursor: text;
   z-index: 0;
 }
 
 .input::placeholder {
-  color: #bdbecb;
+  color: var(--search-bar-light-or-dark);
 }
 
 .input:hover {
-  box-shadow: 0 0 0 2.5px , #bdbecb 0px 0px 25px -15px #000;
+  box-shadow: 0 0 0 2.5px , var(--search-bar-light-or-dark) 0px 0px 25px -15px #000;
 }
 
 .input:active {
@@ -265,13 +265,13 @@ h1 {
 }
 
 .input:focus {
-  box-shadow: 0 0 0 2.5px #bdbecb;
+  box-shadow: 0 0 0 2.5px var(--search-bar-light-or-dark);
 }
 
 .search-icon {
   position: absolute;
   left: 1rem;
-  fill: #bdbecb;
+  fill: var(--search-bar-light-or-dark);
   width: 1em;
   height: 1em;
   pointer-events: none;
@@ -340,7 +340,7 @@ h1 {
 .square-card h3 {
     font-size: 0.75rem;
     font-weight: 100;
-    color: white;
+    color: var(--light-or-dark);
 }
 
 .card-grid {
@@ -463,8 +463,8 @@ h1 {
 .app-button {
     width: 100%;
     padding: 10px;
-    background: #f97316;
-    color: white;
+    background: var(--app-button-color);
+    color: var(--light-or-dark);
     border: none;
     border-radius: 6px;
     font-family: "DM Sans", sans-serif;
@@ -475,7 +475,7 @@ h1 {
 }
 
 .app-button:hover {
-    background: #ea580c;
+    background: var(--app-button-color-hover);
 }
 
 /* The switch - the box around the slider */
@@ -518,7 +518,7 @@ h1 {
 }
 
 .checkbox:checked + .switch {
-  background-color: #dd8819;
+  background-color: var(--switch-color);
 }
 
 .checkbox:checked + .switch .slider {
@@ -594,8 +594,8 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #f97316;
-    border-top: 1px solid #ea580c;
+    background: var(--bottom-nav);
+    border-top: var(--bottom-nav-border);
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     padding-bottom: env(safe-area-inset-bottom);
@@ -618,7 +618,7 @@ h1 {
     padding: 8px 12px;
     border-radius: 6px;
     text-decoration: none;
-    color: white;
+    color: var(--light-or-dark);
     transition: background 0.15s ease, transform 0.1s ease;
 }
 
@@ -637,13 +637,13 @@ h1 {
 .nav-icon {
     width: 24px;
     height: 24px;
-    stroke: white;
+    stroke: var(--light-or-dark);
 }
 
 .nav-label {
     font-size: 14px;
     font-weight: 500;
-    color: white;
+    color: var(--light-or-dark);
 }
 
 .nav-right {
@@ -688,12 +688,12 @@ h1 {
     font-size: 1.375rem;
     font-weight: 700;
     margin-bottom: 12px;
-    color: white;
+    color: var(--light-or-dark);
 }
 
 .settings-card p {
     font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.75);
+    color: var(--description-color);
     line-height: 1.5;
 }
 

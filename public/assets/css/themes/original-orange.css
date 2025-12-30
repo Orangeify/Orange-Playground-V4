@@ -1,0 +1,20 @@
+:root {
+    --background-image: url('../imgs/themes/original-orange.jpeg');
+    --light-or-dark: white;
+    --loader-color: #7e4300;
+    --loader-message-color: orange;
+    --loader-border: 8px solid #A86B0E;
+    --loader-top-border: orange;
+    --playground-logo: url('../imgs/themes/playground-logo.png');
+    --home-title-color: #f97316;
+    --battery-light-or-dark: 2px solid white;
+    --invert-light-or-dark: invert(1);
+    --description-color: rgba(255, 255, 255, 0.75);
+    --bottom-nav: #f97316;
+    --bottom-nav-border: 1px solid #ea580c;
+    --search-bar-bg: #b95b13;
+    --search-bar-light-or-dark: #bdbecb;
+    --app-button-color: #f97316;
+    --app-button-color-hover: #ea580c;
+    --switch-color: #dd8819
+}
