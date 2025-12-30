@@ -506,7 +506,7 @@ h1 {
 .slider {
   width: 27px;
   height: 27px;
-  position: absolute;
+  position: sticky;
   left: calc(50% - 27px/2 - 10px);
   top: calc(50% - 27px/2);
   border-radius: 50%;
