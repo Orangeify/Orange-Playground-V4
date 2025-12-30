@@ -699,8 +699,7 @@ h1 {
 .settings-card-row {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-top: auto;
+    gap: 10px;
 }
 
 @media (min-width: 640px) {
