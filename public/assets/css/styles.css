@@ -481,7 +481,6 @@ h1 {
 .switch-container {
   width: 51px;
   height: 31px;
-  float: right;
   position: relative;
 }
 
@@ -695,6 +694,13 @@ h1 {
     font-size: 0.95rem;
     color: rgba(255, 255, 255, 0.75);
     line-height: 1.5;
+}
+
+.settings-card-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
 }
 
 @media (min-width: 640px) {
