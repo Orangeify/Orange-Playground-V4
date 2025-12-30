@@ -466,6 +466,7 @@ h1 {
     color: white;
     border: none;
     border-radius: 6px;
+    font-family: "DM Sans", sans-serif;
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
