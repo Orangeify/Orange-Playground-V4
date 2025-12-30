@@ -481,7 +481,7 @@ h1 {
 .switch-container {
   width: 51px;
   height: 31px;
-  position: static;
+  position: relative;
 }
 
 /* Hide default HTML checkbox */
