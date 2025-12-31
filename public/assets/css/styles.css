@@ -728,6 +728,22 @@ h1 {
   outline-color: white;
 }
 
+.link-wrapper input {
+  background-color: #f97316;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 3rem;
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0.8rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.link-wrapper input:focus {
+  outline-color: white;
+}
+
 @media (min-width: 640px) {
     .nav-container {
         height: 72px;
