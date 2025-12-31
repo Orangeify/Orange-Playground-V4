@@ -35,18 +35,19 @@
   document.addEventListener('DOMContentLoaded', function(){
     const btn = document.getElementById('about-blank-launcher-btn');
     if(btn) btn.addEventListener('click', openAboutBlankSelf);
-    // SWITCH SETUP
-    const sw = document.getElementById('checkbox');
+    
+        const sw = document.getElementById('checkbox');
 
     // Restore saved state
-    const saved = localStorage.getItem('abLauncherEnabled');
-    if(saved === 'true'){
-      sw.checked = true;
-      // Optional: auto-run launcher on page load if switch was ON
-      // openAboutBlankSelf();
+    const saved = localStorage.getItem('abLauncherEnabled') === 'true';
+    sw.checked = saved;
+
+    // If switch is ON, run launcher immediately on page load
+    if(saved){
+      openAboutBlankSelf();
     }
 
-    // When switch changes, save state + run launcher
+    // When switch changes, save state + run launcher if turned ON
     sw.addEventListener('change', function(){
       const enabled = sw.checked;
       localStorage.setItem('abLauncherEnabled', enabled);
