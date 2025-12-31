@@ -15,3 +15,5 @@ function initThemeSelector() {
     themeSelect.value = savedTheme;
     applyTheme(savedTheme);
 }
+
+initThemeSelector();
