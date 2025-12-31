@@ -713,7 +713,7 @@ h1 {
 }
 
 .input-wrapper input {
-  background-color: #f97316;
+  background-color: var(--app-button-color);
   border: none;
   padding: 1rem;
   font-size: 1rem;
@@ -729,7 +729,7 @@ h1 {
 }
 
 .link-wrapper input {
-  background-color: #f97316;
+  background-color: var(--app-button-color);
   border: none;
   padding: 1rem;
   font-size: 1rem;
