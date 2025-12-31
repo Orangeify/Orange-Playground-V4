@@ -35,5 +35,25 @@
   document.addEventListener('DOMContentLoaded', function(){
     const btn = document.getElementById('about-blank-launcher-btn');
     if(btn) btn.addEventListener('click', openAboutBlankSelf);
+    // SWITCH SETUP
+    const sw = document.getElementById('checkbox');
+
+    // Restore saved state
+    const saved = localStorage.getItem('abLauncherEnabled');
+    if(saved === 'true'){
+      sw.checked = true;
+      // Optional: auto-run launcher on page load if switch was ON
+      // openAboutBlankSelf();
+    }
+
+    // When switch changes, save state + run launcher
+    sw.addEventListener('change', function(){
+      const enabled = sw.checked;
+      localStorage.setItem('abLauncherEnabled', enabled);
+
+      if(enabled){
+        openAboutBlankSelf();
+      }
+    });
   });
 })();
