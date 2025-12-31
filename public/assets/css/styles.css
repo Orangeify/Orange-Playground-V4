@@ -713,19 +713,19 @@ h1 {
 }
 
 .input-wrapper input {
-  background-color: #eee;
+  background-color: #f97316;
   border: none;
   padding: 1rem;
   font-size: 1rem;
-  width: 40px;
+  width: 45px;
   border-radius: 1rem;
-  color: orange;
-  box-shadow: 0 0.4rem #dfd9d9;
+  color: white;
+  box-shadow: 0.8rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
 .input-wrapper input:focus {
-  outline-color: orange;
+  outline-color: white;
 }
 
 @media (min-width: 640px) {
