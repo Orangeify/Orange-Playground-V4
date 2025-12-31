@@ -3,12 +3,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Orange Playground - AaronOS</title>
+         <link rel="stylesheet" id="themeStylesheetLink" href="assets/css/themes/original-orange.css">
         <link rel="stylesheet" href="../assets/css/styles.css">
         <script>
           // Wait for the window to load
           window.addEventListener('load', () => {
               document.querySelector('.loader').classList.add('loader--hidden');
           });
+        </script>
+        <script>
+            const savedTheme = localStorage.getItem('theme') || 'original-orange';
+            document.write(`<link id="themeStylesheetLink" rel="stylesheet" href="/assets/css/themes/${savedTheme}.css">`);
         </script>
         <script src="../assets/js/loader-message.js" defer></script>
     </head>
@@ -42,7 +47,7 @@
         </div>
         </div>
     </nav>
-
+    <script src="../assets/js/theme-selector.js"></script>
     <script src="navigation.js"></script>
 </body>
 </html>
