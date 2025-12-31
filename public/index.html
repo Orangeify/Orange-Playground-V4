@@ -12,6 +12,10 @@
             document.querySelector('.loader').classList.add('loader--hidden');
         });
     </script>
+    <script>
+        const savedTheme = localStorage.getItem('theme') || 'original-orange';
+        document.write(`<link id="themeStylesheetLink" rel="stylesheet" href="/assets/css/themes/${savedTheme}.css">`);
+    </script>
     <script src="assets/js/loader-message.js" defer></script>
     <script src="assets/js/particles.js" defer></script>
     <script src="assets/js/particles-app.js" defer></script>
