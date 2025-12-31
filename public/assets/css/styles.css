@@ -708,6 +708,7 @@ h1 {
     border: none;
     font-family: DM Sans, sans-serif;
     font-size: 20px;
+    color: white;
 }
 
 @media (min-width: 640px) {
