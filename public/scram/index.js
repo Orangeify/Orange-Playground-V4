@@ -1,46 +1,31 @@
+const { ScramjetController } = $scramjetLoadController();
+
+const scramjet = new ScramjetController({
+  files: {
+	  wasm: "/scram/scramjet.wasm.wasm",
+	  all: "/scram/scramjet.all.js",
+	  sync: "/scram/scramjet.sync.js",
+  }
+});
+
+scramjet.init();
+
+navigator.serviceWorker.register("sw.js");
+
+// Init BareMux
+const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
+// Set the transport yourself
+connection.setTransport("/epoxy/index.mjs", [{ wisp: wispUrl /* We just set this url! */ }]);
 //Import Scramjet and BareMux
 //Scramjet provides the encodeUrl function for proxying
 //BareMux provides transport connections with Epoxy and Wisp
-
-//function to register the service worker for Scramjet
-async function regSW() {
-    //if the service worker doesn't exist throw an error
-    if (!navigator.serviceWorker) {
-        throw new Error("Your browser doesn't support service workers.");
-    }
-    //register the service worker for Scramjet
-    await navigator.serviceWorker.register("/scram/sw.js");
-}
-regSW();
-
-//function for ease of use - initialize Scramjet and set up transport
-async function setTransport() {
-    //create a new bare mux connection
-    const conn = new BareMux.BareMuxConnection("/baremux/worker.js");
-    //If you are using http:// change it to ws:// or if using https:// change it to wss://, get the domain name and add "/wisp/" to the end of it
-    const wispUrl = (location.protocol === "https:" ? "wss://" : "ws://") + location.host + "/wisp/";
-    //actually set the transport!!
-    await conn.setTransport("/epoxy/index.mjs", [{ wisp: wispUrl /* We just set this url! */ }]);
-}
 
 //function to proxy a URL using Scramjet encoding
 async function proxy(url) {
     //get the iframe!
     const iframe = document.getElementById("frame");
-    //initialize Scramjet controller
-    const { ScramjetController } = $scramjetLoadController();
-    const scramjet = new ScramjetController({
-        files: {
-            wasm: '/scram/scramjet.wasm.wasm',
-            all: '/scram/scramjet.all.js',
-            sync: '/scram/scramjet.sync.js',
-        },
-    });
-    await scramjet.init();
     //create the initial url with Scramjet encoding
     const sjUrl = scramjet.encodeUrl(search(url, "https://www.google.com/search?q=%s" /* the search engine template. Feel free to change it to whatever search engine you want (just make sure to add %s at the end!) */));
-    //call our setTransport function
-    await setTransport();
     //remove the "dnone" class so the iframe is visible.
     iframe.classList.remove("dnone");
     //set the iframe's source to the encoded url
