@@ -58,7 +58,7 @@ form.addEventListener("submit", async (event) => {
 		]);
 	}
 	const frame = scramjet.createFrame();
-	frame.frame.id = "frame";
+	frame.frame.id = "sj-frame";
 	document.body.appendChild(frame.frame);
 	frame.go(url);
 });
