@@ -2,7 +2,7 @@ const particleToggle = document.getElementById('particles-js');
 const sw = document.getElementById('particle-checkbox');
 
 const saved = localStorage.getItem('particleSetting') === 'true';
-sw.checked = saved;
+sw.checked === false ; saved;
 
     // If switch is ON, run launcher immediately on page load
     if(saved){
