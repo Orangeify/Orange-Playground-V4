@@ -108,10 +108,21 @@
                 scramjetScript.src = 'scram/scramjet.all.js';
                 document.head.appendChild(scramjetScript);
                 
+                const scramjetRegisterScript = document.createElement('script');
+                scramjetRegisterScript.src = 'scram/register-sw.js';
+                scramjetRegisterScript.defer = true;
+                document.body.appendChild(scramjetRegisterScript);
+
+                const scramjetSearchScript = document.createElement('script');
+                scramjetSearchScript.src = 'scram/search.js';
+                scramjetSearchScript.defer = true;
+                document.body.appendChild(scramjetSearchScript);
+
                 const scramjetIndexScript = document.createElement('script');
                 scramjetIndexScript.src = 'scram/index.js';
                 scramjetIndexScript.defer = true;
                 document.body.appendChild(scramjetIndexScript);
+
             } else {
                 // Load UV (default)
                 const uvBundleScript = document.createElement('script');
