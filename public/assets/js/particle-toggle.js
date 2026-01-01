@@ -1,11 +1,9 @@
 const particleToggle = document.getElementById('particles-js');
 const sw = document.getElementById('particle-checkbox');
 
-const saved = localStorage.getItem('particleSetting') === 'true';
-sw.checked === false ; saved;
-
+const saved = localStorage.getItem('particleSetting') || enabled;
     // If switch is ON, run launcher immediately on page load
-    if(saved){
+    if(saved === disabled){
       particleToggle.classList.add("dnone");
     }
 
@@ -16,6 +14,7 @@ sw.addEventListener('change', function() {
         localStorage.setItem('particleSetting', disabled);
     } else {
         particleToggle.classList.remove("dnone")
+        localStorage.setItem('particleSetting', enabled)
     }
 });
 
