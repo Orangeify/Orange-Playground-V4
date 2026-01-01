@@ -27,7 +27,7 @@ app.use("/scram/", express.static(scramjetPath));
 app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
 app.use("/epoxy/", express.static(epoxyPath));
-app.use("/epoxy/", express.static(lPath));
+app.use("/libcurl/", express.static(libcurlPath));
 
 // Set wisp logging to none. Available log levels: logging.NONE, logging.INFO, logging.DEBUG.
 // Change to logging.INFO or logging.DEBUG for more verbose logging.
