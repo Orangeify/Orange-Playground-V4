@@ -59,14 +59,14 @@
               ></path>
             </g>
           </svg>
-
-          <input
-            id="address"
-            class="input"
-            type="text"
-            placeholder="Search..."
-            name="searchbar"
-          />
+        <form id="search-address">
+        <input
+            id="search-engine"
+            value="https://www.google.com/search?q=%s"
+            type="hidden"
+        />
+        <input id="address" class="input" type="text" placeholder="Search..." />
+        </form>
         </div>
     </div>
 
@@ -96,21 +96,58 @@
         </div>
     </nav>
     <head>
-        <!-- The UV bundle. It contains most of the code for ultraviolet to function properly -->
-        <script src="uv/uv.bundle.js" defer></script>
-        <!-- The uv.config.js file we just made. -->
-        <script src="uv/uv.config.js" defer></script>
-        <!-- The Scramjet bundle. It contains most of the code for scramjet to function properly -->
-        <script src="scram/scramjet.all.js"></script>
+        <!-- Proxy loader: loads either Scramjet or UV based on sj variable -->
+        <script>
+            // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
+            const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
+            
+            // Dynamically load the appropriate proxy bundles
+            if (useScramjet) {
+                // Load Scramjet
+                const scramjetScript = document.createElement('script');
+                scramjetScript.src = 'scram/scramjet.all.js';
+                document.head.appendChild(scramjetScript);
+                
+                const scramjetIndexScript = document.createElement('script');
+                scramjetIndexScript.src = 'scram/index.js';
+                scramjetIndexScript.defer = true;
+                document.body.appendChild(scramjetIndexScript);
+            } else {
+                // Load UV (default)
+                const uvBundleScript = document.createElement('script');
+                uvBundleScript.src = 'uv/uv.bundle.js';
+                uvBundleScript.defer = true;
+                document.head.appendChild(uvBundleScript);
+                
+                const uvConfigScript = document.createElement('script');
+                uvConfigScript.src = 'uv/uv.config.js';
+                uvConfigScript.defer = true;
+                document.head.appendChild(uvConfigScript);
+
+                const uvRegisterScript = document.createElement('script');
+                uvRegisterScript.src = 'uv/register-sw.js';
+                uvRegisterScript.defer = true;
+                document.body.appendChild(uvRegisterScript);
+
+                const uvSearchScript = document.createElement('script');
+                uvSearchScript.src = 'uv/search.js';
+                uvSearchScript.defer = true;
+                document.body.appendChild(uvSearchScript);
+                
+                const uvIndexScript = document.createElement('script');
+                uvIndexScript.src = 'uv/index.js';
+                uvIndexScript.defer = true;
+                document.body.appendChild(uvIndexScript);
+            }
+        </script>
         <!-- BareMux content -->
         <script src="baremux/index.js" defer></script>
-        <iframe id="frame" class="dnone"></iframe>
+        <script src="epoxy/index.js" defer></script>
+        <iframe id="frame" style="display: none;"></iframe>
     </head>
     <body>
         <script src="assets/js/panic-key.js"></script>
         <script src="assets/js/theme-selector.js"></script>
-        <script src="uv/index.js" defer></script>
-        <script src="scram/index.js" defer></script>
     </body>
 
 </html>
