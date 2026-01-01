@@ -1,21 +1,30 @@
-const particleToggle = document.getElementById('particles-js');
-const sw = document.getElementById('particle-checkbox');
+document.addEventListener('DOMContentLoaded', function () {
+    const particleToggle = document.getElementById('particles-js');
+    const sw = document.getElementById('particle-checkbox');
+    const STORAGE_KEY = 'particleSetting';
 
-const saved = localStorage.getItem('particleSetting');
-const disabled = sw.checked = false;
-const enabled = sw.checked;
-// If switch is ON, run launcher immediately on page load
-    if(saved === false){
-      particleToggle.classList.add("dnone");
-    }
+    // If required elements are missing, do nothing
+    if (!particleToggle || !sw) return;
 
-sw.addEventListener('change', function() {
-    if (sw.checked === false) {
-        particleToggle.classList.add("dnone")
-        localStorage.setItem('particleSetting', disabled);
+    // Load saved setting ('true' = enabled, 'false' = disabled)
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved === 'false') {
+        particleToggle.classList.add('dnone');
+        sw.checked = false;
     } else {
-        particleToggle.classList.remove("dnone")
-        localStorage.setItem('particleSetting', enabled)
+        // Default: enabled
+        particleToggle.classList.remove('dnone');
+        sw.checked = saved === 'true' || saved === null;
     }
+
+    sw.addEventListener('change', function () {
+        if (sw.checked) {
+            particleToggle.classList.remove('dnone');
+            localStorage.setItem(STORAGE_KEY, 'true');
+        } else {
+            particleToggle.classList.add('dnone');
+            localStorage.setItem(STORAGE_KEY, 'false');
+        }
+    });
 });
 
