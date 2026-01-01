@@ -744,6 +744,13 @@ h1 {
   outline-color: white;
 }
 
+.left-margin {
+	margin: 0px 16px;
+.desc p {
+	width: 560px;
+    color: rgba(253, 253, 253, 0.514);
+}
+
 @media (min-width: 640px) {
     .nav-container {
         height: 72px;
