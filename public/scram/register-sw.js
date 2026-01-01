@@ -1,5 +1,5 @@
 "use strict";
-const stockSW = ".scram/sw.js";
+const stockSW = "scram/sw.js";
 
 /**
  * List of hostnames that are allowed to run serviceworkers on http://
