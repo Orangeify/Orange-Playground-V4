@@ -10,11 +10,11 @@ const saved = localStorage.getItem('particleSetting') || enabled;
 sw.addEventListener('change', function() {
     if (sw.checked === false) {
         particleToggle.classList.add("dnone")
-        const disabled = 'disabled';
+        const disabled = 'sw.checked === false';
         localStorage.setItem('particleSetting', disabled);
     } else {
         particleToggle.classList.remove("dnone")
-        const enabled = 'enabled';
+        const enabled = 'sw.checked';
         localStorage.setItem('particleSetting', enabled)
     }
 });
