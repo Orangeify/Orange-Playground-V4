@@ -7,6 +7,7 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { scramjetPath } from "@mercuryworkshop/scramjet/path";
 import { baremuxPath } from "@mercuryworkshop/bare-mux/node"; //Note how we are using /node at the end of this import. This provides the correct types when using TypeScript.
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
+import { libcurlPath } from "@mercuryworkshop/libcurl-transport";
 
 //create the express "app"
 const app = express();
@@ -26,6 +27,7 @@ app.use("/scram/", express.static(scramjetPath));
 app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
 app.use("/epoxy/", express.static(epoxyPath));
+app.use("/epoxy/", express.static(lPath));
 
 // Set wisp logging to none. Available log levels: logging.NONE, logging.INFO, logging.DEBUG.
 // Change to logging.INFO or logging.DEBUG for more verbose logging.
