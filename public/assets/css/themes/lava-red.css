@@ -1,0 +1,20 @@
+:root {
+    --background-image: url('../imgs/themes/lava-red.jpeg');
+    --light-or-dark: white;
+    --loader-color: #7e0000;
+    --loader-message-color: red;
+    --loader-border: 8px solid #a80e0e;
+    --loader-top-border: red;
+    --playground-logo: url('../imgs/themes/playground-logo.png');
+    --home-title-color: #f91616;
+    --battery-light-or-dark: 2px solid white;
+    --invert-light-or-dark: invert(1);
+    --description-color: rgba(255, 255, 255, 0.75);
+    --bottom-nav: #f91616;
+    --bottom-nav-border: 1px solid #ea0c0c;
+    --search-bar-bg: #b91313;
+    --search-bar-light-or-dark: #bdbecb;
+    --app-button-color: #f91616;
+    --app-button-color-hover: #ea0c0c;
+    --switch-color: #dd8819
+}
