@@ -9,9 +9,9 @@
     --home-title-color: #f97316;
     --battery-light-or-dark: 2px solid black;
     --invert-light-or-dark: invert(0);
-    --description-color: rgba(255, 255, 255, 0.75);
+    --description-color: rgba(0, 0, 0, 0.75);
     --bottom-nav: white;
-    --bottom-nav-border: 1px solid #ea0c0c;
+    --bottom-nav-border: 1px solid #ebeaea;
     --search-bar-bg: #b8b5b5;
     --search-bar-light-or-dark: black;
     --app-button-color: #ffffff;
