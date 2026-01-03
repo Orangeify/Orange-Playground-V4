@@ -1,0 +1,20 @@
+:root {
+    --background-image: url('../imgs/themes/the-sun.jpeg');
+    --light-or-dark: black;
+    --loader-color: white;
+    --loader-message-color: black;
+    --loader-border: 8px solid gray;
+    --loader-top-border: black;
+    --playground-logo: url('../imgs/themes/playground-logo.png');
+    --home-title-color: #f97316;
+    --battery-light-or-dark: 2px solid black;
+    --invert-light-or-dark: invert(0);
+    --description-color: rgba(255, 255, 255, 0.75);
+    --bottom-nav: white;
+    --bottom-nav-border: 1px solid #ea0c0c;
+    --search-bar-bg: #b8b5b5;
+    --search-bar-light-or-dark: black;
+    --app-button-color: #ffffff;
+    --app-button-color-hover: #ffffff;
+    --switch-color: #dd8819
+}
