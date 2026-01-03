@@ -22,7 +22,7 @@
       return;
     }
     const src = location.href;
-    const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Drive - Google Drive</title><link id="cloakLink" rel="icon" type="image/png" href="assets/imgs/favicons/drive.png"><style>html,body,iframe{height:100%;margin:0}iframe{border:0;width:100%;height:99%;}</style></head><body><iframe src="${src}" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe></body></html>`;
+    const html = `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Drive - Google Drive</title><link id="cloakLink" rel="icon" type="image/png" href="../assets/imgs/favicons/drive.png"><style>html,body,iframe{height:100%;margin:0}iframe{border:0;width:100%;height:99%;}</style></head><body><iframe src="${src}" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe></body></html>`;
     newWin.document.open();
     newWin.document.write(html);
     newWin.document.close();
