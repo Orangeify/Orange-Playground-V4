@@ -16,17 +16,9 @@
         const savedTheme = localStorage.getItem('theme') || 'original-orange';
         document.write(`<link id="themeStylesheetLink" rel="stylesheet" href="/assets/css/themes/${savedTheme}.css">`);
     </script>
-    <script>
-        const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved === 'false') {
-        particleToggle.classList.add('dnone');
-        sw.checked = false;
-    } else {
-        // Default: enabled
-        particleToggle.classList.remove('dnone');
-        sw.checked = saved === 'true' || saved === null;
-    }
-    </script>
+    <label class="particle-toggle-label" title="Toggle Particles">
+        <input id="particle-checkbox" type="checkbox" class="checkbox">
+    </label>
     <script src="assets/js/loader-message.js" defer></script>
     <script src="assets/js/particles.js" defer></script>
     <script src="assets/js/particles-app.js" defer></script>
