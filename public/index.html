@@ -18,6 +18,7 @@
         document.write(`<link id="themeStylesheetLink" rel="stylesheet" href="/assets/css/themes/${savedTheme}.css">`);
     </script>
     <script>
+        const particleToggle = document.getElementById('particles-js');
         const STORAGE_KEY = 'particlesSetting';
         const saved = localStorage.getItem(STORAGE_KEY);
     if (saved === 'false') {
