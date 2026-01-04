@@ -17,15 +17,21 @@ function initCloakSelector() {
 
     const CLOAKS = {
         'playground-logo': { file: 'playground-logo.png', title: 'Orange Playground' },
-        'canvas': { file: 'canvas.png', title: 'Dashbooard' },
+        'blooket': { file: 'blooket.png', title: 'Dashboard | Blooket' },
+        'canvas': { file: 'canvas.png', title: 'Dashboard' },
         'classlink': { file: 'better-classlink.png', title: 'My Apps' },
         'cnn-10': { file: 'cnn10.ico', title: 'CNN 10 | CNN' },
+        'delta-math': { file: 'deltamath.png', title: 'DeltaMath' },
         'goguardian': { file: 'goguardian-lock.png', title: 'Restricted' },
         'google': { file: 'google.png', title: 'Google' },
+        'google-docs': { file: 'google-docs.ico', title: 'Google Docs' },
         'google-drive': { file: 'drive.png', title: 'My Drive - Google Drive' },
+        'google-slides': { file: 'google-slides.ico', title: 'Google Slides' },
         'google-classroom': { file: 'classroom.png', title: 'Home' },
+        'google-forms': { file: 'googleforms.png', title: 'Start your quiz' },
         'ixl': { file: 'ixl.png', title: 'IXL | Dashboard' },
         'savvas': { file: 'savvas-realize.png', title: 'Savvas Realize' },
+        'wikipedia': { file: 'wikipedia.png', title: 'Wikipedia, the free encyclopedia' },
     };
 
     const DEFAULT_KEY = 'playground-logo';
