@@ -30,7 +30,7 @@ function initCloakSelector() {
         'google-classroom': { file: 'classroom.png', title: 'Home' },
         'google-forms': { file: 'googleforms.png', title: 'Start your quiz' },
         'ixl': { file: 'ixl.png', title: 'IXL | Dashboard' },
-        'khan-academy': { file: 'khan-academy.png', title: 'Dashboard | Khan Academy' },
+        'khan-academy': { file: 'khan.png', title: 'Dashboard | Khan Academy' },
         'quizlet': { file: 'quizlet.webp', title: 'Flashcards, learning tools and textbook solutions | Quizlet' },
         'savvas': { file: 'savvas-realize.png', title: 'Savvas Realize' },
         'wikipedia': { file: 'wikipedia.png', title: 'Wikipedia, the free encyclopedia' },
