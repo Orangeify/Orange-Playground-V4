@@ -25,7 +25,7 @@ function initCloakSelector() {
         'google-drive': { file: 'drive.png', title: 'My Drive - Google Drive' },
         'google-classroom': { file: 'classroom.png', title: 'Home' },
         'ixl': { file: 'ixl.png', title: 'IXL | Dashboard' },
-        'savvas-realize': { file: 'savvas-realize.png', title: 'Savvas Realize' },
+        'savvas': { file: 'savvas-realize.png', title: 'Savvas Realize' },
     };
 
     const DEFAULT_KEY = 'playground-logo';
