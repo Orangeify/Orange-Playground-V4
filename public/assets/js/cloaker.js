@@ -22,6 +22,7 @@ function initCloakSelector() {
         'classlink': { file: 'better-classlink.png', title: 'My Apps' },
         'cnn-10': { file: 'cnn10.ico', title: 'CNN 10 | CNN' },
         'delta-math': { file: 'deltamath.png', title: 'DeltaMath' },
+        'dictionary': { file: 'dictionary.png', title: 'Dictionary.com | Meanings & Definitions of English Words' },
         'edpuzzle': { file: 'edpuzzle.png', title: 'Edpuzzle' },
         'goguardian': { file: 'goguardian-lock.png', title: 'Restricted' },
         'google': { file: 'google.png', title: 'Google' },
@@ -33,8 +34,11 @@ function initCloakSelector() {
         'gmail': { file: 'gmail.png', title: 'Inbox (263)' },
         'ixl': { file: 'ixl.png', title: 'IXL | Dashboard' },
         'khan-academy': { file: 'khan.png', title: 'Dashboard | Khan Academy' },
+        'noredink': { file: 'noredink.webp', title: 'Student Home | NoRedInk' },
+        'pbs-learning': { file: 'pbslearningmedia.ico', title: 'PBS LearningMedia' },
         'quizlet': { file: 'quizlet.webp', title: 'Flashcards, learning tools and textbook solutions | Quizlet' },
         'savvas': { file: 'savvas-realize.png', title: 'Savvas Realize' },
+        'thesaurus': { file: 'thesaurus.png', title: 'Synonyms and Antonyms of Words | Thesaurus.com' },
         'wikipedia': { file: 'wikipedia.png', title: 'Wikipedia, the free encyclopedia' },
     };
 
