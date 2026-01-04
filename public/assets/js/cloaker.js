@@ -17,8 +17,12 @@ function initCloakSelector() {
 
     const CLOAKS = {
         'playground-logo': { file: 'playground-logo.png', title: 'Orange Playground' },
+        'canvas': { file: 'canvas.png', title: 'Dashbooard' },
         'classlink': { file: 'better-classlink.png', title: 'My Apps' },
         'google': { file: 'google.png', title: 'Google' },
+        'google-drive': { file: 'drive.png', title: 'My Drive - Google Drive' },
+        'google-classroom': { file: 'classroom.png', title: 'Home' },
+        'ixl': { file: 'ixl.png', title: 'IXL | Dashboard' },
     };
 
     const DEFAULT_KEY = 'playground-logo';
