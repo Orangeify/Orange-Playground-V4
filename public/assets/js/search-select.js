@@ -1,6 +1,6 @@
 function searchSelector() {
-    const searchSelect = document.getElementById('searchSelect');
-    const searchEnginelinkEl = document.getElementById('searchEnginelink');
+    const searchSelect = document.getElementById('searchSelect') || document.getElementById('search-select');
+    const searchEnginelinkEl = document.getElementById('search-engine') || document.getElementById('searchEnginelink');
     let searchEnginelink = searchEnginelinkEl ? searchEnginelinkEl.value : '';
 
     const ENGINES = {
@@ -14,9 +14,13 @@ function searchSelector() {
 
     if (searchSelect) {
         // Load previously saved engine, default to Google if none found
-        let savedEngine = localStorage.getItem('searchEngine');
+        const initialSaved = localStorage.getItem('searchEngine');
+        let savedEngine = initialSaved;
         if (!savedEngine || !ENGINES[savedEngine]) {
             savedEngine = 'google';
+            if (!initialSaved) {
+                try { localStorage.setItem('searchEngine', savedEngine); } catch (e) {}
+            }
         }
         if (savedEngine && ENGINES[savedEngine]) {
             searchSelect.value = savedEngine;
