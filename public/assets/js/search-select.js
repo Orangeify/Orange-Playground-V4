@@ -13,8 +13,11 @@ function searchSelector() {
     };
 
     if (searchSelect) {
-        // Load previously saved engine
-        const savedEngine = localStorage.getItem('searchEngine');
+        // Load previously saved engine, default to Google if none found
+        let savedEngine = localStorage.getItem('searchEngine');
+        if (!savedEngine || !ENGINES[savedEngine]) {
+            savedEngine = 'google';
+        }
         if (savedEngine && ENGINES[savedEngine]) {
             searchSelect.value = savedEngine;
             searchEnginelink = ENGINES[savedEngine];
