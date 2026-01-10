@@ -31,8 +31,10 @@ function searchSelector() {
         searchSelect.addEventListener('change', function() {
             const selectedEngine = searchSelect.value;
             if (ENGINES[selectedEngine]) {
-                searchEnginelink = ENGINES[selectedEngine];
-                if (searchEnginelinkEl) searchEnginelinkEl.value = searchEnginelink;
+                const url = ENGINES[selectedEngine];
+                // Update hidden input directly
+                document.getElementById('search-engine').value = url;
+                // Save to localStorage
                 try { localStorage.setItem('searchEngine', selectedEngine); } catch (e) {}
             }
         });
