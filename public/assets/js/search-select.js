@@ -12,6 +12,14 @@ function searchSelector() {
         'startpage': 'https://www.startpage.com/sp/search?query=%s'
     };
 
+    function updateSearchEngine(engineUrl) {
+        // Update the search-engine input on index.html (if it exists)
+        const searchEngineInput = document.getElementById('search-engine');
+        if (searchEngineInput) {
+            searchEngineInput.value = engineUrl;
+        }
+    }
+
     if (searchSelect) {
         // Load previously saved engine, default to Google if none found
         const initialSaved = localStorage.getItem('searchEngine');
@@ -26,18 +34,25 @@ function searchSelector() {
             searchSelect.value = savedEngine;
             searchEnginelink = ENGINES[savedEngine];
             if (searchEnginelinkEl) searchEnginelinkEl.value = searchEnginelink;
+            updateSearchEngine(searchEnginelink);
         }
 
         searchSelect.addEventListener('change', function() {
             const selectedEngine = searchSelect.value;
             if (ENGINES[selectedEngine]) {
                 const url = ENGINES[selectedEngine];
-                // Update hidden input directly
-                document.getElementById('search-engine').value = url;
+                // Update the form input
+                updateSearchEngine(url);
                 // Save to localStorage
                 try { localStorage.setItem('searchEngine', selectedEngine); } catch (e) {}
             }
         });
+    } else {
+        // If no dropdown exists (on index.html), load from localStorage and update the form
+        const savedEngine = localStorage.getItem('searchEngine') || 'google';
+        if (ENGINES[savedEngine] && searchEnginelinkEl) {
+            searchEnginelinkEl.value = ENGINES[savedEngine];
+        }
     }
 }
 
