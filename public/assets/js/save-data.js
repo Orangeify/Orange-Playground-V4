@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const exportBtn = document.getElementById('export-data-btn');
-    const importBtn = document.getElementById('import-data-btn');
+    const exportBtn = document.getElementById('export-save');
+    const importBtn = document.getElementById('import-save');
     const importInput = document.getElementById('import-data-input');
 
     // Define all settings to save/load
