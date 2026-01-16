@@ -2,9 +2,9 @@
     --background-image: url('../imgs/themes/grape-purple.jpeg');
     --light-or-dark: white;
     --loader-color: #3b007e;
-    --loader-message-color: purple;
-    --loader-border: 8px solid #560ea8;
-    --loader-top-border: purple;
+    --loader-message-color: rgb(123, 14, 196);
+    --loader-border: 8px solid #310266;
+    --loader-top-border: rgb(123, 14, 196);
     --playground-logo: url('../imgs/themes/OP-Logo-purple.png');
     --home-title-color: #7816f9;
     --battery-light-or-dark: 2px solid white;
