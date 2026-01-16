@@ -1,0 +1,20 @@
+:root {
+    --background-image: url('../imgs/themes/vegan-green.jpeg');
+    --light-or-dark: white;
+    --loader-color: #287e00;
+    --loader-message-color: rgb(7, 214, 7);
+    --loader-border: 8px solid #13a80e;
+    --loader-top-border: rgb(7, 214, 7);
+    --playground-logo: url('../imgs/themes/OP-Logo-green.png');
+    --home-title-color: #7cf916;
+    --battery-light-or-dark: 2px solid white;
+    --invert-light-or-dark: invert(1);
+    --description-color: rgba(255, 255, 255, 0.75);
+    --bottom-nav: #7cf916;
+    --bottom-nav-border: 1px solid #65ea0c;
+    --search-bar-bg: #42b913;
+    --search-bar-light-or-dark: #bdbecb;
+    --app-button-color: #7cf916;
+    --app-button-color-hover: #65ea0c;
+    --switch-color: #dd8819
+}
