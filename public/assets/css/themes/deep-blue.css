@@ -1,0 +1,20 @@
+:root {
+    --background-image: url('../imgs/themes/deep-blue.jpeg');
+    --light-or-dark: white;
+    --loader-color: #00177e;
+    --loader-message-color: blue;
+    --loader-border: 8px solid #0e25a8;
+    --loader-top-border: blue;
+    --playground-logo: url('../imgs/themes/OP-Logo-blue.png');
+    --home-title-color: #1625f9;
+    --battery-light-or-dark: 2px solid white;
+    --invert-light-or-dark: invert(1);
+    --description-color: rgba(255, 255, 255, 0.75);
+    --bottom-nav: #1625f9;
+    --bottom-nav-border: 1px solid #0c2dea;
+    --search-bar-bg: #133ab9;
+    --search-bar-light-or-dark: #bdbecb;
+    --app-button-color: #1625f9;
+    --app-button-color-hover: #0c35ea;
+    --switch-color: #194ddd;
+}
