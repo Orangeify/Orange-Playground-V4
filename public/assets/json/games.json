@@ -39,6 +39,11 @@
       "title": "A Dance of Fire and Ice",
       "image": "./assets/imgs/icons/adofai.png",
       "link": "/worksheets/a-dance-of-fire-and-ice.html"
+    },
+    {
+      "title": "Agar.io",
+      "image": "./assets/imgs/icons/agar-io.jpg",
+      "link": "/worksheets/agario.html"
     }
   ]
 }
