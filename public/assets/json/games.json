@@ -44,6 +44,11 @@
       "title": "Agar.io",
       "image": "./assets/imgs/icons/agar-io.jpg",
       "link": "/worksheets/agario.html"
+    },
+    {
+      "title": "Alien Hominid",
+      "image": "./assets/imgs/icons/alien-hominid.jpg",
+      "link": "/worksheets/alien-hominid.html"
     }
   ]
 }
