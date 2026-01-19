@@ -34,6 +34,11 @@
       "title": "Achievement Unlocked",
       "image": "./assets/imgs/icons/achievement-unlocked.jpg",
       "link": "/worksheets/achievement-unlocked.html"
+    },
+    {
+      "title": "A Dance of Fire and Ice",
+      "image": "./assets/imgs/icons/adofai.png",
+      "link": "/worksheets/a-dance-of-fire-and-ice.html"
     }
   ]
 }
