@@ -226,7 +226,8 @@ body {
   aspect-ratio: 4 / 3;
   border: none;
   z-index: 999; /* ensures it appears above other elements */
-  align-content: center;
+  display: block;
+  margin: 0 auto;
   background: black; 
 }
 
