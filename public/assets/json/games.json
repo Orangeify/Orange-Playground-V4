@@ -49,6 +49,11 @@
       "title": "Alien Hominid",
       "image": "./assets/imgs/icons/alien-hominid.jpg",
       "link": "/worksheets/alien-hominid.html"
+    },
+    {
+      "title": "Among Us",
+      "image": "./assets/imgs/icons/amogus.jpg",
+      "link": "/worksheets/among-us.html"
     }
   ]
 }
