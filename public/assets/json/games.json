@@ -54,6 +54,11 @@
       "title": "Among Us",
       "image": "./assets/imgs/icons/amogus.jpg",
       "link": "/worksheets/among-us.html"
+    },
+    {
+      "title": "Asteroid Launcher",
+      "image": "./assets/imgs/icons/asteroid-launcher.png",
+      "link": "/worksheets/asteroid-launcher.html"
     }
   ]
 }
