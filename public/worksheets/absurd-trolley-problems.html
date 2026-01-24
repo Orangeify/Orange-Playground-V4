@@ -23,7 +23,7 @@
     <div class="loader">
         <div id="message" class="loader-message">Loading...</div>
     </div>
-    <iframe id="frame" class="dnone"></iframe>
+    <iframe id="sj-frame" class="dnone"></iframe>
     <nav class="bottom-nav">
         <div class="nav-container">
             <a href="../index.html" class="nav-item nav-home active">
@@ -51,36 +51,39 @@
     </nav>
 
     <!-- Scramjet bundles -->
-    <script src="../uv/uv.bundle.js" defer></script>
-    <script src="../uv/uv.config.js" defer></script>
+    <script src="../scram/scramjet.all.js"></script>
+    <script src="../scram/register-sw.js"></script>
     <!-- BareMux -->
     <script src="../baremux/index.js" defer></script>
-
-    <!-- Hidden address input for Scramjet proxy control -->
-    <input id="address" type="hidden" value="neal.fun/absurd-trolley-problems/">
-
-    <!-- Scramjet index-load script -->
-    <script src="../uv/index-load.js" defer></script>
+    <script src="../epoxy/index.js" defer></script>
 
     <!-- Auto-load on page ready -->
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
-            // Set the address field value
-            const addressInput = document.getElementById('address');
-            if (addressInput) {
-                addressInput.value = 'neal.fun/absurd-trolley-problems/';
+            try {
+                await registerSW();
+            } catch (err) {
+                console.error('Failed to register service worker.', err);
             }
-            
-            // Wait a moment for dependencies to load, then call proxy
-            setTimeout(async () => {
-                if (typeof proxy === 'function') {
-                    try {
-                        await proxy('neal.fun/absurd-trolley-problems/');
-                    } catch (err) {
-                        console.error('Failed to load URL:', err);
-                    }
-                }
-            }, 500);
+            const url = 'https://neal.fun/absurd-trolley-problems/';
+            const { ScramjetController } = $scramjetLoadController();
+            const scramjet = new ScramjetController({
+                files: {
+                    wasm: "/scram/scramjet.wasm.wasm",
+                    all: "/scram/scramjet.all.js",
+                    sync: "/scram/scramjet.sync.js",
+                },
+            });
+            scramjet.init();
+            const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
+            let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
+            if ((await connection.getTransport()) !== "/libcurl/index.mjs") {
+                await connection.setTransport("/libcurl/index.mjs", [{ websocket: wispUrl }]);
+            }
+            const frame = scramjet.createFrame();
+            frame.frame.id = "sj-frame";
+            document.body.appendChild(frame.frame);
+            frame.go(url);
         });
     </script>
     <script src="../assets/js/cloaker.js"></script>
