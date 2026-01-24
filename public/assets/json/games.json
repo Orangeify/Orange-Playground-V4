@@ -64,6 +64,11 @@
       "title": "Asteroid Launcher",
       "image": "./assets/imgs/icons/asteroid-launcher.png",
       "link": "/worksheets/asteroid-launcher.html"
+    },
+    {
+      "title": "Baldi's Basics",
+      "image": "./assets/imgs/icons/baldis-basics.png",
+      "link": "/worksheets/baldis-basics.html"
     }
   ]
 }
