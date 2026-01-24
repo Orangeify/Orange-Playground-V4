@@ -56,6 +56,11 @@
       "link": "/worksheets/among-us.html"
     },
     {
+      "title": "Angry Birds",
+      "image": "./assets/imgs/icons/angry-birds.jpg",
+      "link": "/worksheets/angry-birds.html"
+    },
+    {
       "title": "Asteroid Launcher",
       "image": "./assets/imgs/icons/asteroid-launcher.png",
       "link": "/worksheets/asteroid-launcher.html"
