@@ -4,6 +4,11 @@
       "title": "Request a Game (Discord)",
       "image": "./assets/imgs/icons/Discord-Logo.png",
       "link": "https://discord.gg/wx3rzuEBRn"
+    },
+    {
+      "title": "Amazon",
+      "image": "./assets/imgs/icons/amazon.png",
+      "link": "/assesments/amazon.html"
     }
   ]
 }
