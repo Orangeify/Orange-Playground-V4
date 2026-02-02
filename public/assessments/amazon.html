@@ -76,25 +76,29 @@
                         } catch (err) {
                             console.error('Failed to register service worker.', err);
                         }
-                        const url = 'https://amazon.com';
-                        const { ScramjetController } = $scramjetLoadController();
-                        const scramjet = new ScramjetController({
-                            files: {
-                                wasm: "/scram/scramjet.wasm.wasm",
-                                all: "/scram/scramjet.all.js",
-                                sync: "/scram/scramjet.sync.js",
-                            },
-                        });
-                        scramjet.init();
-                        const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
-                        let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
-                        if ((await connection.getTransport()) !== "/libcurl/index.mjs") {
-                            await connection.setTransport("/libcurl/index.mjs", [{ websocket: wispUrl }]);
+                        try {
+                            const url = 'https://amazon.com';
+                            const { ScramjetController } = window.$scramjetLoadController();
+                            const scramjet = new ScramjetController({
+                                files: {
+                                    wasm: "../scram/scramjet.wasm.wasm",
+                                    all: "../scram/scramjet.all.js",
+                                    sync: "../scram/scramjet.sync.js",
+                                },
+                            });
+                            await scramjet.init();
+                            const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
+                            let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
+                            if ((await connection.getTransport()) !== "/libcurl/index.mjs") {
+                                await connection.setTransport("/libcurl/index.mjs", [{ websocket: wispUrl }]);
+                            }
+                            const frame = scramjet.createFrame();
+                            frame.frame.id = "sj-frame";
+                            document.body.appendChild(frame.frame);
+                            frame.go(url);
+                        } catch (err) {
+                            console.error('Failed to initialize Scramjet:', err);
                         }
-                        const frame = scramjet.createFrame();
-                        frame.frame.id = "sj-frame";
-                        document.body.appendChild(frame.frame);
-                        frame.go(url);
                     });
                 `;
                 document.body.appendChild(scramjetIndexScript);
@@ -120,12 +124,22 @@
                 uvLoadScript.textContent = `
                     document.addEventListener('DOMContentLoaded', async () => {
                         try {
-                            await regSW();
+                            if (typeof regSW === 'function') {
+                                await regSW();
+                            }
                         } catch (err) {
                             console.error('Failed to register service worker.', err);
                         }
-                        const url = 'https://amazon.com/';
-                        await proxy(url);
+                        try {
+                            const url = 'https://amazon.com/';
+                            if (typeof proxy === 'function') {
+                                await proxy(url);
+                            } else {
+                                console.error('proxy function is not available');
+                            }
+                        } catch (err) {
+                            console.error('Failed to load proxy:', err);
+                        }
                     });
                 `;
                 document.body.appendChild(uvLoadScript);
