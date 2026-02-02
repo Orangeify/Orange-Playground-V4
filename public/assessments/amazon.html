@@ -24,7 +24,6 @@
         <div id="message" class="loader-message">Loading...</div>
     </div>
     <iframe id="sj-frame" class="dnone"></iframe>
-    <iframe id="frame" class="dnone"></iframe>
     <nav class="bottom-nav">
         <div class="nav-container">
             <a href="../index.html" class="nav-item nav-home active">
@@ -51,103 +50,42 @@
         </div>
     </nav>
 
-    <!-- Service Worker Registration -->
-     <script>
-            // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
-            const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
-            
-            // Dynamically load the appropriate proxy bundles
-            if (useScramjet) {
-                // Load Scramjet
-                const scramjetScript = document.createElement('script');
-                scramjetScript.src = '../scram/scramjet.all.js';
-                document.head.appendChild(scramjetScript);
-                
-                const scramjetRegisterScript = document.createElement('script');
-                scramjetRegisterScript.src = '../scram/register-sw.js';
-                scramjetRegisterScript.defer = true;
-                document.body.appendChild(scramjetRegisterScript);
-
-                const scramjetIndexScript = document.createElement('script');
-                scramjetIndexScript.textContent = `
-                    document.addEventListener('DOMContentLoaded', async () => {
-                        try {
-                            await registerSW();
-                        } catch (err) {
-                            console.error('Failed to register service worker.', err);
-                        }
-                        try {
-                            const url = 'https://amazon.com';
-                            const { ScramjetController } = window.$scramjetLoadController();
-                            const scramjet = new ScramjetController({
-                                files: {
-                                    wasm: "../scram/scramjet.wasm.wasm",
-                                    all: "../scram/scramjet.all.js",
-                                    sync: "../scram/scramjet.sync.js",
-                                },
-                            });
-                            await scramjet.init();
-                            const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
-                            let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
-                            if ((await connection.getTransport()) !== "/libcurl/index.mjs") {
-                                await connection.setTransport("/libcurl/index.mjs", [{ websocket: wispUrl }]);
-                            }
-                            const frame = scramjet.createFrame();
-                            frame.frame.id = "sj-frame";
-                            document.body.appendChild(frame.frame);
-                            frame.go(url);
-                        } catch (err) {
-                            console.error('Failed to initialize Scramjet:', err);
-                        }
-                    });
-                `;
-                document.body.appendChild(scramjetIndexScript);
-
-            } else {
-                // Load UV (default)
-                const uvBundleScript = document.createElement('script');
-                uvBundleScript.src = '../uv/uv.bundle.js';
-                uvBundleScript.defer = true;
-                document.head.appendChild(uvBundleScript);
-                
-                const uvConfigScript = document.createElement('script');
-                uvConfigScript.src = '../uv/uv.config.js';
-                uvConfigScript.defer = true;
-                document.head.appendChild(uvConfigScript);
-
-                const uvIndexScript = document.createElement('script');
-                uvIndexScript.src = '../uv/index-load.js';
-                uvIndexScript.defer = true;
-                document.body.appendChild(uvIndexScript);
-
-                const uvLoadScript = document.createElement('script');
-                uvLoadScript.textContent = `
-                    document.addEventListener('DOMContentLoaded', async () => {
-                        try {
-                            if (typeof regSW === 'function') {
-                                await regSW();
-                            }
-                        } catch (err) {
-                            console.error('Failed to register service worker.', err);
-                        }
-                        try {
-                            const url = 'https://amazon.com/';
-                            if (typeof proxy === 'function') {
-                                await proxy(url);
-                            } else {
-                                console.error('proxy function is not available');
-                            }
-                        } catch (err) {
-                            console.error('Failed to load proxy:', err);
-                        }
-                    });
-                `;
-                document.body.appendChild(uvLoadScript);
-            }
-        </script>
+    <!-- Scramjet bundles -->
+    <script src="../scram/scramjet.all.js"></script>
+    <script src="../scram/register-sw.js"></script>
     <!-- BareMux -->
     <script src="../baremux/index.js" defer></script>
     <script src="../epoxy/index.js" defer></script>
+
+    <!-- Auto-load on page ready -->
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                await registerSW();
+            } catch (err) {
+                console.error('Failed to register service worker.', err);
+            }
+            const url = 'https://amazon.com';
+            const { ScramjetController } = $scramjetLoadController();
+            const scramjet = new ScramjetController({
+                files: {
+                    wasm: "/scram/scramjet.wasm.wasm",
+                    all: "/scram/scramjet.all.js",
+                    sync: "/scram/scramjet.sync.js",
+                },
+            });
+            scramjet.init();
+            const connection = new BareMux.BareMuxConnection("/baremux/worker.js");
+            let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
+            if ((await connection.getTransport()) !== "/libcurl/index.mjs") {
+                await connection.setTransport("/libcurl/index.mjs", [{ websocket: wispUrl }]);
+            }
+            const frame = scramjet.createFrame();
+            frame.frame.id = "sj-frame";
+            document.body.appendChild(frame.frame);
+            frame.go(url);
+        });
+    </script>
     <script src="../assets/js/cloaker.js"></script>
     <script src="../assets/js/panic-key.js"></script>
     <script src="../assets/js/theme-selector.js"></script>
