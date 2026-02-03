@@ -6,6 +6,11 @@
       "link": "https://discord.gg/wx3rzuEBRn"
     },
     {
+      "title": "Addicting Games",
+      "image": "./assets/imgs/icons/addicting-games.webp",
+      "link": "/assessments/addicting-games.html"
+    },
+    {
       "title": "Amazon",
       "image": "./assets/imgs/icons/amazon.png",
       "link": "/assessments/amazon.html"
