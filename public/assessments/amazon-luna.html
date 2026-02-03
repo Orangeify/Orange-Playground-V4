@@ -60,25 +60,12 @@
 
     <!-- Auto-load on page ready -->
     <script>
-        document.addEventListener('DOMContentLoaded', async () => {
-                        try {
-                            if (typeof regSW === 'function') {
-                                await regSW();
-                            }
-                        } catch (err) {
-                            console.error('Failed to register service worker.', err);
-                        }
-                        try {
-                            const url = 'https://luna.amazon.com/home';
-                            if (typeof proxy === 'function') {
-                                await proxy(url);
-                            } else {
-                                console.error('proxy function is not available');
-                            }
-                        } catch (err) {
-                            console.error('Failed to load proxy:', err);
-                        }
-                    });
+        window.addEventListener('load', async () => {
+            // Auto-load Amazon Luna through UV proxy
+            if (typeof proxy === 'function') {
+                await proxy('https://www.luna.amazon.com/');
+            }
+        });
     </script>
     <script src="../assets/js/cloaker.js"></script>
     <script src="../assets/js/panic-key.js"></script>
