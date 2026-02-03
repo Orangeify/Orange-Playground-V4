@@ -14,6 +14,11 @@
       "title": "Amazon",
       "image": "./assets/imgs/icons/amazon.png",
       "link": "/assessments/amazon.html"
+    },
+    {
+      "title": "Amazon Luna",
+      "image": "./assets/imgs/icons/amazon-luna.jpg",
+      "link": "/assessments/amazon-luna.html"
     }
   ]
 }
