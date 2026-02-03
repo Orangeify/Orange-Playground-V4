@@ -56,15 +56,26 @@
     <script src="../uv/index-load.js"></script>
     <!-- BareMux -->
     <script src="../baremux/index.js" defer></script>
-    <script src="../epoxy/index.js" defer></script>
-
+    <input id="address" type="hidden" value="https://luna.amazon.com/home">
     <!-- Auto-load on page ready -->
     <script>
-        window.addEventListener('load', async () => {
-            // Auto-load Amazon Luna through UV proxy
-            if (typeof proxy === 'function') {
-                await proxy('https://www.luna.amazon.com/');
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Set the address field value
+            const addressInput = document.getElementById('address');
+            if (addressInput) {
+                addressInput.value = 'https://luna.amazon.com/home';
             }
+
+            // Wait a moment for dependencies to load, then call proxy
+            setTimeout(async () => {
+                if (typeof proxy === 'function') {
+                    try {
+                        await proxy('https://luna.amazon.com/home');
+                    } catch (err) {
+                        console.error('Failed to load URL:', err);
+                    }
+                }
+            }, 500);
         });
     </script>
     <script src="../assets/js/cloaker.js"></script>
