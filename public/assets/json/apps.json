@@ -19,6 +19,11 @@
       "title": "Amazon Luna",
       "image": "./assets/imgs/icons/amazon-luna.jpg",
       "link": "/assessments/amazon-luna.html"
+    },
+    {
+      "title": "Anicrush",
+      "image": "./assets/imgs/icons/anicrush.jpg",
+      "link": "/assessments/anicrush.html"
     }
   ]
 }
