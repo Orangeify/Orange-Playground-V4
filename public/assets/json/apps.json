@@ -21,14 +21,14 @@
       "link": "/assessments/amazon-luna.html"
     },
     {
-      "title": "Anicrush",
-      "image": "./assets/imgs/icons/anicrush.jpg",
-      "link": "/assessments/anicrush.html"
-    },
-    {
       "title": "Android Emulator",
       "image": "./assets/imgs/icons/android.png",
       "link": "/assessments/android.html"
+    },
+    {
+      "title": "Anicrush",
+      "image": "./assets/imgs/icons/anicrush.jpg",
+      "link": "/assessments/anicrush.html"
     }
   ]
 }
