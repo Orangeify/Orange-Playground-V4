@@ -29,6 +29,11 @@
       "title": "Anicrush",
       "image": "./assets/imgs/icons/anicrush.jpg",
       "link": "/assessments/anicrush.html"
+    },
+    {
+      "title": "Anura OS",
+      "image": "./assets/imgs/icons/anura-os.png",
+      "link": "/assessments/anura-os.html"
     }
   ]
 }
