@@ -34,6 +34,11 @@
       "title": "Anura OS",
       "image": "./assets/imgs/icons/anura-os.png",
       "link": "/assessments/anura-os.html"
+    },
+    {
+      "title": "Aptoide",
+      "image": "./assets/imgs/icons/aptoide.png",
+      "link": "/assessments/aptoide.html"
     }
   ]
 }
