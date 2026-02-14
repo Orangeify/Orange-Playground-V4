@@ -131,6 +131,11 @@
                 scramjetIndexScript.defer = true;
                 document.body.appendChild(scramjetIndexScript);
 
+                const epoxyScript = document.createElement('script');
+                epoxyScript.src = 'epoxy/index.js';
+                epoxyScript.defer = true;
+                document.body.appendChild(epoxyScript);
+
             } else {
                 // Load UV (default)
                 const uvBundleScript = document.createElement('script');
@@ -142,16 +147,6 @@
                 uvConfigScript.src = 'uv/uv.config.js';
                 uvConfigScript.defer = true;
                 document.head.appendChild(uvConfigScript);
-
-                const uvRegisterScript = document.createElement('script');
-                uvRegisterScript.src = 'uv/register-sw.js';
-                uvRegisterScript.defer = true;
-                document.body.appendChild(uvRegisterScript);
-
-                const uvSearchScript = document.createElement('script');
-                uvSearchScript.src = 'uv/search.js';
-                uvSearchScript.defer = true;
-                document.body.appendChild(uvSearchScript);
                 
                 const uvIndexScript = document.createElement('script');
                 uvIndexScript.src = 'uv/index.js';
@@ -161,7 +156,6 @@
         </script>
         <!-- BareMux content -->
         <script src="baremux/index.js" defer></script>
-        <script src="epoxy/index.js" defer></script>
         <iframe id="frame" style="display: none;"></iframe>
     </head>
     <body>
