@@ -139,17 +139,17 @@
             } else {
                 // Load UV (default)
                 const uvBundleScript = document.createElement('script');
-                uvBundleScript.src = 'uv/uv.bundle.js';
+                uvBundleScript.src = './uv/uv.bundle.js';
                 uvBundleScript.defer = true;
                 document.head.appendChild(uvBundleScript);
                 
                 const uvConfigScript = document.createElement('script');
-                uvConfigScript.src = 'uv/uv.config.js';
+                uvConfigScript.src = './uv/uv.config.js';
                 uvConfigScript.defer = true;
                 document.head.appendChild(uvConfigScript);
                 
                 const uvIndexScript = document.createElement('script');
-                uvIndexScript.src = 'uv/index.js';
+                uvIndexScript.src = './uv/index.js';
                 uvIndexScript.defer = true;
                 document.body.appendChild(uvIndexScript);
             }
