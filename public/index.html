@@ -140,17 +140,23 @@
                 // Load UV (default)
                 const uvBundleScript = document.createElement('script');
                 uvBundleScript.src = './uv/uv.bundle.js';
+                uvBundleScript.async = false;
                 document.head.appendChild(uvBundleScript);
                 
-                const uvConfigScript = document.createElement('script');
-                uvConfigScript.src = './uv/uv.config.js';
-                uvConfigScript.defer = true;
-                document.head.appendChild(uvConfigScript);
-                
-                const uvIndexScript = document.createElement('script');
-                uvIndexScript.src = './uv/index.js';
-                uvIndexScript.defer = true;
-                document.body.appendChild(uvIndexScript);
+                // Wait for bundle to load, then load config
+                uvBundleScript.onload = function() {
+                    const uvConfigScript = document.createElement('script');
+                    uvConfigScript.src = './uv/uv.config.js';
+                    uvConfigScript.async = false;
+                    document.head.appendChild(uvConfigScript);
+                    
+                    uvConfigScript.onload = function() {
+                        const uvIndexScript = document.createElement('script');
+                        uvIndexScript.src = './uv/index.js';
+                        uvIndexScript.defer = true;
+                        document.body.appendChild(uvIndexScript);
+                    };
+                };
             }
         </script>
         <!-- BareMux content -->
