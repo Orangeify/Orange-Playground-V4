@@ -139,25 +139,20 @@
             } else {
                 // Load UV (default)
                 const uvBundleScript = document.createElement('script');
-                uvBundleScript.src = './uv/uv.bundle.js';
-                uvBundleScript.async = false;
+                uvBundleScript.src = 'uv/uv.bundle.js';
+                uvBundleScript.defer = true;
                 document.head.appendChild(uvBundleScript);
                 
-                // Wait for bundle to load, then load config
-                uvBundleScript.onload = function() {
-                    const uvConfigScript = document.createElement('script');
-                    uvConfigScript.src = './uv/uv.config.js';
-                    uvConfigScript.async = false;
-                    document.head.appendChild(uvConfigScript);
-                    
-                    uvConfigScript.onload = function() {
-                        const uvIndexScript = document.createElement('script');
-                        uvIndexScript.src = './uv/index.js';
-                        uvIndexScript.defer = true;
-                        document.body.appendChild(uvIndexScript);
-                    };
+                const uvConfigScript = document.createElement('script');
+                uvConfigScript.src = 'uv/uv.config.js';
+                uvConfigScript.defer = true;
+                document.head.appendChild(uvConfigScript);
+                
+                const uvIndexScript = document.createElement('script');
+                uvIndexScript.src = 'uv/index.js';
+                uvIndexScript.defer = true;
+                document.head.appendChild(uvIndexScript);
                 };
-            }
         </script>
         <!-- BareMux content -->
         <script src="baremux/index.js" defer></script>
