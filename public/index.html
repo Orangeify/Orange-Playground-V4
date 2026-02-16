@@ -144,12 +144,14 @@
                 
                 const uvConfigScript = document.createElement('script');
                 uvConfigScript.src = 'uv/uv.config.js';
+                uvConfigScript.defer = true;
                 document.head.appendChild(uvConfigScript);
                 
                 const uvIndexScript = document.createElement('script');
                 uvIndexScript.src = 'uv/index.js';
+                uvIndexScript.defer = true;
                 document.head.appendChild(uvIndexScript);
-                }
+                };
         </script>
         <!-- BareMux content -->
         <script src="baremux/index.js" defer></script>
