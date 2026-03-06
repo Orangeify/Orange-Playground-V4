@@ -168,24 +168,6 @@
         <script src="assets/js/cloaker.js"></script>
         <script src="assets/js/panic-key.js"></script>
         <script src="assets/js/theme-selector.js"></script>
-        <script>
-            // Fix for UV index.js event listener bug - correct the address bar input listener
-            window.addEventListener('load', function() {
-                const addressInput = document.getElementById('address');
-                if (addressInput && typeof proxy !== 'undefined') {
-                    // Remove any incorrect listeners by cloning and replacing
-                    const newAddressInput = addressInput.cloneNode(true);
-                    addressInput.parentNode.replaceChild(newAddressInput, addressInput);
-                    
-                    // Add the correct keypress listener
-                    newAddressInput.addEventListener('keypress', function(event) {
-                        if (event.key === 'Enter') {
-                            proxy(newAddressInput.value);
-                        }
-                    });
-                }
-            });
-        </script>
     </body>
 
 </html>
