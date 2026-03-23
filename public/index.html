@@ -113,6 +113,9 @@
                 // Remove existing UV scripts
                 document.head.querySelectorAll('script[id^="uv-"]').forEach(s => s.remove());
                 
+                // Set status to failed
+                document.getElementById('uv-status').innerHTML = '<span style="color: red;">Ultraviolet Proxy failed. Refreshing...</span>';
+                
                 // Load UV (default)
                 const uvBundleScript = document.createElement('script');
                 uvBundleScript.id = 'uv-bundle';
@@ -141,7 +144,9 @@
                 uvIndexScript.src = 'uv/index.js';
                 uvIndexScript.defer = true;
                 uvIndexScript.onload = () => {
-                    if (typeof window.Ultraviolet === 'undefined') {
+                    if (typeof window.Ultraviolet !== 'undefined') {
+                        document.getElementById('uv-status').innerHTML = '<span style="color: green;">Ultraviolet Proxy successfully loaded!</span>';
+                    } else {
                         setTimeout(loadUV, 100);
                     }
                 };
@@ -183,6 +188,7 @@
         <script src="assets/js/cloaker.js"></script>
         <script src="assets/js/panic-key.js"></script>
         <script src="assets/js/theme-selector.js"></script>
+        <div id="uv-status" style="position: fixed; bottom: 10px; left: 10px; z-index: 1000;"></div>
     </body>
 </html>
 
