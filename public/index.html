@@ -142,7 +142,7 @@
                 uvIndexScript.defer = true;
                 uvIndexScript.onload = () => {
                     if (typeof window.Ultraviolet === 'undefined') {
-                        setTimeout(loadUV, 1000);
+                        setTimeout(loadUV, 100);
                     }
                 };
                 document.head.appendChild(uvIndexScript);
