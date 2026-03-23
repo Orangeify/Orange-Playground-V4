@@ -109,6 +109,45 @@
             // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
             const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
             
+            function loadUV() {
+                // Remove existing UV scripts
+                document.head.querySelectorAll('script[id^="uv-"]').forEach(s => s.remove());
+                
+                // Load UV (default)
+                const uvBundleScript = document.createElement('script');
+                uvBundleScript.id = 'uv-bundle';
+                uvBundleScript.src = 'uv/uv.bundle.js';
+                uvBundleScript.defer = true;
+                document.head.appendChild(uvBundleScript);
+                
+                const uvConfigScript = document.createElement('script');
+                uvConfigScript.id = 'uv-config';
+                uvConfigScript.src = 'uv/uv.config.js';
+                uvConfigScript.defer = true;
+                document.head.appendChild(uvConfigScript);
+                const uvRegisterScript = document.createElement('script');
+                uvRegisterScript.id = 'uv-register';
+                uvRegisterScript.src = 'uv/register-sw.js';
+                uvRegisterScript.defer = true;
+                document.head.appendChild(uvRegisterScript);
+                const uvSearchScript = document.createElement('script');
+                uvSearchScript.id = 'uv-search';
+                uvSearchScript.src = 'uv/search.js';
+                uvSearchScript.defer = true;
+                document.head.appendChild(uvSearchScript);
+                
+                const uvIndexScript = document.createElement('script');
+                uvIndexScript.id = 'uv-index';
+                uvIndexScript.src = 'uv/index.js';
+                uvIndexScript.defer = true;
+                uvIndexScript.onload = () => {
+                    if (typeof window.Ultraviolet === 'undefined') {
+                        setTimeout(loadUV, 1000);
+                    }
+                };
+                document.head.appendChild(uvIndexScript);
+            }
+            
             // Dynamically load the appropriate proxy bundles
             if (useScramjet) {
                 // Load Scramjet
@@ -132,32 +171,8 @@
                 document.body.appendChild(scramjetIndexScript);
 
             } else {
-                // Load UV (default)
-                const uvBundleScript = document.createElement('script');
-                uvBundleScript.src = 'uv/uv.bundle.js';
-                uvBundleScript.defer = true;
-                document.head.appendChild(uvBundleScript);
-                
-                const uvConfigScript = document.createElement('script');
-                uvConfigScript.src = 'uv/uv.config.js';
-                uvConfigScript.defer = true;
-                document.head.appendChild(uvConfigScript);
-
-                const uvRegisterScript = document.createElement('script');
-                uvRegisterScript.src = 'uv/register-sw.js';
-                uvRegisterScript.defer = true;
-                document.head.appendChild(uvRegisterScript);
-
-                const uvSearchScript = document.createElement('script');
-                uvSearchScript.src = 'uv/search.js';
-                uvSearchScript.defer = true;
-                document.head.appendChild(uvSearchScript);
-                
-                const uvIndexScript = document.createElement('script');
-                uvIndexScript.src = 'uv/index.js';
-                uvIndexScript.defer = true;
-                document.head.appendChild(uvIndexScript);
-                };
+                loadUV();
+            }
         </script>
         <!-- BareMux content -->
         <script src="baremux/index.js" defer></script>
