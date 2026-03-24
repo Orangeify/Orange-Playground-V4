@@ -109,72 +109,48 @@
             // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
             const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
             
-            function loadUV() {
-                // Remove existing UV scripts
-                document.head.querySelectorAll('script[id^="uv-"]').forEach(s => s.remove());
+            function loadScramjet() {
+                // Remove existing Scramjet scripts
+                document.head.querySelectorAll('script[id^="sj-"]').forEach(s => s.remove());
                 
                 // Set status to failed
-                document.getElementById('uv-status').innerHTML = '<span style="color: red;">Ultraviolet Proxy failed. Refreshing...</span>';
+                document.getElementById('uv-status').innerHTML = '<span style="color: red;">Scramjet Proxy failed. Refreshing...</span>';
                 
-                // Load UV (default)
-                const uvBundleScript = document.createElement('script');
-                uvBundleScript.id = 'uv-bundle';
-                uvBundleScript.src = 'uv/uv.bundle.js';
-                uvBundleScript.defer = true;
-                document.head.appendChild(uvBundleScript);
-                
-                const uvConfigScript = document.createElement('script');
-                uvConfigScript.id = 'uv-config';
-                uvConfigScript.src = 'uv/uv.config.js';
-                uvConfigScript.defer = true;
-                document.head.appendChild(uvConfigScript);
-                const uvRegisterScript = document.createElement('script');
-                uvRegisterScript.id = 'uv-register';
-                uvRegisterScript.src = 'uv/register-sw.js';
-                uvRegisterScript.defer = true;
-                document.head.appendChild(uvRegisterScript);
-                const uvSearchScript = document.createElement('script');
-                uvSearchScript.id = 'uv-search';
-                uvSearchScript.src = 'uv/search.js';
-                uvSearchScript.defer = true;
-                document.head.appendChild(uvSearchScript);
-                
-                const uvIndexScript = document.createElement('script');
-                uvIndexScript.id = 'uv-index';
-                uvIndexScript.src = 'uv/index.js';
-                uvIndexScript.defer = true;
-                uvIndexScript.onload = () => {
-                    if (typeof window.Ultraviolet !== 'undefined') {
-                        document.getElementById('uv-status').innerHTML = '<span style="color: green;">Ultraviolet Proxy successfully loaded!</span>';
-                    } else {
-                        setTimeout(loadUV, 100);
-                    }
-                };
-                document.head.appendChild(uvIndexScript);
-            }
-            
-            // Dynamically load the appropriate proxy bundles
-            if (useScramjet) {
                 // Load Scramjet
                 const scramjetScript = document.createElement('script');
+                scramjetScript.id = 'sj-all';
                 scramjetScript.src = 'scram/scramjet.all.js';
                 document.head.appendChild(scramjetScript);
                 
                 const scramjetRegisterScript = document.createElement('script');
+                scramjetRegisterScript.id = 'sj-register';
                 scramjetRegisterScript.src = 'scram/register-sw.js';
                 scramjetRegisterScript.defer = true;
                 document.body.appendChild(scramjetRegisterScript);
-
+                
                 const scramjetSearchScript = document.createElement('script');
+                scramjetSearchScript.id = 'sj-search';
                 scramjetSearchScript.src = 'scram/search.js';
                 scramjetSearchScript.defer = true;
                 document.body.appendChild(scramjetSearchScript);
-
+                
                 const scramjetIndexScript = document.createElement('script');
+                scramjetIndexScript.id = 'sj-index';
                 scramjetIndexScript.src = 'scram/index.js';
                 scramjetIndexScript.defer = true;
+                scramjetIndexScript.onload = () => {
+                    if (typeof window.Scramjet !== 'undefined') {
+                        document.getElementById('uv-status').innerHTML = '<span style="color: green;">Scramjet Proxy successfully loaded!</span>';
+                    } else {
+                        setTimeout(loadScramjet, 100);
+                    }
+                };
                 document.body.appendChild(scramjetIndexScript);
-
+            }
+            
+            // Dynamically load the appropriate proxy bundles
+            if (useScramjet) {
+                document.addEventListener('DOMContentLoaded', loadScramjet);
             } else {
                 document.addEventListener('DOMContentLoaded', loadUV);
             }
