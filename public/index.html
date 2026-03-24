@@ -139,7 +139,7 @@
                 scramjetIndexScript.src = 'scram/index.js';
                 scramjetIndexScript.defer = true;
                 scramjetIndexScript.onload = () => {
-                    if (typeof window.Scramjet !== 'undefined') {
+                    if (typeof window.$scramjetLoadController !== 'undefined') {
                         document.getElementById('uv-status').innerHTML = '<span style="color: green;">Scramjet Proxy successfully loaded!</span>';
                     } else {
                         setTimeout(loadScramjet, 100);
