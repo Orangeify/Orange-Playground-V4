@@ -116,6 +116,17 @@
                 // Set status to failed
                 document.getElementById('uv-status').innerHTML = '<span style="color: red;">Scramjet Proxy failed. Refreshing...</span>';
                 
+                // Override console.log to detect the message
+                let configLoaded = false;
+                const originalLog = console.log;
+                console.log = function(...args) {
+                    if (args.some(arg => typeof arg === 'string' && arg.includes('init config loaded'))) {
+                        configLoaded = true;
+                        console.log = originalLog; // restore
+                    }
+                    originalLog.apply(console, args);
+                };
+                
                 // Load Scramjet
                 const scramjetScript = document.createElement('script');
                 scramjetScript.id = 'sj-all';
@@ -139,7 +150,7 @@
                 scramjetIndexScript.src = 'scram/index.js';
                 scramjetIndexScript.defer = true;
                 scramjetIndexScript.onload = () => {
-                    if (typeof window.$scramjetLoadController !== 'undefined') {
+                    if (configLoaded) {
                         document.getElementById('uv-status').innerHTML = '<span style="color: green;">Scramjet Proxy successfully loaded!</span>';
                     } else {
                         setTimeout(loadScramjet, 100);
