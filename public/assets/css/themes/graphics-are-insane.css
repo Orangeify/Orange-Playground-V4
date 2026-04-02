@@ -14,9 +14,9 @@
     --description-color: rgba(0, 0, 0, 0.75);
     --bottom-nav: #f97316;
     --bottom-nav-border: 1px solid #ea580c;
-    --search-bar-bg: #b95b13;
-    --search-bar-light-or-dark: #bdbecb;
+    --search-bar-bg: #dbdbdb;
+    --search-bar-light-or-dark: #000000;
     --app-button-color: #f97316;
     --app-button-color-hover: #ea580c;
-    --switch-color: #dd8819
+    --switch-color: #dd8819;
 }
