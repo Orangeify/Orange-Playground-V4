@@ -18,5 +18,27 @@
     --search-bar-light-or-dark: #000000;
     --app-button-color: #f97316;
     --app-button-color-hover: #ea580c;
-    --switch-color: #dd8819;
+    --switch-color: #ffffff;
+}
+
+.loader-message {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 3rem;
+    color: transparent;
+}
+
+.loader-message::before {
+    content: "C";
+    display: inline-block;
+    color: orange;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
