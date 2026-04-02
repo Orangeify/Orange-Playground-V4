@@ -21,24 +21,13 @@
     --switch-color: #ffffff;
 }
 
-.loader-message {
-    font-family: "Comic Sans MS", cursive;
-    font-size: 3rem;
-    color: transparent;
-}
-
-.loader-message::before {
+.loader::after {
     content: "C";
-    display: inline-block;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 4rem;
     color: orange;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+    border: none;
+    width: auto;
+    height: auto;
+    border-radius: 0;
 }
