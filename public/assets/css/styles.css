@@ -264,10 +264,10 @@ h1 {
   width: 700px;
   height: 45px;
   padding-left: 2.5rem;
-  box-shadow: 0 0 0 1.5px var(--search-bar-bg), 0 0 25px -17px #000;
+  box-shadow: 0 0 0 1.5px var(--search-bar-light-or-dark), 0 0 25px -17px #000;
   border: 0;
   border-radius: 12px;
-  background-color: var(--search-bar-bg);
+  background: var(--search-bar-bg);
   outline: none;
   color: var(--search-bar-light-or-dark);
   transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
@@ -280,7 +280,7 @@ h1 {
 }
 
 .input:hover {
-  box-shadow: 0 0 0 2.5px , var(--search-bar-light-or-dark) 0px 0px 25px -15px #000;
+  box-shadow: 0 0 0 2.5px var(--search-bar-light-or-dark), 0 0 25px -15px #000;
 }
 
 .input:active {
