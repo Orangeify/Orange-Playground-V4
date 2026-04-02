@@ -14,7 +14,7 @@
     --description-color: rgba(0, 0, 0, 0.75);
     --bottom-nav: #ececec;
     --bottom-nav-border: 1px solid #ececec;
-    --search-bar-bg: #dbdbdb;
+    --search-bar-bg: linear-gradient(to right, red, orange, yellow, green, blue, rgb(150, 3, 255), rgb(255, 145, 255));
     --search-bar-light-or-dark: #000000;
     --app-button-color: #d8cfc9;
     --app-button-color-hover: #ea580c;
