@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/mocha-brown.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: white;
     --loader-color: #552f04;
     --loader-message-color: rgb(155, 76, 3);

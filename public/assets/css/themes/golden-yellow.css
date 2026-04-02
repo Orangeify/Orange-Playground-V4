@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/golden-yellow.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: white;
     --loader-color: #929007;
     --loader-message-color: yellow;

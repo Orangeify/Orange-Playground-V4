@@ -1,8 +1,8 @@
 :root {
-    --background-image: url('../imgs/themes/amber-cities.jpg');
-    --title-font: "Boldonse", sans-serif;
-    --main-font: "DM Sans", sans-serif;
-    --light-or-dark: white;
+    --background-image: url('../imgs/themes/cursed-background.png');
+    --title-font: "Comic Sans MS", cursive;
+    --main-font: "Times New Roman", serif;
+    --light-or-dark: black;
     --loader-color: #7e4300;
     --loader-message-color: orange;
     --loader-border: 8px solid #A86B0E;

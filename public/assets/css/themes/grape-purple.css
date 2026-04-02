@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/grape-purple.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: white;
     --loader-color: #3b007e;
     --loader-message-color: rgb(123, 14, 196);

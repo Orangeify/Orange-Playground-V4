@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--main-font);
     background-image: var(--background-image);
     background-size: cover;
     background-position: center;
@@ -37,7 +37,7 @@ body {
 }
 
 .loader-message {
-  font-family: DM Sans, sans-serif;
+  font-family: var(--main-font);
   position: absolute;
   top: 20%;
   font-size: 1.5rem;
@@ -120,7 +120,7 @@ body {
 }
 
 .clock-time {
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--main-font);
     font-size: 1.5rem;
     color: var(--light-or-dark);
     margin-top: 0;
@@ -134,7 +134,7 @@ body {
 }
 
 .fps-counter {
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--main-font);
     font-size: 1.5rem;
     color: var(--light-or-dark);
     z-index: 1;
@@ -169,7 +169,7 @@ body {
 }
 
 .battery-percentage {
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--main-font);
     font-size: 1.5rem;
     color: var(--light-or-dark);
     z-index: 1;
@@ -242,7 +242,7 @@ body {
 }
 
 h1 {
-    font-family: "Boldonse", sans-serif;
+    font-family: var(--title-font);
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 16px;
@@ -260,7 +260,7 @@ h1 {
 }
 
 .input {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--main-font);
   width: 700px;
   height: 45px;
   padding-left: 2.5rem;
@@ -490,7 +490,7 @@ h1 {
     color: var(--light-or-dark);
     border: none;
     border-radius: 6px;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--main-font);
     font-size: 0.875rem;
     font-weight: 500;
     cursor: pointer;
@@ -730,7 +730,7 @@ h1 {
     background-color: var(--app-button-color);
     border: none;
     border-radius: 8px;
-    font-family: DM Sans, sans-serif;
+    font-family: var(--main-font);
     font-size: 20px;
     color: var(--light-or-dark);
 }

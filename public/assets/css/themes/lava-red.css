@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/lava-red.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: white;
     --loader-color: #7e0000;
     --loader-message-color: red;

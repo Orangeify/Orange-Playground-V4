@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/the-sun.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: black;
     --loader-color: white;
     --loader-message-color: black;

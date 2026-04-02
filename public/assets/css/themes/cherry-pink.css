@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/cherry-pink.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: white;
     --loader-color: #b90970;
     --loader-message-color: rgb(243, 11, 154);

@@ -1,5 +1,7 @@
 :root {
     --background-image: url('../imgs/themes/vegan-green.jpeg');
+    --title-font: "Boldonse", sans-serif;
+    --main-font: "DM Sans", sans-serif;
     --light-or-dark: white;
     --loader-color: #287e00;
     --loader-message-color: rgb(7, 214, 7);
