@@ -9,7 +9,7 @@
     --loader-top-border: orange;
     --playground-logo: url('../imgs/themes/playground-logo.png');
     --home-title-color: #f97316;
-    --battery-light-or-dark: 2px solid white;
+    --battery-light-or-dark: 2px solid black;
     --invert-light-or-dark: invert(1);
     --description-color: rgba(255, 255, 255, 0.75);
     --bottom-nav: #f97316;
