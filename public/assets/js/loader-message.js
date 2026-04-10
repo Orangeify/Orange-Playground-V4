@@ -54,6 +54,7 @@ const messages = [
       "Is blud Epstein or Einstein?",
       "Ocean Man, take me by the hand. Lead me to the land.",
       "I am 60 kilometers away from you. R U N .",
+      "''Come Back Ali! COME BACK ALI'S SISTER!'' -Strongbad",
       "You just want to find every message..."
     ];
 
