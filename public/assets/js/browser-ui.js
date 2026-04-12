@@ -7,8 +7,7 @@ const settingsLink = document.querySelector('a[href="study-guides.html"]');
 const backButton = document.querySelector('button[onclick="goBack()"]');
 const forwardButton = document.querySelector('button[onclick="goForward()"]');
 const reloadButton = document.querySelector('button[onclick="reloadFrame()"]');
-
-let isFrameActive = false;
+const navRight = document.querySelector(".nav-right");
 
 function reloadFrame() {
   const iframe = document.getElementById("frame");
@@ -31,28 +30,82 @@ function goForward() {
   }
 }
 
-function showNavigationArrows() {
-  isFrameActive = true;
-  gamesLink.classList.add("nav-hidden");
-  appsLink.classList.add("nav-hidden");
-  settingsLink.classList.add("nav-hidden");
-  backButton.classList.add("nav-visible");
-  forwardButton.classList.add("nav-visible");
-  reloadButton.classList.add("nav-visible");
+function createNavGroups() {
+  if (!navRight) {
+    return;
+  }
+
+  let mainGroup = document.querySelector(".nav-group-main");
+  let arrowGroup = document.querySelector(".nav-group-arrows");
+
+  if (!mainGroup) {
+    mainGroup = document.createElement("div");
+    mainGroup.className = "nav-group nav-group-main nav-group-visible";
+  }
+
+  if (!arrowGroup) {
+    arrowGroup = document.createElement("div");
+    arrowGroup.className = "nav-group nav-group-arrows nav-group-hidden";
+  }
+
+  if (gamesLink && !mainGroup.contains(gamesLink)) {
+    mainGroup.appendChild(gamesLink);
+  }
+
+  if (appsLink && !mainGroup.contains(appsLink)) {
+    mainGroup.appendChild(appsLink);
+  }
+
+  if (settingsLink && !mainGroup.contains(settingsLink)) {
+    mainGroup.appendChild(settingsLink);
+  }
+
+  if (backButton && !arrowGroup.contains(backButton)) {
+    arrowGroup.appendChild(backButton);
+  }
+
+  if (forwardButton && !arrowGroup.contains(forwardButton)) {
+    arrowGroup.appendChild(forwardButton);
+  }
+
+  if (reloadButton && !arrowGroup.contains(reloadButton)) {
+    arrowGroup.appendChild(reloadButton);
+  }
+
+  if (!mainGroup.parentElement) {
+    navRight.appendChild(mainGroup);
+  }
+
+  if (!arrowGroup.parentElement) {
+    navRight.appendChild(arrowGroup);
+  }
 }
 
-function hideNavigationArrows() {
-  isFrameActive = false;
-  gamesLink.classList.remove("nav-hidden");
-  appsLink.classList.remove("nav-hidden");
-  settingsLink.classList.remove("nav-hidden");
-  backButton.classList.remove("nav-visible");
-  forwardButton.classList.remove("nav-visible");
-  reloadButton.classList.remove("nav-visible");
+function setNavigationState(showArrows) {
+  const mainGroup = document.querySelector(".nav-group-main");
+  const arrowGroup = document.querySelector(".nav-group-arrows");
+
+  if (!mainGroup || !arrowGroup) {
+    return;
+  }
+
+  if (showArrows) {
+    mainGroup.classList.remove("nav-group-visible");
+    mainGroup.classList.add("nav-group-hidden");
+    arrowGroup.classList.remove("nav-group-hidden");
+    arrowGroup.classList.add("nav-group-visible");
+  } else {
+    mainGroup.classList.remove("nav-group-hidden");
+    mainGroup.classList.add("nav-group-visible");
+    arrowGroup.classList.remove("nav-group-visible");
+    arrowGroup.classList.add("nav-group-hidden");
+  }
 }
+
+createNavGroups();
 
 if (form) {
   form.addEventListener("submit", () => {
-    setTimeout(showNavigationArrows, 300);
+    setNavigationState(true);
   });
 }
