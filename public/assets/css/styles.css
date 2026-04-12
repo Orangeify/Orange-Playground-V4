@@ -653,6 +653,27 @@ h1 {
     transform: scale(0.95);
 }
 
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    background: transparent;
+    color: var(--light-or-dark);
+    transition: background 0.15s ease, transform 0.1s ease;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:active {
+    transform: scale(0.95);
+}
+
 .nav-home {
     padding: 10px 16px;
 }
