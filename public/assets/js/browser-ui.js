@@ -1,6 +1,6 @@
 "use strict";
 
-const form = document.getElementById("search-address");
+const searchForm = document.getElementById("search-address");
 const gamesLink = document.querySelector('a[href="worksheets.html"]');
 const appsLink = document.querySelector('a[href="assessments.html"]');
 const settingsLink = document.querySelector('a[href="study-guides.html"]');
@@ -104,8 +104,8 @@ function setNavigationState(showArrows) {
 
 createNavGroups();
 
-if (form) {
-  form.addEventListener("submit", () => {
+if (searchForm) {
+  searchForm.addEventListener("submit", () => {
     setNavigationState(true);
   });
 }

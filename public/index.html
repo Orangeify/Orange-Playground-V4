@@ -117,6 +117,8 @@
         <script>
             // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
             const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
+            let configLoaded = false;
+            let retryTimeout;
             
             function loadUV() {
                 // Remove existing UV scripts
@@ -162,8 +164,7 @@
                 document.head.appendChild(uvIndexScript);
             }
             
-            // Dynamically load the appropriate proxy bundles
-            if (useScramjet) {
+            function loadScramjet() {
                 // Load Scramjet
                 const scramjetScript = document.createElement('script');
                 scramjetScript.id = 'sj-all';
@@ -174,27 +175,29 @@
                 scramjetRegisterScript.id = 'sj-register';
                 scramjetRegisterScript.src = 'scram/register-sw.js';
                 scramjetRegisterScript.defer = true;
-                document.body.appendChild(scramjetRegisterScript);
+                document.head.appendChild(scramjetRegisterScript);
                 
                 const scramjetSearchScript = document.createElement('script');
                 scramjetSearchScript.id = 'sj-search';
                 scramjetSearchScript.src = 'scram/search.js';
                 scramjetSearchScript.defer = true;
-                document.body.appendChild(scramjetSearchScript);
+                document.head.appendChild(scramjetSearchScript);
                 
                 const scramjetIndexScript = document.createElement('script');
                 scramjetIndexScript.id = 'sj-index';
                 scramjetIndexScript.src = 'scram/index.js';
                 scramjetIndexScript.defer = true;
-                document.body.appendChild(scramjetIndexScript);
+                document.head.appendChild(scramjetIndexScript);
                 
                 // Set timeout to retry if not loaded
                 retryTimeout = setTimeout(() => {
                     if (!configLoaded) {
                         loadScramjet();
                     }
-                }, 1000);
+                }, 100);
             }
+            
+            // Dynamically load the appropriate proxy bundles
             
             // Dynamically load the appropriate proxy bundles
             if (useScramjet) {
