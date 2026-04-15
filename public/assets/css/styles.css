@@ -687,16 +687,39 @@ h1 {
     transition: transform 0.35s ease, opacity 0.35s ease;
 }
 
-.nav-group-visible {
+.nav-group-main {
     opacity: 1;
     transform: translateY(0);
+    visibility: visible;
     pointer-events: auto;
+}
+
+.nav-group-arrows {
+    opacity: 1;
+    transform: translateY(100%);
+    visibility: visible;
+    pointer-events: none;
+}
+
+.nav-group-arrows.nav-group-visible {
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.nav-group-arrows.nav-group-hidden {
+    opacity: 1;
+    transform: translateY(100%);
+    pointer-events: none;
+    visibility: visible;
+}
+
+.nav-group-visible {
+    opacity: 1;
     visibility: visible;
 }
 
 .nav-group-hidden {
     opacity: 0;
-    transform: translateY(100%);
     pointer-events: none;
     visibility: hidden;
 }
