@@ -688,17 +688,29 @@ h1 {
 }
 
 .nav-group-main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
     pointer-events: auto;
+    z-index: 1;
+    transition: transform 0.35s ease;
 }
 
 .nav-group-arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     opacity: 1;
     transform: translateY(100%);
     visibility: visible;
     pointer-events: none;
+    z-index: 0;
+    transition: transform 0.35s ease;
 }
 
 .nav-group-arrows.nav-group-visible {
@@ -711,6 +723,20 @@ h1 {
     transform: translateY(100%);
     pointer-events: none;
     visibility: visible;
+}
+
+.nav-group-main.nav-group-hidden {
+    transform: translateY(100%);
+    opacity: 1;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.nav-group-main.nav-group-visible {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .nav-group-visible {
