@@ -697,7 +697,7 @@ h1 {
     visibility: visible;
     pointer-events: auto;
     z-index: 1;
-    transition: transform 0.35s ease;
+    transition: transform 1s ease;
 }
 
 .nav-group-arrows {
@@ -710,7 +710,7 @@ h1 {
     visibility: visible;
     pointer-events: none;
     z-index: 0;
-    transition: transform 0.35s ease;
+    transition: transform 1s ease;
 }
 
 .nav-group-arrows.nav-group-visible {
