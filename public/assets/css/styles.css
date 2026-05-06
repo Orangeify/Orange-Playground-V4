@@ -696,7 +696,7 @@ h1 {
     transform: translateY(0);
     visibility: visible;
     pointer-events: auto;
-    z-index: 1;
+    z-index: 0;
     transition: transform 1s ease;
 }
 
@@ -709,7 +709,7 @@ h1 {
     transform: translateY(100%);
     visibility: visible;
     pointer-events: none;
-    z-index: 0;
+    z-index: 1;
     transition: transform 1s ease;
 }
 
