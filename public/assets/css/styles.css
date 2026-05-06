@@ -692,6 +692,7 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     opacity: 1;
     transform: translateY(0);
     visibility: visible;
@@ -705,6 +706,7 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     opacity: 1;
     transform: translateY(-100%);
     visibility: visible;
