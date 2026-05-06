@@ -798,8 +798,6 @@ h1 {
 }
 
 .nav-group-hidden {
-    opacity: 0;
-    transform: translateY(100%);
     pointer-events: none;
     visibility: hidden;
 }
