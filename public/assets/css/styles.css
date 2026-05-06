@@ -716,6 +716,7 @@ h1 {
 .nav-icon-top.active {
     transform: translateY(0);
     pointer-events: auto;
+    z-index: 2;
 }
 
 .nav-icon-bottom.hidden {
