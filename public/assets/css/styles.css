@@ -692,7 +692,7 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
     position: relative;
-    min-height: 24px;
+    min-height: 1px;
 }
 
 .nav-icon-bottom,
