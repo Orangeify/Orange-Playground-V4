@@ -687,59 +687,50 @@ h1 {
     transition: transform 0.35s ease, opacity 0.35s ease;
 }
 
-.nav-group-main {
+.nav-icon-bottom,
+.nav-icon-top {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 1;
-    transform: translateY(0);
-    visibility: visible;
-    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    transition: transform 0.35s ease;
+}
+
+.nav-icon-bottom {
     z-index: 0;
-    transition: transform 1s ease;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
-.nav-group-arrows {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    transform: translateY(-100%);
-    visibility: visible;
-    pointer-events: none;
+.nav-icon-top {
     z-index: 1;
-    transition: transform 1s ease;
-}
-
-.nav-group-arrows.nav-group-visible {
-    transform: translateY(0);
-    pointer-events: auto;
-}
-
-.nav-group-arrows.nav-group-hidden {
-    opacity: 1;
     transform: translateY(-100%);
     pointer-events: none;
-    visibility: visible;
 }
 
-.nav-group-main.nav-group-hidden {
+.nav-icon-top.active {
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.nav-icon-bottom.hidden {
     transform: translateY(100%);
-    opacity: 1;
-    visibility: visible;
     pointer-events: none;
 }
 
-.nav-group-main.nav-group-visible {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+.nav-group-arrows.nav-icon-top.hidden {
+    transform: translateY(-100%);
 }
+
+.nav-group-main.nav-icon-bottom.active {
+    transform: translateY(0);
+}
+
 
 .nav-group-visible {
     opacity: 1;

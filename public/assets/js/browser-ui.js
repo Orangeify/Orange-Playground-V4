@@ -36,15 +36,15 @@ function setNavigationState(showArrows) {
   }
 
   if (showArrows) {
-    mainGroup.classList.remove("nav-group-visible");
-    mainGroup.classList.add("nav-group-hidden");
-    arrowGroup.classList.remove("nav-group-hidden");
-    arrowGroup.classList.add("nav-group-visible");
+    mainGroup.classList.add("hidden");
+    mainGroup.classList.remove("active");
+    arrowGroup.classList.add("active");
+    arrowGroup.classList.remove("hidden");
   } else {
-    mainGroup.classList.remove("nav-group-hidden");
-    mainGroup.classList.add("nav-group-visible");
-    arrowGroup.classList.remove("nav-group-visible");
-    arrowGroup.classList.add("nav-group-hidden");
+    mainGroup.classList.add("active");
+    mainGroup.classList.remove("hidden");
+    arrowGroup.classList.add("hidden");
+    arrowGroup.classList.remove("active");
   }
 }
 
