@@ -728,7 +728,7 @@ h1 {
 .nav-group-main.nav-group-hidden {
     transform: translateY(100%);
     opacity: 1;
-    visibility: hidden;
+    visibility: visible;
     pointer-events: none;
 }
 
