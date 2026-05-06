@@ -706,7 +706,7 @@ h1 {
     left: 0;
     right: 0;
     opacity: 1;
-    transform: translateY(100%);
+    transform: translateY(-100%);
     visibility: visible;
     pointer-events: none;
     z-index: 1;
@@ -720,7 +720,7 @@ h1 {
 
 .nav-group-arrows.nav-group-hidden {
     opacity: 1;
-    transform: translateY(100%);
+    transform: translateY(-100%);
     pointer-events: none;
     visibility: visible;
 }
