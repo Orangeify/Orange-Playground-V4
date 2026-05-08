@@ -690,9 +690,12 @@ h1 {
 .nav-stacked {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: flex-end;
+    gap: 4px;
     position: relative;
     min-height: 1px;
+    height: 100%;
 }
 
 .nav-icon-bottom,
