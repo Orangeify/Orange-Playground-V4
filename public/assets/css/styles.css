@@ -705,7 +705,7 @@ h1 {
 }
 
 .nav-icon-bottom {
-    transform: translateY(0);
+    transform: translateY(-70%);
     pointer-events: auto;
 }
 
