@@ -715,7 +715,7 @@ h1 {
 }
 
 .nav-icon-top.active {
-    transform: translateY(90%);
+    transform: translateY(80%);
     pointer-events: auto;
 }
 
