@@ -4,10 +4,23 @@ const searchForm = document.getElementById("search-address");
 
 function reloadFrame() {
   const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
-  if (iframe && iframe.src) {
-    // Force reload by appending a timestamp to bypass cache
-    const separator = iframe.src.includes('?') ? '&' : '?';
-    iframe.src = iframe.src + separator + 't=' + new Date().getTime();
+  if (!iframe) {
+    return;
+  }
+
+  const iframeWindow = iframe.contentWindow;
+  if (iframeWindow && iframeWindow.location && typeof iframeWindow.location.reload === "function") {
+    try {
+      iframeWindow.location.reload();
+      return;
+    } catch (error) {
+      // Fallback when iframe content is cross-origin or reload is blocked
+    }
+  }
+
+  const src = iframe.getAttribute("src") || iframe.src;
+  if (src) {
+    iframe.src = src;
   }
 }
 
