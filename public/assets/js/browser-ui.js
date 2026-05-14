@@ -4,12 +4,10 @@ const searchForm = document.getElementById("search-address");
 
 function reloadFrame() {
   const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
-  if (iframe) {
-    if (iframe.contentWindow && typeof iframe.contentWindow.location.reload === "function") {
-      iframe.contentWindow.location.reload();
-    } else {
-      iframe.src = iframe.src;
-    }
+  if (iframe && iframe.src) {
+    // Force reload by appending a timestamp to bypass cache
+    const separator = iframe.src.includes('?') ? '&' : '?';
+    iframe.src = iframe.src + separator + 't=' + new Date().getTime();
   }
 }
 
