@@ -4,9 +4,17 @@ const searchForm = document.getElementById("search-address");
 
 function reloadFrame() {
   const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
-  if (iframe) {
-    iframe.contentWindow.location.reload();
+  if (!iframe) {
+    return;
   }
+
+  const currentSrc = iframe.getAttribute("src") || iframe.src;
+  if (!currentSrc) {
+    return;
+  }
+
+  // Use getAttribute and setAttribute to refresh the iframe source.
+  iframe.setAttribute("src", currentSrc);
 }
 
 function goBack() {
