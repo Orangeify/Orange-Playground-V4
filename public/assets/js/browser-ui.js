@@ -56,10 +56,96 @@ function setNavigationState(showArrows) {
   }
 }
 
+function getCurrentPageUrl() {
+  const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
+  const iframeSrc = iframe ? iframe.getAttribute("src") || iframe.src : null;
+  return iframeSrc || window.location.href;
+}
+
+function updateSearchPlaceholders() {
+  const currentUrl = getCurrentPageUrl();
+  const placeholder = currentUrl || "Search...";
+  const mainInput = document.getElementById("address");
+  const navInput = document.getElementById("nav-address");
+
+  if (mainInput) {
+    mainInput.placeholder = placeholder;
+  }
+  if (navInput) {
+    navInput.placeholder = placeholder;
+  }
+}
+
+function searchFallback(input, template) {
+  try {
+    return new URL(input).toString();
+  } catch (err) {
+    // ignore
+  }
+
+  try {
+    const url = new URL(`http://${input}`);
+    if (url.hostname.includes(".")) return url.toString();
+  } catch (err) {
+    // ignore
+  }
+
+  return template.replace("%s", encodeURIComponent(input));
+}
+
+function resolveSearchUrl(input) {
+  const template = document.getElementById("search-engine")?.value || "https://www.google.com/search?q=%s";
+  if (typeof window.search === "function") {
+    try {
+      return search(input, template);
+    } catch (err) {
+      return searchFallback(input, template);
+    }
+  }
+  return searchFallback(input, template);
+}
+
+function animateSearch(target) {
+  if (!target) return;
+  target.classList.remove("search-fade-in");
+  void target.offsetWidth;
+  target.classList.add("search-fade-in");
+}
+
+function handleSearchSubmit(event) {
+  event.preventDefault();
+  const formId = event.target.id;
+  const input = formId === "nav-search-address" ? document.getElementById("nav-address") : document.getElementById("address");
+  if (!input) {
+    return;
+  }
+
+  const query = input.value.trim();
+  if (!query) {
+    return;
+  }
+
+  animateSearch(input);
+  setNavigationState(true);
+  const url = resolveSearchUrl(query);
+  window.location.href = url;
+}
+
 initializeNavGroups();
 
+updateSearchPlaceholders();
+
+const navSearchForm = document.getElementById("nav-search-address");
+const navSearchInput = document.getElementById("nav-address");
+
 if (searchForm) {
-  searchForm.addEventListener("submit", () => {
-    setNavigationState(true);
-  });
+  searchForm.addEventListener("submit", handleSearchSubmit);
+}
+if (navSearchForm) {
+  navSearchForm.addEventListener("submit", handleSearchSubmit);
+}
+
+const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
+if (iframe) {
+  iframe.addEventListener("load", updateSearchPlaceholders);
 }

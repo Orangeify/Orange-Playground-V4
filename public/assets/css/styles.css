@@ -301,6 +301,36 @@ h1 {
   z-index: 1;
 }
 
+.nav-search-form {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  margin: 0 12px;
+}
+
+.nav-search-input {
+  width: min(280px, 100%);
+  min-width: 150px;
+  margin-right: 0;
+}
+
+@keyframes fadeInSearch {
+  from {
+    opacity: 0.3;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.search-fade-in {
+  animation: fadeInSearch 0.25s ease forwards;
+}
+
 .page-header {
     display: flex;
     align-items: center;
