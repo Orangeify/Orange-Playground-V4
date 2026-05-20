@@ -93,8 +93,9 @@ function searchFallback(input, template) {
   return template.replace("%s", encodeURIComponent(input));
 }
 
-function resolveSearchUrl(input) {
-  const template = document.getElementById("search-engine")?.value || "https://www.google.com/search?q=%s";
+function resolveSearchUrl(input, form) {
+  const formTemplate = form?.querySelector('#search-engine')?.value;
+  const template = formTemplate || document.querySelector('#search-engine')?.value || "https://www.google.com/search?q=%s";
   if (typeof window.search === "function") {
     try {
       return search(input, template);
@@ -114,8 +115,8 @@ function animateSearch(target) {
 
 function handleSearchSubmit(event) {
   event.preventDefault();
-  const formId = event.target.id;
-  const input = formId === "nav-search-address" ? document.getElementById("nav-address") : document.getElementById("address");
+  const form = event.target;
+  const input = form.querySelector('.input');
   if (!input) {
     return;
   }
@@ -127,7 +128,7 @@ function handleSearchSubmit(event) {
 
   animateSearch(input);
   setNavigationState(true);
-  const url = resolveSearchUrl(query);
+  const url = resolveSearchUrl(query, form);
   window.location.href = url;
 }
 
