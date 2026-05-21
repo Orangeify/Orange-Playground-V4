@@ -19,7 +19,7 @@ function searchSelector() {
             searchEngineInput.value = engineUrl;
         }
     }
-    }
+
 
     if (searchSelect) {
         // Load previously saved engine, default to Google if none found
@@ -57,5 +57,5 @@ function searchSelector() {
         // Ensure any duplicate hidden search engine inputs stay in sync.
         updateSearchEngine(ENGINES[savedEngine]);
     }
-
+}
 searchSelector();
