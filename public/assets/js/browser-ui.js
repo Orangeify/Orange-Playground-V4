@@ -58,8 +58,7 @@ function setNavigationState(showArrows) {
 
 function getCurrentPageUrl() {
   const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
-  const iframeSrc = iframe ? iframe.getAttribute("src") || iframe.src : null;
-  return iframeSrc || window.location.href;
+  return iframe ? iframe.getAttribute("src") || iframe.src : "";
 }
 
 function updateSearchPlaceholders() {
@@ -129,7 +128,13 @@ function handleSearchSubmit(event) {
   animateSearch(input);
   setNavigationState(true);
   const url = resolveSearchUrl(query, form);
-  window.location.href = url;
+  const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
+  if (iframe) {
+    iframe.setAttribute("src", url);
+    updateSearchPlaceholders();
+  } else {
+    window.location.href = url;
+  }
 }
 
 initializeNavGroups();
