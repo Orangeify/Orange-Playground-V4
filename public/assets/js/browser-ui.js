@@ -97,8 +97,8 @@ function searchFallback(input, template) {
 }
 
 function resolveSearchUrl(input, form) {
-  const formTemplate = form?.querySelector('#search-engine')?.value;
-  const template = formTemplate || document.querySelector('#search-engine')?.value || "https://www.google.com/search?q=%s";
+  const formTemplate = form?.querySelector('#search-engine, #nav-search-engine')?.value;
+  const template = formTemplate || document.querySelector('#search-engine, #nav-search-engine')?.value || "https://www.google.com/search?q=%s";
   if (typeof window.search === "function") {
     try {
       return search(input, template);
@@ -107,6 +107,13 @@ function resolveSearchUrl(input, form) {
     }
   }
   return searchFallback(input, template);
+}
+
+function animateSearch(target) {
+  if (!target) return;
+  target.classList.remove("search-fade-in");
+  void target.offsetWidth;
+  target.classList.add("search-fade-in");
 }
 
 function getProxyUrl(url) {
@@ -142,6 +149,24 @@ function handleSearchSubmit(event) {
   const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
   const usingScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
   const hasUvProxy = typeof __uv$config !== "undefined" && __uv$config?.prefix;
+
+  if (usingScramjet && form.dataset.forwardedSearch === 'true') {
+    delete form.dataset.forwardedSearch;
+    return;
+  }
+
+  if (usingScramjet && form.id === 'nav-search-address') {
+    const topForm = document.getElementById('search-address');
+    if (topForm && topForm !== form) {
+      const topInput = topForm.querySelector('.input');
+      if (topInput) {
+        topInput.value = query;
+      }
+      topForm.dataset.forwardedSearch = 'true';
+      topForm.requestSubmit();
+    }
+    return;
+  }
 
   if (hasUvProxy && iframe) {
     const proxyUrl = getProxyUrl(url);

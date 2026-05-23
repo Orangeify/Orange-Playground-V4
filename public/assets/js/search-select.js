@@ -1,6 +1,6 @@
 function searchSelector() {
     const searchSelect = document.getElementById('searchSelect') || document.getElementById('search-select');
-    const searchEnginelinkEl = document.getElementById('search-engine') || document.getElementById('searchEnginelink');
+    const searchEnginelinkEl = document.getElementById('search-engine') || document.getElementById('nav-search-engine') || document.getElementById('searchEnginelink');
     let searchEnginelink = searchEnginelinkEl ? searchEnginelinkEl.value : '';
 
     const ENGINES = {
@@ -13,7 +13,7 @@ function searchSelector() {
     };
 
     function updateSearchEngine(engineUrl) {
-        const searchEngineInputs = document.querySelectorAll('#search-engine, #searchEnginelink');
+        const searchEngineInputs = document.querySelectorAll('#search-engine, #nav-search-engine, #searchEnginelink');
         if (searchEngineInputs.length) {
             searchEngineInputs.forEach((input) => {
                 input.value = engineUrl;
