@@ -13,10 +13,11 @@ function searchSelector() {
     };
 
     function updateSearchEngine(engineUrl) {
-           // Update the search-engine input on index.html (if it exists)
-        const searchEngineInput = document.getElementById('search-engine');
-        if (searchEngineInput) {
-            searchEngineInput.value = engineUrl;
+        const searchEngineInputs = document.querySelectorAll('#search-engine, #searchEnginelink');
+        if (searchEngineInputs.length) {
+            searchEngineInputs.forEach((input) => {
+                input.value = engineUrl;
+            });
         }
     }
 

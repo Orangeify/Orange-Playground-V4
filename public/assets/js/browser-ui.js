@@ -2,8 +2,12 @@
 
 const searchForm = document.getElementById("search-address");
 
+function getActiveFrame() {
+  return document.getElementById("frame") || document.getElementById("sj-frame");
+}
+
 function reloadFrame() {
-  const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
+  const iframe = getActiveFrame();
   if (!iframe) {
     return;
   }
@@ -18,14 +22,14 @@ function reloadFrame() {
 }
 
 function goBack() {
-  const iframe = document.getElementById("frame");
+  const iframe = getActiveFrame();
   if (iframe) {
     iframe.contentWindow.history.back();
   }
 }
 
 function goForward() {
-  const iframe = document.getElementById("frame");
+  const iframe = getActiveFrame();
   if (iframe) {
     iframe.contentWindow.history.forward();
   }
@@ -105,11 +109,17 @@ function resolveSearchUrl(input, form) {
   return searchFallback(input, template);
 }
 
-function animateSearch(target) {
-  if (!target) return;
-  target.classList.remove("search-fade-in");
-  void target.offsetWidth;
-  target.classList.add("search-fade-in");
+function getProxyUrl(url) {
+  if (typeof __uv$config !== "undefined" && __uv$config?.prefix && typeof __uv$config.encodeUrl === "function") {
+    return __uv$config.prefix + __uv$config.encodeUrl(url);
+  }
+  return url;
+}
+
+function showFrame(iframe) {
+  if (!iframe) return;
+  iframe.style.display = "block";
+  iframe.classList.remove("dnone");
 }
 
 function handleSearchSubmit(event) {
@@ -128,8 +138,26 @@ function handleSearchSubmit(event) {
   animateSearch(input);
   setNavigationState(true);
   const url = resolveSearchUrl(query, form);
+
   const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
+  const usingScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
+  const hasUvProxy = typeof __uv$config !== "undefined" && __uv$config?.prefix;
+
+  if (hasUvProxy && iframe) {
+    const proxyUrl = getProxyUrl(url);
+    showFrame(iframe);
+    iframe.setAttribute("src", proxyUrl);
+    updateSearchPlaceholders();
+    return;
+  }
+
+  if (usingScramjet) {
+    // When Scramjet is active, its own proxy search handler will process the form.
+    return;
+  }
+
   if (iframe) {
+    showFrame(iframe);
     iframe.setAttribute("src", url);
     updateSearchPlaceholders();
   } else {
