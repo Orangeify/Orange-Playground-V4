@@ -182,25 +182,27 @@
                 const scramjetScript = document.createElement('script');
                 scramjetScript.id = 'sj-all';
                 scramjetScript.src = 'scram/scramjet.all.js';
+                scramjetScript.onload = () => {
+                    // Only load dependent scripts after bundle is ready
+                    const scramjetRegisterScript = document.createElement('script');
+                    scramjetRegisterScript.id = 'sj-register';
+                    scramjetRegisterScript.src = 'scram/register-sw.js';
+                    scramjetRegisterScript.defer = true;
+                    document.head.appendChild(scramjetRegisterScript);
+                    
+                    const scramjetSearchScript = document.createElement('script');
+                    scramjetSearchScript.id = 'sj-search';
+                    scramjetSearchScript.src = 'scram/search.js';
+                    scramjetSearchScript.defer = true;
+                    document.head.appendChild(scramjetSearchScript);
+                    
+                    const scramjetIndexScript = document.createElement('script');
+                    scramjetIndexScript.id = 'sj-index';
+                    scramjetIndexScript.src = 'scram/index.js';
+                    scramjetIndexScript.defer = true;
+                    document.head.appendChild(scramjetIndexScript);
+                };
                 document.head.appendChild(scramjetScript);
-                
-                const scramjetRegisterScript = document.createElement('script');
-                scramjetRegisterScript.id = 'sj-register';
-                scramjetRegisterScript.src = 'scram/register-sw.js';
-                scramjetRegisterScript.defer = true;
-                document.head.appendChild(scramjetRegisterScript);
-                
-                const scramjetSearchScript = document.createElement('script');
-                scramjetSearchScript.id = 'sj-search';
-                scramjetSearchScript.src = 'scram/search.js';
-                scramjetSearchScript.defer = true;
-                document.head.appendChild(scramjetSearchScript);
-                
-                const scramjetIndexScript = document.createElement('script');
-                scramjetIndexScript.id = 'sj-index';
-                scramjetIndexScript.src = 'scram/index.js';
-                scramjetIndexScript.defer = true;
-                document.head.appendChild(scramjetIndexScript);
                 
                 // Set timeout to retry if not loaded
                 retryTimeout = setTimeout(() => {

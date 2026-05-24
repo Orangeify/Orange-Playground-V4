@@ -130,7 +130,6 @@ function showFrame(iframe) {
 }
 
 function handleSearchSubmit(event) {
-  event.preventDefault();
   const form = event.target;
   const input = form.querySelector('.input');
   if (!input) {
@@ -142,52 +141,21 @@ function handleSearchSubmit(event) {
     return;
   }
 
-  animateSearch(input);
-  setNavigationState(true);
-  const url = resolveSearchUrl(query, form);
-
-  const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
-  const usingScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
-  const hasUvProxy = typeof __uv$config !== "undefined" && __uv$config?.prefix;
-
-  if (usingScramjet && form.dataset.forwardedSearch === 'true') {
-    delete form.dataset.forwardedSearch;
-    return;
-  }
-
-  if (usingScramjet && form.id === 'nav-search-address') {
+  // Only handle nav search form here; delegate to top form for proxy to handle
+  if (form.id === 'nav-search-address') {
+    event.preventDefault();
     const topForm = document.getElementById('search-address');
-    if (topForm && topForm !== form) {
+    if (topForm) {
       const topInput = topForm.querySelector('.input');
       if (topInput) {
         topInput.value = query;
+        animateSearch(topInput);
+        // Let the proxy handler on the top form process the submission
+        topForm.requestSubmit();
       }
-      topForm.dataset.forwardedSearch = 'true';
-      topForm.requestSubmit();
     }
-    return;
   }
-
-  if (hasUvProxy && iframe) {
-    const proxyUrl = getProxyUrl(url);
-    showFrame(iframe);
-    iframe.setAttribute("src", proxyUrl);
-    updateSearchPlaceholders();
-    return;
-  }
-
-  if (usingScramjet) {
-    // When Scramjet is active, its own proxy search handler will process the form.
-    return;
-  }
-
-  if (iframe) {
-    showFrame(iframe);
-    iframe.setAttribute("src", url);
-    updateSearchPlaceholders();
-  } else {
-    window.location.href = url;
-  }
+  // For top search form, don't prevent default; let the proxy handlers process it
 }
 
 initializeNavGroups();
@@ -195,11 +163,8 @@ initializeNavGroups();
 updateSearchPlaceholders();
 
 const navSearchForm = document.getElementById("nav-search-address");
-const navSearchInput = document.getElementById("nav-address");
 
-if (searchForm) {
-  searchForm.addEventListener("submit", handleSearchSubmit);
-}
+// Only attach handler to nav form; let proxy handlers run on the top form natively
 if (navSearchForm) {
   navSearchForm.addEventListener("submit", handleSearchSubmit);
 }
