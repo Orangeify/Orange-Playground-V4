@@ -36,11 +36,23 @@
     }
   }
 
+  function isIframeVisible(iframe) {
+    if (!iframe) return false;
+    if (iframe.classList.contains('dnone')) return false;
+    if (iframe.style && (iframe.style.display === 'none' || iframe.style.visibility === 'hidden')) return false;
+    const rect = iframe.getBoundingClientRect();
+    return rect.width > 0 && rect.height > 0;
+  }
+
+  let lastTargetUrl = '';
+
   function syncIframe() {
     const iframe = getIframe();
-    if (!iframe) return;
+    if (!iframe || !isIframeVisible(iframe)) return;
     const src = iframe.getAttribute('src') || iframe.src || '';
     const target = decodeProxyUrl(src, iframe);
+    if (!target || target === lastTargetUrl) return;
+    lastTargetUrl = target;
     updateInputs(target);
   }
 
@@ -52,13 +64,22 @@
 
     const observer = new MutationObserver((records) => {
       for (const record of records) {
-        if (record.type === 'attributes' && record.attributeName === 'src') {
+        if (record.type === 'attributes' && ['src', 'class', 'style'].includes(record.attributeName)) {
           syncIframe();
         }
       }
     });
 
-    observer.observe(iframe, { attributes: true, attributeFilter: ['src'] });
+    observer.observe(iframe, { attributes: true, attributeFilter: ['src', 'class', 'style'] });
+  }
+
+  function containsIframe(node) {
+    if (!node) return false;
+    if (node.id === 'frame' || node.id === 'sj-frame') return true;
+    if (node.querySelector) {
+      return !!node.querySelector('#frame, #sj-frame');
+    }
+    return false;
   }
 
   function watchIframeChanges() {
@@ -68,11 +89,16 @@
       syncIframe();
     }
 
-    const documentObserver = new MutationObserver(() => {
-      const iframe = getIframe();
-      if (iframe) {
-        observeIframe(iframe);
-        syncIframe();
+    const documentObserver = new MutationObserver((records) => {
+      for (const record of records) {
+        for (const node of [...record.addedNodes, ...record.removedNodes]) {
+          if (containsIframe(node)) {
+            const iframe = getIframe();
+            observeIframe(iframe);
+            syncIframe();
+            return;
+          }
+        }
       }
     });
 
