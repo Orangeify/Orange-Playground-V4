@@ -67,15 +67,26 @@ function getCurrentPageUrl() {
 
 function updateSearchPlaceholders() {
   const currentUrl = getCurrentPageUrl();
-  const placeholder = currentUrl || "Search...";
   const mainInput = document.getElementById("address");
   const navInput = document.getElementById("nav-address");
 
   if (mainInput) {
-    mainInput.placeholder = placeholder;
+    if (currentUrl) {
+      mainInput.value = currentUrl;
+      mainInput.placeholder = "Search...";
+    } else {
+      mainInput.value = "";
+      mainInput.placeholder = "Search...";
+    }
   }
   if (navInput) {
-    navInput.placeholder = placeholder;
+    if (currentUrl) {
+      navInput.value = currentUrl;
+      navInput.placeholder = "Search...";
+    } else {
+      navInput.value = "";
+      navInput.placeholder = "Search...";
+    }
   }
 }
 
@@ -150,12 +161,16 @@ function handleSearchSubmit(event) {
       if (topInput) {
         topInput.value = query;
         animateSearch(topInput);
+        setNavigationState(true);
         // Let the proxy handler on the top form process the submission
         topForm.requestSubmit();
       }
     }
+  } else {
+    // For top search form, show navigation state and animation
+    animateSearch(input);
+    setNavigationState(true);
   }
-  // For top search form, don't prevent default; let the proxy handlers process it
 }
 
 initializeNavGroups();
