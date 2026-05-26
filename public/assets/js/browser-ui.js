@@ -1,6 +1,7 @@
 "use strict";
 
 const searchForm = document.getElementById("search-address");
+let currentSearchUrl = "";
 
 function getActiveFrame() {
   return document.getElementById("frame") || document.getElementById("sj-frame");
@@ -66,27 +67,17 @@ function getCurrentPageUrl() {
 }
 
 function updateSearchPlaceholders() {
-  const currentUrl = getCurrentPageUrl();
+  const currentUrl = currentSearchUrl || "";
   const mainInput = document.getElementById("address");
   const navInput = document.getElementById("nav-address");
 
   if (mainInput) {
-    if (currentUrl) {
-      mainInput.value = currentUrl;
-      mainInput.placeholder = "Search...";
-    } else {
-      mainInput.value = "";
-      mainInput.placeholder = "Search...";
-    }
+    mainInput.value = currentUrl;
+    mainInput.placeholder = "Search...";
   }
   if (navInput) {
-    if (currentUrl) {
-      navInput.value = currentUrl;
-      navInput.placeholder = "Search...";
-    } else {
-      navInput.value = "";
-      navInput.placeholder = "Search...";
-    }
+    navInput.value = currentUrl;
+    navInput.placeholder = "Search...";
   }
 }
 
@@ -155,6 +146,7 @@ function handleSearchSubmit(event) {
   // Only handle nav search form here; delegate to top form for proxy to handle
   if (form.id === 'nav-search-address') {
     event.preventDefault();
+    currentSearchUrl = resolveSearchUrl(query, form);
     const topForm = document.getElementById('search-address');
     if (topForm) {
       const topInput = topForm.querySelector('.input');
@@ -166,11 +158,13 @@ function handleSearchSubmit(event) {
         topForm.requestSubmit();
       }
     }
-  } else {
-    // For top search form, show navigation state and animation
-    animateSearch(input);
-    setNavigationState(true);
+    return;
   }
+
+  // For top search form, show navigation state and animation
+  currentSearchUrl = resolveSearchUrl(query, form);
+  animateSearch(input);
+  setNavigationState(true);
 }
 
 initializeNavGroups();
@@ -182,6 +176,21 @@ const navSearchForm = document.getElementById("nav-search-address");
 // Only attach handler to nav form; let proxy handlers run on the top form natively
 if (navSearchForm) {
   navSearchForm.addEventListener("submit", handleSearchSubmit);
+}
+
+if (searchForm) {
+  searchForm.addEventListener("submit", function (event) {
+    const input = searchForm.querySelector('.input');
+    if (!input) {
+      return;
+    }
+    const query = input.value.trim();
+    if (!query) {
+      return;
+    }
+    currentSearchUrl = resolveSearchUrl(query, searchForm);
+    updateSearchPlaceholders();
+  });
 }
 
 const iframe = document.getElementById("frame") || document.getElementById("sj-frame");
