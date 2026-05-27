@@ -36,8 +36,10 @@
   function decodeProxyUrl(src, iframe) {
     if (!src) return '';
     if (iframe?.dataset && (iframe.dataset.originalUrl || iframe.dataset.targetUrl)) {
+      console.debug('decodeProxyUrl: using iframe dataset', iframe.dataset.originalUrl || iframe.dataset.targetUrl, {src, iframeId: iframe.id});
       return iframe.dataset.originalUrl || iframe.dataset.targetUrl;
     }
+    console.debug('decodeProxyUrl: starting', {src, iframeId: iframe?.id, uvConfig: typeof __uv$config !== 'undefined'});
     // Try multiple ways of extracting the encoded payload from common UV URL shapes
     let normalized = src;
     let encodedPath = src;
@@ -72,22 +74,28 @@
       for (const enc of candidates) {
         if (!enc || tried.has(enc)) continue;
         tried.add(enc);
+        console.debug('decodeProxyUrl: trying candidate', {enc, iframeId: iframe?.id});
         try {
           const decoded = __uv$config.decodeUrl(enc);
+          console.debug('decodeProxyUrl: decodeUrl result', {enc, decoded});
           if (decoded && (/^https?:\/\//.test(decoded) || decoded.startsWith('about:'))) return decoded;
           if (decoded) return decoded;
         } catch (e) {
+          console.debug('decodeProxyUrl: decodeUrl failed', {enc, error: e});
           try {
             const dec = decodeURIComponent(enc);
+            console.debug('decodeProxyUrl: decodeURIComponent result', {enc, dec});
             try {
               const decoded2 = __uv$config.decodeUrl(dec);
+              console.debug('decodeProxyUrl: decodeUrl result after decodeURIComponent', {dec, decoded2});
               if (decoded2 && (/^https?:\/\//.test(decoded2) || decoded2.startsWith('about:'))) return decoded2;
               if (decoded2) return decoded2;
             } catch (err) {
+              console.debug('decodeProxyUrl: decodeUrl failed after decodeURIComponent', {dec, error: err});
               if (/^https?:\/\//.test(dec)) return dec;
             }
           } catch (err2) {
-            // ignore
+            console.debug('decodeProxyUrl: failed decodeURIComponent', {enc, error: err2});
           }
         }
       }
