@@ -65,6 +65,33 @@
     return rect.width > 0 && rect.height > 0;
   }
 
+  function patchScramjetNavigation() {
+    try {
+      const loader = typeof window.$scramjetLoadController === 'function' ? window.$scramjetLoadController() : null;
+      const Controller = loader?.ScramjetController || window.ScramjetController;
+      if (!Controller || Controller.__iframeSyncPatched) return false;
+      const originalCreateFrame = Controller.prototype.createFrame;
+      if (typeof originalCreateFrame !== 'function') return false;
+      Controller.prototype.createFrame = function (...args) {
+        const frameObj = originalCreateFrame.apply(this, args);
+        if (frameObj && typeof frameObj.go === 'function') {
+          const originalGo = frameObj.go.bind(frameObj);
+          frameObj.go = function (url, ...rest) {
+            if (typeof url === 'string' && url) {
+              try { window.setCurrentSearchUrl?.(url); } catch (e) {}
+            }
+            return originalGo(url, ...rest);
+          };
+        }
+        return frameObj;
+      };
+      Controller.__iframeSyncPatched = true;
+      return true;
+    } catch (e) {
+      return false;
+    }
+  }
+
   let lastTargetUrl = '';
 
   function getIframeUrl(iframe) {
@@ -147,8 +174,16 @@
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', watchIframeChanges);
+    document.addEventListener('DOMContentLoaded', () => {
+      watchIframeChanges();
+      const patchInterval = setInterval(() => {
+        if (patchScramjetNavigation()) clearInterval(patchInterval);
+      }, 500);
+    });
   } else {
     watchIframeChanges();
+    const patchInterval = setInterval(() => {
+      if (patchScramjetNavigation()) clearInterval(patchInterval);
+    }, 500);
   }
 })();
