@@ -1,6 +1,18 @@
 (function(){
+  function isFrameVisible(frame) {
+    if (!frame) return false;
+    if (frame.classList.contains('dnone')) return false;
+    if (frame.style && (frame.style.display === 'none' || frame.style.visibility === 'hidden')) return false;
+    const rect = frame.getBoundingClientRect();
+    return rect.width > 0 && rect.height > 0;
+  }
+
   function getIframe() {
-    return document.getElementById('frame') || document.getElementById('sj-frame');
+    const frame = document.getElementById('frame');
+    const sjFrame = document.getElementById('sj-frame');
+    if (sjFrame && isFrameVisible(sjFrame)) return sjFrame;
+    if (frame && isFrameVisible(frame)) return frame;
+    return sjFrame || frame;
   }
 
   function updateInputs(url){
