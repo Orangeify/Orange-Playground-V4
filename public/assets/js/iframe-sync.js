@@ -38,13 +38,13 @@
     if (iframe?.dataset && (iframe.dataset.originalUrl || iframe.dataset.targetUrl)) {
       return iframe.dataset.originalUrl || iframe.dataset.targetUrl;
     }
-
+    // Try multiple ways of extracting the encoded payload from common UV URL shapes
     let normalized = src;
     let encodedPath = src;
     try {
       const parsed = new URL(src, window.location.href);
       normalized = parsed.pathname;
-      encodedPath = parsed.pathname;
+      encodedPath = parsed.pathname + parsed.search + parsed.hash;
     } catch (e) {
       normalized = src;
       encodedPath = src;
@@ -52,18 +52,46 @@
 
     if (typeof __uv$config !== 'undefined' && __uv$config?.prefix && typeof __uv$config.decodeUrl === 'function') {
       const prefix = __uv$config.prefix;
-      const pos = normalized.indexOf(prefix);
-      if (pos !== -1) {
-        const enc = encodedPath.slice(pos + prefix.length);
-        try { return __uv$config.decodeUrl(enc); } catch (e) {
+      const candidates = [];
+
+      // Collect possible encoded substrings from several sources
+      [src, normalized, encodedPath].forEach((s) => {
+        const pos = s.indexOf(prefix);
+        if (pos !== -1) {
+          const encFull = s.slice(pos + prefix.length);
+          if (encFull) candidates.push(encFull);
+          const encNoSlash = encFull.replace(/^\/+/,'');
+          if (encNoSlash) candidates.push(encNoSlash);
+          const firstSeg = encNoSlash.split('/')[0];
+          if (firstSeg) candidates.push(firstSeg);
+        }
+      });
+
+      // Try decode attempts in order, prefer results that look like HTTP(s)
+      const tried = new Set();
+      for (const enc of candidates) {
+        if (!enc || tried.has(enc)) continue;
+        tried.add(enc);
+        try {
+          const decoded = __uv$config.decodeUrl(enc);
+          if (decoded && (/^https?:\/\//.test(decoded) || decoded.startsWith('about:'))) return decoded;
+          if (decoded) return decoded;
+        } catch (e) {
           try {
-            const decodedEnc = decodeURIComponent(enc);
-            return __uv$config.decodeUrl(decodedEnc);
-          } catch (err) {
-            return src;
+            const dec = decodeURIComponent(enc);
+            try {
+              const decoded2 = __uv$config.decodeUrl(dec);
+              if (decoded2 && (/^https?:\/\//.test(decoded2) || decoded2.startsWith('about:'))) return decoded2;
+              if (decoded2) return decoded2;
+            } catch (err) {
+              if (/^https?:\/\//.test(dec)) return dec;
+            }
+          } catch (err2) {
+            // ignore
           }
         }
       }
+      // If none of the candidates decoded, fallthrough to other strategies
     }
 
     const scramPrefix = '/scramjet/';
