@@ -40,34 +40,33 @@
     }
 
     let normalized = src;
-    let encodedPath = src;
     try {
       const parsed = new URL(src, window.location.href);
       normalized = parsed.pathname;
-      encodedPath = parsed.pathname;
     } catch (e) {
       normalized = src;
-      encodedPath = src;
     }
 
     if (typeof __uv$config !== 'undefined' && __uv$config?.prefix && typeof __uv$config.decodeUrl === 'function') {
       const prefix = __uv$config.prefix;
-      const pos = normalized.indexOf(prefix);
+      const pos = src.indexOf(prefix);
       if (pos !== -1) {
-        const enc = encodedPath.slice(pos + prefix.length);
-        try {
-          const decodedEnc = decodeURIComponent(enc);
-          return __uv$config.decodeUrl(decodedEnc);
-        } catch (e) {
-          try { return __uv$config.decodeUrl(enc); } catch (err) { return src; }
+        const enc = src.slice(pos + prefix.length);
+        try { return __uv$config.decodeUrl(enc); } catch (e) {
+          try {
+            const decodedEnc = decodeURIComponent(enc);
+            return __uv$config.decodeUrl(decodedEnc);
+          } catch (err) {
+            return src;
+          }
         }
       }
     }
 
     const scramPrefix = '/scramjet/';
-    const scramPos = normalized.indexOf(scramPrefix);
+    const scramPos = src.indexOf(scramPrefix);
     if (scramPos !== -1) {
-      const enc = normalized.slice(scramPos + scramPrefix.length);
+      const enc = src.slice(scramPos + scramPrefix.length);
       try {
         return decodeURIComponent(enc);
       } catch (e) {
