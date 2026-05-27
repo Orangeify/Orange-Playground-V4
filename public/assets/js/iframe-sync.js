@@ -55,7 +55,12 @@
       const pos = normalized.indexOf(prefix);
       if (pos !== -1) {
         const enc = encodedPath.slice(pos + prefix.length);
-        try { return __uv$config.decodeUrl(enc); } catch (e) { return src; }
+        try {
+          const decodedEnc = decodeURIComponent(enc);
+          return __uv$config.decodeUrl(decodedEnc);
+        } catch (e) {
+          try { return __uv$config.decodeUrl(enc); } catch (err) { return src; }
+        }
       }
     }
 
