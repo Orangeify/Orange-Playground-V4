@@ -40,18 +40,21 @@
     }
 
     let normalized = src;
+    let encodedPath = src;
     try {
       const parsed = new URL(src, window.location.href);
-      normalized = parsed.pathname + parsed.search + parsed.hash;
+      normalized = parsed.pathname;
+      encodedPath = parsed.pathname;
     } catch (e) {
       normalized = src;
+      encodedPath = src;
     }
 
     if (typeof __uv$config !== 'undefined' && __uv$config?.prefix && typeof __uv$config.decodeUrl === 'function') {
       const prefix = __uv$config.prefix;
       const pos = normalized.indexOf(prefix);
       if (pos !== -1) {
-        const enc = normalized.slice(pos + prefix.length);
+        const enc = encodedPath.slice(pos + prefix.length);
         try { return __uv$config.decodeUrl(enc); } catch (e) { return src; }
       }
     }
