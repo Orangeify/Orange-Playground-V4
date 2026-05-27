@@ -124,6 +124,14 @@
   }
 
   let lastTargetUrl = '';
+  let lastConfigState = typeof __uv$config !== 'undefined';
+
+  function isValidDecodedUrl(url) {
+    if (!url) return false;
+    if (/^https?:\/\//.test(url)) return true;
+    if (url.startsWith('about:')) return true;
+    return false;
+  }
 
   function getIframeUrl(iframe) {
     if (!iframe) return '';
@@ -144,8 +152,21 @@
   function syncIframe() {
     const iframe = getIframe();
     if (!iframe || !isIframeVisible(iframe)) return;
+    
+    const currentConfigState = typeof __uv$config !== 'undefined';
+    if (currentConfigState && !lastConfigState) {
+      lastConfigState = true;
+      lastTargetUrl = '';
+    }
+
     const target = getIframeUrl(iframe);
-    if (!target || target === lastTargetUrl) return;
+    if (!target) return;
+    
+    if (!isValidDecodedUrl(target)) {
+      return;
+    }
+    
+    if (target === lastTargetUrl) return;
     lastTargetUrl = target;
     updateInputs(target);
   }
