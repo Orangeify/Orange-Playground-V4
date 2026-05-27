@@ -10,6 +10,9 @@
     const nav = document.getElementById('nav-address');
     if (main) main.value = value;
     if (nav) nav.value = value;
+    if (typeof window.updateSearchPlaceholders === 'function') {
+      window.updateSearchPlaceholders();
+    }
   }
 
   function decodeProxyUrl(src, iframe) {

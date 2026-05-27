@@ -1,7 +1,8 @@
 "use strict";
 
 const searchForm = document.getElementById("search-address");
-let currentSearchUrl = "";
+let currentSearchUrl = window.currentSearchUrl || "";
+window.currentSearchUrl = currentSearchUrl;
 
 function getActiveFrame() {
   return document.getElementById("frame") || document.getElementById("sj-frame");
@@ -67,7 +68,7 @@ function getCurrentPageUrl() {
 }
 
 function updateSearchPlaceholders() {
-  const currentUrl = currentSearchUrl || "";
+  const currentUrl = window.currentSearchUrl || currentSearchUrl || "";
   const mainInput = document.getElementById("address");
   const navInput = document.getElementById("nav-address");
 
@@ -80,6 +81,7 @@ function updateSearchPlaceholders() {
     navInput.placeholder = "Search...";
   }
 }
+window.updateSearchPlaceholders = updateSearchPlaceholders;
 
 function searchFallback(input, template) {
   try {
@@ -147,6 +149,7 @@ function handleSearchSubmit(event) {
   if (form.id === 'nav-search-address') {
     event.preventDefault();
     currentSearchUrl = resolveSearchUrl(query, form);
+    window.currentSearchUrl = currentSearchUrl;
     const topForm = document.getElementById('search-address');
     if (topForm) {
       const topInput = topForm.querySelector('.input');
@@ -163,6 +166,7 @@ function handleSearchSubmit(event) {
 
   // For top search form, show navigation state and animation
   currentSearchUrl = resolveSearchUrl(query, form);
+  window.currentSearchUrl = currentSearchUrl;
   animateSearch(input);
   setNavigationState(true);
 }
@@ -189,6 +193,7 @@ if (searchForm) {
       return;
     }
     currentSearchUrl = resolveSearchUrl(query, searchForm);
+    window.currentSearchUrl = currentSearchUrl;
     updateSearchPlaceholders();
   });
 }
