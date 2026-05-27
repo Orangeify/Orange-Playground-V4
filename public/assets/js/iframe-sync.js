@@ -56,6 +56,17 @@
       }
     }
 
+    const scramPrefix = '/scramjet/';
+    const scramPos = normalized.indexOf(scramPrefix);
+    if (scramPos !== -1) {
+      const enc = normalized.slice(scramPos + scramPrefix.length);
+      try {
+        return decodeURIComponent(enc);
+      } catch (e) {
+        return src;
+      }
+    }
+
     if (src && /^https?:\/\//.test(src)) {
       return src;
     }
