@@ -125,56 +125,54 @@
         </div>
         </div>
     </nav>
-    <head>
+    <div id="proxy-loader">
         <!-- Proxy loader: loads either Scramjet or UV based on sj variable -->
         <script>
             // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
             const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
             let configLoaded = false;
             let retryTimeout;
-            
-            function loadUV() {
-                // Remove existing UV scripts
+
+            function loadScript(id, src) {
+                return new Promise((resolve, reject) => {
+                    const script = document.createElement('script');
+                    script.id = id;
+                    script.src = src;
+                    script.async = false;
+                    script.defer = false;
+                    script.onload = () => resolve(script);
+                    script.onerror = () => reject(new Error(`Failed to load ${src}`));
+                    document.head.appendChild(script);
+                });
+            }
+
+            async function loadUV() {
                 document.head.querySelectorAll('script[id^="uv-"]').forEach(s => s.remove());
-                
-                // Set status to failed
+                if (retryTimeout) {
+                    clearTimeout(retryTimeout);
+                    retryTimeout = null;
+                }
+
                 document.getElementById('uv-status').innerHTML = '<span style="color: red;">Ultraviolet Proxy failed. Refreshing...</span>';
-                
-                // Load UV (default)
-                const uvBundleScript = document.createElement('script');
-                uvBundleScript.id = 'uv-bundle';
-                uvBundleScript.src = 'uv/uv.bundle.js';
-                uvBundleScript.defer = true;
-                document.head.appendChild(uvBundleScript);
-                
-                const uvConfigScript = document.createElement('script');
-                uvConfigScript.id = 'uv-config';
-                uvConfigScript.src = 'uv/uv.config.js';
-                uvConfigScript.defer = true;
-                document.head.appendChild(uvConfigScript);
-                const uvRegisterScript = document.createElement('script');
-                uvRegisterScript.id = 'uv-register';
-                uvRegisterScript.src = 'uv/register-sw.js';
-                uvRegisterScript.defer = true;
-                document.head.appendChild(uvRegisterScript);
-                const uvSearchScript = document.createElement('script');
-                uvSearchScript.id = 'uv-search';
-                uvSearchScript.src = 'uv/search.js';
-                uvSearchScript.defer = true;
-                document.head.appendChild(uvSearchScript);
-                
-                const uvIndexScript = document.createElement('script');
-                uvIndexScript.id = 'uv-index';
-                uvIndexScript.src = 'uv/index.js';
-                uvIndexScript.defer = true;
-                uvIndexScript.onload = () => {
+
+                try {
+                    await loadScript('uv-bundle', 'uv/uv.bundle.js');
+                    await loadScript('uv-config', 'uv/uv.config.js');
+                    await loadScript('uv-register', 'uv/register-sw.js');
+                    await loadScript('uv-search', 'uv/search.js');
+                    await loadScript('uv-index', 'uv/index.js');
+
                     if (typeof window.Ultraviolet !== 'undefined') {
+                        configLoaded = true;
                         document.getElementById('uv-status').innerHTML = '<span style="color: green;">Ultraviolet Proxy successfully loaded!</span>';
                     } else {
-                        setTimeout(loadUV, 100);
+                        throw new Error('Ultraviolet not defined after loading UV scripts.');
                     }
-                };
-                document.head.appendChild(uvIndexScript);
+                } catch (err) {
+                    if (!configLoaded) {
+                        retryTimeout = setTimeout(loadUV, 100);
+                    }
+                }
             }
             
             function loadScramjet() {
@@ -224,7 +222,7 @@
         <!-- BareMux content -->
         <script src="baremux/index.js" defer></script>
         <script src="epoxy/index.js" defer></script>
-    </head>
+    </div>
     <body>
         <script src="assets/js/browser-ui.js"></script>
         <script src="assets/js/iframe-sync.js"></script>
