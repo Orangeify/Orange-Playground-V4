@@ -5,7 +5,13 @@
 
   function updateInputs(url){
     const value = url || '';
-    try { window.currentSearchUrl = value; } catch (e) {}
+    try {
+      if (typeof window.setCurrentSearchUrl === 'function') {
+        window.setCurrentSearchUrl(value);
+        return;
+      }
+      window.currentSearchUrl = value;
+    } catch (e) {}
     const main = document.getElementById('address');
     const nav = document.getElementById('nav-address');
     if (main) main.value = value;

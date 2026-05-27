@@ -4,6 +4,13 @@ const searchForm = document.getElementById("search-address");
 let currentSearchUrl = window.currentSearchUrl || "";
 window.currentSearchUrl = currentSearchUrl;
 
+function setCurrentSearchUrl(url) {
+  currentSearchUrl = url || "";
+  window.currentSearchUrl = currentSearchUrl;
+  updateSearchPlaceholders();
+}
+window.setCurrentSearchUrl = setCurrentSearchUrl;
+
 function getActiveFrame() {
   return document.getElementById("frame") || document.getElementById("sj-frame");
 }
@@ -148,8 +155,8 @@ function handleSearchSubmit(event) {
   // Only handle nav search form here; delegate to top form for proxy to handle
   if (form.id === 'nav-search-address') {
     event.preventDefault();
-    currentSearchUrl = resolveSearchUrl(query, form);
-    window.currentSearchUrl = currentSearchUrl;
+    const targetUrl = resolveSearchUrl(query, form);
+    setCurrentSearchUrl(targetUrl);
     const topForm = document.getElementById('search-address');
     if (topForm) {
       const topInput = topForm.querySelector('.input');
@@ -165,8 +172,8 @@ function handleSearchSubmit(event) {
   }
 
   // For top search form, show navigation state and animation
-  currentSearchUrl = resolveSearchUrl(query, form);
-  window.currentSearchUrl = currentSearchUrl;
+  const targetUrl = resolveSearchUrl(query, form);
+  setCurrentSearchUrl(targetUrl);
   animateSearch(input);
   setNavigationState(true);
 }
@@ -192,9 +199,8 @@ if (searchForm) {
     if (!query) {
       return;
     }
-    currentSearchUrl = resolveSearchUrl(query, searchForm);
-    window.currentSearchUrl = currentSearchUrl;
-    updateSearchPlaceholders();
+    const targetUrl = resolveSearchUrl(query, searchForm);
+    setCurrentSearchUrl(targetUrl);
   });
 }
 
