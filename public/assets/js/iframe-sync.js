@@ -268,4 +268,22 @@
       if (patchScramjetNavigation()) clearInterval(patchInterval);
     }, 500);
   }
+
+  // Poll for Ultraviolet config and force re-sync when it appears
+  (function watchUvConfig() {
+    if (typeof window === 'undefined') return;
+    let uvPoll = setInterval(() => {
+      if (typeof __uv$config !== 'undefined') {
+        clearInterval(uvPoll);
+        try { syncIframe(); } catch (e) {}
+        // Run a few extra attempts to catch async iframe updates
+        let attempts = 0;
+        const extra = setInterval(() => {
+          attempts++;
+          try { syncIframe(); } catch (e) {}
+          if (attempts >= 6) clearInterval(extra);
+        }, 200);
+      }
+    }, 100);
+  })();
 })();
