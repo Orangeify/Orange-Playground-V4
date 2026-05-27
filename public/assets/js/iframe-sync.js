@@ -95,13 +95,15 @@
   function getIframeUrl(iframe) {
     if (!iframe) return '';
     const src = iframe.src || iframe.getAttribute('src') || '';
+    let href = '';
     try {
-      const href = iframe.contentWindow?.location?.href;
-      if (href && href !== 'about:blank') {
-        return href;
-      }
+      href = iframe.contentWindow?.location?.href || '';
     } catch (e) {
-      // ignore cross-origin access failures.
+      href = '';
+    }
+    if (href && href !== 'about:blank') {
+      const decoded = decodeProxyUrl(href, iframe);
+      return decoded || href;
     }
     return decodeProxyUrl(src, iframe);
   }
