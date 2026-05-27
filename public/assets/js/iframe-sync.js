@@ -27,9 +27,21 @@
       return iframe.dataset.originalUrl || iframe.dataset.targetUrl;
     }
 
+    let normalized = src;
+    if (/^https?:\/\//.test(src)) {
+      try {
+        const parsed = new URL(src);
+        normalized = parsed.pathname + parsed.search + parsed.hash;
+      } catch (e) {
+        normalized = src;
+      }
+    }
+
     if (typeof __uv$config !== 'undefined' && __uv$config?.prefix && typeof __uv$config.decodeUrl === 'function') {
-      if (src.indexOf(__uv$config.prefix) === 0) {
-        const enc = src.slice(__uv$config.prefix.length);
+      const prefix = __uv$config.prefix;
+      const pos = normalized.indexOf(prefix);
+      if (pos !== -1) {
+        const enc = normalized.slice(pos + prefix.length);
         try { return __uv$config.decodeUrl(enc); } catch (e) { return src; }
       }
     }
@@ -55,11 +67,24 @@
 
   let lastTargetUrl = '';
 
+  function getIframeUrl(iframe) {
+    if (!iframe) return '';
+    const src = iframe.getAttribute('src') || iframe.src || '';
+    try {
+      const href = iframe.contentWindow?.location?.href;
+      if (href && href !== 'about:blank') {
+        return href;
+      }
+    } catch (e) {
+      // ignore cross-origin access failures.
+    }
+    return decodeProxyUrl(src, iframe);
+  }
+
   function syncIframe() {
     const iframe = getIframe();
     if (!iframe || !isIframeVisible(iframe)) return;
-    const src = iframe.getAttribute('src') || iframe.src || '';
-    const target = decodeProxyUrl(src, iframe);
+    const target = getIframeUrl(iframe);
     if (!target || target === lastTargetUrl) return;
     lastTargetUrl = target;
     updateInputs(target);
@@ -112,6 +137,13 @@
     });
 
     documentObserver.observe(document.body || document.documentElement, { childList: true, subtree: true });
+
+    setInterval(() => {
+      const iframe = getIframe();
+      if (iframe && isIframeVisible(iframe)) {
+        syncIframe();
+      }
+    }, 1000);
   }
 
   if (document.readyState === 'loading') {
