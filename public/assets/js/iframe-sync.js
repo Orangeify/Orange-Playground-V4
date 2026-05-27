@@ -28,13 +28,11 @@
     }
 
     let normalized = src;
-    if (/^https?:\/\//.test(src)) {
-      try {
-        const parsed = new URL(src);
-        normalized = parsed.pathname + parsed.search + parsed.hash;
-      } catch (e) {
-        normalized = src;
-      }
+    try {
+      const parsed = new URL(src, window.location.href);
+      normalized = parsed.pathname + parsed.search + parsed.hash;
+    } catch (e) {
+      normalized = src;
     }
 
     if (typeof __uv$config !== 'undefined' && __uv$config?.prefix && typeof __uv$config.decodeUrl === 'function') {
@@ -96,7 +94,7 @@
 
   function getIframeUrl(iframe) {
     if (!iframe) return '';
-    const src = iframe.getAttribute('src') || iframe.src || '';
+    const src = iframe.src || iframe.getAttribute('src') || '';
     try {
       const href = iframe.contentWindow?.location?.href;
       if (href && href !== 'about:blank') {
