@@ -8,9 +8,9 @@
     try {
       if (typeof window.setCurrentSearchUrl === 'function') {
         window.setCurrentSearchUrl(value);
-        return;
+      } else {
+        window.currentSearchUrl = value;
       }
-      window.currentSearchUrl = value;
     } catch (e) {}
     const main = document.getElementById('address');
     const nav = document.getElementById('nav-address');
