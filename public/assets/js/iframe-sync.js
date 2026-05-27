@@ -203,7 +203,21 @@
     if (!iframe || iframe.__iframeSyncObserved) return;
     iframe.__iframeSyncObserved = true;
 
-    iframe.addEventListener('load', syncIframe);
+    iframe.addEventListener('load', function onFrameLoad() {
+      try { syncIframe(); } catch (e) {}
+      // Retry reading iframe.src a few times after load to catch async nav updates
+      let attempts = 0;
+      const retryInterval = setInterval(() => {
+        attempts++;
+        try {
+          const newSrc = iframe.getAttribute('src') || iframe.src || (iframe.contentWindow && iframe.contentWindow.location && iframe.contentWindow.location.href) || '';
+          if (newSrc) {
+            try { syncIframe(); } catch (e) {}
+          }
+        } catch (e) {}
+        if (attempts >= 6) clearInterval(retryInterval);
+      }, 200);
+    });
 
     const observer = new MutationObserver((records) => {
       for (const record of records) {
