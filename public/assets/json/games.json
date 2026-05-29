@@ -27,7 +27,13 @@
       "title": "2048",
       "image": "./assets/imgs/icons/2048.png",
       "proxy": false,
-      "url": "https://orangeify.github.io/blookey-games/10-minutes-till-dawn/index.html"
+      "url": "https://orangeify.github.io/blooket-games/2048/index.html"
+    },
+    {
+      "title": "2048 Multitask",
+      "image": "https://assets.shuttlemath.com/2048-multitask/splash.png",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/2048-multitask/index.html"
     }
   ]
 }
