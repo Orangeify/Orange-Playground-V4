@@ -6,82 +6,28 @@
       "link": "https://discord.gg/wx3rzuEBRn"
     },
     {
-      "title": "1v1.LOL",
-      "image": "./assets/imgs/icons/1v1lol.jpg",
+      "title": "1",
+      "image": "./assets/imgs/icons/games/1.webp",
       "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/1v1-lol/index.html"
+      "url": "https://orangeify.github.io/blooket-games/1/index.html"
     },
     {
-      "title": "8-Ball Pool",
-      "image": "./assets/imgs/icons/8-ball-pool.webp",
+      "title": "10 Minutes Till Dawn",
+      "image": "./assets/imgs/icons/games/10.webp",
       "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/8-ball-pool/index.html"
+      "url": "https://orangeify.github.io/blooket-games/10-minutes-till-dawn/index.html"
+    },
+    {
+      "title": "100 Player Pong",
+      "image": "./assets/imgs/icons/games/100ng.webp",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/100ng/index.html"
     },
     {
       "title": "2048",
       "image": "./assets/imgs/icons/2048.png",
       "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/2048/index.html"
-    },
-    {
-      "title": "AaronOS",
-      "image": "./assets/imgs/icons/aaronos.png",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/aaron-os/index.html"
-    },
-    {
-      "title": "Absurd Trolley Problems",
-      "image": "./assets/imgs/icons/absurd-trolley-problems.jpg",
-      "proxy": true,
-      "url": "https://neal.fun/absurd-trolley-problems/"
-    },
-    {
-      "title": "Achievement Unlocked",
-      "image": "./assets/imgs/icons/achievement-unlocked.jpg",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/achievement-unlocked/index.html"
-    },
-    {
-      "title": "A Dance of Fire and Ice",
-      "image": "./assets/imgs/icons/adofai.png",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html"
-    },
-    {
-      "title": "Agar.io",
-      "image": "./assets/imgs/icons/agar-io.jpg",
-      "proxy": false,
-      "url": "https://agar.cc"
-    },
-    {
-      "title": "Alien Hominid",
-      "image": "./assets/imgs/icons/alien-hominid.jpg",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/alienhominid/index.html"
-    },
-    {
-      "title": "Among Us",
-      "image": "./assets/imgs/icons/amogus.jpg",
-      "proxy": false,
-      "url": "https://www.easyfun.gg/embed/among-us.html"
-    },
-    {
-      "title": "Angry Birds",
-      "image": "./assets/imgs/icons/angry-birds.jpg",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/angry-birds/index.html"
-    },
-    {
-      "title": "Asteroid Launcher",
-      "image": "./assets/imgs/icons/asteroid-launcher.png",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/asteroid-launcher/index.html"
-    },
-    {
-      "title": "Baldi's Basics",
-      "image": "./assets/imgs/icons/baldis-basics.png",
-      "proxy": false,
-      "url": "https://html5.gamemonetize.co/iiifrxhcnzl5laslqf3eaedtevjzb2bu/"
+      "url": "https://orangeify.github.io/blookey-games/10-minutes-till-dawn/index.html"
     }
   ]
 }
