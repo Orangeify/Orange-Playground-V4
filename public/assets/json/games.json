@@ -19,7 +19,7 @@
     },
     {
       "title": "100 Player Pong",
-      "image": "./assets/imgs/icons/games/100ng.webp",
+      "image": "https://assets.shuttlemath.com/100ng/100ng.jpg",
       "proxy": false,
       "url": "https://orangeify.github.io/blooket-games/100ng/index.html"
     },
