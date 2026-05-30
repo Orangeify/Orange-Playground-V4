@@ -46,6 +46,12 @@
       "image": "https://orangeify.github.io/blooket-games/9007199254740992/logo-4.png",
       "proxy": false,
       "url": "https://orangeify.github.io/blooket-games/9007199254740992/index.html"
+    },
+    {
+      "title": "AaronOS",
+      "image": "./assets/imgs/icons/aaronos.png",
+      "proxy": true,
+      "url": "https://aaronos.dev/AaronOS/aosBeta.php"
     }
   ]
 }
