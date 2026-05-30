@@ -40,6 +40,12 @@
       "image": "./assets/imgs/icons/8-ball-pool.webp",
       "proxy": true,
       "url": "https://bloobio-eightballpool.coolmathgames.com/8ballpool"
+    },
+    {
+      "title": "9007199254740992",
+      "image": "https://orangeify.github.io/blooket-games/9007199254740992/logo-4.png",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/9007199254740992/index.html"
     }
   ]
 }
