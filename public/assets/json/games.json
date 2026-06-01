@@ -70,6 +70,12 @@
       "image": "./assets/imgs/icons/games/adofai.webp",
       "proxy": false,
       "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html"
+    },
+    {
+      "title": "A Dance of Fire and Ice",
+      "image": "./assets/imgs/icons/games/adofai.webp",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html"
     }
   ]
 }
