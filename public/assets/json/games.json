@@ -76,6 +76,30 @@
       "image": "./assets/imgs/icons/games/adofai.webp",
       "proxy": false,
       "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html"
+    },
+    {
+      "title": "A Dark Room",
+      "image": "https://orangeify.github.io/blooket-games/adarkroom/splash.png",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/adarkroom/index.html"
+    },
+    {
+      "title": "Adrenaline Challenge",
+      "image": "https://orangeify.github.io/blooket-games/adrenalinechallenge/adrenalinechallenge.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/aderenalinechallenge/index.html"
+    },
+    {
+      "title": "Adventure Drivers",
+      "image": "https://orangeify.github.io/blooket-games/adventure-drivers/adrenalinechallenge.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/adventure-drivers/index.html"
+    },
+    {
+      "title": "Agar.io",
+      "image": "https://orangeify.github.io/blooket-games/adventure-drivers/adrenalinechallenge.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/adventure-drivers/index.html"
     }
   ]
 }
