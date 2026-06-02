@@ -61,15 +61,15 @@
     },
     {
       "title": "Ace Attorney - Phoenix Wright",
-      "image": "https://lh3.googleusercontent.com/sitesv/AA5AbUC4ixEMMnT6Vt_oBwUvrEae-_7QRApZ8mssYAJwkesqGZWXkGXfQa4msnjx4cNRDTYXy8K6ymaUF85-LuEx6GrAu6oBI2d6mI0HJ11Yc23_tPOlDYFFZ-KAn1ZmBK28hWz_Avgz6XxqZUxKeIe-aImaeq3nAPuQwaTUmX5iV6xR-T9fYtck3fMISQVzTPObuSNabuwkS65g4yMwNYuwMJoGflneTvo0mv18xCE=w1280",
-      "proxy": true,
-      "url": "https://www.retrogames.cc/embed/35266-phoenix-wright-ace-attorney-usa.html"
+      "image": "./assets/imgs/icons/ace-attorney.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/OPv4-ROMs/ace-attorney/index.html"
     },
     {
-      "title": "A Dance of Fire and Ice",
-      "image": "./assets/imgs/icons/games/adofai.webp",
+      "title": "Achievement Unlocked",
+      "image": "./assets/imgs/icons/achievement-unlocked.jpg",
       "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html"
+      "url": "https://orangeify.github.io/blooket-games/achievementunlocked/index.html"
     },
     {
       "title": "A Dance of Fire and Ice",
