@@ -97,9 +97,9 @@
     },
     {
       "title": "Agar.io",
-      "image": "https://orangeify.github.io/blooket-games/adventure-drivers/adrenalinechallenge.jpg",
-      "proxy": false,
-      "url": "https://orangeify.github.io/blooket-games/adventure-drivers/index.html"
+      "image": "https://cdn2.downdetector.com/static/uploads/c/300/4fa59/Agar.io.png",
+      "proxy": true,
+      "url": "https://agar.io/"
     }
   ]
 }
