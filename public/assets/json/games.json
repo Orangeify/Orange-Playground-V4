@@ -100,6 +100,30 @@
       "image": "https://cdn2.downdetector.com/static/uploads/c/300/4fa59/Agar.io.png",
       "proxy": true,
       "url": "https://agar.io/"
+    },
+    {
+      "title": "Ages of Conflict",
+      "image": "https://orangeify.github.io/blooket-games/ages-of-conflict/splash.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/ages-of-conflict/index.html"
+    },
+    {
+      "title": "Alien Hominid",
+      "image": "./assets/imgs/icons/alien-hominid.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/alienhominid/index.html"
+    },
+    {
+      "title": "Amidst the Clouds",
+      "image": "https://orangeify.github.io/blooket-games/amidst-the-clouds/splash.png",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/amidst-the-clouds/index.html"
+    },
+    {
+      "title": "Among Us",
+      "image": "./assets/imgs/icons/amogus.jpg",
+      "proxy": true,
+      "url": "https://www.easyfun.gg/cloud-games/among-us.html"
     }
   ]
 }
