@@ -87,7 +87,7 @@
       "title": "A Difficult Game About Climbing",
       "image": "./assets/imgs/icons/games/adgac.webp",
       "proxy": false,
-      "url": "./worksheets/adgac.html"
+      "url": "./adgac.html"
     },
     {
       "title": "Adrenaline Challenge",
