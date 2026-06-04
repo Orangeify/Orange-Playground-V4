@@ -84,6 +84,12 @@
       "url": "https://orangeify.github.io/blooket-games/adarkroom/index.html"
     },
     {
+      "title": "A Difficult Game About Climbing",
+      "image": "./assets/imgs/icons/games/adgac.webp",
+      "proxy": false,
+      "url": "./worksheets/adgac.html"
+    },
+    {
       "title": "Adrenaline Challenge",
       "image": "https://orangeify.github.io/blooket-games/adrenalinechallenge/adrenalinechallenge.jpg",
       "proxy": false,
@@ -118,6 +124,12 @@
       "image": "https://orangeify.github.io/blooket-games/amidst-the-clouds/splash.png",
       "proxy": false,
       "url": "https://orangeify.github.io/blooket-games/amidst-the-clouds/index.html"
+    },
+    {
+      "title": "Among Us",
+      "image": "./assets/imgs/icons/amogus.jpg",
+      "proxy": true,
+      "url": "https://www.easyfun.gg/cloud-games/among-us.html"
     },
     {
       "title": "Among Us",
