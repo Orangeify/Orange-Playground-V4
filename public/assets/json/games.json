@@ -96,6 +96,12 @@
       "url": "https://orangeify.github.io/blooket-games/aderenalinechallenge/index.html"
     },
     {
+      "title": "Adventure Capitalist",
+      "image": "https://play-lh.googleusercontent.com/yAKZV2kx81ojqMmNzXVRQQuaDXpqYoK7ZHLWRHy03HrCnQ5p6W5HaK9tQwcEjzvms0I",
+      "proxy": true,
+      "url": "https://than1089.github.io/adventure-capitalist"
+    },
+    {
       "title": "Adventure Drivers",
       "image": "https://orangeify.github.io/blooket-games/adventure-drivers/splash.png",
       "proxy": false,
@@ -120,16 +126,16 @@
       "url": "https://orangeify.github.io/blooket-games/alienhominid/index.html"
     },
     {
+      "title": "Amanda the Explorer",
+      "image": "./assets/imgs/icons/games/aman.webp",
+      "proxy": true,
+      "url": "https://raw.githack.com/genizy/web-port/a8bea5fd11f88e5a9192857f434e299c40efe7e6/amanda-the-adventurer/index.html"
+    },
+    {
       "title": "Amidst the Clouds",
       "image": "https://orangeify.github.io/blooket-games/amidst-the-clouds/splash.png",
       "proxy": false,
       "url": "https://orangeify.github.io/blooket-games/amidst-the-clouds/index.html"
-    },
-    {
-      "title": "Among Us",
-      "image": "./assets/imgs/icons/amogus.jpg",
-      "proxy": true,
-      "url": "https://www.easyfun.gg/cloud-games/among-us.html"
     },
     {
       "title": "Among Us",
