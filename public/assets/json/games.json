@@ -142,6 +142,12 @@
       "image": "./assets/imgs/icons/amogus.jpg",
       "proxy": true,
       "url": "https://www.easyfun.gg/cloud-games/among-us.html"
+    },
+    {
+      "title": "Angry Birds",
+      "image": "./assets/imgs/icons/games/angry.webp",
+      "proxy": true,
+      "url": "https://rawcdn.githack.com/lioxryt/lioxryt-assets/0cf7d107ddb99c99ea20387522aa29b8ee382049/other/angrybirds/index.html"
     }
   ]
 }
