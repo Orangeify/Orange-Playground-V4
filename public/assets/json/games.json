@@ -48,6 +48,12 @@
       "url": "https://orangeify.github.io/blooket-games/9007199254740992/index.html"
     },
     {
+      "title": "99 Balls",
+      "image": "https://orangeify.github.io/blooket-games/99balls/99-balls-evo.jpg",
+      "proxy": false,
+      "url": "https://orangeify.github.io/blooket-games/99balls/index.html"
+    },
+    {
       "title": "AaronOS",
       "image": "./assets/imgs/icons/aaronos.png",
       "proxy": true,
@@ -129,7 +135,7 @@
       "title": "Amanda the Adventurer",
       "image": "./assets/imgs/icons/games/aman.webp",
       "proxy": true,
-      "url": "https://raw.githack.com/genizy/web-port/a8bea5fd11f88e5a9192857f434e299c40efe7e6/amanda-the-adventurer/index.html"
+      "url": "https://orangeify.github.io/genizy-pc/Amanda%20the%20Adventurer.html"
     },
     {
       "title": "Amidst the Clouds",
@@ -148,6 +154,12 @@
       "image": "./assets/imgs/icons/games/angry.webp",
       "proxy": true,
       "url": "https://rawcdn.githack.com/lioxryt/lioxryt-assets/0cf7d107ddb99c99ea20387522aa29b8ee382049/other/angrybirds/index.html"
+    },
+    {
+      "title": "Animal Crossing: Population Growing",
+      "image": "https://truffled.lol/png/games/acpg.webp",
+      "proxy": true,
+      "url": "https://orangeify.github.io/genizy-pc/Animal%20Crossing%20(GAMECUBE).html"
     }
   ]
 }
