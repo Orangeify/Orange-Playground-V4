@@ -25,19 +25,19 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/1v1-lol/index.html",
-    "title": "index",
+    "title": "1v1.lol",
     "image": "",
     "proxy": false
   },
   {
     "url": "https://orangeify.github.io/blooket-games/1v1-lol/new/index.html",
-    "title": "index",
+    "title": "1v1.lol",
     "image": "",
     "proxy": false
   },
   {
     "url": "https://orangeify.github.io/blooket-games/1v1space/index.html",
-    "title": "1v1",
+    "title": "1v1 Space",
     "image": "https://orangeify.github.io/blooket-games/1v1space/splash.png",
     "proxy": false
   },
@@ -55,7 +55,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/8-ball-pool/index.html",
-    "title": "index",
+    "title": "8 Ball Pool",
     "image": "",
     "proxy": false
   },
@@ -79,7 +79,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/DOOMORI/index.html",
-    "title": "Unity WebGL Player | Doomori",
+    "title": "Doomori",
     "image": "https://orangeify.github.io/blooket-games/DOOMORI/splash.png",
     "proxy": false
   },
@@ -139,13 +139,13 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/ShapeShootout/index.html",
-    "title": "Unity WebGL Player | Shape Shootout",
+    "title": "  Shape Shootout",
     "image": "https://orangeify.github.io/blooket-games/ShapeShootout/Icon.png",
     "proxy": false
   },
   {
     "url": "https://orangeify.github.io/blooket-games/Stickman-Survival/index.html",
-    "title": "Unity WebGL Player | Stickman vs Zombies",
+    "title": "  Stickman vs Zombies",
     "image": "https://orangeify.github.io/blooket-games/Stickman-Survival/Icon.png",
     "proxy": false
   },
@@ -187,7 +187,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/aaron-os/index.html",
-    "title": "index",
+    "title": "Aaron OS",
     "image": "",
     "proxy": false
   },
@@ -223,7 +223,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/adventure-drivers/assets/sounds/index.html",
-    "title": "index",
+    "title": "Adventure Drivers",
     "image": "https://orangeify.github.io/blooket-games/adventure-drivers/splash.png",
     "proxy": false
   },
@@ -331,7 +331,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/bacon-may-die/index.html",
-    "title": "index",
+    "title": "Bacon May Die",
     "image": "https://orangeify.github.io/blooket-games/bacon-may-die/splash.png",
     "proxy": false
   },
@@ -889,7 +889,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/duke-nukem-2/index.html",
-    "title": "index",
+    "title": "Duke Nukem 2",
     "image": "https://orangeify.github.io/blooket-games/duke-nukem-2/splash.jpg",
     "proxy": false
   },
@@ -1765,7 +1765,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/gearsofbabies/index.html",
-    "title": "Unity WebGL Player | GearsOfBabies",
+    "title": "  GearsOfBabies",
     "image": "https://orangeify.github.io/blooket-games/gearsofbabies/TemplateData/webgl-logo.png",
     "proxy": false
   },
@@ -1795,13 +1795,13 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/geogeo/index.html",
-    "title": "Unity WebGL Player | GeometryGeometry",
+    "title": "  GeometryGeometry",
     "image": "https://orangeify.github.io/blooket-games/geogeo/TemplateData/unity-logo-dark.png",
     "proxy": false
   },
   {
     "url": "https://orangeify.github.io/blooket-games/geops1/index.html",
-    "title": "index",
+    "title": "Geops1",
     "image": "",
     "proxy": false
   },
@@ -1849,7 +1849,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/gmonster/index.html",
-    "title": "index",
+    "title": "GMonster",
     "image": "",
     "proxy": false
   },
@@ -1867,7 +1867,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/goodnight-meowmie/index.html",
-    "title": "Unity WebGL Player | Goodnight Meowmie",
+    "title": "  Goodnight Meowmie",
     "image": "https://orangeify.github.io/blooket-games/goodnight-meowmie/splash.png",
     "proxy": false
   },
@@ -1951,7 +1951,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/hellscaper/WebGL/index.html",
-    "title": "Unity WebGL Player | tufts_capstone",
+    "title": "  tufts_capstone",
     "image": "https://orangeify.github.io/blooket-games/hellscaper/WebGL/TemplateData/unity-logo-light.png",
     "proxy": false
   },
@@ -2047,7 +2047,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/invite-the-blackbird/index.html",
-    "title": "Unity WebGL Player | Invite The Blackbird",
+    "title": "  Invite The Blackbird",
     "image": "https://orangeify.github.io/blooket-games/invite-the-blackbird/splash.png",
     "proxy": false
   },
@@ -2065,7 +2065,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/jetpack-joyride/assets/audio/index.html",
-    "title": "index",
+    "title": "Jetpack Joyride",
     "image": "https://orangeify.github.io/blooket-games/jetpack-joyride/splash.jpg",
     "proxy": false
   },
@@ -2347,7 +2347,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/my-rusty-submarine/index.html",
-    "title": "Unity WebGL Player | MyRustySubmarine",
+    "title": "  MyRustySubmarine",
     "image": "https://orangeify.github.io/blooket-games/my-rusty-submarine/splash.png",
     "proxy": false
   },
@@ -2707,7 +2707,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/out-of-ctrl/OutOfCtrl_v1_2/index.html",
-    "title": "Unity WebGL Player | OutOfCtrl",
+    "title": "  OutOfCtrl",
     "image": "",
     "proxy": false
   },
@@ -3295,7 +3295,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/roblox/index.html",
-    "title": "index",
+    "title": "Roblox",
     "image": "",
     "proxy": false
   },
@@ -3331,7 +3331,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/roommate/31/index.html",
-    "title": "Unity WebGL Player | 4",
+    "title": "  4",
     "image": "https://orangeify.github.io/blooket-games/roommate/31/TemplateData/unity-logo-light.png",
     "proxy": false
   },
@@ -3505,7 +3505,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/snowrider3d/index.html",
-    "title": "Unity WebGL Player | Snow Rider 3D",
+    "title": "  Snow Rider 3D",
     "image": "https://orangeify.github.io/blooket-games/snowrider3d/images/logo.png",
     "proxy": false
   },
@@ -3589,7 +3589,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/ssurferbotleg/index.html",
-    "title": "Unity WebGL Player | Yes",
+    "title": "  Yes",
     "image": "https://orangeify.github.io/blooket-games/ssurferbotleg/TemplateData/webgl-logo.png",
     "proxy": false
   },
@@ -3643,7 +3643,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/stationmeltdown/index.html",
-    "title": "Unity WebGL Player | Station Meltdown",
+    "title": "  Station Meltdown",
     "image": "https://orangeify.github.io/blooket-games/stationmeltdown/image.png",
     "proxy": false
   },
@@ -3661,7 +3661,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/stick-duel-battle/images/index.html",
-    "title": "index",
+    "title": "Stick Duel Battle",
     "image": "https://orangeify.github.io/blooket-games/stick-duel-battle/images/shared-3-sheet0.png",
     "proxy": false
   },
@@ -3709,7 +3709,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/stumble-guys/index.html",
-    "title": "index",
+    "title": "Stumble Guys",
     "image": "https://orangeify.github.io/blooket-games/stumble-guys/stumble-guys.jpeg",
     "proxy": false
   },
@@ -4015,7 +4015,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/webcleaner/index.html",
-    "title": "Unity WebGL Player | LD51",
+    "title": "  LD51",
     "image": "https://orangeify.github.io/blooket-games/webcleaner/TemplateData/unity-logo-dark.png",
     "proxy": false
   },
@@ -4117,7 +4117,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/wounded-summer-baby-edition/index.html",
-    "title": "Unity WebGL Player | Wounded Summer",
+    "title": "  Wounded Summer",
     "image": "https://orangeify.github.io/blooket-games/wounded-summer-baby-edition/TemplateData/webgl-logo.png",
     "proxy": false
   },
@@ -4135,7 +4135,7 @@
   },
   {
     "url": "https://orangeify.github.io/blooket-games/yohoho/index.html",
-    "title": "index",
+    "title": "Yohoho.io",
     "image": "https://orangeify.github.io/blooket-games/yohoho/yohoho.png",
     "proxy": false
   },
