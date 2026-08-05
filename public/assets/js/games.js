@@ -65,20 +65,48 @@ async function loadCards(libKey = "orange-playground") {
     const container = document.querySelector(".square-grid");
     if (!container) return;
     container.innerHTML = "";
-
     let url;
+    let data = null;
     if (libKey === "orange-playground") {
       url = "./assets/json/games.json";
     } else {
-      // try to fetch a games.json from the remote library; map UI values to CDN folders
+      // try to fetch data via gms.js loaders first (if present on the page)
       const lib = LIB_MAP[libKey] || libKey;
-      url = `${LIB_BASE}${lib}/games.json`;
+
+      async function tryGmsLoad(libName) {
+        try {
+          if (window && window.LOADER_MAP && typeof window.LOADER_MAP[libName] === 'function') {
+            await Promise.race([window.LOADER_MAP[libName](), new Promise(res => setTimeout(res, 4000))]);
+            if (window.DATA && window.DATA[libName]) return window.DATA[libName];
+          }
+
+          const candidates = [
+            `load${libName}`,
+            `load${libName.toUpperCase()}`,
+            `load${libName[0].toUpperCase()}${libName.slice(1)}`
+          ];
+          for (const name of candidates) {
+            if (window && typeof window[name] === 'function') {
+              await Promise.race([window[name](), new Promise(res => setTimeout(res, 4000))]);
+              if (window.DATA && window.DATA[libName]) return window.DATA[libName];
+            }
+          }
+        } catch (e) {}
+        return null;
+      }
+
+      data = await tryGmsLoad(lib);
+      if (!data) {
+        // fallback to CDN JSON
+        url = `${LIB_BASE}${lib}/games.json`;
+      }
     }
 
-    const response = await fetch(url).catch(() => null);
-    let data = null;
-    if (response && response.ok) {
-      try { data = await response.json(); } catch (e) { data = null; }
+    if (!data && url) {
+      const response = await fetch(url).catch(() => null);
+      if (response && response.ok) {
+        try { data = await response.json(); } catch (e) { data = null; }
+      }
     }
 
     // If remote fetch failed or returned nothing, try a few fallbacks for common names
