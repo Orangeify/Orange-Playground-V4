@@ -267,7 +267,7 @@ async function loadNowGG() {
       return {
         name: g.name,
         img: g.img || FALLBACK_IMG,
-        url: "/sail/embed/#" + cleanUrl
+        url: cleanUrl
       };
     }).filter(Boolean));
   } catch (e) {
