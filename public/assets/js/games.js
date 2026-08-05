@@ -247,7 +247,7 @@ async function loadTruffled() {
       return {
         name: g.name || "Unknown",
         img: thumb ? "https://cdn.jsdelivr.net/gh/aukak/truffled@main/public/png/games/" + thumb : FALLBACK_IMG,
-        url: "/sail/embed/#https://truffled.lol/" + g.url.replace(/^\/+/, "")
+        url: "https://truffled.lol/" + g.url.replace(/^\/+/, "")
       };
     }).filter(Boolean));
   } catch (e) {
