@@ -22,7 +22,7 @@
         <div class="loader">
             <div id="message" class="loader-message">Loading...</div>
         </div>
-        <iframe id="sj-frame" class="dnone" style="width:100%;height:100vh;border:none;"></iframe>
+        <iframe id="sj-frame" class="dnone"></iframe>
         <nav class="bottom-nav">
             <div class="nav-container">
                 <a href="../index.html" class="nav-item nav-home active">
@@ -72,20 +72,13 @@
                 if (!embedUrl && message) message.textContent = 'No proxy game URL provided.';
                 if (loader) loader.classList.add('loader--hidden');
 
-                const iframe = document.getElementById('sj-frame');
-                if (iframe && embedUrl) {
-                    iframe.src = embedUrl;
-                    iframe.style.display = 'block';
-                    iframe.classList.remove('dnone');
-                }
-
                 try {
                     await registerSW();
                 } catch (err) {
                     console.error('Failed to register service worker.', err);
                 }
 
-                if (embedUrl && typeof $scramjetLoadController === 'function') {
+                if (embedUrl) {
                     const { ScramjetController } = $scramjetLoadController();
                     const scramjet = new ScramjetController({
                         files: {
