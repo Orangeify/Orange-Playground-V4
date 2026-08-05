@@ -72,7 +72,11 @@ function createCardElement(card) {
   const embedUrl = card.url || card.embedUrl || card.src || card.link || card.href;
   let href = card.link || card.href || card.page;
 
-  if (card.hasOwnProperty("proxy") && embedUrl) {
+  if (CURRENT_LIBRARY && QUIZLET_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+    if (embedUrl) {
+      href = `/worksheets/quizlet-hw.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
+    }
+  } else if (card.hasOwnProperty("proxy") && embedUrl) {
     const page = card.proxy ? "/assessments/blooket-sg.html" : "/worksheets/quizlet-hw.html";
     href = `${page}?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
   }
@@ -102,6 +106,23 @@ const LIB_MAP = {
   "velera": "velera",
   "now-gg": "nowgg"
 };
+
+const QUIZLET_REDIRECT_LIBS = new Set([
+  "3kh0",
+  "gn",
+  "ugs",
+  "ckv",
+  "shuttleproxy",
+  "truffled",
+  "hydra",
+  "youtube",
+  "selenite",
+  "seraph",
+  "velera",
+  "nowgg"
+]);
+
+let CURRENT_LIBRARY = null;
 
 async function loadGN() {
   try {
@@ -371,6 +392,7 @@ async function loadCards(libKey = "orange-playground") {
     if (libKey === "orange-playground") {
       url = "./assets/json/games.json";
     } else {
+      CURRENT_LIBRARY = lib;
       if (LIB_LOADERS[lib]) {
         data = await LIB_LOADERS[lib]();
       }
