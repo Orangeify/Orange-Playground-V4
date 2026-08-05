@@ -72,9 +72,9 @@ function createCardElement(card) {
   const embedUrl = card.url || card.embedUrl || card.src || card.link || card.href;
   let href = card.link || card.href || card.page;
 
-  if (CURRENT_LIBRARY && QUIZLET_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+  if (CURRENT_LIBRARY && BLOOKET_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
     if (embedUrl) {
-      href = `/worksheets/quizlet-hw.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
+      href = `/assessments/blooket-sg.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
     }
   } else if (card.hasOwnProperty("proxy") && embedUrl) {
     const page = card.proxy ? "/assessments/blooket-sg.html" : "/worksheets/quizlet-hw.html";
@@ -107,7 +107,7 @@ const LIB_MAP = {
   "now-gg": "nowgg"
 };
 
-const QUIZLET_REDIRECT_LIBS = new Set([
+const BLOOKET_REDIRECT_LIBS = new Set([
   "3kh0",
   "gn",
   "ugs",
