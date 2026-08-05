@@ -329,7 +329,7 @@ async function load3kh0() {
 
 async function loadShuttleProxy() {
   try {
-    const r = await fetch("/games/data/json/shuttleproxy.json");
+    const r = await fetch("https://bloxcraft.win/games/data/json/shuttleproxy.json");
     if (!r.ok) return [];
     const d = await r.json();
     return dedupeGames(safeArray(d).map(g => {
@@ -339,7 +339,7 @@ async function loadShuttleProxy() {
       return {
         name: g.name,
         img: cleanImg ? "https://winf-dictionary.dk-ubg.workers.dev/cdn/proxy/image/https://assets.shuttlemath.com/" + cleanRoot + cleanImg : FALLBACK_IMG,
-        url: "/sail/embed/#https://assets.shuttlemath.com/" + g.root
+        url: "https://assets.shuttlemath.com/" + g.root
       };
     }).filter(Boolean));
   } catch (e) {
