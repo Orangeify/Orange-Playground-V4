@@ -304,7 +304,7 @@ async function loadVelera() {
       return {
         name: g.title,
         img: "https://math-of-cc.dk-ubg.workers.dev/" + String(g.image || "").replace(/^\/+/, ""),
-        url: "/sail/embed/#https://velara.cc/" + String(g.location || "").replace(/^\/+/, "")
+        url: "https://velara.cc/" + String(g.location || "").replace(/^\/+/, "")
       };
     }).filter(Boolean));
   } catch (e) {
