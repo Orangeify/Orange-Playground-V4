@@ -134,7 +134,7 @@ async function loadGN() {
       .map(g => ({
         name: g.name,
         img: "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/" + (g.cover || "").replace("{COVER_URL}", ""),
-        url: "/app-viewer/gn-math/?gn-id=" + g.id
+        url: "https://cdn.jsdelivr.net/gh/freebuisness/html@master/" + g.id
       })));
   } catch (e) {
     return [];
