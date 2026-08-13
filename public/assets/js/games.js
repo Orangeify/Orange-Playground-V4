@@ -286,7 +286,7 @@ async function loadSelenite() {
       return {
         name: g.name,
         img: "https://math-quests-cc.dk-ubg.workers.dev/resources/semag/" + dir + "/" + g.image,
-        url: "/sail/embed/#https://selenite.cc/resources/semag/" + dir + "/index.html"
+        url: "https://selenite.cc/resources/semag/" + dir + "/index.html"
       };
     }).filter(Boolean));
   } catch (e) {
