@@ -131,11 +131,17 @@ async function loadGN() {
     const d = await r.json();
     return dedupeGames(safeArray(d)
       .filter(g => g.id !== -1 && g.name && !g.name.startsWith("[!]"))
-      .map(g => ({
-        name: g.name,
-        img: "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/" + (g.cover || "").replace("{COVER_URL}", ""),
-        url: "https://bloxcraft.win/app-viewer/gn-math/?gn-id=" + g.id 
-      })));
+      .map(g => {
+        let gameUrl = g.url || "";
+        if (gameUrl) {
+          gameUrl = gameUrl.replace("{HTML_URL}", "https://cdn.jsdelivr.net/gh/freebuisness/html@master");
+        }
+        return {
+          name: g.name,
+          img: "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/" + (g.cover || "").replace("{COVER_URL}", ""),
+          url: gameUrl
+        };
+      }));
   } catch (e) {
     return [];
   }
