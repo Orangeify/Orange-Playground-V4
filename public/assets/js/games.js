@@ -134,7 +134,7 @@ async function loadGN() {
       .map(g => ({
         name: g.name,
         img: "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/" + (g.cover || "").replace("{COVER_URL}", ""),
-        url: "https://cdn.jsdelivr.net/gh/freebuisness/html@master/" + g.id + ".html"
+        url: "https://bloxcraft.win/app-viewer/gn-math/?gn-id=" + g.id 
       })));
   } catch (e) {
     return [];
