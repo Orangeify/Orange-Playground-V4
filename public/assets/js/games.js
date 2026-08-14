@@ -320,7 +320,7 @@ async function load3kh0() {
     return dedupeGames(safeArray(d).map(name => ({
       name,
       img: "https://raw.githack.com/tharun9772/3kh0-assets/main/" + name + "/splash.png",
-      url: "/app-viewer/3kh0/?view=" + encodeURIComponent(name)
+      url: "https://raw.githack.com/tharun9772/3kh0-assets/main/" + encodeURIComponent(name) + "/index.html"
     })));
   } catch (e) {
     return [];
