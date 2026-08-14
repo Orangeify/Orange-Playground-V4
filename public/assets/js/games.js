@@ -213,7 +213,7 @@ async function loadCKV() {
 
 async function loadHydra() {
   try {
-    const r = await fetch("https://cdn.jsdelivr.net/gh/tharuniscool/hydra-assets@main/gmes.json");
+    const r = await fetch("https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/hh@main/gmes.json");
     if (!r.ok) return [];
     const d = await r.json();
     const rawArray = Array.isArray(d) ? d : safeArray(d);
@@ -228,7 +228,7 @@ async function loadHydra() {
       return {
         name: g.title || g.name || "Unknown",
         img: thumb,
-        url: "/app-viewer/hydra-network/?view=" + encodeURIComponent(file)
+        url: "https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/hh@main/gmes/" + encodeURIComponent(file)
       };
     }).filter(Boolean));
   } catch (e) {
