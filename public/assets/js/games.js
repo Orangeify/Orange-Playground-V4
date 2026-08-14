@@ -114,7 +114,6 @@ const BLOOKET_REDIRECT_LIBS = new Set([
   "ckv",
   "shuttleproxy",
   "truffled",
-  "hydra",
   "youtube",
   "selenite",
   "seraph",
