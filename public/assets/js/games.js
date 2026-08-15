@@ -139,7 +139,7 @@ async function loadGN() {
         return {
           name: g.name,
           img: "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/" + (g.cover || "").replace("{COVER_URL}", ""),
-          url: gameUrl + g.id + ".html"
+          url: gameUrl
         };
       }));
   } catch (e) {
