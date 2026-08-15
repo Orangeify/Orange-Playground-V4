@@ -135,6 +135,7 @@ async function loadGN() {
         let gameUrl = g.url || "";
         if (gameUrl) {
           gameUrl = gameUrl.replace("{HTML_URL}", "https://cdn.jsdelivr.net/gh/freebuisness/html@master");
+          gameUrl = gameUrl + "?gn-id=" + encodeURIComponent(g.id);
         }
         return {
           name: g.name,
