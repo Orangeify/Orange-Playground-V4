@@ -213,7 +213,7 @@ async function loadCKV() {
       return {
         name: g.name || g.title || "Unknown",
         img: img,
-        url: "/app-viewer/chicken-kings-vault/?view=" + encodeURIComponent(gameUrl)
+        url: "https://wanocapy.github.io/ChickenKingsVault/gamefiles/" + encodeURIComponent(gameUrl)
       };
     }).filter(Boolean));
   } catch (e) {
