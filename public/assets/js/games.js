@@ -76,6 +76,22 @@ function createCardElement(card) {
     if (embedUrl) {
       href = embedUrl;
     }
+  } else if (CURRENT_LIBRARY && CKV_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+    if (embedUrl) {
+      href = embedUrl;
+    }
+  } else if (CURRENT_LIBRARY && SERAPH_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+    if (embedUrl) {
+      href = embedUrl;
+    }
+  } else if (CURRENT_LIBRARY && HYDRA_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+    if (embedUrl) {
+      href = embedUrl;
+    }
+  } else if (CURRENT_LIBRARY && YOUTUBE_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+    if (embedUrl) {
+      href = embedUrl;
+    }
   } else if (CURRENT_LIBRARY && BLOOKET_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
     if (embedUrl) {
       href = `/assessments/blooket-sg.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
@@ -116,16 +132,28 @@ const GN_REDIRECT_LIBS = new Set([
   "gn"
 ]);
 
+const CKV_REDIRECT_LIBS = new Set([
+  "ckv"
+]);
+
+const SERAPH_REDIRECT_LIBS = new Set([
+  "seraph"
+]);
+
+const HYDRA_REDIRECT_LIBS = new Set([
+  "hydra"
+]);
+
+const YOUTUBE_REDIRECT_LIBS = new Set([
+  "youtube"
+]);
+
 const BLOOKET_REDIRECT_LIBS = new Set([
   "3kh0",
   "ugs",
-  "ckv",
   "shuttleproxy",
   "truffled",
-  "hydra",
-  "youtube",
   "selenite",
-  "seraph",
   "velera",
   "nowgg"
 ]);
@@ -193,7 +221,7 @@ async function loadSeraph() {
     return dedupeGames(safeArray(d).map(g => ({
       name: g.name || "Unknown",
       img: g.img || FALLBACK_IMG,
-      url: "/app-viewer/seraph/?view=" + (g.url ? g.url.replace(BASE, "") : "")
+      url: "/worksheets/wayground-live.html?title=" + encodeURIComponent(g.name || "Unknown") + "&view=" + (g.url ? encodeURIComponent(g.url.replace(BASE, "")) : "")
     })));
   } catch (e) {
     return [];
@@ -213,7 +241,7 @@ async function loadCKV() {
       return {
         name: g.name || g.title || "Unknown",
         img: img,
-        url: "https://wanocapy.github.io/ChickenKingsVault/gamefiles/" + encodeURIComponent(gameUrl)
+        url: "/worksheets/ixl-ela.html?title=" + encodeURIComponent(g.name || g.title || "Unknown") + "&view=" + encodeURIComponent(gameUrl)
       };
     }).filter(Boolean));
   } catch (e) {
@@ -238,7 +266,7 @@ async function loadHydra() {
       return {
         name: g.title || g.name || "Unknown",
         img: thumb,
-        url: "https://cdn.jsdelivr.net/gh/1234chromebook1234-creator/hh@main/gmes/" + encodeURIComponent(file)
+        url: "/worksheets/gimkit-sci.html?title=" + encodeURIComponent(g.title || g.name || "Unknown") + "&view=" + encodeURIComponent(file)
       };
     }).filter(Boolean));
   } catch (e) {
@@ -367,7 +395,7 @@ async function loadYoutube() {
       return {
         name: g.name,
         img: "/youtube.png",
-        url: "/app-viewer/youtube-playables/?view=" + encodeURIComponent(g.name)
+        url: "/worksheets/formative-math.html?title=" + encodeURIComponent(g.name) + "&view=" + encodeURIComponent(g.name)
       };
     }).filter(Boolean));
   } catch (e) {
