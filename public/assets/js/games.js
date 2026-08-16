@@ -175,7 +175,7 @@ async function loadUGS() {
         return {
           name: displayName || f,
           img: "https://cdn.jsdelivr.net/gh/tharun9772/game-assets@main/5968517.png",
-          url: "/app-viewer/ugs-files?view=" + encodeURIComponent(normalizedName)
+          url: "https://raw.githack.com/bubbls/ugs-singlefile/main/UGS-Files/" + encodeURIComponent(normalizedName)
         };
       }));
   } catch (e) {
