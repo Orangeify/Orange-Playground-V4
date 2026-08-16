@@ -72,7 +72,11 @@ function createCardElement(card) {
   const embedUrl = card.url || card.embedUrl || card.src || card.link || card.href;
   let href = card.link || card.href || card.page;
 
-  if (CURRENT_LIBRARY && BLOOKET_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+  if (CURRENT_LIBRARY && GN_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+    if (embedUrl) {
+      href = embedUrl;
+    }
+  } else if (CURRENT_LIBRARY && BLOOKET_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
     if (embedUrl) {
       href = `/assessments/blooket-sg.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
     }
@@ -107,9 +111,13 @@ const LIB_MAP = {
   "now-gg": "nowgg"
 };
 
+// Libraries that redirect directly (no proxy wrapping)
+const GN_REDIRECT_LIBS = new Set([
+  "gn"
+]);
+
 const BLOOKET_REDIRECT_LIBS = new Set([
   "3kh0",
-  "gn",
   "ugs",
   "ckv",
   "shuttleproxy",
@@ -132,15 +140,10 @@ async function loadGN() {
     return dedupeGames(safeArray(d)
       .filter(g => g.id !== -1 && g.name && !g.name.startsWith("[!]"))
       .map(g => {
-        let gameUrl = g.url || "";
-        if (gameUrl) {
-          gameUrl = gameUrl.replace("{HTML_URL}", "https://cdn.jsdelivr.net/gh/freebuisness/html@master");
-          gameUrl = gameUrl + "?gn-id=" + encodeURIComponent(g.id);
-        }
         return {
           name: g.name,
           img: "https://cdn.jsdelivr.net/gh/freebuisness/covers@main/" + (g.cover || "").replace("{COVER_URL}", ""),
-          url: gameUrl
+          url: `/worksheets/kahoot-hw.html?title=${encodeURIComponent(g.name)}&gn-id=${encodeURIComponent(g.id)}`
         };
       }));
   } catch (e) {
