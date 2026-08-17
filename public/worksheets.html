@@ -87,5 +87,72 @@
     <script src="assets/js/panic-key.js"></script>
     <script src="assets/js/theme-selector.js"></script>
     <script src="assets/js/games.js" defer></script>
+        <script>
+        function loadLuminScript() {
+            return new Promise((resolve, reject) => {
+                if (window.Lumin) {
+                    resolve();
+                    return;
+                }
+
+                const existing = document.querySelector('script[data-lumin-sdk="true"]');
+                if (existing) {
+                    existing.addEventListener('load', resolve, { once: true });
+                    existing.addEventListener('error', () => reject(new Error('Lumin SDK failed to load')), { once: true });
+                    return;
+                }
+
+                const script = document.createElement('script');
+                script.src = 'https://cdn.jsdelivr.net/gh/luminsdk/script@latest/lumin.min.js';
+                script.async = true;
+                script.dataset.luminSdk = 'true';
+                script.onload = resolve;
+                script.onerror = () => reject(new Error('Lumin SDK failed to load'));
+                document.head.appendChild(script);
+            });
+        }
+
+        async function loadLuminGames() {
+            const squareGrid = document.querySelector('.square-grid');
+            if (!squareGrid) return;
+
+            squareGrid.innerHTML = '';
+
+            try {
+                await loadLuminScript();
+                if (!window.Lumin) {
+                    throw new Error('Lumin SDK unavailable');
+                }
+
+                await window.Lumin.init({ headless: true });
+                const { games } = await window.Lumin.getGames({ page: 1, limit: 100 });
+
+                for (const game of games) {
+                    const imgUrl = await window.Lumin.getImageUrl(game.image_token);
+                    const card = document.createElement('div');
+                    card.className = 'square-card';
+                    card.innerHTML = `<img class="square-image" src="${imgUrl}" alt="${game.name}" /><h3>${game.name}</h3>`;
+                    card.addEventListener('click', async () => {
+                        await window.Lumin.loadGame(game.id);
+                    });
+                    squareGrid.appendChild(card);
+                }
+            } catch (error) {
+                squareGrid.innerHTML = '<div class="square-card"><h3>LuminSDK failed to load</h3></div>';
+                console.error('LuminSDK error:', error);
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            const librarySelect = document.getElementById('game-library-select');
+            if (librarySelect) {
+                librarySelect.addEventListener('change', (e) => {
+                    if (e.target.value === 'lumin') {
+                        loadLuminGames();
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>

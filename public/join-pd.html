@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orange Playground</title>
+        <link rel="stylesheet" id="themeStylesheetLink" href="assets/css/themes/original-orange.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <script>
+          window.addEventListener('load', () => {
+              const loader = document.querySelector('.loader');
+              if (loader) loader.classList.add('loader--hidden');
+          });
+        </script>
+        <script>
+            const savedTheme = localStorage.getItem('theme') || 'original-orange';
+            document.write(`<link id="themeStylesheetLink" rel="stylesheet" href="/assets/css/themes/${savedTheme}.css">`);
+        </script>
+        <script src="../assets/js/loader-message.js" defer></script>
+    </head>
+    <body>
+        <div id="games" style="width: 100%; height: 100%; position: absolute; inset: 0;"></div>
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const gameTitle = params.get('title') || 'LuminSDK';
+
+            document.title = `Orange Playground - ${gameTitle}`;
+            document.querySelector('.nav-label').textContent = gameTitle;
+        </script>
+        <script src="../assets/js/cloaker.js"></script>
+        <script src="../assets/js/panic-key.js"></script>
+        <script src="../assets/js/theme-selector.js"></script>
+        <script src="navigation.js"></script>
+    </body>
+</html>

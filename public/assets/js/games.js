@@ -115,6 +115,7 @@ function createCardElement(card) {
 const LIB_MAP = {
   "3kh0": "3kh0",
   "gn-math": "gn",
+  "lumin": "lumin",
   "ugs": "ugs",
   "ckv": "ckv",
   "shuttle-math": "shuttleproxy",
@@ -159,6 +160,25 @@ const BLOOKET_REDIRECT_LIBS = new Set([
 ]);
 
 let CURRENT_LIBRARY = null;
+let LUMIN_SCRIPT_LOADED = false;
+
+function ensureLuminSDKScript() {
+  if (LUMIN_SCRIPT_LOADED || typeof document === "undefined") return;
+
+  const existing = document.querySelector('script[data-lumin-sdk="true"]');
+  if (existing) {
+    LUMIN_SCRIPT_LOADED = true;
+    return;
+  }
+
+  const script = document.createElement("script");
+  script.src = "https://cdn.jsdelivr.net/gh/luminsdk/script@latest/lumin.min.js";
+  script.async = true;
+  script.defer = true;
+  script.dataset.luminSdk = "true";
+  document.body.appendChild(script);
+  LUMIN_SCRIPT_LOADED = true;
+}
 
 async function loadGN() {
   try {
@@ -365,6 +385,14 @@ async function load3kh0() {
   }
 }
 
+async function loadLuminSDK() {
+  try {
+    return [];
+  } catch (e) {
+    return [];
+  }
+}
+
 async function loadShuttleProxy() {
   try {
     const r = await fetch("https://bloxcraft.win/games/data/json/shuttleproxy.json");
@@ -406,6 +434,7 @@ async function loadYoutube() {
 const LIB_LOADERS = {
   "3kh0": load3kh0,
   gn: loadGN,
+  lumin: loadLuminSDK,
   ugs: loadUGS,
   ckv: loadCKV,
   shuttleproxy: loadShuttleProxy,
@@ -431,6 +460,9 @@ async function loadCards(libKey = "orange-playground") {
       url = "./assets/json/games.json";
     } else {
       CURRENT_LIBRARY = lib;
+      if (lib === "lumin") {
+        ensureLuminSDKScript();
+      }
       if (LIB_LOADERS[lib]) {
         data = await LIB_LOADERS[lib]();
       }
