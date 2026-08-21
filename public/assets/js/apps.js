@@ -1,4 +1,14 @@
 // apps.js
+function filterCards() {
+  const search = document.getElementById("app-search");
+  const query = search ? search.value.trim().toLowerCase() : "";
+
+  document.querySelectorAll(".square-card").forEach(card => {
+    const title = card.querySelector("h3")?.textContent.toLowerCase() || "";
+    card.hidden = !title.includes(query);
+  });
+}
+
 async function loadCards() {
   try {
     const response = await fetch("./assets/json/apps.json");
@@ -20,9 +30,9 @@ async function loadCards() {
       const title = document.createElement("h3");
       title.textContent = card.title;
 
-      if (card.link) {
+      if (card.url) {
         cardDiv.addEventListener("click", () => {
-          window.location.href = card.link;
+          window.location.href = `/assessments/blooket-sg.html?title=${encodeURIComponent(card.title)}&url=${encodeURIComponent(card.url)}`;
         });
         cardDiv.style.cursor = "pointer";
       }
@@ -31,9 +41,17 @@ async function loadCards() {
       cardDiv.appendChild(title);
       container.appendChild(cardDiv);
     });
+    filterCards();
   } catch (error) {
     console.error("Error loading cards:", error);
   }
 }
 
 document.addEventListener("DOMContentLoaded", loadCards);
+
+document.addEventListener("DOMContentLoaded", () => {
+  const search = document.getElementById("app-search");
+  if (search) {
+    search.addEventListener("input", filterCards);
+  }
+});

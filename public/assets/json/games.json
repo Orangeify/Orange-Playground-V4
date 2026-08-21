@@ -1,3525 +1,1444 @@
 {
   "cards": [
     {
-      "title": "Request a Game (Discord)",
-      "image": "./assets/imgs/icons/Discord-Logo.png",
-      "link": "https://discord.gg/wx3rzuEBRn"
+      "title": "1v1.LOL",
+      "image": "",
+      "url": "https://1v1lol-unblocked-free.github.io/"
     },
     {
-    "url": "https://orangeify.github.io/blooket-games/1/index.html",
-    "title": "1",
-    "image": "https://orangeify.github.io/blooket-games/1/meta/og_image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/10-minutes-till-dawn/index.html",
-    "title": "10 Minutes Till Dawn",
-    "image": "https://orangeify.github.io/blooket-games/10-minutes-till-dawn/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/100ng/index.html",
-    "title": "100 Player Pong",
-    "image": "https://orangeify.github.io/blooket-games/100ng/100ng.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/1v1-lol/index.html",
-    "title": "1v1.lol",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/1v1-lol/new/index.html",
-    "title": "1v1.lol",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/1v1space/index.html",
-    "title": "1v1 Space",
-    "image": "https://orangeify.github.io/blooket-games/1v1space/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/2048/index.html",
-    "title": "2048",
-    "image": "https://orangeify.github.io/blooket-games/2048/2048.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/2048-multitask/index.html",
-    "title": "2048 Multitasking",
-    "image": "https://orangeify.github.io/blooket-games/2048-multitask/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/8-ball-pool/index.html",
-    "title": "8 Ball Pool",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/9007199254740992/index.html",
-    "title": "9007199254740992",
-    "image": "https://orangeify.github.io/blooket-games/9007199254740992/logo-4.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/99balls/index.html",
-    "title": "99 Balls Evo",
-    "image": "https://orangeify.github.io/blooket-games/99balls/99-balls-evo.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/CMM-Client/CMM%20Client.html",
-    "title": "ALLAH IS THE ONLY GOD",
-    "image": "https://orangeify.github.io/blooket-games/CMM-Client/EC4B216C-B637-41A3-A3D9-79D4048DD7A3.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/DOOMORI/index.html",
-    "title": "Doomori",
-    "image": "https://orangeify.github.io/blooket-games/DOOMORI/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/DogeMiner/index.html",
-    "title": "Dogeminer",
-    "image": "https://orangeify.github.io/blooket-games/DogeMiner/img/level1.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Dogeminer2/index.html",
-    "title": "Dogeminer 2: Back 2 The Moon\u2122 - Space-Empire Dogecoin Mining Simulator",
-    "image": "https://orangeify.github.io/blooket-games/Dogeminer2/dogesans-numbers_0.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/HexGL/bkcore.coffee/tests.html",
-    "title": "CoffeeScript Tests",
-    "image": "https://orangeify.github.io/blooket-games/HexGL/Hexgl-image-1.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/HexGL/index.html",
-    "title": "HexGL",
-    "image": "https://orangeify.github.io/blooket-games/HexGL/Hexgl-image-1.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/HexGL/libs/Editor.html",
-    "title": "Editor",
-    "image": "https://orangeify.github.io/blooket-games/HexGL/Hexgl-image-1.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/MonkeyMart/index.html",
-    "title": "MonkeyMart",
-    "image": "https://orangeify.github.io/blooket-games/MonkeyMart/load_bar_bg.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/OfflineParadise/index.html",
-    "title": "Offline Paradise",
-    "image": "https://orangeify.github.io/blooket-games/OfflineParadise/assets/icon.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Rocket-League/index.html",
-    "title": "Rocket League",
-    "image": "https://orangeify.github.io/blooket-games/Rocket-League/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Run%202/index.html",
-    "title": "Run 2",
-    "image": "https://orangeify.github.io/blooket-games/Run%202/run-2-logo.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ShapeShootout/index.html",
-    "title": "  Shape Shootout",
-    "image": "https://orangeify.github.io/blooket-games/ShapeShootout/Icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Stickman-Survival/index.html",
-    "title": "  Stickman vs Zombies",
-    "image": "https://orangeify.github.io/blooket-games/Stickman-Survival/Icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Trimps/Kongregate_Game_Shell.html",
-    "title": "Kongregate Game Shell",
-    "image": "https://orangeify.github.io/blooket-games/Trimps/trimp.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Trimps/ScreenReader.html",
-    "title": "Trimps 5.9.2 (Screen Reader version)",
-    "image": "https://orangeify.github.io/blooket-games/Trimps/trimp.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Trimps/index.html",
-    "title": "Trimps 5.9.2",
-    "image": "https://orangeify.github.io/blooket-games/Trimps/trimp.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Trimps/indexKong.html",
-    "title": "Trimps 5.9.2 (Kongregate Version)",
-    "image": "https://orangeify.github.io/blooket-games/Trimps/trimp.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/Trimps/updates.html",
-    "title": "Updates",
-    "image": "https://orangeify.github.io/blooket-games/Trimps/trimp.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html",
-    "title": "A Dance of Fire And Ice",
-    "image": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/aaron-os/index.html",
-    "title": "Aaron OS",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/achievementunlocked/index.html",
-    "title": "Achievement Unlocked",
-    "image": "https://orangeify.github.io/blooket-games/achievementunlocked/achievementunlocked.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/adarkroom/browserWarning.html",
-    "title": "A Dark Room",
-    "image": "https://orangeify.github.io/blooket-games/adarkroom/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/adarkroom/index.html",
-    "title": "A Dark Room",
-    "image": "https://orangeify.github.io/blooket-games/adarkroom/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/adarkroom/mobileWarning.html",
-    "title": "A Dark Room",
-    "image": "https://orangeify.github.io/blooket-games/adarkroom/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/adrenalinechallenge/index.html",
-    "title": "Adrenaline Challenge",
-    "image": "https://orangeify.github.io/blooket-games/adrenalinechallenge/adrenalinechallenge.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/adventure-drivers/assets/sounds/index.html",
-    "title": "Adventure Drivers",
-    "image": "https://orangeify.github.io/blooket-games/adventure-drivers/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/adventure-drivers/index.html",
-    "title": "Adventure Drivers",
-    "image": "https://orangeify.github.io/blooket-games/adventure-drivers/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ages-of-conflict/index.html",
-    "title": "Ages of Conflict",
-    "image": "https://orangeify.github.io/blooket-games/ages-of-conflict/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/alienhominid/index.html",
-    "title": "Alien Hominid",
-    "image": "https://orangeify.github.io/blooket-games/alienhominid/alienhominid.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/amazing-rope-police/index.html",
-    "title": "Amazing Strange Rope Police",
-    "image": "https://orangeify.github.io/blooket-games/amazing-rope-police/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/amazing-rope-police/spired.html",
-    "title": "Amazing Strange Rope Police Game Files | Crazy Games",
-    "image": "https://orangeify.github.io/blooket-games/amazing-rope-police/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/amazing-rope-police/spired1.html",
-    "title": "Amazing Strange Rope Police Game Files | Crazy Games",
-    "image": "https://orangeify.github.io/blooket-games/amazing-rope-police/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/amazing-rope-police/vaxoo.html",
-    "title": "Amazing Strange Rope Police Game Files | Crazy Games",
-    "image": "https://orangeify.github.io/blooket-games/amazing-rope-police/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/amidst-the-clouds/index.html",
-    "title": "Amidst the Clouds",
-    "image": "https://orangeify.github.io/blooket-games/amidst-the-clouds/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/among-us/index.html",
-    "title": "Among Us",
-    "image": "https://orangeify.github.io/blooket-games/among-us/red.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/angry-sharks/index.html",
-    "title": "Angry Sharks",
-    "image": "https://orangeify.github.io/blooket-games/angry-sharks/assets/img/spritesheet8.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/aquapark-slides/index.html",
-    "title": "Aquapark Slides",
-    "image": "https://orangeify.github.io/blooket-games/aquapark-slides/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/astray/index.html",
-    "title": "Astray",
-    "image": "https://orangeify.github.io/blooket-games/astray/brick.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/avalanche/index.html",
-    "title": "Avalanche",
-    "image": "https://orangeify.github.io/blooket-games/avalanche/avalanche.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/awesometanks2/index.html",
-    "title": "Awesome Tanks",
-    "image": "https://orangeify.github.io/blooket-games/awesometanks2/awesometanks2.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/backrooms/index.html",
-    "title": "Backrooms",
-    "image": "https://orangeify.github.io/blooket-games/backrooms/img/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/backrooms-2d/index.html",
-    "title": "Backrooms 2D",
-    "image": "https://orangeify.github.io/blooket-games/backrooms-2d/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/backrooms2d/backrooms2d.html",
-    "title": "backrooms2d",
-    "image": "https://orangeify.github.io/blooket-games/backrooms2d/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bacon-may-die/index.html",
-    "title": "Bacon May Die",
-    "image": "https://orangeify.github.io/blooket-games/bacon-may-die/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bad-ice-cream/index.html",
-    "title": "Bad Ice Cream",
-    "image": "https://orangeify.github.io/blooket-games/bad-ice-cream/bad-ice-cream.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bad-ice-cream-2/index.html",
-    "title": "Bad Ice Cream 2",
-    "image": "https://orangeify.github.io/blooket-games/bad-ice-cream-2/bad-ice-cream-2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bad-ice-cream-3/index.html",
-    "title": "Bad Ice Cream 3",
-    "image": "https://orangeify.github.io/blooket-games/bad-ice-cream-3/bad-ice-cream-3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/baldis-basics/index.html",
-    "title": "Baldi's Basics",
-    "image": "https://orangeify.github.io/blooket-games/baldis-basics/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/balldodge/balldodge.html",
-    "title": "balldodge",
-    "image": "https://orangeify.github.io/blooket-games/balldodge/1D9A05FA-1D29-40D3-8DA3-F9A30AD7470E.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ballistic-chickens/index.html",
-    "title": "Ballistic Chickens",
-    "image": "https://orangeify.github.io/blooket-games/ballistic-chickens/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/basket-random/index.html",
-    "title": "Basket Random",
-    "image": "https://orangeify.github.io/blooket-games/basket-random/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/basketball-stars/index.html",
-    "title": "Basketball Legends",
-    "image": "https://orangeify.github.io/blooket-games/basketball-stars/basketball-stars.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/basketbros-io/index.html",
-    "title": "Basket Bros",
-    "image": "https://orangeify.github.io/blooket-games/basketbros-io/thumb.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/battleforgondor/index.html",
-    "title": "Battle for Gondor",
-    "image": "https://orangeify.github.io/blooket-games/battleforgondor/battleforgondor.JPG",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bigredbutton/index.html",
-    "title": "Big Red Button",
-    "image": "https://orangeify.github.io/blooket-games/bigredbutton/bigredbutton.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bitlife/index.html",
-    "title": "BitLife",
-    "image": "https://orangeify.github.io/blooket-games/bitlife/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/blacholesquare/index.html",
-    "title": "Black Hole Square",
-    "image": "https://orangeify.github.io/blooket-games/blacholesquare/icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/blackknight/index.html",
-    "title": "Black Knight",
-    "image": "https://orangeify.github.io/blooket-games/blackknight/blackknight.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/blockpost/index.html",
-    "title": "Blockpost - Unblocked Games Compilation",
-    "image": "https://orangeify.github.io/blooket-games/blockpost/thumb.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bloonstd/index.html",
-    "title": "Bloons TD",
-    "image": "https://orangeify.github.io/blooket-games/bloonstd/bloonstd.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bloonstd2/index.html",
-    "title": "BloonsTD 2",
-    "image": "https://orangeify.github.io/blooket-games/bloonstd2/bloonstd2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bloxors/index.html",
-    "title": "Bloxors",
-    "image": "https://orangeify.github.io/blooket-games/bloxors/block.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bntts/index.html",
-    "title": "Big NEON Tower Tiny Square",
-    "image": "https://orangeify.github.io/blooket-games/bntts/icons/icon-256.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bobtherobber2/index.html",
-    "title": "Bob The Robber 2",
-    "image": "https://orangeify.github.io/blooket-games/bobtherobber2/34d6aae0257d4e4c8068cbdfc11a8758-512x512.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bonkio/bonkio.html",
-    "title": "bonkio",
-    "image": "https://orangeify.github.io/blooket-games/bonkio/image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/boxhead2play/index.html",
-    "title": "Box Head",
-    "image": "https://orangeify.github.io/blooket-games/boxhead2play/boxhead2play.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/boxing-random/index.html",
-    "title": "Boxing Random",
-    "image": "https://orangeify.github.io/blooket-games/boxing-random/512x512.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/breakingthebank/index.html",
-    "title": "Breaking The Bank",
-    "image": "https://orangeify.github.io/blooket-games/breakingthebank/breakingthebank.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/btd4/index.html",
-    "title": "bloontowerdefense4",
-    "image": "https://orangeify.github.io/blooket-games/btd4/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/btd5/index.html",
-    "title": "3kh0 | Bloons TD 5",
-    "image": "https://orangeify.github.io/blooket-games/btd5/BT5_Deluxe_logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/btts/index.html",
-    "title": "Big Tower Tiny Square",
-    "image": "https://orangeify.github.io/blooket-games/btts/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/burger-and-frights/index.html",
-    "title": "Burger & Frights",
-    "image": "https://orangeify.github.io/blooket-games/burger-and-frights/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/bus%20and%20subway/index.html",
-    "title": "Play Bus &amp; Subway Runner Game: Free Online HTML5 Running Game for Kids",
-    "image": "https://orangeify.github.io/blooket-games/bus%20and%20subway/img.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/busandsubway/index.html",
-    "title": "Play Bus &amp; Subway Runner Game: Free Online HTML5 Running Game for Kids",
-    "image": "https://orangeify.github.io/blooket-games/busandsubway/img.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cannon-basketball-4/index.html",
-    "title": "Cannon Basketball 4",
-    "image": "https://orangeify.github.io/blooket-games/cannon-basketball-4/assets/images/atlasGame.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/canyondefense/index.html",
-    "title": "Canyon Defense",
-    "image": "https://orangeify.github.io/blooket-games/canyondefense/canyondefense.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cars-simulator/index.html",
-    "title": "Cars Simulator",
-    "image": "https://orangeify.github.io/blooket-games/cars-simulator/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cell-machine/index.html",
-    "title": "Cell Machine",
-    "image": "https://orangeify.github.io/blooket-games/cell-machine/img/te9nDu.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/champion-island/index.html",
-    "title": "Champion Island",
-    "image": "https://orangeify.github.io/blooket-games/champion-island/overworld-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/championarcher/index.html",
-    "title": "Champion Archer",
-    "image": "https://orangeify.github.io/blooket-games/championarcher/championarcher.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/checkers/checkers.html",
-    "title": "checkers",
-    "image": "https://orangeify.github.io/blooket-games/checkers/image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chess/chess.html",
-    "title": "chess",
-    "image": "https://orangeify.github.io/blooket-games/chess/84391856-3910-4B44-AF7E-ACF1056658C2.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chill-radio/index.html",
-    "title": "24/7 Chill Music",
-    "image": "https://orangeify.github.io/blooket-games/chill-radio/img/chill-logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chrome-dino/1_hurdling.html",
-    "title": "Chrome Dino: Olympic Hurdling",
-    "image": "https://orangeify.github.io/blooket-games/chrome-dino/images/default_200_percent/offline/200-offline-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chrome-dino/2_gymnastics.html",
-    "title": "Chrome Dino: Olympic Gymnastics",
-    "image": "https://orangeify.github.io/blooket-games/chrome-dino/images/default_200_percent/offline/200-offline-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chrome-dino/3_surfing.html",
-    "title": "Chrome Dino: Olympic Surfing",
-    "image": "https://orangeify.github.io/blooket-games/chrome-dino/images/default_200_percent/offline/200-offline-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chrome-dino/4_swimming.html",
-    "title": "Chrome Dino: Olympic Swimming",
-    "image": "https://orangeify.github.io/blooket-games/chrome-dino/images/default_200_percent/offline/200-offline-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chrome-dino/5_equestrian.html",
-    "title": "Chrome Dino: Olympic Equestrian",
-    "image": "https://orangeify.github.io/blooket-games/chrome-dino/images/default_200_percent/offline/200-offline-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/chrome-dino/index.html",
-    "title": "Chrome Dino",
-    "image": "https://orangeify.github.io/blooket-games/chrome-dino/images/default_200_percent/offline/200-offline-sprite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/circlo/index.html",
-    "title": "circloO",
-    "image": "https://orangeify.github.io/blooket-games/circlo/html5game_a5/circloO_texture_0.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/classicube/index36fc.html",
-    "title": "Play - ClassiCube.net",
-    "image": "https://orangeify.github.io/blooket-games/classicube/texpacks/classicube.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cluster-rush/index.html",
-    "title": "Cluster Rush",
-    "image": "https://orangeify.github.io/blooket-games/cluster-rush/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cnpingpong/index.html",
-    "title": "Table Tennis Ultimate Tournament",
-    "image": "https://orangeify.github.io/blooket-games/cnpingpong/tabletennisultimate.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/connect3/index.html",
-    "title": "Connect 3",
-    "image": "https://orangeify.github.io/blooket-games/connect3/connect3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclicker10511/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclicker200252/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclicker2019/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclicker2021/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclicker2047/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclicker2049/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclickerv1021/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclickerv1037/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cookie-clickers/cookieclickerv10411/index.html",
-    "title": "Cookie Clicker",
-    "image": "https://orangeify.github.io/blooket-games/cookie-clickers/cookie-clicker/img/perfectCookie.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/core-ball/index.html",
-    "title": "Core Ball",
-    "image": "https://orangeify.github.io/blooket-games/core-ball/pr_source.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/craftmine/index.html",
-    "title": "CraftMine",
-    "image": "https://orangeify.github.io/blooket-games/craftmine/images/craftmine.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/creativekillchamber/index.html",
-    "title": "Creative Kill Chamber",
-    "image": "https://orangeify.github.io/blooket-games/creativekillchamber/creativekillchamber.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/crossyroad/index.html",
-    "title": "Crossy Road",
-    "image": "https://orangeify.github.io/blooket-games/crossyroad/crossyroad.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/csgo-clicker/index.html",
-    "title": "CS:GO Clicker",
-    "image": "https://orangeify.github.io/blooket-games/csgo-clicker/images/vanguard.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ctr/index.html",
-    "title": "Cut the Rope",
-    "image": "https://orangeify.github.io/blooket-games/ctr/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ctr-holiday/index.html",
-    "title": "Cut the Rope: Holiday Gift",
-    "image": "https://orangeify.github.io/blooket-games/ctr-holiday/images/1024/game/char_animations.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ctr-tr/index.html",
-    "title": "Cut the Rope: Time Travel",
-    "image": "https://orangeify.github.io/blooket-games/ctr-tr/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cubefield/index.html",
-    "title": "Cubefield",
-    "image": "https://orangeify.github.io/blooket-games/cubefield/assets/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/cupcake2048/index.html",
-    "title": "2048 CUPCAKES",
-    "image": "https://orangeify.github.io/blooket-games/cupcake2048/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/dante/index.html",
-    "title": "Dante",
-    "image": "https://orangeify.github.io/blooket-games/dante/gzthermal-result.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/deal-or-no-deal/index.html",
-    "title": "Deal or No Deal",
-    "image": "https://orangeify.github.io/blooket-games/deal-or-no-deal/index.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/death-run-3d/index.html",
-    "title": "Death Run 3D",
-    "image": "https://orangeify.github.io/blooket-games/death-run-3d/img/death.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/deepest-sword/index.html",
-    "title": "Deepest Sword",
-    "image": "https://orangeify.github.io/blooket-games/deepest-sword/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/defend-the-tank/index.html",
-    "title": "Defend the Tank",
-    "image": "https://orangeify.github.io/blooket-games/defend-the-tank/portrait-start.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/doctor-acorn2/index.html",
-    "title": "Doctor Acorn 2",
-    "image": "https://orangeify.github.io/blooket-games/doctor-acorn2/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/dodge/dodge.html",
-    "title": "dodge",
-    "image": "https://orangeify.github.io/blooket-games/dodge/CEB64188-C91B-4FEE-95C1-3ACF6A8CA009.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/doge2048/index.html",
-    "title": "DOGE 2048",
-    "image": "https://orangeify.github.io/blooket-games/doge2048/doge1.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/doodle-jump/index.html",
-    "title": "Doodle Jump",
-    "image": "https://orangeify.github.io/blooket-games/doodle-jump/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/doom/doom.html",
-    "title": "doom",
-    "image": "https://orangeify.github.io/blooket-games/doom/0B894474-D070-4E9C-B1C1-6908E344DA28.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/doublewires/index.html",
-    "title": "Double Wires",
-    "image": "https://orangeify.github.io/blooket-games/doublewires/doublewires.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/dragon-vs-bricks/index.html",
-    "title": "Dragon Vs Bricks",
-    "image": "https://orangeify.github.io/blooket-games/dragon-vs-bricks/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/draw-the-hill/index.html",
-    "title": "Draw the Hill",
-    "image": "https://orangeify.github.io/blooket-games/draw-the-hill/images/shared-0-sheet0.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/drift-boss/index.html",
-    "title": "Drift Boss",
-    "image": "https://orangeify.github.io/blooket-games/drift-boss/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/drift-hunters/index.html",
-    "title": "Drift Hunters",
-    "image": "https://orangeify.github.io/blooket-games/drift-hunters/drift-hunters.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/drive-mad/index.html",
-    "title": "Drive Mad",
-    "image": "https://orangeify.github.io/blooket-games/drive-mad/logo.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/drive-mad/webapp/e.html",
-    "title": "e",
-    "image": "https://orangeify.github.io/blooket-games/drive-mad/webapp/cover.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/dsc/index.html",
-    "title": "index",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ducklife1/index.html",
-    "title": "Duck Life",
-    "image": "https://orangeify.github.io/blooket-games/ducklife1/ducklife.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ducklife2/index.html",
-    "title": "Duck Life 2",
-    "image": "https://orangeify.github.io/blooket-games/ducklife2/ducklife2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ducklife3/index.html",
-    "title": "Duck Life 3",
-    "image": "https://orangeify.github.io/blooket-games/ducklife3/title.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ducklife4/index.html",
-    "title": "Duck Life 4",
-    "image": "https://orangeify.github.io/blooket-games/ducklife4/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/duke-nukem-2/index.html",
-    "title": "Duke Nukem 2",
-    "image": "https://orangeify.github.io/blooket-games/duke-nukem-2/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/dumbwaystodie/dumbwaystodie.html",
-    "title": "dumbwaystodie",
-    "image": "https://orangeify.github.io/blooket-games/dumbwaystodie/image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/eaglerfaithful/index.html",
-    "title": "Minecraft",
-    "image": "https://orangeify.github.io/blooket-games/eaglerfaithful/img/old.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/earntodie/index.html",
-    "title": "Earn To Die -Unblocked games at school",
-    "image": "https://orangeify.github.io/blooket-games/earntodie/loading.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/edge-surf/index.html",
-    "title": "Edge surf",
-    "image": "https://orangeify.github.io/blooket-games/edge-surf/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/edgenotfound/index.html",
-    "title": "Edge Not Found",
-    "image": "https://orangeify.github.io/blooket-games/edgenotfound/edge.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/eel-slap/index.html",
-    "title": "Eel slap!",
-    "image": "https://orangeify.github.io/blooket-games/eel-slap/eel-slap.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/eggycar/404.html",
-    "title": "We not find page",
-    "image": "https://orangeify.github.io/blooket-games/eggycar/eggy-car.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/eggycar/index.html",
-    "title": "Eggy Car Unblocked",
-    "image": "https://orangeify.github.io/blooket-games/eggycar/eggy-car.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/elasticman/index.html",
-    "title": "Elastic Man",
-    "image": "https://orangeify.github.io/blooket-games/elasticman/elasticman.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/endlesswar3/index.html",
-    "title": "Endless war 3 | Echo",
-    "image": "https://orangeify.github.io/blooket-games/endlesswar3/endlesswar3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/escapingtheprison/index.html",
-    "title": "Excaping the Prison",
-    "image": "https://orangeify.github.io/blooket-games/escapingtheprison/escapingtheprison.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/evil-glitch/index.html",
-    "title": "Evil Glitch",
-    "image": "https://orangeify.github.io/blooket-games/evil-glitch/evil.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/evolution/index.html",
-    "title": "Evolution",
-    "image": "https://orangeify.github.io/blooket-games/evolution/banner.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/exo/index.html",
-    "title": "Exo",
-    "image": "https://orangeify.github.io/blooket-games/exo/img/small.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/factoryballs/index.html",
-    "title": "Factory Balls forever",
-    "image": "https://orangeify.github.io/blooket-games/factoryballs/images/factoryballsforever_atlas_.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fairsquares/index.html",
-    "title": "Fair Squares",
-    "image": "https://orangeify.github.io/blooket-games/fairsquares/index.apple-touch-icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fake-virus/index.html",
-    "title": "Fake Virus Screen",
-    "image": "https://orangeify.github.io/blooket-games/fake-virus/background.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fancypantsadventures/index.html",
-    "title": "Fancy Pants Adventure",
-    "image": "https://orangeify.github.io/blooket-games/fancypantsadventures/fancypantsadventure.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fantasy-dash/Fantasy%20Dash.html",
-    "title": "Fantasy Dash",
-    "image": "https://orangeify.github.io/blooket-games/fantasy-dash/DF24D85A-B7B5-4CF0-8194-DB6CD89C6975.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fantasy-dash/fantasydash.html",
-    "title": "Fantasy Dash",
-    "image": "https://orangeify.github.io/blooket-games/fantasy-dash/DF24D85A-B7B5-4CF0-8194-DB6CD89C6975.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fireboywatergirlforesttemple/index.html",
-    "title": "Fireboy & Watergirl - Forest Temple",
-    "image": "https://orangeify.github.io/blooket-games/fireboywatergirlforesttemple/logo.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flappy%20plane/Flappy%20Plane.html",
-    "title": "Flappy Plane",
-    "image": "https://orangeify.github.io/blooket-games/flappy%20plane/E3A4179E-B8E4-4358-BDAD-45AA7637D4D7.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flappy-2048/index.html",
-    "title": "Flappy 2048",
-    "image": "https://orangeify.github.io/blooket-games/flappy-2048/meta/apple-touch-icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flappy-bird/index.html",
-    "title": "Flappy Bird",
-    "image": "https://orangeify.github.io/blooket-games/flappy-bird/assets/sky.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flappybird/index.html",
-    "title": "Flappy Bird",
-    "image": "https://orangeify.github.io/blooket-games/flappybird/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flappyplane/flappyplane.html",
-    "title": "Flappy Plane",
-    "image": "https://orangeify.github.io/blooket-games/flappyplane/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flashtetris/index.html",
-    "title": "Flash Tetris",
-    "image": "https://orangeify.github.io/blooket-games/flashtetris/flashtetris.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fleeingthecomplex/index.html",
-    "title": "Fleeing The Complex",
-    "image": "https://orangeify.github.io/blooket-games/fleeingthecomplex/a.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/flippy-fish/index.html",
-    "title": "Flippy Fish",
-    "image": "https://orangeify.github.io/blooket-games/flippy-fish/6aAJ5s.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fnaw/index.html",
-    "title": "Five Nights at Winston's",
-    "image": "https://orangeify.github.io/blooket-games/fnaw/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fridaynightfunkin/index.html",
-    "title": "Friday Night Funkin'",
-    "image": "https://orangeify.github.io/blooket-games/fridaynightfunkin/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/froggys-battle/index.html",
-    "title": "Froggy's battle",
-    "image": "https://orangeify.github.io/blooket-games/froggys-battle/banner.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/fruitninja/index.html",
-    "title": "Fruit Ninja",
-    "image": "https://orangeify.github.io/blooket-games/fruitninja/FruitNinjaTeaser.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/frying-nemo/index.html",
-    "title": "Frying Nemo",
-    "image": "https://orangeify.github.io/blooket-games/frying-nemo/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gachalife/index.html",
-    "title": "Gacha Life",
-    "image": "https://orangeify.github.io/blooket-games/gachalife/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/game-inside/index.html",
-    "title": "Game Inside a Game",
-    "image": "https://orangeify.github.io/blooket-games/game-inside/img/display.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gdtd/index.html",
-    "title": "Scratch 3.0 is here!",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gearsofbabies/index.html",
-    "title": "  GearsOfBabies",
-    "image": "https://orangeify.github.io/blooket-games/gearsofbabies/TemplateData/webgl-logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/generic-fishing-game/index.html",
-    "title": "Generic Fishing Game",
-    "image": "https://orangeify.github.io/blooket-games/generic-fishing-game/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/geochallenge/index.html",
-    "title": "Geometry Challenge",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/geodash/index.html",
-    "title": "Geometry Dash",
-    "image": "https://orangeify.github.io/blooket-games/geodash/geoscratchicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/geodashlite/geodashlite.html",
-    "title": "Geometry Dash Lite",
-    "image": "https://orangeify.github.io/blooket-games/geodashlite/geodashlite.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/geogeo/index.html",
-    "title": "  GeometryGeometry",
-    "image": "https://orangeify.github.io/blooket-games/geogeo/TemplateData/unity-logo-dark.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/geops1/index.html",
-    "title": "Geops1",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/georash/index.html",
-    "title": "Geometry Rash",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/georgeandtheprinter/index.html",
-    "title": "George and the Printer",
-    "image": "https://orangeify.github.io/blooket-games/georgeandtheprinter/img/SnDTEn.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/geotrash/index.html",
-    "title": "geometry dash infinite level",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/getaway-shootout/index.html",
-    "title": "Getaway Shootout",
-    "image": "https://orangeify.github.io/blooket-games/getaway-shootout/img/index.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gimme-the-airpod/index.html",
-    "title": "gimme the airpod",
-    "image": "https://orangeify.github.io/blooket-games/gimme-the-airpod/img/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gladihoppers/index.html",
-    "title": "Gladihoppers",
-    "image": "https://orangeify.github.io/blooket-games/gladihoppers/gladihop.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/glass-city/index.html",
-    "title": "Glass City",
-    "image": "https://orangeify.github.io/blooket-games/glass-city/banner.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gmonster/index.html",
-    "title": "GMonster",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/go-ball/index.html",
-    "title": "Go Ball",
-    "image": "https://orangeify.github.io/blooket-games/go-ball/game.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/goodnight/index.html",
-    "title": "GOODNIGHT",
-    "image": "https://orangeify.github.io/blooket-games/goodnight/goodnight.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/goodnight-meowmie/index.html",
-    "title": "  Goodnight Meowmie",
-    "image": "https://orangeify.github.io/blooket-games/goodnight-meowmie/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/goodnight-meowmie/itchwrapper.html",
-    "title": "itchwrapper",
-    "image": "https://orangeify.github.io/blooket-games/goodnight-meowmie/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/google-feud/index.html",
-    "title": "Google Feud",
-    "image": "https://orangeify.github.io/blooket-games/google-feud/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/google-snake/index.html",
-    "title": "Google Snake",
-    "image": "https://orangeify.github.io/blooket-games/google-snake/assets/rainbow_end.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/gravity-soccer/index.html",
-    "title": "Gravity Soccer",
-    "image": "https://orangeify.github.io/blooket-games/gravity-soccer/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/greybox/index.html",
-    "title": "Grey-Box Testing",
-    "image": "https://orangeify.github.io/blooket-games/greybox/ico.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/grindcraft/index.html",
-    "title": "Grindcraft",
-    "image": "https://orangeify.github.io/blooket-games/grindcraft/assets/grindcraft2x.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hackertype/index.html",
-    "title": "Hacker Typer",
-    "image": "https://orangeify.github.io/blooket-games/hackertype/logo192.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/handshakes/index.html",
-    "title": "Handshakes",
-    "image": "https://orangeify.github.io/blooket-games/handshakes/splaher.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/happy-hop/index.html",
-    "title": "Happy Hop",
-    "image": "https://orangeify.github.io/blooket-games/happy-hop/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/happywheels/index.html",
-    "title": "Happy Wheels",
-    "image": "https://orangeify.github.io/blooket-games/happywheels/b.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hardware-tycoon/index.html",
-    "title": "Hardware Tycoon",
-    "image": "https://orangeify.github.io/blooket-games/hardware-tycoon/icon-256.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hba/index.html",
-    "title": "Hover Bot Arena",
-    "image": "https://orangeify.github.io/blooket-games/hba/hoverbotarena.JPG",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/helicopter/index.html",
-    "title": "Helicopter",
-    "image": "https://orangeify.github.io/blooket-games/helicopter/helicopter.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hellscaper/WebGL/index.html",
-    "title": "  tufts_capstone",
-    "image": "https://orangeify.github.io/blooket-games/hellscaper/WebGL/TemplateData/unity-logo-light.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hexempire/index.html",
-    "title": "Hex Empire",
-    "image": "https://orangeify.github.io/blooket-games/hexempire/hexempire.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hextris/index.html",
-    "title": "Hextris",
-    "image": "https://orangeify.github.io/blooket-games/hextris/images/hextris-logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/highrisehop/index.html",
-    "title": "Kaboom",
-    "image": "https://orangeify.github.io/blooket-games/highrisehop/assets/gfx/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hill-climb-racing/index.html",
-    "title": "Hill Climb Racing 2",
-    "image": "https://orangeify.github.io/blooket-games/hill-climb-racing/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/hungry-lamu/index.html",
-    "title": "Hungry Lamu",
-    "image": "https://orangeify.github.io/blooket-games/hungry-lamu/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/iceagebaby/index.html",
-    "title": "3kh0 | Ice Age Baby Adventure",
-    "image": "https://orangeify.github.io/blooket-games/iceagebaby/thumb.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/iceagebaby2/index.html",
-    "title": "3kh0 | Ice Age Baby Adventure",
-    "image": "https://orangeify.github.io/blooket-games/iceagebaby2/pinky.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/idle-breakout/index.html",
-    "title": "Idle breakout",
-    "image": "https://orangeify.github.io/blooket-games/idle-breakout/assets/Coding_BreakOut1_texture_1.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/idle-shark/contributors.html",
-    "title": "Shark Game - Developers",
-    "image": "https://orangeify.github.io/blooket-games/idle-shark/img/sharkeventsprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/idle-shark/index.html",
-    "title": "Shark Game",
-    "image": "https://orangeify.github.io/blooket-games/idle-shark/img/sharkeventsprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/idledice/Idle%20Dice.html",
-    "title": "Idle Dice",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/impossiblequiz/index.html",
-    "title": "Impossible quiz",
-    "image": "https://orangeify.github.io/blooket-games/impossiblequiz/impossiblequiz.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/impossiblequiz2/index.html",
-    "title": "Impossible Quiz 2",
-    "image": "https://orangeify.github.io/blooket-games/impossiblequiz2/impossible_quiz2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/impossiblequizbeta/index.html",
-    "title": "Impossible Quiz Beta",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/interactivebuddy/index.html",
-    "title": "Interactive Buddy",
-    "image": "https://orangeify.github.io/blooket-games/interactivebuddy/interactivebuddy.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/invite-the-blackbird/index.html",
-    "title": "  Invite The Blackbird",
-    "image": "https://orangeify.github.io/blooket-games/invite-the-blackbird/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/iron%20dash/Iron%20Dash.html",
-    "title": "Iron Dash",
-    "image": "https://orangeify.github.io/blooket-games/iron%20dash/9FF39FCC-64B1-491C-97FC-A34357F9583A.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/irondash/irondash.html",
-    "title": "Iron Dash",
-    "image": "https://orangeify.github.io/blooket-games/irondash/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/jetpack-joyride/assets/audio/index.html",
-    "title": "Jetpack Joyride",
-    "image": "https://orangeify.github.io/blooket-games/jetpack-joyride/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/jetpack-joyride/index.html",
-    "title": "Jetpack Joyride",
-    "image": "https://orangeify.github.io/blooket-games/jetpack-joyride/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/jmw-v6/index.html",
-    "title": "index",
-    "image": "https://orangeify.github.io/blooket-games/jmw-v6/jmw.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/just-fall/index.html",
-    "title": "Just Fall",
-    "image": "https://orangeify.github.io/blooket-games/just-fall/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/just-one-boss/index.html",
-    "title": "Just one boss",
-    "image": "https://orangeify.github.io/blooket-games/just-one-boss/pv1Gr5.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/kirkaio/kirka.html",
-    "title": "kirka",
-    "image": "https://orangeify.github.io/blooket-games/kirkaio/C0DADB28-2750-4DF9-9499-4BB61119877D.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/kitchen-gun-game/index.html",
-    "title": "Kitchen gun game",
-    "image": "https://orangeify.github.io/blooket-games/kitchen-gun-game/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/kittencannon/index.html",
-    "title": "Kitten Cannon",
-    "image": "https://orangeify.github.io/blooket-games/kittencannon/kittencannon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/knife-master/index.html",
-    "title": "Knife Master",
-    "image": "https://orangeify.github.io/blooket-games/knife-master/512x512.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/krunker/index.html",
-    "title": "Krunker",
-    "image": "https://orangeify.github.io/blooket-games/krunker/img/krunker-io.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/learntofly/index.html",
-    "title": "Learn to fly",
-    "image": "https://orangeify.github.io/blooket-games/learntofly/learntofly.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/learntofly2/index.html",
-    "title": "Learn to fly 2",
-    "image": "https://orangeify.github.io/blooket-games/learntofly2/learn-to-fly-2.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/level13/changelog.html",
-    "title": "Level 13 | Changelog",
-    "image": "https://orangeify.github.io/blooket-games/level13/favicon-32x32.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/level13/faq.html",
-    "title": "Level 13 | FAQ",
-    "image": "https://orangeify.github.io/blooket-games/level13/favicon-32x32.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/level13/index.html",
-    "title": "Level 13",
-    "image": "https://orangeify.github.io/blooket-games/level13/favicon-32x32.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/level13/tools.html",
-    "title": "Level 13 | Tools",
-    "image": "https://orangeify.github.io/blooket-games/level13/favicon-32x32.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/linerider/linerider.html",
-    "title": "linerider",
-    "image": "https://orangeify.github.io/blooket-games/linerider/6954B825-C61C-41E0-BFD9-7EA4FC6D0FE1.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/linkgen/index.html",
-    "title": "HTML + CSS",
-    "image": "https://orangeify.github.io/blooket-games/linkgen/gen.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ltf-idle/index.html",
-    "title": "3kh0 | Learn To Fly IDLE",
-    "image": "https://orangeify.github.io/blooket-games/ltf-idle/thumbnail.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ltf3/index.html",
-    "title": "3kh0 | Learn To Fly 3",
-    "image": "https://orangeify.github.io/blooket-games/ltf3/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/madalin-stunt-cars-2/index.html",
-    "title": "Madalin Stunt Cars 2",
-    "image": "https://orangeify.github.io/blooket-games/madalin-stunt-cars-2/img/logo.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/madalin-stunt-cars-3/index.html",
-    "title": "Madalin Stunt Cars 3",
-    "image": "https://orangeify.github.io/blooket-games/madalin-stunt-cars-3/img/index.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/mario/index.html",
-    "title": "Mario",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/marvinspectrum/index.html",
-    "title": "Marvin Spectrum",
-    "image": "https://orangeify.github.io/blooket-games/marvinspectrum/marvinspectrum.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/matrixrampage/index.html",
-    "title": "Matrix Rampage",
-    "image": "https://orangeify.github.io/blooket-games/matrixrampage/matrixrampage.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/mcje/Mine.html",
-    "title": "Mine",
-    "image": "https://orangeify.github.io/blooket-games/mcje/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/meme2048/index.html",
-    "title": "Meme 2048",
-    "image": "https://orangeify.github.io/blooket-games/meme2048/img/advice_dog_background.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/merge-round-racers/index.html",
-    "title": "Merge Round Racers",
-    "image": "https://orangeify.github.io/blooket-games/merge-round-racers/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/mindustry/index.html",
-    "title": "Mindustry",
-    "image": "https://orangeify.github.io/blooket-games/mindustry/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/mineblocks/index.html",
-    "title": "Mine Blocks",
-    "image": "https://orangeify.github.io/blooket-games/mineblocks/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minecraft-15/index.html",
-    "title": "eagler",
-    "image": "https://orangeify.github.io/blooket-games/minecraft-15/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minecraft-18/index.html",
-    "title": "EaglercraftX 1.8",
-    "image": "https://orangeify.github.io/blooket-games/minecraft-18/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minecraft-classic/index.html",
-    "title": "Minecraft Classic",
-    "image": "https://orangeify.github.io/blooket-games/minecraft-classic/pack.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minecraftbeta/index.html",
-    "title": "Classic Minecraft Hacks",
-    "image": "https://orangeify.github.io/blooket-games/minecraftbeta/bg_main.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minecrafttowerdefence/mctowerdefence.html",
-    "title": "mctowerdefence",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minesweeper/all/index.html",
-    "title": "Minesweeper",
-    "image": "https://orangeify.github.io/blooket-games/minesweeper/img/minesweeper.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minesweeper/beginner/index.html",
-    "title": "Minesweeper",
-    "image": "https://orangeify.github.io/blooket-games/minesweeper/img/minesweeper.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minesweeper/index.html",
-    "title": "Minesweeper",
-    "image": "https://orangeify.github.io/blooket-games/minesweeper/img/minesweeper.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/minesweeper/intermediate/index.html",
-    "title": "Minesweeper",
-    "image": "https://orangeify.github.io/blooket-games/minesweeper/img/minesweeper.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/miniputt/index.html",
-    "title": "Unblockify Game",
-    "image": "https://orangeify.github.io/blooket-games/miniputt/miniputt.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/missiles/index.html",
-    "title": "Missile Game",
-    "image": "https://orangeify.github.io/blooket-games/missiles/miss.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/monster-tracks/index.html",
-    "title": "Monster Tracks",
-    "image": "https://orangeify.github.io/blooket-games/monster-tracks/thumb.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/motox3m/index.html",
-    "title": "MotoX3M",
-    "image": "https://orangeify.github.io/blooket-games/motox3m/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/motox3m-pool/index.html",
-    "title": "Moto X3M Pool Party",
-    "image": "https://orangeify.github.io/blooket-games/motox3m-pool/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/motox3m-spooky/index.html",
-    "title": "Moto X3M Spooky Land",
-    "image": "https://orangeify.github.io/blooket-games/motox3m-spooky/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/motox3m-winter/index.html",
-    "title": "MotoX3M Winter",
-    "image": "https://orangeify.github.io/blooket-games/motox3m-winter/download.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/motox3m2/index.html",
-    "title": "MotoX3M2",
-    "image": "https://orangeify.github.io/blooket-games/motox3m2/assets/atlases/x1/theme2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/my-rusty-submarine/index.html",
-    "title": "  MyRustySubmarine",
-    "image": "https://orangeify.github.io/blooket-games/my-rusty-submarine/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/n-gon/index.html",
-    "title": "n-gon",
-    "image": "https://orangeify.github.io/blooket-games/n-gon/bot.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/absurd-trolley-problems/index.html",
-    "title": "Absurd Trolley Problems",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/ambient-chaos/index.html",
-    "title": "Ambient Chaos",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/asteroid-launcher/index.html",
-    "title": "Asteroid Launcher",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/auction-game/index.html",
-    "title": "The Auction Game",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/auction-game/sold.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/baby-map/index.html",
-    "title": "Baby Map",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/cdn-cgi/l/email-protection.html",
-    "title": "Email Protection | Cloudflare",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/dark-patterns/index.html",
-    "title": "Dark Patterns",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/days-since-incident/index.html",
-    "title": "Days Since Incident",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/deep-sea/index.html",
-    "title": "The Deep Sea",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/design-the-next-iphone/index.html",
-    "title": "Design the next iPhone",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/design-the-next-iphone/tim-cook.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/earth-reviews/index.html",
-    "title": "Earth Reviews",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/favicons/privacy-policy.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/favicons/ten-years-ago.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/favicons/share-this-page.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/favicons/ten-years-ago.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/index.html",
-    "title": "Neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/lets-settle-this/index.html",
-    "title": "Let's Settle This",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/lets-settle-this/border.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/life-checklist/index.html",
-    "title": "Life Checklist",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/life-stats/index.html",
-    "title": "Life Stats",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/logos-from-memory/index.html",
-    "title": "Draw Logos From Memory",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/paper/index.html",
-    "title": "Paper",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/paper/paper.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/password-game/index.html",
-    "title": "The Password Game",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/perfect-circle/index.html",
-    "title": "Draw a Perfect Circle \u2b55\ufe0f\ud83d\udcaf",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/perfect-circle/space.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/printing-money/index.html",
-    "title": "Printing Money",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/printing-money/border.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/privacy-policy/index.html",
-    "title": "Privacy Policy",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/progress/index.html",
-    "title": "Progress",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/rocks/index.html",
-    "title": "Rocks",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/sell-sell-sell/index.html",
-    "title": "Sell! Sell! Sell!",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/sell-sell-sell/jeff.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/dark-patterns.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/privacy-policy.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/share-this-page.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/where-does-the-day-go.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/who-was-alive.html",
-    "title": "neal.fun",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/share-this-page/index.html",
-    "title": "Share This Page",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-this-page/meme.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/size-of-space/index.html",
-    "title": "The Size of Space",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/space-elevator/index.html",
-    "title": "Space Elevator",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/speed/index.html",
-    "title": "Speed",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/speed/local-group.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/spend/index.html",
-    "title": "Spend Bill Gates' Money",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/spend/billgates.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/ten-years-ago/index.html",
-    "title": "Ten Years Ago",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/universe-forecast/index.html",
-    "title": "Universe Forecast",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/where-does-the-day-go/index.html",
-    "title": "Where does the day go?",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/share-cards/space-elevator.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/who-was-alive/index.html",
-    "title": "Who Was Alive?",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/who-was-alive/336809.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/neal.fun/wonders-of-street-view/index.html",
-    "title": "Wonders of Street View",
-    "image": "https://orangeify.github.io/blooket-games/neal.fun/wonders-of-street-view/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ninja/index.html",
-    "title": "Ninja",
-    "image": "https://orangeify.github.io/blooket-games/ninja/logo1.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ninjavsevilcorp/index.html",
-    "title": "Ninja vs EVILCORP",
-    "image": "https://orangeify.github.io/blooket-games/ninjavsevilcorp/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/noob-steve-parkour/index.html",
-    "title": "Noob Steve Parkour",
-    "image": "https://orangeify.github.io/blooket-games/noob-steve-parkour/512x340.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ns-shaft/index.html",
-    "title": "NS-SHAFT",
-    "image": "https://orangeify.github.io/blooket-games/ns-shaft/bg.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/nsresurgence/index.html",
-    "title": "Neon Square Resurgence",
-    "image": "https://orangeify.github.io/blooket-games/nsresurgence/neon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/om-bounce/index.html",
-    "title": "Om Nom Bounce",
-    "image": "https://orangeify.github.io/blooket-games/om-bounce/assets/images/gameplayBg_3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/faq.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/genre.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/gradetest.html",
-    "title": "123",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/history.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/hot.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/index.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/local.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/new.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/preview.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/search.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/osu%21/settings.html",
-    "title": "OSU! Web | GAMES.JM26.NET",
-    "image": "https://orangeify.github.io/blooket-games/osu%21/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/out-of-ctrl/OutOfCtrl_v1_2/index.html",
-    "title": "  OutOfCtrl",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/overwatch/overwatch.html",
-    "title": "overwatch",
-    "image": "https://orangeify.github.io/blooket-games/overwatch/98FBAD0A-F63A-46B5-81E7-0D3074D23365.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/index.html",
-    "title": "OvO",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/among%20us%20death.html",
-    "title": "among us death",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/among%20us%20slice.html",
-    "title": "among us slice",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/button.html",
-    "title": "button",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/click.html",
-    "title": "click",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/coin1.html",
-    "title": "coin1",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/death-2.html",
-    "title": "death-2",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/death.html",
-    "title": "death",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/first%20try.html",
-    "title": "first try",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/footstep.html",
-    "title": "footstep",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/heart%20loop.html",
-    "title": "heart loop",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/hover.html",
-    "title": "hover",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/hurt.html",
-    "title": "hurt",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/idontevenknow.html",
-    "title": "idontevenknow",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/jump.html",
-    "title": "jump",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/jumpboost.html",
-    "title": "jumpboost",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/jumpstrong.html",
-    "title": "jumpstrong",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/mechanical.html",
-    "title": "mechanical",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/menutrack.html",
-    "title": "menutrack",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/plunge.html",
-    "title": "plunge",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/pound.html",
-    "title": "pound",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/prepound.html",
-    "title": "prepound",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/return.html",
-    "title": "return",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/rocket-2.html",
-    "title": "rocket-2",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-01.html",
-    "title": "sfx_transition-01",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-02.html",
-    "title": "sfx_transition-02",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-03.html",
-    "title": "sfx_transition-03",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-04.html",
-    "title": "sfx_transition-04",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-05.html",
-    "title": "sfx_transition-05",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-06.html",
-    "title": "sfx_transition-06",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-07.html",
-    "title": "sfx_transition-07",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sfx_transition-08.html",
-    "title": "sfx_transition-08",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/sick%20of%20losing.html",
-    "title": "sick of losing",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/slide.html",
-    "title": "slide",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/slide_recover.html",
-    "title": "slide_recover",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/soulmates.html",
-    "title": "soulmates",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/step.html",
-    "title": "step",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/step2.html",
-    "title": "step2",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/step3.html",
-    "title": "step3",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/stun.html",
-    "title": "stun",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/superjump.html",
-    "title": "superjump",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/track1.html",
-    "title": "track1",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/track2.html",
-    "title": "track2",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/track3.html",
-    "title": "track3",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/track4.html",
-    "title": "track4",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/transition.html",
-    "title": "transition",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/media/walljump.html",
-    "title": "walljump",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ovo/sdk.html",
-    "title": "Crazy Games",
-    "image": "https://orangeify.github.io/blooket-games/ovo/ovo2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/pandemic2/index.html",
-    "title": "Pandemic 2",
-    "image": "https://orangeify.github.io/blooket-games/pandemic2/pandemic2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/papasburgeria/index.html",
-    "title": "Papa Burgeria",
-    "image": "https://orangeify.github.io/blooket-games/papasburgeria/ico.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/papaspizzaria/index.html",
-    "title": "Papa's Pizzaria",
-    "image": "https://orangeify.github.io/blooket-games/papaspizzaria/papaspizzaria.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/paperio2/index.html",
-    "title": "Paper.io 2",
-    "image": "https://orangeify.github.io/blooket-games/paperio2/images/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/papery-planes/index.html",
-    "title": "Papery Planes",
-    "image": "https://orangeify.github.io/blooket-games/papery-planes/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/BBbar.html",
-    "title": "BBbar",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/CPV.html",
-    "title": "CPV",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/Dstar_s.html",
-    "title": "Dstar_s",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/H.html",
-    "title": "H",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/Jpsi.html",
-    "title": "Jpsi",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/Xi_b.html",
-    "title": "Xi_b",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/b.html",
-    "title": "b",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/detector.html",
-    "title": "detector",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/gluons.html",
-    "title": "gluons",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/tau.html",
-    "title": "tau",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/top.html",
-    "title": "top",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/html/weak.html",
-    "title": "weak",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/particle-clicker/index.html",
-    "title": "Particle Clicker",
-    "image": "https://orangeify.github.io/blooket-games/particle-clicker/assets/mobile/original.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/piclient/piclient.html",
-    "title": "PiClient",
-    "image": "https://orangeify.github.io/blooket-games/piclient/B969467B-2495-4872-A739-B6ECA873FF5A.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/pigeon-ascent/--index.html",
-    "title": "Pigeon Ascent",
-    "image": "https://orangeify.github.io/blooket-games/pigeon-ascent/index.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/pigeon-ascent/index.html",
-    "title": "Pigeon Ascent",
-    "image": "https://orangeify.github.io/blooket-games/pigeon-ascent/index.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/pixel-gun-survival/index.html",
-    "title": "Pixel Gun Survival",
-    "image": "https://orangeify.github.io/blooket-games/pixel-gun-survival/512x512.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/planetlife/index.html",
-    "title": "planet life",
-    "image": "https://orangeify.github.io/blooket-games/planetlife/images/handling/coolMathSplash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/plantsvzombie1/pvz1.html",
-    "title": "plants vs zombies",
-    "image": "https://orangeify.github.io/blooket-games/plantsvzombie1/image_proxy.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/polybranch/index.html",
-    "title": "PolyBranch",
-    "image": "https://orangeify.github.io/blooket-games/polybranch/Arrow_keys.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/popcat-classic/index.html",
-    "title": "POPCAT CLASSIC",
-    "image": "https://orangeify.github.io/blooket-games/popcat-classic/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/portalflash/index.html",
-    "title": "Portal (Flash)",
-    "image": "https://orangeify.github.io/blooket-games/portalflash/portaltheflashversion.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/precision-client/gateway.html",
-    "title": "gateway",
-    "image": "https://orangeify.github.io/blooket-games/precision-client/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/precision-client/index.html",
-    "title": "Precision Client",
-    "image": "https://orangeify.github.io/blooket-games/precision-client/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/protektor/index.html",
-    "title": "Protektor",
-    "image": "https://orangeify.github.io/blooket-games/protektor/penumbra.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/push-the-square/index.html",
-    "title": "Push the square",
-    "image": "https://orangeify.github.io/blooket-games/push-the-square/img/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/push-your-luck/index.html",
-    "title": "Push Your Luck",
-    "image": "https://orangeify.github.io/blooket-games/push-your-luck/assets/atlas/Sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/rabbit-samurai/index.html",
-    "title": "Rabbit Samurai",
-    "image": "https://orangeify.github.io/blooket-games/rabbit-samurai/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/rabbit-samurai2/index.html",
-    "title": "Rabbit Samurai 2",
-    "image": "https://orangeify.github.io/blooket-games/rabbit-samurai2/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/resent-client/1.8/index.html",
-    "title": "Resent Client",
-    "image": "https://orangeify.github.io/blooket-games/resent-client/1.8/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/resent-client/gen/template.html",
-    "title": "Resent Client",
-    "image": "https://orangeify.github.io/blooket-games/resent-client/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/resent-client/index.html",
-    "title": "Resent Client",
-    "image": "https://orangeify.github.io/blooket-games/resent-client/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/resent-client/output.html",
-    "title": "My Drive - Google Drive",
-    "image": "https://orangeify.github.io/blooket-games/resent-client/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/resent-client/queryTest.html",
-    "title": "query test",
-    "image": "https://orangeify.github.io/blooket-games/resent-client/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/retro-bowl/index.html",
-    "title": "Retro Bowl",
-    "image": "https://orangeify.github.io/blooket-games/retro-bowl/html5game/RetroBowl_texture_1.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/rhythm-doctor/index.html",
-    "title": "Rhythm Doctor",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddleschool/index.html",
-    "title": "Riddle School",
-    "image": "https://orangeify.github.io/blooket-games/riddleschool/riddleschool.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddleschool2/index.html",
-    "title": "Riddle School 2",
-    "image": "https://orangeify.github.io/blooket-games/riddleschool2/riddleschool2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddleschool3/index.html",
-    "title": "Riddle School 3",
-    "image": "https://orangeify.github.io/blooket-games/riddleschool3/riddleschool3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddleschool4/index.html",
-    "title": "Riddle School 4",
-    "image": "https://orangeify.github.io/blooket-games/riddleschool4/riddleschool4.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddleschool5/index.html",
-    "title": "Riddle School 5",
-    "image": "https://orangeify.github.io/blooket-games/riddleschool5/riddleschool5.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddletransfer/index.html",
-    "title": "Riddle Transfer",
-    "image": "https://orangeify.github.io/blooket-games/riddletransfer/riddletransfer.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/riddletransfer2/index.html",
-    "title": "Riddle Transfer 2",
-    "image": "https://orangeify.github.io/blooket-games/riddletransfer2/riddletransfer2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/roblox/index.html",
-    "title": "Roblox",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/roblox%20copy/index.html",
-    "title": "Roblox",
-    "image": "https://orangeify.github.io/blooket-games/roblox%20copy/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/robuxclicker/robuxclicker.html",
-    "title": "robuxclicker",
-    "image": "https://orangeify.github.io/blooket-games/robuxclicker/splash.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/rolling-forests/index.html",
-    "title": "Rolling Forests",
-    "image": "https://orangeify.github.io/blooket-games/rolling-forests/icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/rolly-vortex/index.html",
-    "title": "Rolly Vortex",
-    "image": "https://orangeify.github.io/blooket-games/rolly-vortex/icon-256.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/rooftop-snipers/index.html",
-    "title": "Rooftop Snipers",
-    "image": "https://orangeify.github.io/blooket-games/rooftop-snipers/img/preview.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/roommate/31/index.html",
-    "title": "  4",
-    "image": "https://orangeify.github.io/blooket-games/roommate/31/TemplateData/unity-logo-light.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ruffle/index.html",
-    "title": "Ruffle Web",
-    "image": "https://orangeify.github.io/blooket-games/ruffle/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/run/index.html",
-    "title": "Run",
-    "image": "https://orangeify.github.io/blooket-games/run/run.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/run%203/Run%203.html",
-    "title": "Run 3",
-    "image": "https://orangeify.github.io/blooket-games/run%203/image_proxy.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/run2/index.html",
-    "title": "Run 2",
-    "image": "https://orangeify.github.io/blooket-games/run2/run-2-logo.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/run3/index.html",
-    "title": "Run 3",
-    "image": "https://orangeify.github.io/blooket-games/run3/splash_256x256.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/run4bootleg/index.html",
-    "title": "run 4 | unblocked games compilation",
-    "image": "https://orangeify.github.io/blooket-games/run4bootleg/MoreGames.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/runner/index.html",
-    "title": "Run3Min",
-    "image": "https://orangeify.github.io/blooket-games/runner/loading3860.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sand-game/index.html",
-    "title": "Sand Game",
-    "image": "https://orangeify.github.io/blooket-games/sand-game/sand-game.PNG",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sandboxels/index.html",
-    "title": "Sandboxels",
-    "image": "https://orangeify.github.io/blooket-games/sandboxels/sandboxels.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/santy-is-home/index.html",
-    "title": "Santy is Home",
-    "image": "https://orangeify.github.io/blooket-games/santy-is-home/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/scooperia/index.html",
-    "title": "Papa's Scooperia",
-    "image": "https://orangeify.github.io/blooket-games/scooperia/scoop.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/scrapmetal/index.html",
-    "title": "Scrap Metal 3 Infernal Trap",
-    "image": "https://orangeify.github.io/blooket-games/scrapmetal/img/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/scratcharia/index.html",
-    "title": "Scratcharia",
-    "image": "https://orangeify.github.io/blooket-games/scratcharia/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/shellshockers/index.html",
-    "title": "Shellshockers",
-    "image": "https://orangeify.github.io/blooket-games/shellshockers/img/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/shogunshowdown/shogunshowdown.html",
-    "title": "shogunshowdown",
-    "image": "https://orangeify.github.io/blooket-games/shogunshowdown/19C0D9BB-86C1-4A65-B374-638BD25EE0FC.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/shotinthedark/index.html",
-    "title": "Shot in the Dark",
-    "image": "https://orangeify.github.io/blooket-games/shotinthedark/shot.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/shuttledeck/index.html",
-    "title": "SHUTTLEDECK",
-    "image": "https://orangeify.github.io/blooket-games/shuttledeck/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sky-car-stunt/index.html",
-    "title": "Sky Car Stunt",
-    "image": "https://orangeify.github.io/blooket-games/sky-car-stunt/512x384.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sleepingbeauty/index.html",
-    "title": "Sleeping Beauty",
-    "image": "https://orangeify.github.io/blooket-games/sleepingbeauty/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/slime-rush-td/index.html",
-    "title": "Slime Rush TD",
-    "image": "https://orangeify.github.io/blooket-games/slime-rush-td/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/slitherio/slitherio.html",
-    "title": "slitherio",
-    "image": "https://orangeify.github.io/blooket-games/slitherio/7EDEF379-07A2-4604-B552-C0A3DB2D70BE.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/slope/index.html",
-    "title": "Slope",
-    "image": "https://orangeify.github.io/blooket-games/slope/slope4.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/slope-2/index.html",
-    "title": "Slope 2",
-    "image": "https://orangeify.github.io/blooket-games/slope-2/slope-2-logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/slope-ball/index.html",
-    "title": "Slope Ball",
-    "image": "https://orangeify.github.io/blooket-games/slope-ball/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sm64/index.html",
-    "title": "Super Mario 64",
-    "image": "https://orangeify.github.io/blooket-games/sm64/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/smashkarts/index.html",
-    "title": "Smash Karts",
-    "image": "https://orangeify.github.io/blooket-games/smashkarts/images/SmashKartsBackground.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/smokingbarrels/index.html",
-    "title": "Smoking Barrels",
-    "image": "https://orangeify.github.io/blooket-games/smokingbarrels/smokingbarrels.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/snowbattle/index.html",
-    "title": "SnowBattle.io",
-    "image": "https://orangeify.github.io/blooket-games/snowbattle/img/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/snowrider3d/index.html",
-    "title": "  Snow Rider 3D",
-    "image": "https://orangeify.github.io/blooket-games/snowrider3d/images/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/soccer-random/index.html",
-    "title": "Soccer Random",
-    "image": "https://orangeify.github.io/blooket-games/soccer-random/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/soccer-skills/index.html",
-    "title": "Soccer Skills Euro Cup",
-    "image": "https://orangeify.github.io/blooket-games/soccer-skills/ogbanner.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/soldier-legend/index.html",
-    "title": "Soldier Legend",
-    "image": "https://orangeify.github.io/blooket-games/soldier-legend/images/boss-sheet0.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/solitaire/index.html",
-    "title": "Solitaire",
-    "image": "https://orangeify.github.io/blooket-games/solitaire/screen-shot-win.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sort-the-court/index.html",
-    "title": "Sort the Court",
-    "image": "https://orangeify.github.io/blooket-games/sort-the-court/img/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/soundboard/index.html",
-    "title": "Soundboard",
-    "image": "https://orangeify.github.io/blooket-games/soundboard/img/mlg.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/soundboard/og.html",
-    "title": "Soundboard",
-    "image": "https://orangeify.github.io/blooket-games/soundboard/img/mlg.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/space-company/index.html",
-    "title": "Space Company",
-    "image": "https://orangeify.github.io/blooket-games/space-company/loadScreenPicKong.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/spacegarden/index.html",
-    "title": "Space Garden",
-    "image": "https://orangeify.github.io/blooket-games/spacegarden/spl.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/spelunky/assets/index.html",
-    "title": "SpelunkyClassicHD",
-    "image": "https://orangeify.github.io/blooket-games/spelunky/assets/SpelunkyClassicHD_texture_8.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/spelunky/index.html",
-    "title": "SpelunkyClassicHD",
-    "image": "https://orangeify.github.io/blooket-games/spelunky/assets/SpelunkyClassicHD_texture_8.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/spinningrat/index.html",
-    "title": "spinningrat.online",
-    "image": "https://orangeify.github.io/blooket-games/spinningrat/apple-touch-icon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/squaredash/index.html",
-    "title": "Square dash",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/ssurferbotleg/index.html",
-    "title": "  Yes",
-    "image": "https://orangeify.github.io/blooket-games/ssurferbotleg/TemplateData/webgl-logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stack/index.html",
-    "title": "Stack",
-    "image": "https://orangeify.github.io/blooket-games/stack/stack.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stack-bump-3d/index.html",
-    "title": "Stack Bump 3D",
-    "image": "https://orangeify.github.io/blooket-games/stack-bump-3d/thumbnail.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/starve/index.html",
-    "title": "Starve.io",
-    "image": "https://orangeify.github.io/blooket-games/starve/img/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/station-141/index.html",
-    "title": "Station 141",
-    "image": "https://orangeify.github.io/blooket-games/station-141/75wxYs.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stationmeltdown/Build/index.html",
-    "title": "403 Forbidden",
-    "image": "https://orangeify.github.io/blooket-games/stationmeltdown/image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stationmeltdown/TemplateData/favicon.html",
-    "title": "404 Not Found",
-    "image": "https://orangeify.github.io/blooket-games/stationmeltdown/TemplateData/unity-logo-dark.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stationmeltdown/TemplateData/fullscreen-button.html",
-    "title": "404 Not Found",
-    "image": "https://orangeify.github.io/blooket-games/stationmeltdown/TemplateData/unity-logo-dark.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stationmeltdown/TemplateData/webgl-logo.html",
-    "title": "404 Not Found",
-    "image": "https://orangeify.github.io/blooket-games/stationmeltdown/TemplateData/unity-logo-dark.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stationmeltdown/index.html",
-    "title": "  Station Meltdown",
-    "image": "https://orangeify.github.io/blooket-games/stationmeltdown/image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stealingthediamond/index.html",
-    "title": "Stealing The Diamond",
-    "image": "https://orangeify.github.io/blooket-games/stealingthediamond/stealingthediamond.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stick-archers/index.html",
-    "title": "Stick Archers",
-    "image": "https://orangeify.github.io/blooket-games/stick-archers/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stick-duel-battle/images/index.html",
-    "title": "Stick Duel Battle",
-    "image": "https://orangeify.github.io/blooket-games/stick-duel-battle/images/shared-3-sheet0.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stick-duel-battle/index.html",
-    "title": "Stick Duel Battle",
-    "image": "https://orangeify.github.io/blooket-games/stick-duel-battle/512x512.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stick-merge/index.html",
-    "title": "Stick Merge",
-    "image": "https://orangeify.github.io/blooket-games/stick-merge/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stickman-boost/index.html",
-    "title": "Stickman Boost",
-    "image": "https://orangeify.github.io/blooket-games/stickman-boost/icon-256.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stickman-golf/index.html",
-    "title": "Super Stickman Golf",
-    "image": "https://orangeify.github.io/blooket-games/stickman-golf/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stickman-hook/index.html",
-    "title": "Stickman Hook",
-    "image": "https://orangeify.github.io/blooket-games/stickman-hook/unnamed.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stickwar/index.html",
-    "title": "Stick War",
-    "image": "https://orangeify.github.io/blooket-games/stickwar/stickwar.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stormthehouse2/index.html",
-    "title": "Storm The House 2",
-    "image": "https://orangeify.github.io/blooket-games/stormthehouse2/stormthehouse2.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/stumble-guys/index.html",
-    "title": "Stumble Guys",
-    "image": "https://orangeify.github.io/blooket-games/stumble-guys/stumble-guys.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/subway-surfers/index.html",
-    "title": "Subway Surfers",
-    "image": "https://orangeify.github.io/blooket-games/subway-surfers/img/splash.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/subway-surfers-ny/index.html",
-    "title": "Subway Surfers New York",
-    "image": "https://orangeify.github.io/blooket-games/subway-surfers-ny/NewYorkIcon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/suggestions/index.html",
-    "title": "index",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/superautopets/index.html",
-    "title": "Super Auto Pets",
-    "image": "https://orangeify.github.io/blooket-games/superautopets/image.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/superfowlist/index.html",
-    "title": "Super Fowlst",
-    "image": "https://orangeify.github.io/blooket-games/superfowlist/fowlist.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/superhot/index.html",
-    "title": "SUPERHOT",
-    "image": "https://orangeify.github.io/blooket-games/superhot/hot.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/supermarioconstruct/index.html",
-    "title": "Super Mario Construct",
-    "image": "https://orangeify.github.io/blooket-games/supermarioconstruct/textareaimage.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/surviv/index.html",
-    "title": "Starve.io",
-    "image": "https://orangeify.github.io/blooket-games/surviv/img/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/sushi-unroll/index.html",
-    "title": "SUSHI unROLL",
-    "image": "https://orangeify.github.io/blooket-games/sushi-unroll/favicon.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/swarmsimulator/Swarm%20Simulator.html",
-    "title": "Swarm Simulator",
-    "image": "",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/swerve/index.html",
-    "title": "SWERVE",
-    "image": "https://orangeify.github.io/blooket-games/swerve/img/favicon.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/synesthesia/index.html",
-    "title": "Synesthesia",
-    "image": "https://orangeify.github.io/blooket-games/synesthesia/index.splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tactical-weapon-pack-2/index.html",
-    "title": "Tactical Weapon Pack 2",
-    "image": "https://orangeify.github.io/blooket-games/tactical-weapon-pack-2/pack.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tacticalassasin2/index.html",
-    "title": "Tactical Assasin 2",
-    "image": "https://orangeify.github.io/blooket-games/tacticalassasin2/tacticalassassin2.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tank-trouble-2/index.html",
-    "title": "Tank Trouble 2",
-    "image": "https://orangeify.github.io/blooket-games/tank-trouble-2/tank.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tanuki-sunset/index.html",
-    "title": "Tanuki Sunset",
-    "image": "https://orangeify.github.io/blooket-games/tanuki-sunset/img/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/temple-run-2/index.html",
-    "title": "Temple Run 2",
-    "image": "https://orangeify.github.io/blooket-games/temple-run-2/52d79153235ad2a88f8b1ff2ffdbe067.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/the-final-earth/index.html",
-    "title": "The Final Earth",
-    "image": "https://orangeify.github.io/blooket-games/the-final-earth/images.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/the-final-earth-2/index.html",
-    "title": "The Final Earth 2",
-    "image": "https://orangeify.github.io/blooket-games/the-final-earth-2/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/the-final-earth-2/site-specific/steam/workshop/workshop_index.html",
-    "title": "The Final Earth 2 Workshop Manager",
-    "image": "https://orangeify.github.io/blooket-games/the-final-earth-2/sprites.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/the-hotel/index.html",
-    "title": "The Hotel",
-    "image": "https://orangeify.github.io/blooket-games/the-hotel/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/thebattle/index.html",
-    "title": "The Battle",
-    "image": "https://orangeify.github.io/blooket-games/thebattle/thebattle.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/theheist/index.html",
-    "title": "The Heist",
-    "image": "https://orangeify.github.io/blooket-games/theheist/theheist.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/there-is-no-game/index.html",
-    "title": "There Is No Game",
-    "image": "https://orangeify.github.io/blooket-games/there-is-no-game/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/thisistheonlylevel/index.html",
-    "title": "This Is The Only Level",
-    "image": "https://orangeify.github.io/blooket-games/thisistheonlylevel/thisistheonlylevel.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/throwrocks/index.html",
-    "title": "Throw Rocks at Shit",
-    "image": "https://orangeify.github.io/blooket-games/throwrocks/card.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tiny-fishing/index.html",
-    "title": "Tiny Fishing",
-    "image": "https://orangeify.github.io/blooket-games/tiny-fishing/tiny-fishing.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tiny-islands/index.html",
-    "title": "Tiny Islands",
-    "image": "https://orangeify.github.io/blooket-games/tiny-islands/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tosstheturtle/index.html",
-    "title": "Toss The Turtle",
-    "image": "https://orangeify.github.io/blooket-games/tosstheturtle/tosstheturtle.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/townscaper/index.html",
-    "title": "Townscaper",
-    "image": "https://orangeify.github.io/blooket-games/townscaper/img/sample.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tube-jumpers/index.html",
-    "title": "Tube Jumpers",
-    "image": "https://orangeify.github.io/blooket-games/tube-jumpers/img/shark.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tunnel-rush/index.html",
-    "title": "Tunnel Rush",
-    "image": "https://orangeify.github.io/blooket-games/tunnel-rush/img/tunnel.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/tv-static/index.html",
-    "title": "Static TV",
-    "image": "https://orangeify.github.io/blooket-games/tv-static/static.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/twitch-tetris/about.html",
-    "title": "TwitchTetris",
-    "image": "https://orangeify.github.io/blooket-games/twitch-tetris/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/twitch-tetris/controls.html",
-    "title": "TwitchTetris",
-    "image": "https://orangeify.github.io/blooket-games/twitch-tetris/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/twitch-tetris/highScores.html",
-    "title": "TwitchTetris",
-    "image": "https://orangeify.github.io/blooket-games/twitch-tetris/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/twitch-tetris/index.html",
-    "title": "TwitchTetris",
-    "image": "https://orangeify.github.io/blooket-games/twitch-tetris/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/twitch-tetris/scoreScreen.html",
-    "title": "TwitchTetris",
-    "image": "https://orangeify.github.io/blooket-games/twitch-tetris/logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/unfairmario/index.html",
-    "title": "3kh0 | Unfair Mario",
-    "image": "https://orangeify.github.io/blooket-games/unfairmario/sus.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/veloce/index.html",
-    "title": "VELOCE",
-    "image": "https://orangeify.github.io/blooket-games/veloce/qN6zkD.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/vex2/vex2.html",
-    "title": "vex2",
-    "image": "https://orangeify.github.io/blooket-games/vex2/BC5ADE2D-5F7A-4352-A7FD-579517F823E4.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/vex3/index.html",
-    "title": "Vex 3",
-    "image": "https://orangeify.github.io/blooket-games/vex3/vex3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/vex4/index.html",
-    "title": "Vex 4",
-    "image": "https://orangeify.github.io/blooket-games/vex4/vex4.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/vex5/index.html",
-    "title": "Vex 5",
-    "image": "https://orangeify.github.io/blooket-games/vex5/vex.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/vex6/index.html",
-    "title": "Vex 6",
-    "image": "https://orangeify.github.io/blooket-games/vex6/assets/atlases/gameplay.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/vex7/index.html",
-    "title": "Vex 7",
-    "image": "https://orangeify.github.io/blooket-games/vex7/assets/spine/player.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/volley-random/index.html",
-    "title": "Volley Random",
-    "image": "https://orangeify.github.io/blooket-games/volley-random/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/wallsmash/index.html",
-    "title": "Wall Smash",
-    "image": "https://orangeify.github.io/blooket-games/wallsmash/thumb.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/waterworks/index.html",
-    "title": "Waterworks!",
-    "image": "https://orangeify.github.io/blooket-games/waterworks/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/weavesilk/index.html",
-    "title": "Weave Silk",
-    "image": "https://orangeify.github.io/blooket-games/weavesilk/thumb.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webcleaner/index.html",
-    "title": "  LD51",
-    "image": "https://orangeify.github.io/blooket-games/webcleaner/TemplateData/unity-logo-dark.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webgl-fluid-simulation/index.html",
-    "title": "WebGL Fluid Simulation",
-    "image": "https://orangeify.github.io/blooket-games/webgl-fluid-simulation/promo_back.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/index.html",
-    "title": "webretro",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/info/changelog.html",
-    "title": "Changelog | webretro",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/info/cookiepolicy.html",
-    "title": "Cookie Policy | webretro",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/info/index.html",
-    "title": "Information | webretro",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/info/privacy.html",
-    "title": "Privacy Policy | webretro",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/info/tos.html",
-    "title": "Terms and Conditions | webretro",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/roms.html",
-    "title": "select a rom...",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webretro/uauth/receiver.html",
-    "title": "Choose a File",
-    "image": "https://orangeify.github.io/blooket-games/webretro/thumb/mother3.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/webxash/index.html",
-    "title": "WebXash",
-    "image": "https://orangeify.github.io/blooket-games/webxash/assets/webxash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/win-the-whitehouse/index.html",
-    "title": "Win the White House",
-    "image": "https://orangeify.github.io/blooket-games/win-the-whitehouse/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/wolf2d/index.html",
-    "title": "wolfenstein 2D",
-    "image": "https://orangeify.github.io/blooket-games/wolf2d/icons/%5Bicon-512%5D.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/wolf3d/index.html",
-    "title": "Wolfenstein 3D",
-    "image": "https://orangeify.github.io/blooket-games/wolf3d/art/wolf3d.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/wordle/index.html",
-    "title": "Wordle",
-    "image": "https://orangeify.github.io/blooket-games/wordle/img/og_1200x630.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/worlds-hardest-game/index.html",
-    "title": "WHG",
-    "image": "https://orangeify.github.io/blooket-games/worlds-hardest-game/images/main_menu_play_game.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/worlds-hardest-game-2/index.html",
-    "title": "WHG2",
-    "image": "https://orangeify.github.io/blooket-games/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/wounded-summer-baby-edition/index.html",
-    "title": "  Wounded Summer",
-    "image": "https://orangeify.github.io/blooket-games/wounded-summer-baby-edition/TemplateData/webgl-logo.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/x-trial-racing/index.html",
-    "title": "X-Trial Racing",
-    "image": "https://orangeify.github.io/blooket-games/x-trial-racing/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/xx142-b2exe/index.html",
-    "title": "xx142-b2.exe",
-    "image": "https://orangeify.github.io/blooket-games/xx142-b2exe/splash.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/yohoho/index.html",
-    "title": "Yohoho.io",
-    "image": "https://orangeify.github.io/blooket-games/yohoho/yohoho.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/yohoho/privacypolicy.html",
-    "title": "privacypolicy",
-    "image": "https://orangeify.github.io/blooket-games/yohoho/yohoho.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/yoshifabrication/index.html",
-    "title": "Yoshi&#39;s Fabrication Station",
-    "image": "https://orangeify.github.io/blooket-games/yoshifabrication/lavatm1.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/you-are-bezos/index.html",
-    "title": "You Are Jeff Bezos",
-    "image": "https://orangeify.github.io/blooket-games/you-are-bezos/img/banner.png",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/zigzag/zigzag.html",
-    "title": "zigzag",
-    "image": "https://orangeify.github.io/blooket-games/zigzag/4EEE71BF-A06E-478D-B1E0-F67600291BDC.jpeg",
-    "proxy": false
-  },
-  {
-    "url": "https://orangeify.github.io/blooket-games/zombs-royale/index.html",
-    "title": "Zombs Royale",
-    "image": "https://orangeify.github.io/blooket-games/zombs-royale/zomb.png",
-    "proxy": false
-  }
+      "title": "2048",
+      "image": "",
+      "url": "https://www.mathsisfun.com/games/a/2048/index.html"
+    },
+    {
+      "title": "8-Ball Pool",
+      "image": "",
+      "url": "https://bloobio-eightballpool.coolmathgames.com/8ballpool"
+    },
+    {
+      "title": "Ace Attorney",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35266-phoenix-wright-ace-attorney-usa.html"
+    },
+    {
+      "title": "A Dance of Fire and Ice",
+      "image": "",
+      "url": "https://sgs-game-cdn.pages.dev/Projects/A%20Dance%20of%20Fire%20&%20Ice/"
+    },
+    {
+      "title": "Alien Hominid",
+      "image": "",
+      "url": "https://alien-hominid.game-files.crazygames.com/ruffle/alien-hominid/1/alien_hominid.html?v=1.286"
+    },
+    {
+      "title": "Among Us",
+      "image": "",
+      "url": "https://www.easyfun.gg/embed/among-us.html"
+    },
+    {
+      "title": "Angry Birds",
+      "image": "",
+      "url": "https://rawcdn.githack.com/lioxryt/lioxryt-assets/0cf7d107ddb99c99ea20387522aa29b8ee382049/other/angrybirds/index.html"
+    },
+    {
+      "title": "Asteroid Launcher",
+      "image": "",
+      "url": "https://neal.fun/asteroid-launcher/"
+    },
+    {
+      "title": "Baldi's Basics",
+      "image": "",
+      "url": "https://html5.gamemonetize.co/iiifrxhcnzl5laslqf3eaedtevjzb2bu/"
+    },
+    {
+      "title": "Banjo Kazooie",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32914-banjo-kazooie-usa.html"
+    },
+    {
+      "title": "Basket Random",
+      "image": "",
+      "url": "https://www.twoplayergames.org/embed/basket-random"
+    },
+    {
+      "title": "BitLife",
+      "image": "",
+      "url": "https://assets.shuttlemath.com/bitlife/"
+    },
+    {
+      "title": "Block Blast",
+      "image": "",
+      "url": "https://blockblast.game/game"
+    },
+    {
+      "title": "Bloons TD 1",
+      "image": "",
+      "url": "https://bloons-tower-defense.game-files.crazygames.com/ruffle/bloonstd.html?v=1.302"
+    },
+    {
+      "title": "Bloons TD 2",
+      "image": "",
+      "url": "https://bloons-tower-defense-2.game-files.crazygames.com/ruffle/bloonstd2.html?v=1.315"
+    },
+    {
+      "title": "Bloons TD Battles",
+      "image": "",
+      "url": "https://play.geforcenow.com/games?game-id=20b1f3b4-5d4e-45aa-8edb-35266362a7cc"
+    },
+    {
+      "title": "Bloons TD Battles 2",
+      "image": "",
+      "url": "https://play.geforcenow.com/games?game-id=d3b8fd6f-cad3-4779-94c3-b4617714de0c"
+    },
+    {
+      "title": "Bloxorz",
+      "image": "",
+      "url": "https://bloxorz.game-files.crazygames.com/ruffle/bloxorz.html?v=1.312"
+    },
+    {
+      "title": "Bomb Defuse Online",
+      "image": "",
+      "url": "https://games.crazygames.com/en_US/talking-and-nobody-explosion/index.html?v=1.347"
+    },
+    {
+      "title": "Brain Age",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/43251-brain-age-train-your-brain-in-minutes-a-day-usa-rev-1.html"
+    },
+    {
+      "title": "Brain Out",
+      "image": "",
+      "url": "https://3727783578915904364.playables.usercontent.goog/v/assets/index.html#flags=%7B%22enableServiceWorker%22%3Afalse%7D&origin=https%3A%2F%2Fwww.youtube.com"
+    },
+    {
+      "title": "Breaking the Bank",
+      "image": "",
+      "url": "https://breaking-the-bank.game-files.crazygames.com/ruffle/breaking-the-bank/1/breaking_the_bank.html?v=1.270"
+    },
+    {
+      "title": "Breath of Fire",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/19822-breath-of-fire-usa.html"
+    },
+    {
+      "title": "Breath of Fire 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/19771-breath-of-fire-ii-usa.html"
+    },
+    {
+      "title": "Burger and Frights",
+      "image": "",
+      "url": "https://kdata1.com/2021/08/burger-frights/"
+    },
+    {
+      "title": "Castlevania Bloodlines",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/30108-castlevania-bloodlines-usa.html"
+    },
+    {
+      "title": "Cat Mario",
+      "image": "",
+      "url": "https://flashgames.cx/embed/猫里奥终极版"
+    },
+    {
+      "title": "Celeste (Pico-8)",
+      "image": "",
+      "url": "https://exok.com/minigames/celeste.html"
+    },
+    {
+      "title": "Chess",
+      "image": "",
+      "url": "https://chess.com"
+    },
+    {
+      "title": "Clash Royale",
+      "image": "",
+      "url": "https://www.easyfun.gg/embed/clash-royale-cloud-online.html"
+    },
+    {
+      "title": "Cell Machine",
+      "image": "",
+      "url": "https://gamesite.cdnpog.com/11a7057a-93fc-49b0-a064-d52b580f77ef/index.html?noads=true"
+    },
+    {
+      "title": "Connect 4",
+      "image": "",
+      "url": "https://www.cbc.ca/kids/games/play/connect-4"
+    },
+    {
+      "title": "Cookie Clicker",
+      "image": "",
+      "url": "https://scherb96.github.io/index.html"
+    },
+    {
+      "title": "Cookie Run Kingdom",
+      "image": "",
+      "url": "https://nowgg.fun/apps/a/10019/b.html"
+    },
+    {
+      "title": "Crash Bandicoot",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/40784-crash-bandicoot.html"
+    },
+    {
+      "title": "Crazy Cattle 3D",
+      "image": "",
+      "url": "https://crazycattle3d.io/game/crazycattle3d/v11/"
+    },
+    {
+      "title": "Crossy Road",
+      "image": "",
+      "url": "https://azgames.io/game/crossy-road/"
+    },
+    {
+      "title": "Cube Field",
+      "image": "",
+      "url": "https://cubefield.game-files.crazygames.com/ruffle/cubefield/1/cubefield.html?v=1.288"
+    },
+    {
+      "title": "Cut the Rope",
+      "image": "",
+      "url": "https://games.cdn.famobi.com/html5games/c/cut-the-rope/v100/?fg_domain=play.famobi.com&fg_aid=A-GI418&fg_uid=4531b37c-a8e0-4a67-9ebd-e8d3190b6277&fg_pid=d9fb2e7b-aae4-4d84-b6cb-98d67606a5ef&fg_beat=160&original_ref=https%3A%2F%2Fgames.cdn.famobi.com%2F"
+    },
+    {
+      "title": "Deal or No Deal",
+      "image": "",
+      "url": "https://nextgame.cdn.msnfun.com/9mwsg56qzgmk/v3/index.html?msstart_sdk_init=eyJwYXJlbnRPcmlnaW4iOiJodHRwczovL3d3dy5tc24uY29tIiwiY2xpZW50SWQiOiIwQkVBOTVDMDQ4Mzk2NzNGMjUwNDgzNDg0OUJGNjY4QyIsImxvY2FsZSI6ImVuLXVzIiwiZW50cnlQb2ludElkIjoiY2dhbnN3ZXIiLCJzd2l0Y2hHYW1lUGF5bG9hZCI6eyJzd2l0Y2hlZFRvIjoiOW13c2c1NnF6Z21rIiwidmFsdWUiOnt9fX0"
+    },
+    {
+      "title": "Design the Next iPhone",
+      "image": "",
+      "url": "https://neal.fun/design-the-next-iphone/"
+    },
+    {
+      "title": "Deltarune",
+      "image": "",
+      "url": "https://orangeify.github.io/deltarune-port/"
+    },
+    {
+      "title": "Diep.io",
+      "image": "",
+      "url": "https://diep.io"
+    },
+    {
+      "title": "Dino Run",
+      "image": "",
+      "url": "https://thedinogame.com/fullscreen/"
+    },
+    {
+      "title": "Donkey Kong",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/21321-donkey-kong-japan.html"
+    },
+    {
+      "title": "Donkey Kong 64",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32114-donkey-kong-64-usa.html"
+    },
+    {
+      "title": "Donkey Kong Country",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/23005-donkey-kong-country-usa.html"
+    },
+    {
+      "title": "Diddy Kong's Quest (DKC 2)",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/17336-donkey-kong-country-2-diddy-s-kong-quest-usa-en-fr-rev-a.html"
+    },
+    {
+      "title": "Don't Get the Job",
+      "image": "",
+      "url": "https://kdata1.com/2023/03/dont-get-the-job/?key=y8&value=default"
+    },
+    {
+      "title": "Doodle Jump",
+      "image": "",
+      "url": "https://doodlejump.fun/"
+    },
+    {
+      "title": "Doom",
+      "image": "",
+      "url": "https://archive.org/embed/doom_dos"
+    },
+    {
+      "title": "Draw a Perfect Circle",
+      "image": "",
+      "url": "https://neal.fun/perfect-circle/"
+    },
+    {
+      "title": "./dreader",
+      "image": "",
+      "url": "https://kdata1.com/2020/10/2811226/?key=y8&value=default"
+    },
+    {
+      "title": "Drift Boss",
+      "image": "",
+      "url": "https://www.hoodamath.com/mobile/games/drift-boss/game.html"
+    },
+    {
+      "title": "Drift Hunters",
+      "image": "",
+      "url": "https://www.hoodamath.com/mobile/games/drift-hunters/game.html?nocheckorient=1"
+    },
+    {
+      "title": "Drive Mad",
+      "image": "",
+      "url": "https://play.fancade.com/5F084A0BCE06B710?istart=1&max_h=9999999&max_w=999999"
+    },
+    {
+      "title": "Dr. Robotnik's Mean Bean Machine",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/29742-dr-robotnik-s-mean-bean-machine-usa.html"
+    },
+    {
+      "title": "Duck Hunt",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/21039-duck-hunt-world.html"
+    },
+    {
+      "title": "DuckTales",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/20967-duck-tales-usa.html"
+    },
+    {
+      "title": "Earthbound",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/24789-earthbound-usa.html"
+    },
+    {
+      "title": "Elastic Man",
+      "image": "",
+      "url": "https://www.adultswim.com/etcetera/elastic-man/app.html"
+    },
+    {
+      "title": "Escape Road",
+      "image": "",
+      "url": "https://azgames.io/game/escape-road/"
+    },
+    {
+      "title": "Escaping the Prison",
+      "image": "",
+      "url": "https://escaping-the-prison.game-files.crazygames.com/ruffle/escaping-the-prison/2/escaping_the_prison.html?v=1.280"
+    },
+    {
+      "title": "Exhibit of Sorrows",
+      "image": "",
+      "url": "https://www.crazygames.com/embed/exhibit-of-sorrows"
+    },
+    {
+      "title": "Fancy Pants Adventure",
+      "image": "",
+      "url": "https://fancy-pants-adventure-world.game-files.crazygames.com/ruffle/fancypantsadventureworld.html?v=1.285"
+    },
+    {
+      "title": "Final Fantasy: Dawn of Souls",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/28795-final-fantasy-i-ii-dawn-of-souls-u-independent.html"
+    },
+    {
+      "title": "Fireboy and Watergirl",
+      "image": "",
+      "url": "https://www.coolmathgames.com/sites/default/files/public_games/40034/?gd_sdk_referrer_url=https%3A%2F%2Fwww.coolmathgames.com%2F0-fireboy-and-water-girl-in-the-forest-temple"
+    },
+    {
+      "title": "Fishy",
+      "image": "",
+      "url": "https://fishy.game-files.crazygames.com/ruffle/fishy.html?v=1.286&ruffle=https%3A%2F%2Ffiles.crazygames.com%2Fgameframe%2Fruffle%2F2022-09-05%2Fruffle.js"
+    },
+    {
+      "title": "FNAF",
+      "image": "",
+      "url": "https://frogiesarcade.win/stuff/selfhosted/fnaf1/"
+    },
+    {
+      "title": "FNAF 2",
+      "image": "",
+      "url": "https://cdn.now.gg/html5-games/com.nowgg.h5.pub501.app51767/five-nights-at-freddy-s-2/index.html"
+    },
+    {
+      "title": "FNAF 3",
+      "image": "",
+      "url": "https://kdata1.com/5000/2025/fnaf/3/"
+    },
+    {
+      "title": "FNAF 4",
+      "image": "",
+      "url": "https://www.miniplay.com/embed/five-nights-at-freddys-4"
+    },
+    {
+      "title": "Fleeing the Complex",
+      "image": "",
+      "url": "https://fleeing-the-complex.game-files.crazygames.com/ruffle/fleeing-the-complex/1/fleeing_the_complex.html?v=1.281"
+    },
+    {
+      "title": "Foono",
+      "image": "",
+      "url": "https://foony.com/games/foono"
+    },
+    {
+      "title": "Fortnite",
+      "image": "",
+      "url": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a"
+    },
+    {
+      "title": "Four Second Frenzy",
+      "image": "",
+      "url": "https://four-second-frenzy.game-files.crazygames.com/ruffle/foursecondfrenzy.html?v=1.286"
+    },
+    {
+      "title": "Friday Night Funkin'",
+      "image": "",
+      "url": "https://fnf.kdata1.com/2024/fnf/410/"
+    },
+    {
+      "title": "Fruit Ninja",
+      "image": "",
+      "url": "https://emulatoros.github.io/fruitninja/"
+    },
+    {
+      "title": "F-Zero",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/20082-f-zero-usa.html"
+    },
+    {
+      "title": "GeoGuessr",
+      "image": "",
+      "url": "https://www.geoguessr.com/"
+    },
+    {
+      "title": "Geometry Dash",
+      "image": "",
+      "url": "https://nowgg.fun/apps/robtop-games/1400/geometry-dash.html"
+    },
+    {
+      "title": "Google Feud",
+      "image": "",
+      "url": "https://googlefeud.com"
+    },
+    {
+      "title": "Guess Who?",
+      "image": "",
+      "url": "https://storage.y8.com/y8-studio/html5/akeemywka/guess_who_v2/?key=y8&value=default"
+    },
+    {
+      "title": "Half-Life",
+      "image": "",
+      "url": "https://x8bitrain.github.io/webXash/"
+    },
+    {
+      "title": "Happy Wheels",
+      "image": "",
+      "url": "https://mrsnailman.github.io/Happy-Wheels-Source-Code/"
+    },
+    {
+      "title": "I Don't Even Game",
+      "image": "",
+      "url": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2018/swf/idonteven.swf&w=550&h=400&warnsupport=true"
+    },
+    {
+      "title": "I Don't Even Know",
+      "image": "",
+      "url": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2018/swf/idontevenknow.swf&w=550&h=400&warnsupport=true"
+    },
+    {
+      "title": "Infiltrating the Airship",
+      "image": "",
+      "url": "https://infiltrating-the-airship.game-files.crazygames.com/ruffle/infiltrating-the-airship/2/infiltrating_the_airship.html?v=1.280"
+    },
+    {
+      "title": "Infinite Craft",
+      "image": "",
+      "url": "https://neal.fun/infinite-craft/"
+    },
+    {
+      "title": "Interactive Buddy",
+      "image": "",
+      "url": "https://interactive-buddy.game-files.crazygames.com/ruffle/interactive-buddy/2/interactivebuddy.html?v=1.288"
+    },
+    {
+      "title": "Jetpack Joyride",
+      "image": "",
+      "url": "https://emulatoros.github.io/gfile/jetpackjoyride/"
+    },
+    {
+      "title": "jklm.fun",
+      "image": "",
+      "url": "https://jklm.fun/"
+    },
+    {
+      "title": "Just Hit the Button",
+      "image": "",
+      "url": "https://retryables.com/games/just_hit_the_button"
+    },
+    {
+      "title": "Kirby 64: The Crystal Shards",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32122-kirby-64-the-crystal-shards-usa.html"
+    },
+    {
+      "title": "Kirby and the Amazing Mirror",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/28667-kirby-and-the-amazing-mirror-u-rising-sun.html"
+    },
+    {
+      "title": "Kirby: Nightmare in Dreamland",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/26683-kirby-nightmare-in-dreamland-u-mode7.html"
+    },
+    {
+      "title": "Kirby Super Star",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/24938-kirby-super-star-usa.html"
+    },
+    {
+      "title": "Kirby's Adventure",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/22129-kirby-s-adventure-usa.html"
+    },
+    {
+      "title": "Kirby's Dream Course",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/23959-kirby-s-dream-course-usa.html"
+    },
+    {
+      "title": "Kirby's Dream Land",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/24996-kirby-s-dream-land-usa-europe.html"
+    },
+    {
+      "title": "Kirby's Dream Land 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/18524-kirby-s-dream-land-2-usa-europe.html"
+    },
+    {
+      "title": "Krunker",
+      "image": "",
+      "url": "https://krunker.io/"
+    },
+    {
+      "title": "Ludo King",
+      "image": "",
+      "url": "https://ludoking.com/play/"
+    },
+    {
+      "title": "MageClash.io",
+      "image": "",
+      "url": "https://www.mageclash.io/"
+    },
+    {
+      "title": "Make it Meme",
+      "image": "",
+      "url": "https://unblockedgamesg.org/iframes/make-it-meme-main/"
+    },
+    {
+      "title": "Mario & Luigi: Bowser's Inside Story",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/39310-mario-luigi-bowser-s-inside-story-usa-en-fr-es.html"
+    },
+    {
+      "title": "Mario & Luigi: Partners in Time",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35355-mario-luigi-partners-in-time-usa.html"
+    },
+    {
+      "title": "Mario & Luigi Superstar Saga",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/26855-mario-and-luigi-superstar-saga-e-menace.html"
+    },
+    {
+      "title": "Mario Kart 64",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32603-mario-kart-64-usa.html"
+    },
+    {
+      "title": "Mario Kart DS",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35307-mario-kart-ds-usa-en-fr-de-es-it.html"
+    },
+    {
+      "title": "Mario Kart: Super Circuit",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/27894-mario-kart-super-circuit-u-inferno.html"
+    },
+    {
+      "title": "Mario Paint",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/23646-mario-paint-japan-usa.html"
+    },
+    {
+      "title": "Mario Party",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32600-mario-party-usa.html"
+    },
+    {
+      "title": "Mario Party 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32166-mario-party-2-usa.html"
+    },
+    {
+      "title": "Mario Party 3",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32906-mario-party-3-usa.html"
+    },
+    {
+      "title": "Mario vs. Donkey Kong",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/26413-mario-vs-donkey-kong-u-venom.html"
+    },
+    {
+      "title": "Metroid",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16899-metroid-usa.html"
+    },
+    {
+      "title": "Metroid Fusion",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/20567-metroid-fusion-u-gbanow.html"
+    },
+    {
+      "title": "Minecraft",
+      "image": "",
+      "url": "https://eaglercraft.com/play/?version=1.12.2"
+    },
+    {
+      "title": "Mine Sweeper",
+      "image": "",
+      "url": "https://minesweeper.us/"
+    },
+    {
+      "title": "Monopoly",
+      "image": "",
+      "url": "https://html5.gamemonetize.co/rb9b7ctnmy1rjphxzuwlmy8c4b7mw9po/"
+    },
+    {
+      "title": "Mother 3",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/41675-mother-3-eng.html"
+    },
+    {
+      "title": "Murder",
+      "image": "",
+      "url": "https://murder.game-files.crazygames.com/ruffle/murder/1/murder.html?v=1.285"
+    },
+    {
+      "title": "New Super Mario Bros.",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35573-new-super-mario-bros-usa.html"
+    },
+    {
+      "title": "Osu!",
+      "image": "",
+      "url": "https://scratch.mit.edu/projects/613688710/embed"
+    },
+    {
+      "title": "OvO",
+      "image": "",
+      "url": "https://www.hoodamath.com/mobile/games/ovo/game.html?nocheckorient=1"
+    },
+    {
+      "title": "Webosu!",
+      "image": "",
+      "url": "https://webosu.online/"
+    },
+    {
+      "title": "Papa's Pizzeria",
+      "image": "",
+      "url": "https://papas-pizzeria.game-files.crazygames.com/ruffle/papas-pizzeria/1/papaspizzeria_v2.html?v=1.286"
+    },
+    {
+      "title": "Paper.io 2",
+      "image": "",
+      "url": "https://paperio.site/"
+    },
+    {
+      "title": "Paper Mario",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32120-paper-mario-usa.html"
+    },
+    {
+      "title": "Pixil Art",
+      "image": "",
+      "url": "https://www.pixilart.com/draw?ref=home-page++https://www.pixilart.com/draw?ref%3Dhome-page"
+    },
+    {
+      "title": "Pizza Tower",
+      "image": "",
+      "url": "https://orangeify.github.io/pizza-tower-web-port/"
+    },
+    {
+      "title": "Plants vs. Zombies",
+      "image": "",
+      "url": "https://kdata1.com/2024/05/pvz-main54872222/game/iframe.html"
+    },
+    {
+      "title": "Pokémon Black",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32564-pokemon-black-version.html"
+    },
+    {
+      "title": "Pokémon Blue",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/25021-pokemon-blue-version-usa-europe.html"
+    },
+    {
+      "title": "Pokémon Crystal",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/18243-pokemon-crystal-version-usa-europe.html"
+    },
+    {
+      "title": "Pokémon Diamond",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/36154-pokemon-diamond-version-usa-rev-5.html"
+    },
+    {
+      "title": "Pokémon Emerald",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/19514-pokemon-emerald-u-trashman.html"
+    },
+    {
+      "title": "Pokémon Fire Red",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/19330-pokemon-fire-red-u-independent.html"
+    },
+    {
+      "title": "Pokémon Gold",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/18984-pokemon-gold-version-usa-europe.html"
+    },
+    {
+      "title": "Pokémon Green",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/25237-pocket-monsters-midori-japan.html"
+    },
+    {
+      "title": "Pokémon HeartGold",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/39926-pokemon-heartgold-version-usa.html"
+    },
+    {
+      "title": "Pokémon Leaf Green",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/26141-pokemon-leaf-green-u-independent.html"
+    },
+    {
+      "title": "Pokémon Mystery Dungeon: Blue Rescue Team",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35705-pokemon-mystery-dungeon-blue-rescue-team-usa.html"
+    },
+    {
+      "title": "Pokémon Mystery Dungeon: Explorers of Darkness",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/37382-pokemon-mystery-dungeon-explorers-of-darkness-usa.html"
+    },
+    {
+      "title": "Pokémon Mystery Dungeon: Explorers of Sky",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/39412-pokemon-mystery-dungeon-explorers-of-sky-usa.html"
+    },
+    {
+      "title": "Pokémon Mystery Dungeon: Explorers of Time",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/37383-pokemon-mystery-dungeon-explorers-of-time-usa.html"
+    },
+    {
+      "title": "Pokémon Mystery Dungeon: Red Rescue Team",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/27818-pokemon-mystery-dungeon-red-rescue-team-e-rising-sun.html"
+    },
+    {
+      "title": "Pokémon Pearl",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/36155-pokemon-pearl-version-usa-rev-5.html"
+    },
+    {
+      "title": "Pokémon Platinum",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/38680-pokemon-platinum-version-usa.html"
+    },
+    {
+      "title": "Pokémon Ranger",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35783-pokemon-ranger-usa.html"
+    },
+    {
+      "title": "Pokémon Red",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/25991-pokemon-red-version-usa-europe.html"
+    },
+    {
+      "title": "Pokémon Ruby",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/26523-pokemon-ruby-e-independent.html"
+    },
+    {
+      "title": "Pokémon Sapphire",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/26661-pokemon-sapphire-e-independent.html"
+    },
+    {
+      "title": "Pokémon Silver",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/17463-pokemon-silver-version-usa-europe.html"
+    },
+    {
+      "title": "Pokémon Snap",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32209-pokemon-snap-usa.html"
+    },
+    {
+      "title": "Pokémon SoulSilver",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/39927-pokemon-soulsilver-version-usa.html"
+    },
+    {
+      "title": "Pokémon Stadium",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32125-pokemon-stadium-usa.html"
+    },
+    {
+      "title": "Pokémon White",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/41889-pokemon-white-version-usa-europe-ndsi-enhanced.html"
+    },
+    {
+      "title": "Pokémon Yellow",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/27078-pokemon-yellow-version-usa-europe.html"
+    },
+    {
+      "title": "Portal",
+      "image": "",
+      "url": "https://play.geforcenow.com/games?game-id=df05c1d5-60a1-4969-a73a-2fef74a8dde8"
+    },
+    {
+      "title": "Portal 2",
+      "image": "",
+      "url": "https://play.geforcenow.com/games?game-id=749ab5aa-eded-4616-965e-fae5f9b6c7f1"
+    },
+    {
+      "title": "Portal (Flash)",
+      "image": "",
+      "url": "https://portal-the-flash-version.game-files.crazygames.com/ruffle/portaltheflashversion.html?v=1.286"
+    },
+    {
+      "title": "Punch-Out!!",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/20466-punch-out-usa.html"
+    },
+    {
+      "title": "Push the Square",
+      "image": "",
+      "url": "https://www.rapidwebapp.com/game/pushthesquare/index.html"
+    },
+    {
+      "title": "Rainbow Stacker",
+      "image": "",
+      "url": "https://www.cbc.ca/gaming/play/rainbow_stacker"
+    },
+    {
+      "title": "Resident Evil",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/42875-resident-evil.html"
+    },
+    {
+      "title": "Retro Bowl",
+      "image": "",
+      "url": "https://retrobowlonline.bitbucket.io/file/index.html"
+    },
+    {
+      "title": "Rhythm Tengoku",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/42383-rhythm-heaven-silver.html"
+    },
+    {
+      "title": "Riddle School",
+      "image": "",
+      "url": "https://riddle-school.game-files.crazygames.com/ruffle/riddleschool.html?v=1.285"
+    },
+    {
+      "title": "Riddle School 2",
+      "image": "",
+      "url": "https://riddle-school-2.game-files.crazygames.com/ruffle/riddleschool2.html?v=1.285"
+    },
+    {
+      "title": "Riddle School 3",
+      "image": "",
+      "url": "https://riddle-school-3.game-files.crazygames.com/ruffle/riddleschool3.html?czyDynamicPriceFloorVariantsCZY_14537=portal&enableAdmiral=0&ssrDevice=desktop&skipPrerollFirstSession=true&v=1.332"
+    },
+    {
+      "title": "Riddle School 4",
+      "image": "",
+      "url": "https://riddle-school-4.game-files.crazygames.com/ruffle/riddleschool4.html?czyDynamicPriceFloorVariantsCZY_14537=portal&enableAdmiral=0&ssrDevice=desktop&skipPrerollFirstSession=true&v=1.332"
+    },
+    {
+      "title": "Riddle School 5",
+      "image": "",
+      "url": "https://riddle-school-5.game-files.crazygames.com/ruffle/riddleschool5.html?czyDynamicPriceFloorVariantsCZY_14537=portal&enableAdmiral=0&ssrDevice=desktop&v=1.332"
+    },
+    {
+      "title": "Riddle Transfer",
+      "image": "",
+      "url": "https://riddle-transfer.game-files.crazygames.com/ruffle/riddletransfer.html?czyDynamicPriceFloorVariantsCZY_14537=portal&enableAdmiral=0&ssrDevice=desktop&v=1.332"
+    },
+    {
+      "title": "Riddle Transfer 2",
+      "image": "",
+      "url": "https://riddle-transfer-2.game-files.crazygames.com/ruffle/riddletransfer2.html?czyDynamicPriceFloorVariantsCZY_14537=portal&enableAdmiral=0&ssrDevice=desktop&v=1.332"
+    },
+    {
+      "title": "Roblox",
+      "image": "",
+      "url": "https://nowgg.fun/apps/a/19900/b.html"
+    },
+    {
+      "title": "Run 3",
+      "image": "",
+      "url": "https://run1.onl/run3/"
+    },
+    {
+      "title": "Sandtrix",
+      "image": "",
+      "url": "https://www.crazygames.com/embed/sandtrix"
+    },
+    {
+      "title": "Scary Maze",
+      "image": "",
+      "url": "https://scary-maze.game-files.crazygames.com/ruffle/scary-maze/1/scary-maze-game.html?v=1.305"
+    },
+    {
+      "title": "Scrabble",
+      "image": "",
+      "url": "https://playscrabble.com/"
+    },
+    {
+      "title": "Shell Shockers",
+      "image": "",
+      "url": "https://shellshock.io/"
+    },
+    {
+      "title": "Shoot Out Reloaded",
+      "image": "",
+      "url": "https://games.construct.net/53185/latest"
+    },
+    {
+      "title": "Slender Multiplayer",
+      "image": "",
+      "url": "https://games.construct.net/6059/latest"
+    },
+    {
+      "title": "Slope",
+      "image": "",
+      "url": "https://storage.y8.com/y8-studio/unity_webgl/bitlaslt/slope_v_1_2_5/?key=9757549&value=80527"
+    },
+    {
+      "title": "Snake",
+      "image": "",
+      "url": "https://snak.ee/google-snake-new/index.html"
+    },
+    {
+      "title": "Snowball.io",
+      "image": "",
+      "url": "https://snowball-io.io/"
+    },
+    {
+      "title": "Snow Rider 3D",
+      "image": "",
+      "url": "https://www.hoodamath.com/mobile/games/snow-rider-3d/game.html?nocheckorient=1"
+    },
+    {
+      "title": "Solar Smash",
+      "image": "",
+      "url": "https://3245030328269184761.playables.usercontent.goog/v/assets/index.html#flags=%7B%22enableServiceWorker%22%3Afalse%7D&origin=https%3A%2F%2Fwww.youtube.com"
+    },
+    {
+      "title": "Solitaire",
+      "image": "",
+      "url": "https://www.google.com/logos/fnbx/solitaire/standalone.html"
+    },
+    {
+      "title": "Sonic & Knuckles",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/28257-sonic-knuckles-world.html"
+    },
+    {
+      "title": "Sonic CD",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/40754-sonic-cd.html"
+    },
+    {
+      "title": "Sonic the Hedgehog",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/30299-sonic-the-hedgehog-usa-europe.html"
+    },
+    {
+      "title": "Sonic the Hedgehog 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/18468-sonic-the-hedgehog-2-world.html"
+    },
+    {
+      "title": "Sonic the Hedgehog 3",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/30349-sonic-the-hedgehog-3-usa.html"
+    },
+    {
+      "title": "Spend Bill Gates' Money",
+      "image": "",
+      "url": "https://www.spendbillionairemoney.com/"
+    },
+    {
+      "title": "Spyro the Dragon",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/40796-spyro-the-dragon.html"
+    },
+    {
+      "title": "Star Fox",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/19754-star-fox-usa.html"
+    },
+    {
+      "title": "Star Fox 64",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32121-star-fox-64-usa.html"
+    },
+    {
+      "title": "Stealing the Diamond",
+      "image": "",
+      "url": "https://stealing-the-diamond.game-files.crazygames.com/ruffle/stealing-the-diamond/1/stealing_the_diamond.html?v=1.280"
+    },
+    {
+      "title": "Street Fighter",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html"
+    },
+    {
+      "title": "Street Fighter II",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/9981-street-fighter-ii-the-world-warrior-910206-usa.html"
+    },
+    {
+      "title": "Street Fighter III",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/34422-street-fighter-iii-new-generation-usa-970204.html"
+    },
+    {
+      "title": "Streets of Rage",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/30497-bare-knuckle-ikari-no-tetsuken-streets-of-rage-world.html"
+    },
+    {
+      "title": "Streets of Rage 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/28481-streets-of-rage-2-usa.html"
+    },
+    {
+      "title": "Subway Surfers",
+      "image": "",
+      "url": "https://szhong.4399.com/4399swf//upload_swf/ftp35/liuxinyu/20210324/jj01/index.html"
+    },
+    {
+      "title": "Sugar, Sugar",
+      "image": "",
+      "url": "https://sugar-sugar.game-files.crazygames.com/ruffle/sugarsugar.html?v=1.286"
+    },
+    {
+      "title": "Sugar, Sugar 2",
+      "image": "",
+      "url": "https://sugar-sugar-2.game-files.crazygames.com/ruffle/sugarsugar2.html?v=1.286"
+    },
+    {
+      "title": "Suika Game",
+      "image": "",
+      "url": "https://suikagame.com/"
+    },
+    {
+      "title": "Super Mario 63",
+      "image": "",
+      "url": "https://flashgames.cx/embed/super-mario-63"
+    },
+    {
+      "title": "Super Mario 64",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32112-super-mario-64-usa.html"
+    },
+    {
+      "title": "Super Mario Advance",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/43870-super-mario-advance-color-restoration.html"
+    },
+    {
+      "title": "Super Mario Advance 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/44830-super-mario-advance-2-instrument-restoration.html"
+    },
+    {
+      "title": "Super Mario Advance 3",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/43869-yoshis-island-sma-3-colour-restoration.html"
+    },
+    {
+      "title": "Super Mario Advance 4",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/44444-super-mario-advance-4-super-mario-bros-3-usa-gbp-snes-palette-hack.html"
+    },
+    {
+      "title": "Super Mario Bros.",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16843-super-mario-bros-japan-usa.html"
+    },
+    {
+      "title": "Super Mario Bros. 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/21523-super-mario-bros-2-usa.html"
+    },
+    {
+      "title": "Super Mario Bros. 3",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16680-super-mario-bros-3-usa.html"
+    },
+    {
+      "title": "Super Mario Kart",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16887-super-mario-kart-usa.html"
+    },
+    {
+      "title": "Super Mario Land",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16871-super-mario-land-world.html"
+    },
+    {
+      "title": "Super Mario Land 2",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16872-super-mario-land-2-6-golden-coins-usa-europe.html"
+    },
+    {
+      "title": "Super Mario RPG",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/18627-super-mario-rpg-legend-of-the-seven-stars-usa.html"
+    },
+    {
+      "title": "Super Mario World",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16847-super-mario-world-usa.html"
+    },
+    {
+      "title": "Super Smash Bros.",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32117-super-smash-bros-usa.html"
+    },
+    {
+      "title": "skribbl.io",
+      "image": "",
+      "url": "https://skribbl.io"
+    },
+    {
+      "title": "slither.io",
+      "image": "",
+      "url": "https://slither.io"
+    },
+    {
+      "title": "Stickman Hook",
+      "image": "",
+      "url": "https://1games.io/game/stick-hook/"
+    },
+    {
+      "title": "Tanuki Sunet",
+      "image": "",
+      "url": "https://polytrackplay.com/gg/tanuki-sunset/"
+    },
+    {
+      "title": "Team Fortress 2",
+      "image": "",
+      "url": "https://play.geforcenow.com/games?game-id=40512534-ad27-4a12-afa7-6fc412288072"
+    },
+    {
+      "title": "Temple Run 2",
+      "image": "",
+      "url": "https://gamemonetize.co/game/pkyyuilfrqkcdnmrxsg60j22ypk0peje/"
+    },
+    {
+      "title": "Tetris",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/25584-tetris-world-rev-a.html"
+    },
+    {
+      "title": "Tetr.io",
+      "image": "",
+      "url": "https://tetr.io"
+    },
+    {
+      "title": "The Backrooms",
+      "image": "",
+      "url": "https://backroomsgame.io/game/backrooms/"
+    },
+    {
+      "title": "The Binding of Isaac",
+      "image": "",
+      "url": "https://script.google.com/macros/s/AKfycbzszaqnOOQIbZdFgKWgCpXwc9P6D-Vkm4IdMAs_taPJ8RTIM5TrNPwX68MKjhQfOnz7og/exec"
+    },
+    {
+      "title": "The Evolution of Trust",
+      "image": "",
+      "url": "https://ncase.me/trust/"
+    },
+    {
+      "title": "The Impossible Game",
+      "image": "",
+      "url": "https://the-impossible-game.game-files.crazygames.com/ruffle/theimpossiblegame.html?v=1.286"
+    },
+    {
+      "title": "The Impossible Quiz",
+      "image": "",
+      "url": "https://the-impossible-quiz.game-files.crazygames.com/ruffle/theimpossiblequiz.html?v=1.280"
+    },
+    {
+      "title": "The Impossible Quiz 2",
+      "image": "",
+      "url": "https://bitent.com/swf/the_impossible_quiz_2/"
+    },
+    {
+      "title": "The Impossible Quiz Book (Ch. 1)",
+      "image": "",
+      "url": "https://theimpossiblequiz.info/games/quizbook1.html"
+    },
+    {
+      "title": "The Impossible Quiz Book (Ch. 2)",
+      "image": "",
+      "url": "https://theimpossiblequiz.info/games/quizbook2.html"
+    },
+    {
+      "title": "The Impossible Quiz Book (Ch. 3)",
+      "image": "",
+      "url": "https://theimpossiblequiz.info/games/quizbook3.html"
+    },
+    {
+      "title": "The Jackbox Party Pack",
+      "image": "",
+      "url": "https://jackbox.tv/"
+    },
+    {
+      "title": "The Legend of Zelda",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16778-legend-of-zelda-the-usa.html"
+    },
+    {
+      "title": "The Legend of Zelda: A Link to the Past",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/22709-legend-of-zelda-the-a-link-to-the-past-usa.html"
+    },
+    {
+      "title": "The Legend of Zelda: Link's Awakening",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16792-legend-of-zelda-the-link-s-awakening-usa-europe.html"
+    },
+    {
+      "title": "The Legend of Zelda: Majora's Mask",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32111-legend-of-zelda-the-majoras-mask-usa.html"
+    },
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32113-legend-of-zelda-the-ocarina-of-time.html"
+    },
+    {
+      "title": "The Legend of Zelda: Oracle of Ages",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/18217-legend-of-zelda-the-oracle-of-ages-usa.html"
+    },
+    {
+      "title": "The Legend of Zelda: Oracle of Seasons",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/27297-legend-of-zelda-the-oracle-of-seasons-usa.html"
+    },
+    {
+      "title": "The Legend of Zelda: The Minish Cap",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/19454-the-legend-of-zelda-the-minish-cap-e-independent.html"
+    },
+    {
+      "title": "The Owner is Dead",
+      "image": "",
+      "url": "https://www.crazygames.com/embed/the-owner-is-dead"
+    },
+    {
+      "title": "The Password Game",
+      "image": "",
+      "url": "https://neal.fun/password-game/"
+    },
+    {
+      "title": "The World's Easyest Game",
+      "image": "",
+      "url": "https://the-world-s-easyest-game.game-files.crazygames.com/ruffle/theworldseasyestgameb.html?v=1.282"
+    },
+    {
+      "title": "The World's Hardest Game",
+      "image": "",
+      "url": "https://worlds-hardest-game.game-files.crazygames.com/ruffle/worldshardestgame.html?v=1.282"
+    },
+    {
+      "title": "The World's Hardest Game 2",
+      "image": "",
+      "url": "https://worlds-hardest-game-2.game-files.crazygames.com/ruffle/worldshardestgame2.html?v=1.282"
+    },
+    {
+      "title": "There is No Game",
+      "image": "",
+      "url": "https://games.construct.net/174/latest"
+    },
+    {
+      "title": "This is Sand",
+      "image": "",
+      "url": "https://thisissand.com/"
+    },
+    {
+      "title": "This is the Only Level",
+      "image": "",
+      "url": "https://this-is-the-only-level.game-files.crazygames.com/ruffle/thisistheonlylevel.html?v=1.282"
+    },
+    {
+      "title": "Throw a Potato",
+      "image": "",
+      "url": "https://games.construct.net/27703/latest"
+    },
+    {
+      "title": "Trivia Crack",
+      "image": "",
+      "url": "https://h5.applook.io/g/trivia-crack/"
+    },
+    {
+      "title": "Trollface Quest",
+      "image": "",
+      "url": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2018/swf/trollface-quest.swf&w=640&h=480&warnsupport=true"
+    },
+    {
+      "title": "Trollface Quest 2",
+      "image": "",
+      "url": "https://f.kbhgames.com/RS/game.php?r=//f.kbhgames.com/2018/swf/trollquest2.swf&w=800&h=600&warnsupport=true"
+    },
+    {
+      "title": "Tunnel Rush",
+      "image": "",
+      "url": "https://tunnelrushgame.io/game/tunnel-rush/"
+    },
+    {
+      "title": "Typefast.io",
+      "image": "",
+      "url": "https://typefast.io"
+    },
+    {
+      "title": "Ultrakill",
+      "image": "",
+      "url": "https://orangeify.github.io/ultrakill-web/"
+    },
+    {
+      "title": "Undertale",
+      "image": "",
+      "url": "https://turbowarp.org/791527350/embed"
+    },
+    {
+      "title": "Uno Online",
+      "image": "",
+      "url": "https://playonline.vercel.app/"
+    },
+    {
+      "title": "Vex",
+      "image": "",
+      "url": "https://play.gamepix.com/vex-1/embed?sid=e4515"
+    },
+    {
+      "title": "Vex 2",
+      "image": "",
+      "url": "https://unblocked-games.org/games/vex-2/"
+    },
+    {
+      "title": "Vex 3",
+      "image": "",
+      "url": "https://assets.shuttlemath.com/vex3/"
+    },
+    {
+      "title": "Vex 4",
+      "image": "",
+      "url": "https://assets.shuttlemath.com/vex4/"
+    },
+    {
+      "title": "Vex 5",
+      "image": "",
+      "url": "https://assets.shuttlemath.com/vex5/"
+    },
+    {
+      "title": "Vex 6",
+      "image": "",
+      "url": "https://assets.shuttlemath.com/vex6/"
+    },
+    {
+      "title": "Vex 7",
+      "image": "",
+      "url": "https://assets.shuttlemath.com/vex7/"
+    },
+    {
+      "title": "Wario Land (Super Mario Land 3)",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/44333-wario-land-super-mario-land-3-color-edition.html"
+    },
+    {
+      "title": "Warioware Inc. Mega Microgame$",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/28833-wario-ware-inc-u-precision.html"
+    },
+    {
+      "title": "Warioware Touched!",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/35144-warioware-touched-usa.html"
+    },
+    {
+      "title": "We Become What We Behold",
+      "image": "",
+      "url": "https://webecomewhatwebehold.io/game/webecomewhatwebehold/"
+    },
+    {
+      "title": "Wonders of Street View",
+      "image": "",
+      "url": "https://neal.fun/wonders-of-street-view/"
+    },
+    {
+      "title": "Wordle",
+      "image": "",
+      "url": "https://www.nytimes.com/games/wordle/index.html"
+    },
+    {
+      "title": "Yahtzee",
+      "image": "",
+      "url": "https://yahtzee.silentmatt.com/yahtzee"
+    },
+    {
+      "title": "Yoshi's Island (SMW2)",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/16890-super-mario-world-2-yoshi-s-island-usa.html"
+    },
+    {
+      "title": "Yoshi's Story",
+      "image": "",
+      "url": "https://www.retrogames.cc/embed/32546-yoshi-s-story-usa-en-ja.html"
+    },
+    {
+      "title": "AaronOS",
+      "image": "",
+      "url": ""
+    },
+    {
+      "title": "Absurd Trolley Problems",
+      "image": "",
+      "url": ""
+    },
+    {
+      "title": "Agar.io",
+      "image": "",
+      "url": "https://agar.cc"
+    },
+    {
+      "title": "R.E.P.O.",
+      "image": "",
+      "url": ""
+    }
   ]
 }

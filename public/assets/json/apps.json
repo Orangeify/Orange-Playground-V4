@@ -1,44 +1,634 @@
 {
   "cards": [
     {
-      "title": "Request an App (Discord)",
-      "image": "./assets/imgs/icons/Discord-Logo.png",
-      "link": "https://discord.gg/wx3rzuEBRn"
-    },
-    {
       "title": "Addicting Games",
-      "image": "./assets/imgs/icons/addicting-games.webp",
-      "link": "/assessments/addicting-games.html"
+      "image": "",
+      "url": "https://www.addictinggames.com/"
     },
     {
       "title": "Amazon",
-      "image": "./assets/imgs/icons/amazon.png",
-      "link": "/assessments/amazon.html"
+      "image": "",
+      "url": "https://www.amazon.com/"
     },
     {
       "title": "Amazon Luna",
-      "image": "./assets/imgs/icons/amazon-luna.jpg",
-      "link": "/assessments/amazon-luna.html"
-    },
-    {
-      "title": "Android Emulator",
-      "image": "./assets/imgs/icons/android.png",
-      "link": "/assessments/android.html"
+      "image": "",
+      "url": "https://luna.amazon.com/home"
     },
     {
       "title": "Anicrush",
-      "image": "./assets/imgs/icons/anicrush.jpg",
-      "link": "/assessments/anicrush.html"
+      "image": "",
+      "url": "https://anicrush.to/"
+    },
+    {
+      "title": "Android",
+      "image": "",
+      "url": "https://appetize.io/embed/b_vfyableb3rimkjc4gfht7aqrn4?appearance=light&centered=both&device=pixel8&deviceColor=black&launchUrl=exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version%3Dexposdk%253A52.0.0%26channel-name%3Dproduction%26snack-channel%3DMGCFfvM2i3&orientation=portrait&params=%7B%22EXDevMenuDisableAutoLaunch%22:true,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=auto"
     },
     {
       "title": "Anura OS",
-      "image": "./assets/imgs/icons/anura-os.png",
-      "link": "/assessments/anura-os.html"
+      "image": "",
+      "url": "https://anura.pro/"
     },
     {
       "title": "Aptoide",
-      "image": "./assets/imgs/icons/aptoide.png",
-      "link": "/assessments/aptoide.html"
+      "image": "",
+      "url": "https://nowgg.fun/apps/aptoide/5874/aptoide.html"
+    },
+    {
+      "title": "Bing",
+      "image": "",
+      "url": "https://www.bing.com/"
+    },
+    {
+      "title": "Bored Button",
+      "image": "",
+      "url": "https://www.boredbutton.com/"
+    },
+    {
+      "title": "Blooket Cheats",
+      "image": "",
+      "url": "https://xgui-client.github.io/"
+    },
+    {
+      "title": "Buzzfeed",
+      "image": "",
+      "url": "https://www.buzzfeed.com"
+    },
+    {
+      "title": "Calculator",
+      "image": "",
+      "url": "https://ti84calc.com/ti84calc"
+    },
+    {
+      "title": "Canva",
+      "image": "",
+      "url": "https://www.canva.com/"
+    },
+    {
+      "title": "CapCut",
+      "image": "",
+      "url": "https://www.capcut.com/"
+    },
+    {
+      "title": "Character.ai",
+      "image": "",
+      "url": "https://character.ai/"
+    },
+    {
+      "title": "ChatGPT",
+      "image": "",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "title": "Cool Math Games",
+      "image": "",
+      "url": "https://www.coolmathgames.com/"
+    },
+    {
+      "title": "CopyLeaks",
+      "image": "",
+      "url": "https://copyleaks.com/"
+    },
+    {
+      "title": "CrazyGames",
+      "image": "",
+      "url": "https://www.crazygames.com/"
+    },
+    {
+      "title": "Crunchyroll",
+      "image": "",
+      "url": "https://www.crunchyroll.com/"
+    },
+    {
+      "title": "DeepAI",
+      "image": "",
+      "url": "https://deepai.org/"
+    },
+    {
+      "title": "Discord",
+      "image": "",
+      "url": "https://discord.com/"
+    },
+    {
+      "title": "Disney+",
+      "image": "",
+      "url": "https://www.disneyplus.com/"
+    },
+    {
+      "title": "DuckDuckGo",
+      "image": "",
+      "url": "https://start.duckduckgo.com/"
+    },
+    {
+      "title": "Easyfun",
+      "image": "",
+      "url": "https://www.easyfun.gg/"
+    },
+    {
+      "title": "Edpuzzle Exploits",
+      "image": "",
+      "url": "https://github.com/ading2210/edpuzzle-answers.git"
+    },
+    {
+      "title": "EmailOnDeck",
+      "image": "",
+      "url": "https://www.emailondeck.com/"
+    },
+    {
+      "title": "EmulatorJS",
+      "image": "",
+      "url": "https://demo.emulatorjs.org/"
+    },
+    {
+      "title": "ESPN",
+      "image": "",
+      "url": "https://www.espn.com/watch/"
+    },
+    {
+      "title": "Facebook",
+      "image": "",
+      "url": "https://www.facebook.com/"
+    },
+    {
+      "title": "FIFA",
+      "image": "",
+      "url": "https://www.fifa.com/en"
+    },
+    {
+      "title": "Firefox",
+      "image": "",
+      "url": "https://www.browserling.com/firefox-testing"
+    },
+    {
+      "title": "FlixHQ",
+      "image": "",
+      "url": "https://flixhq.to/"
+    },
+    {
+      "title": "FreeDNS",
+      "image": "",
+      "url": "https://freedns.afraid.org/"
+    },
+    {
+      "title": "Free Media Heck Yeah",
+      "image": "",
+      "url": "https://fmhy.pages.dev/"
+    },
+    {
+      "title": "FreedomGPT",
+      "image": "",
+      "url": "https://chat.freedomgpt.com/"
+    },
+    {
+      "title": "GBA Games",
+      "image": "",
+      "url": "https://unblockedphs.github.io/GBA/"
+    },
+    {
+      "title": "GeForce NOW",
+      "image": "",
+      "url": "https://play.geforcenow.com/mall/"
+    },
+    {
+      "title": "Gemini",
+      "image": "",
+      "url": "https://gemini.google.com/"
+    },
+    {
+      "title": "GitHub",
+      "image": "",
+      "url": "https://github.com/"
+    },
+    {
+      "title": "Gimkit Exploits",
+      "image": "",
+      "url": "https://github.com/TheLazySquid/GimkitCheat.git"
+    },
+    {
+      "title": "Google",
+      "image": "",
+      "url": "https://www.google.com"
+    },
+    {
+      "title": "GPTZero",
+      "image": "",
+      "url": "https://gptzero.me/"
+    },
+    {
+      "title": "Grammarly",
+      "image": "",
+      "url": "https://www.grammarly.com/"
+    },
+    {
+      "title": "Grok AI",
+      "image": "",
+      "url": "https://grok.com/"
+    },
+    {
+      "title": "HBO Max",
+      "image": "",
+      "url": "https://www.hbomax.com/"
+    },
+    {
+      "title": "HiAnime",
+      "image": "",
+      "url": "https://hianime.to/"
+    },
+    {
+      "title": "Hulu",
+      "image": "",
+      "url": "https://www.hulu.com/welcome"
+    },
+    {
+      "title": "HTML Editor",
+      "image": "",
+      "url": "https://blooket1.com/source/html%20editor/index.html"
+    },
+    {
+      "title": "Instagram",
+      "image": "",
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "title": "Internet Archive",
+      "image": "",
+      "url": "https://archive.org/"
+    },
+    {
+      "title": "iOS Emulator",
+      "image": "",
+      "url": "https://appetize.io/embed/b_7qxvlrj6u755p2rtbrmmkguvvq?appearance=light&centered=both&device=iphone16pro&deviceColor=black&launchUrl=exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version%3Dexposdk%253A52.0.0%26channel-name%3Dproduction%26snack-channel%3DHchRh6GptR&orientation=portrait&params=%7B%22EXDevMenuDisableAutoLaunch%22:true,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=auto"
+    },
+    {
+      "title": "Itch.io",
+      "image": "",
+      "url": "https://itch.io/"
+    },
+    {
+      "title": "Kahoot! Cheater",
+      "image": "",
+      "url": "https://kahoot.club/"
+    },
+    {
+      "title": "Kome.ai",
+      "image": "",
+      "url": "https://kome.ai/"
+    },
+    {
+      "title": "Lekuluent",
+      "image": "",
+      "url": "https://lekuluent.et/"
+    },
+    {
+      "title": "Microsoft Teams",
+      "image": "",
+      "url": "https://teams.microsoft.com/"
+    },
+    {
+      "title": "MLB",
+      "image": "",
+      "url": "https://www.mlb.com/"
+    },
+    {
+      "title": "Movie Web",
+      "image": "",
+      "url": "https://interstellar-ashen-five.vercel.app/a/hvtrs8%2F-nmt%2Fmmvke%2Fwgb%2Cvgraen.cpr%2F"
+    },
+    {
+      "title": "NBA",
+      "image": "",
+      "url": "https://www.nba.com/"
+    },
+    {
+      "title": "Neal.fun",
+      "image": "",
+      "url": "https://neal.fun/"
+    },
+    {
+      "title": "Netflix",
+      "image": "",
+      "url": "https://www.netflix.com/"
+    },
+    {
+      "title": "Newgrounds",
+      "image": "",
+      "url": "https://www.newgrounds.com/"
+    },
+    {
+      "title": "NFL",
+      "image": "",
+      "url": "https://www.nfl.com/"
+    },
+    {
+      "title": "Now.GG",
+      "image": "",
+      "url": "https://now.gg"
+    },
+    {
+      "title": "NowGG.fun",
+      "image": "",
+      "url": "https://nowgg.fun/"
+    },
+    {
+      "title": "NoteGPT.io",
+      "image": "",
+      "url": "https://notegpt.io/"
+    },
+    {
+      "title": "Outlook",
+      "image": "",
+      "url": "https://outlook.live.com/mail/0/"
+    },
+    {
+      "title": "Paramount+",
+      "image": "",
+      "url": "https://www.paramountplus.com/"
+    },
+    {
+      "title": "Peacock",
+      "image": "",
+      "url": "https://www.peacocktv.com/"
+    },
+    {
+      "title": "Pinterest",
+      "image": "",
+      "url": "https://www.pinterest.com/"
+    },
+    {
+      "title": "Play!.js",
+      "image": "",
+      "url": "https://playjs.purei.org/"
+    },
+    {
+      "title": "Plixlr",
+      "image": "",
+      "url": "https://pixlr.com/"
+    },
+    {
+      "title": "Pluto TV",
+      "image": "",
+      "url": "https://pluto.tv/"
+    },
+    {
+      "title": "Poki",
+      "image": "",
+      "url": "https://poki.com/"
+    },
+    {
+      "title": "Premier League",
+      "image": "",
+      "url": "https://www.premierleague.com/"
+    },
+    {
+      "title": "Prime Video",
+      "image": "",
+      "url": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root"
+    },
+    {
+      "title": "P-Stream",
+      "image": "",
+      "url": "https://pstream.mov/"
+    },
+    {
+      "title": "Quora",
+      "image": "",
+      "url": "https://www.quora.com/"
+    },
+    {
+      "title": "Reddit",
+      "image": "",
+      "url": "https://www.reddit.com/"
+    },
+    {
+      "title": "Render",
+      "image": "",
+      "url": "https://render.com/"
+    },
+    {
+      "title": "Replit",
+      "image": "",
+      "url": "https://replit.com/~"
+    },
+    {
+      "title": "Ruffle",
+      "image": "",
+      "url": "https://ruffle.rs/demo/"
+    },
+    {
+      "title": "Rumble",
+      "image": "",
+      "url": "https://rumble.com/"
+    },
+    {
+      "title": "Scratch",
+      "image": "",
+      "url": "https://scratch.mit.edu/"
+    },
+    {
+      "title": "Shein",
+      "image": "",
+      "url": "https://us.shein.com/"
+    },
+    {
+      "title": "Snapchat",
+      "image": "",
+      "url": "https://www.snapchat.com/"
+    },
+    {
+      "title": "Soundboard",
+      "image": "",
+      "url": "https://www.myinstants.com/"
+    },
+    {
+      "title": "Soundcloud",
+      "image": "",
+      "url": "https://soundcloud.com/"
+    },
+    {
+      "title": "Speedtest Ookla",
+      "image": "",
+      "url": "https://www.speedtest.net/"
+    },
+    {
+      "title": "Spotify",
+      "image": "",
+      "url": "https://open.spotify.com/"
+    },
+    {
+      "title": "Steam",
+      "image": "",
+      "url": "https://store.steampowered.com/"
+    },
+    {
+      "title": "Symbolab",
+      "image": "",
+      "url": "https://www.symbolab.com/"
+    },
+    {
+      "title": "Telegram",
+      "image": "",
+      "url": "https://web.telegram.org/k/"
+    },
+    {
+      "title": "Temu",
+      "image": "",
+      "url": "https://www.temu.com/"
+    },
+    {
+      "title": "TextNow",
+      "image": "",
+      "url": "https://www.textnow.com/"
+    },
+    {
+      "title": "TheTVApp",
+      "image": "",
+      "url": "https://thetvapp.to/"
+    },
+    {
+      "title": "Thirty Dollar Website",
+      "image": "",
+      "url": "https://thirtydollar.website/"
+    },
+    {
+      "title": "TikTok",
+      "image": "",
+      "url": "https://www.tiktok.com/"
+    },
+    {
+      "title": "Trello",
+      "image": "",
+      "url": "https://trello.com/"
+    },
+    {
+      "title": "Tubi",
+      "image": "",
+      "url": "https://tubitv.com/"
+    },
+    {
+      "title": "Tumblr",
+      "image": "",
+      "url": "https://www.tumblr.com/"
+    },
+    {
+      "title": "TurboWarp",
+      "image": "",
+      "url": "https://turbowarp.org/"
+    },
+    {
+      "title": "TVpass",
+      "image": "",
+      "url": "https://tvpass.org/"
+    },
+    {
+      "title": "Twitch",
+      "image": "",
+      "url": "https://www.twitch.tv/"
+    },
+    {
+      "title": "Twitter (X)",
+      "image": "",
+      "url": "https://x.com"
+    },
+    {
+      "title": "Vercel",
+      "image": "",
+      "url": "https://vercel.com/"
+    },
+    {
+      "title": "Visual Studio Code",
+      "image": "",
+      "url": "https://vscode.dev/"
+    },
+    {
+      "title": "W3Schools",
+      "image": "",
+      "url": "https://www.w3schools.com/"
+    },
+    {
+      "title": "Wattpad",
+      "image": "",
+      "url": "https://www.wattpad.com/"
+    },
+    {
+      "title": "WebRetro",
+      "image": "",
+      "url": "https://binbashbanana.github.io/webretro/"
+    },
+    {
+      "title": "Wikipedia",
+      "image": "",
+      "url": "https://www.wikipedia.org/"
+    },
+    {
+      "title": "Windows 95 Emulator",
+      "image": "",
+      "url": "https://archive.org/embed/win95_in_dosbox"
+    },
+    {
+      "title": "Windows XP Emulator",
+      "image": "",
+      "url": "https://lrusso.github.io/VirtualXP/VirtualXP.htm"
+    },
+    {
+      "title": "Writer.com",
+      "image": "",
+      "url": "https://writer.com/"
+    },
+    {
+      "title": "XBOX Cloud Gaming",
+      "image": "",
+      "url": "https://www.xbox.com/en-us/play?msockid=051168cf7145691f3ecf7e197035681d"
+    },
+    {
+      "title": "Y8 Games",
+      "image": "",
+      "url": "https://www.y8.com/"
+    },
+    {
+      "title": "Yahoo!",
+      "image": "",
+      "url": "https://www.yahoo.com/"
+    },
+    {
+      "title": "YouTube",
+      "image": "",
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "title": "YouTube (Invidious)",
+      "image": "",
+      "url": "https://yewtu.be/"
+    },
+    {
+      "title": "YouTube (Piped)",
+      "image": "",
+      "url": "https://piped.video/"
+    },
+    {
+      "title": "YouTube Music",
+      "image": "",
+      "url": "https://music.youtube.com/"
+    },
+    {
+      "title": "ZeroGPT",
+      "image": "",
+      "url": "https://www.zerogpt.com/"
+    },
+    {
+      "title": "Zoom",
+      "image": "",
+      "url": "https://zoom.us/"
+    },
+    {
+      "title": "Orange Playground V1",
+      "image": "",
+      "url": "https://Rest in Piss, Forever Miss."
+    },
+    {
+      "title": "Windows 11 Emulator (Coming Soon)",
+      "image": "",
+      "url": ""
     }
   ]
 }

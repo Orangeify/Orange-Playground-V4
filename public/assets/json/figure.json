@@ -1,0 +1,279 @@
+{
+  "cards": [
+    {
+      "title": "Cyberpunk 2077",
+      "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900.jpg",
+      "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTExNyZuYW1lPUN5YmVycHVuayUyMDIwNzc%253D&autocreate_name=Player%20460"
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTIwOQ%253D%253D&autocreate_name=Player%20422"
+    },
+    {
+        "title": "Elden Ring",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTU5OA%253D%253D&autocreate_name=Player%20508"   
+    },
+    {
+        "title": "Sim Racing Telemetry - F122",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1692250/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMTQmbmFtZT1TaW0lMjBSYWNpbmclMjBUZWxlbWV0cnklMjAtJTIwRjElMjAyMg%253D%253D&autocreate_name=Player%20982"   
+    },
+    {
+        "title": "Little Nightmares III",
+        "image": "https://tse1.explicit.bing.net/th/id/OIP.-A04eqba1XVNzUmylLScAQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMjEmbmFtZT1MaXR0bGUlMjBOaWdodG1hcmVzJTIwSUlJ&autocreate_name=Player%20189"   
+    },
+    {
+        "title": "Sand Land",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1979440/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMTgmbmFtZT1TQU5EJTIwTEFORA%253D%253D&autocreate_name=Player%20843"   
+    },
+    {
+        "title": "X-Plane 11",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/269950/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMTYmbmFtZT1YLVBsYW5lJTIwMTE%253D&autocreate_name=Player%20859"   
+    },
+    {
+        "title": "Guilty Gear -Strive-",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1384160/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMTUmbmFtZT1HVUlMVFklMjBHRUFSJTIwLVNUUklWRS0%253D&autocreate_name=Player%20547"   
+    },
+    {
+        "title": "Clair Obscur: Expedition 33",
+        "image": "https://cdn1.epicgames.com/spt-assets/330dace5ffc74156987f91d454ac544b/project-w-1kt2x.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMTMmbmFtZT1DbGFpciUyME9ic2N1ciUzQSUyMEV4cGVkaXRpb24lMjAzMw%253D%253D&autocreate_name=Player%20134"   
+    },
+    {
+        "title": "Easy Red II",
+        "image": "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/1000003682.webp",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMTImbmFtZT1FYXN5JTIwUmVkJTIwMg%253D%253D&autocreate_name=Player%20561"   
+    },
+    {
+        "title": "JDM: Japanese Drift Master",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1153410/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMDMmbmFtZT1KRE0lM0ElMjBKYXBhbmVzZSUyMERyaWZ0JTIwTWFzdGVy&autocreate_name=Player%20306"   
+    },
+    {
+        "title": "The First Berserker: Khazan",
+        "image": "https://clouddosage.com/wp-content/uploads/2025/03/The-First-Berserker-Khazan-review-feature.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMDImbmFtZT1UaGUlMjBGaXJzdCUyMEJlcnNlcmtlciUzQSUyMEtoYXphbg%253D%253D&autocreate_name=Player%20676"   
+    },
+    {
+        "title": "Blue Prince",
+        "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch2/70010000109038/b981f7ef5d2df071e77e83bbe6ded66110931ecdb62571ad2086d5523bf4af06",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMDEmbmFtZT1CbHVlJTIwUHJpbmNl&autocreate_name=Player%20988"   
+    },
+    {
+        "title": "Only Up",
+        "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/07/only-up-can-you-save-the-game.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk5OSZuYW1lPU9ubHklMjBVcA%253D%253D&autocreate_name=Player%20369"   
+    },
+    {
+        "title": "Schedule I",
+        "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/sharedimages/2025/03/schedule-i-tag-page-cover-art.jpg?w=1200&h=900&fit=crop",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk5OCZuYW1lPVNjaGVkdWxlJTIwMQ%253D%253D&autocreate_name=Player%20794"   
+    },
+    {
+        "title": "RuneScape: Dragonwilds",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1343400/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk5NiZuYW1lPVJ1bmVTY2FwZSUzQSUyMERyYWdvbndpbGRz&autocreate_name=Player%20898"   
+    },
+    {
+        "title": "Raft",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/648800/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk3NCZuYW1lPVJhZnQ%253D&autocreate_name=Player%20667"   
+    },
+    {
+        "title": "Football Manager 2023",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1904540/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk4NSZuYW1lPUZvb3RiYWxsJTIwTWFuYWdlciUyMDIwMjM%253D&autocreate_name=Player%20680"   
+    },
+    {
+        "title": "Platform 8",
+        "image": "https://playism.com/wp-content/uploads/2024/11/06_8th_Logo_Keyart-1024x576.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk4MCZuYW1lPVBsYXRmb3JtJTIwOA%253D%253D&autocreate_name=Player%20394"   
+    },
+    {
+        "title": "Uncharted 4",
+        "image": "https://preview.redd.it/i-made-this-uncharted-4-poster-v0-pg0s83b9l7p61.jpg?auto=webp&s=e2c84c3ef21742b2fd7da369394a0ce6b60ee0bd",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk3MCZuYW1lPVVuY2hhcnRlZCUyMDQ%253D&autocreate_name=Player%20181"   
+    },
+    {
+        "title": "Cities: Skylines II",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/949230/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk5NSZuYW1lPUNpdGllcyUzQSUyMFNreWxpbmVzJTIwMg%253D%253D&autocreate_name=Player%20218"   
+    },
+    {
+        "title": "Frostpunk 2",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1601580/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk5MiZuYW1lPUZyb3N0cHVuayUyMDI%253D&autocreate_name=Player%20676"   
+    },
+    {
+        "title": "Poppy Playtime: Chapter 1",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1721470/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk2NSZuYW1lPVBvcHB5JTIwUGxheXRpbWUlM0ElMjBDaGFwdGVyJTIwMQ%253D%253D&autocreate_name=Player%20487"   
+    },
+    {
+        "title": "Poppy Playtime: Chapter 2",
+        "image": "https://cdn1.epicgames.com/spt-assets/465c0f6c95d04b1c86b280b4925fee2d/poppy-playtime-1g3iv.png",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk2NiZuYW1lPVBvcHB5JTIwUGxheXRpbWUlM0ElMjBDaGFwdGVyJTIwMg%253D%253D&autocreate_name=Player%20197"   
+    },
+    {
+        "title": "Poppy Playtime: Chapter 3",
+        "image": "https://cdn.displate.com/artwork/857x1200/2026-01-29/51bf7d02-f692-4d5a-bb6d-6b8b01295343.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk1OCZuYW1lPVBvcHB5JTIwUGxheXRpbWUlM0ElMjBDaGFwdGVyJTIwMw%253D%253D&autocreate_name=Player%20518"   
+    },
+    {
+        "title": "Poppy Playtime: Chapter 4",
+        "image": "https://cdn1.epicgames.com/spt-assets/465c0f6c95d04b1c86b280b4925fee2d/poppy-playtime-1g4f9.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk3NSZuYW1lPVBvcHB5JTIwUGxheXRpbWUlM0ElMjBDaGFwdGVyJTIwNA%253D%253D&autocreate_name=Player%20881"   
+    },
+    {
+        "title": "Mafia II: Definitive Edition",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1030830/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk3MiZuYW1lPU1hZmlhJTIwSUklM0ElMjBEZWZpbml0aXZlJTIwRWRpdGlvbg%253D%253D&autocreate_name=Player%20766"   
+    },
+    {
+        "title": "Mafia III: Definitive Edition",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/360430/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk3MyZuYW1lPU1hZmlhJTIwSUlJJTNBJTIwRGVmaW5pdGl2ZSUyMEVkaXRpb24%253D&autocreate_name=Player%20228"   
+    },
+    {
+        "title": "TCG Card Shop Simulator",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3070070/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk3MSZuYW1lPVRDRyUyMENhcmQlMjBTaG9w&autocreate_name=Player%20974"   
+    },
+    {
+        "title": "Undertale",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk2OSZuYW1lPVVuZGVydGFsZQ%253D%253D&autocreate_name=Player%20218"   
+    },
+    {
+        "title": "Counter-Strike 2",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTEwMjImbmFtZT1Db3VudGVyLVN0cmlrZSUyMDIlMjAlMjhTdGVhbSUyOQ%253D%253D&autocreate_name=Player%20333"   
+    },
+    {
+        "title": "God of War: Ragnarök",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2322010/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk2MyZuYW1lPUdvZCUyNTIwb2YlMjUyMFdhciUyNTNBJTI1MjBSYWduYXIlQzMlQjZr&autocreate_name=Player%20854"   
+    },
+    {
+        "title": "Supermarket Simulator",
+        "image": "https://cogconnected.com/wp-content/uploads/2025/06/Supermarket-Simulator-Featured.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk1MiZuYW1lPVN1cGVybWFya2V0JTIwU2ltdWxhdG9y&autocreate_name=Player%20761"   
+    },
+    {
+        "title": "Brotato",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1942280/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTk0NiZuYW1lPUJyb3RhdG8%253D&autocreate_name=Player%20831"   
+    },
+    {
+        "title": "Sniper: Ghost Warrior Contracts 2",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1338770/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTkxNCZuYW1lPVNuaXBlciVFRiVCQyU5QUdob3N0JTI1MjBXYXJyaW9yJTI1MjBDb250cmFjdHMy&autocreate_name=Player%20952"   
+    },
+    {
+        "title": "God of War 4",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTU4Nw%253D%253D&autocreate_name=Player%20705"   
+    },
+    {
+        "title": "Halo: The Master Chief Collection",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976730/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTg5MCZuYW1lPUhhbG8lM0ElMjBUaGUlMjBNYXN0ZXIlMjBDaGllZiUyMENvbGxlY3Rpb24%253D&autocreate_name=Player%20333"   
+    },
+    {
+        "title": "Halo: The Master Chief Collection",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/976730/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTg5MCZuYW1lPUhhbG8lM0ElMjBUaGUlMjBNYXN0ZXIlMjBDaGllZiUyMENvbGxlY3Rpb24%253D&autocreate_name=Player%20333"   
+    },
+    {
+        "title": "Ratchet & Clank: Rift Apart",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1895880/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTc5MSZuYW1lPVJhdGNoZXQlMjAlMjYlMjBDbGFuaw%253D%253D&autocreate_name=Player%20940"   
+    },
+    {
+        "title": "The Last of Us: Part I",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1888930/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTc2NSZuYW1lPVRoZSUyNTIwTGFzdCUyNTIwb2YlMjUyMFVzJUUyJTg0JUEyJTI1MjBQYXJ0JTI1MjBJ&autocreate_name=Player%20486"   
+    },
+    {
+        "title": "Hollow Knight",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTImbmFtZT1Ib2xsb3clMjBLbmlnaHQ%253D&autocreate_name=Player%20131"   
+    },
+    {
+        "title": "Neon Abyss",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/788100/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTgxNSZuYW1lPU5lb24lMjBBYnlzcw%253D%253D&autocreate_name=Player%20295"   
+    },
+    {
+        "title": "Need for Speed: Payback",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202211/2510/VOSSvGjCpMF0uj9qQtmW6AnH.png",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTcyMyZuYW1lPU5lZWQlMjBmb3IlMjBTcGVlZCUzQSUyMFBheWJhY2s%253D&autocreate_name=Player%20490"   
+    },
+    {
+        "title": "SpongeBob: Battle for Bikini Bottom - Rehydrated",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/969990/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTcxNCZuYW1lPVNwb25nZUJvYiUyMFNxdWFyZVBhbnRzJTNBJTIwQmF0dGxlJTIwZm9yJTIwQmlraW5pJTIwQm90dG9t&autocreate_name=Player%20285"   
+    },
+    {
+        "title": "Hogwarts Legacy",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/990080/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTY5NyZuYW1lPUhvZ3dhcnRzJTIwTGVnYWN5&autocreate_name=Player%20487"   
+    },
+    {
+        "title": "SpongeBob: The Cosmic Shake",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1282150/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTY4NyZuYW1lPVNwb25nZUJvYiUyMFNxdWFyZVBhbnRzJTNBJTIwVGhlJTIwQ29zbWljJTIwU2hha2U%253D&autocreate_name=Player%20856"   
+    },
+    {
+        "title": "Drift Racing Online",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/635260/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTY3NiZuYW1lPURyaWZ0JTIwUmFjaW5nJTIwT25saW5l&autocreate_name=Player%20554"   
+    },
+    {
+        "title": "Choo Choo Charles",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1766740/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTY2OSZuYW1lPUNob28tQ2hvbyUyMENoYXJsZXM%253D&autocreate_name=Player%20703"   
+    },
+    {
+        "title": "NBA 2K23",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1919590/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYzMyZuYW1lPU5CQSUyMDJLMjM%253D&autocreate_name=Player%20818"   
+    },
+    {
+        "title": "Ranch Simulator",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1119730/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYzMCZuYW1lPVJhbmNoJTIwU2ltdWxhdG9yMjI%253D&autocreate_name=Player%20962"   
+    },
+    {
+        "title": "Marvel's Spider-Man Remastered",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1817070/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYyNSZuYW1lPU1hcnZlbCVFMiU4MCU5OXMlMjUyMFNwaWRlci1NYW4lMjUyMFJlbWFzdGVyZWQ%253D&autocreate_name=Player%20419"   
+    },
+    {
+        "title": "Stray",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1332010/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYyMCZuYW1lPVN0cmF5&autocreate_name=Player%20394"   
+    },
+    {
+        "title": "Subnautica: Below Zero",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/848450/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYxMiZuYW1lPVN1Ym5hdXRpY2ElMjBaZXJv&autocreate_name=Player%20397"   
+    },
+    {
+        "title": "GhostWire: Tokyo",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1475810/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYxMCZuYW1lPUdob3N0V2lyZSUzQSUyMFRva3lv&autocreate_name=Player%20558"   
+    },
+    {
+        "title": "GhostWire: Tokyo",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1475810/library_600x900.jpg",
+        "url": "https://figurestand.workerlo.workers.dev/?url=https%3A%2F%2Fwww.raccoongame.com%2Flogin%3Fredirect_uri%3Dhttps%253A%252F%252Ffigurestand.workerlo.workers.dev%252Fautoplay%253Fgame_b64%253DaHR0cHM6Ly93d3cucmFjY29vbmdhbWUuY29tL3dhcC9kaXN0LyMvcGxhdGZvcm0vY2xvdWRnYW1lL2dhbWVkZXRhaWw%252FZ2lkPTYxMCZuYW1lPUdob3N0V2lyZSUzQSUyMFRva3lv&autocreate_name=Player%20558"   
+    }
+]
+}

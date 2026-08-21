@@ -56,6 +56,16 @@ function extractCards(data) {
   return [];
 }
 
+function filterCards(searchId) {
+  const search = document.getElementById(searchId);
+  const query = search ? search.value.trim().toLowerCase() : "";
+
+  document.querySelectorAll(".square-card").forEach(card => {
+    const title = card.querySelector("h3")?.textContent.toLowerCase() || "";
+    card.hidden = !title.includes(query);
+  });
+}
+
 function createCardElement(card) {
   const cardDiv = document.createElement("div");
   cardDiv.className = "square-card";
@@ -72,7 +82,9 @@ function createCardElement(card) {
   const embedUrl = card.url || card.embedUrl || card.src || card.link || card.href;
   let href = card.link || card.href || card.page;
 
-  if (CURRENT_LIBRARY && GN_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
+  if (CURRENT_LIBRARY === "orange-playground" && embedUrl) {
+    href = `/assessments/blooket-sg.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
+  } else if (CURRENT_LIBRARY && GN_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
     if (embedUrl) {
       href = embedUrl;
     }
@@ -457,6 +469,7 @@ async function loadCards(libKey = "orange-playground") {
     const lib = LIB_MAP[libKey] || libKey;
 
     if (libKey === "orange-playground") {
+      CURRENT_LIBRARY = "orange-playground";
       url = "./assets/json/games.json";
     } else {
       CURRENT_LIBRARY = lib;
@@ -499,6 +512,7 @@ async function loadCards(libKey = "orange-playground") {
 
     const cards = Array.isArray(data) ? data : extractCards(data);
     cards.forEach(card => container.appendChild(createCardElement(card)));
+    filterCards("game-search");
   } catch (error) {
     console.error("Error loading cards:", error);
   }
@@ -506,6 +520,12 @@ async function loadCards(libKey = "orange-playground") {
 
 document.addEventListener("DOMContentLoaded", () => {
   const select = document.getElementById("game-library-select");
+  const search = document.getElementById("game-search");
+
+  if (search) {
+    search.addEventListener("input", () => filterCards("game-search"));
+  }
+
   if (select) {
     // load initial selection
     loadCards(select.value || "orange-playground");
