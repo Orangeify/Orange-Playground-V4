@@ -3,12 +3,23 @@
 A place where you can play "definitely educational" games at school or work. And surf the web uncensored!
 
 # What can I expect?
-250+ Games 🎮
+500+ Games 🎮
 
 100+ Apps 📱
 
-Ultraviolet and Scramjet Proxy 🔎
+Ultraviolet and Scramjet Proxy 🌐
 
 Tab Cloaker 🕴
 
+Custom Panic Keys ⌨️
+
+10 Themes 🎨
+
+About:Blank Launcher 🔒
+
+Search Engines 🔎
+
 # Deployment
+
+> [!IMPORTANT]
+> This website uses Node.js and Express, and therefore is NOT a static site. If you want to deploy this to static services, use this repo instead.
