@@ -24,4 +24,4 @@ Search Engines 🔎
 > [!IMPORTANT]
 > This website uses backend proxying, and therefore is NOT a static site. If you want to deploy this to static services (e.g. Vercel, Netlify, GitHub Pages etc.) , use [this repo instead]().
 
-[![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/Orangeify/Orange-Playground-V4)
+[![Run on Replit](https://replit.com/badge/github/Lumiwealth-Strategies/stock_example_algo)](https://replit.com/github/Orangeify/Orange-Playground-V4)
