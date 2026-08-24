@@ -27,3 +27,4 @@ Search Engines 🔎
 ## Supported Services
 [![Run on Replit](https://replit.com/badge/github/Lumiwealth-Strategies/stock_example_algo)](https://replit.com/github/Orangeify/Orange-Playground-V4)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Orangeify/Orange-Playground-V4)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Orangeify/Orange-Playground-V4)
