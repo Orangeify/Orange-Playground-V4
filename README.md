@@ -22,4 +22,4 @@ Search Engines 🔎
 # Deployment
 
 > [!IMPORTANT]
-> This website uses Node.js and Express, and therefore is NOT a static site. If you want to deploy this to static services, use [this repo instead]().
+> This website uses backend proxying, and therefore is NOT a static site. If you want to deploy this to static services (e.g. Vercel, Netlify, GitHub Pages etc.) , use [this repo instead]().
