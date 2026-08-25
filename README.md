@@ -33,3 +33,4 @@ Search Engines 🔎
 [![Deploy to Amplify Console](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Orangeify/Orange-Playground-V4)
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/Orangeify/Orange-Playground-V4.git)
 [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/Orangeify/Orange-Playground-V4/archive/refs/heads/main.zip)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)]
