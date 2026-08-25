@@ -29,4 +29,4 @@ Search Engines 🔎
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Orangeify/Orange-Playground-V4)
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Orangeify/Orange-Playground-V4)
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Orangeify/Orange-Playground-V4&branch=Main&name=orange-playground)
-[![Deploy to Cyclic](https://deploy.cyclic.sh/button.svg)](https://deploy.cyclic.sh/github/Orangeify/Orange-Playground-V4/)
+[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/official/cyclic.svg)](https://deploy.cyclic.sh/github/Orangeify/Orange-Playground-V4/)
