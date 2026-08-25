@@ -31,3 +31,4 @@ Search Engines 🔎
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Orangeify/Orange-Playground-V4&branch=Main&name=orange-playground)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/official/cyclic.svg)](https://deploy.cyclic.sh/github/Orangeify/Orange-Playground-V4)
 [![Deploy to Amplify Console](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/Orangeify/Orange-Playground-V4)
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run/?git_repo=https://github.com/Orangeify/Orange-Playground-V4.git)
