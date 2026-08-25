@@ -35,3 +35,4 @@ Search Engines 🔎
 [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/Orangeify/Orange-Playground-V4/archive/refs/heads/main.zip)
 [![Deploy to IBM Cloud](https://cloud.ibm.com/media/docs/images/icons/Deploy_to_cloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/Orangeify/Orange-Playground-V4)
 ![Deploy to Azure](https://aka.ms/deploytoazurebutton)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.app/new/template?template=https://github.com/Orangeify/Orange-Playground-V4)
