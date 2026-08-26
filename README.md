@@ -81,4 +81,4 @@ Hydra by Hydra Network
 
 [Scramjet](https://github.com/MercuryWorkshop/scramjet.git) by Mercury Workshop
 
-![](https://dcbadge.limes.pink/api/server/https://discord.gg/wx3rzuEBRn?compact=true)
+![](https://dcbadge.limes.pink/api/server/https://discord.gg/wx3rzuEBRn?compact=true)(https://discord.gg/wx3rzuEBRn)
