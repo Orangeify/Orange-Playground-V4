@@ -80,3 +80,5 @@ Hydra by Hydra Network
 [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet.git) by Titanium Network
 
 [Scramjet](https://github.com/MercuryWorkshop/scramjet.git) by Mercury Workshop
+
+![](https://dcbadge.limes.pink/api/server/https://discord.gg/wx3rzuEBRn?compact=true)
