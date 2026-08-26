@@ -81,4 +81,4 @@ Hydra by Hydra Network
 
 [Scramjet](https://github.com/MercuryWorkshop/scramjet.git) by Mercury Workshop
 
-[![Discord](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg)](https://discord.gg/wx3rzuEBRn)
+## [Discord Server](https://discord.gg/wx3rzuEBRn)
