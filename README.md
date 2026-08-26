@@ -44,3 +44,23 @@ cd Orange-Playground-V4
 npm install
 npm start
 ```
+
+# Credits
+
+Orange Playground's Games and Apps by Orangeify
+[3kh0 game assets](https://gitlab.com/3kh0/3kh0-assets.git) by 3kh0 (Echo)
+[GN-Math Games](https://github.com/gn-math/html) by Genizy
+[LuminSDK](https://luminsdk.com/) by Lumin
+[Ultimate Game Stash](https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/edit?usp=sharing) by Bubblfan
+[Chicken King's Vault](https://github.com/WanoCapy/ChickenKingsVault.git) by WanoCapy
+[Shuttle Math](http://shuttlemath.com/) by Shuttle Network
+[Truffled](https://github.com/aukak/truffled.git) by aukak
+Hydra by Hydra Network
+[YouTube Playables](https://github.com/bubbls/youtube-playables.git) by bubbls
+[Selenite](https://gitlab.com/skysthelimit.dev/selenite) by skysthelimit.dev
+[Seraph](https://github.com/a456pur/seraph.git) by a456pur
+[Velara](https://velara.cc/) by Reesaldle
+[NowGG.fun](https://nowgg.fun/) by FrogiesArcade
+[Figure Cloud](https://github.com/codiesnutkiss-sudo/Cine-Cloud-SRC.git) by Figure
+[Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet.git) by Titanium Network
+[Scramjet](https://github.com/MercuryWorkshop/scramjet.git) by Mercury Workshop
