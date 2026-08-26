@@ -81,4 +81,4 @@ Hydra by Hydra Network
 
 [Scramjet](https://github.com/MercuryWorkshop/scramjet.git) by Mercury Workshop
 
-##[Our Discord Server](https://discord.gg/wx3rzuEBRn)
+## [Our Discord Server](https://discord.gg/wx3rzuEBRn)
