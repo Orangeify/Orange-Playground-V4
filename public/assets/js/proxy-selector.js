@@ -5,12 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // If proxy select element is missing, do nothing
     if (!proxySelect) return;
 
-    // Load saved proxy setting (default: uv for Ultraviolet)
+    // Load saved proxy setting (default: Scramjet)
     const savedProxy = localStorage.getItem(STORAGE_KEY);
-    if (savedProxy === 'true') {
-        proxySelect.value = 'scramjet';
-    } else {
+    if (savedProxy === 'false') {
         proxySelect.value = 'uv';
+    } else {
+        proxySelect.value = 'scramjet';
     }
 
     // Listen for proxy selection changes

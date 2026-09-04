@@ -129,7 +129,7 @@
         <!-- Proxy loader: loads either Scramjet or UV based on sj variable -->
         <script>
             // Check if Scramjet should be used (can be set via localStorage, URL param, or globally)
-            const useScramjet = window.sj || localStorage.getItem('useScramjet') === 'true';
+            const useScramjet = window.sj || localStorage.getItem('useScramjet') !== 'false';
             let configLoaded = false;
             let retryTimeout;
 
