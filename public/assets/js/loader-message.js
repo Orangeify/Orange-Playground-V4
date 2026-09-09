@@ -56,6 +56,8 @@ const messages = [
       "I am 60 kilometers away from you. R U N .",
       "''Come Back Ali! COME BACK ALI'S SISTER!'' -Strongbad",
       "How do you like that, Obama? I PISSED ON THE MOON, YOU IDIOT!",
+      "Yuta is a bum.",
+      "From Captain Midnight. $12.95/Month? No Way!",
       "You just want to find every message..."
     ];
 
