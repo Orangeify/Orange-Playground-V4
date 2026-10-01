@@ -58,6 +58,7 @@ const messages = [
       "How do you like that, Obama? I PISSED ON THE MOON, YOU IDIOT!",
       "Yuta is a bum.",
       "From Captain Midnight. $12.95/Month? No Way!",
+      "''Here's what I have that you don't. A functioning liver!'' - Spy TF2",
       "You just want to find every message..."
     ];
 

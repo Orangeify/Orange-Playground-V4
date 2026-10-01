@@ -2,18 +2,23 @@
   "cards": [
     {
       "title": "1v1.LOL",
-      "image": "",
+      "image": "https://sites.google.com/sitesv-images-rt/AMxu72vrPCIJ8eTuV8XCIeP44Eu9Nskw-0FR5_TF4f2C5E2YibN9u_B6QNLcROI45fzCqgXX502EFJYQxyNZRLyeBoBXSPhur5qplTpix_id2xSrwzg078NlUUst-GXKdW1jYFlRxLSRoRZbRAF612YQPhjpIQjxdyuccIyWO_5DhDoA9wjdkt4PpEPv3a50wGI=w1280",
       "url": "https://1v1lol-unblocked-free.github.io/"
     },
     {
       "title": "2048",
-      "image": "",
+      "image": "https://sites.google.com/sitesv-images-rt/AMxu72uKikjMjfymC0h5idf86rmuGIsnUBbuyY9aomBwX2YIJ7x25s64i5sKbyQRqyc_BUygRlbx3iAhwJU7ub0E34LXosOge6WR7Gcnz1G4c1y_PB_EtUGrTuw1M-HOb2Ur81lHkwuYb21DO97-HJeCqpbt5na0_Hdc2o_S7UMYQ10J4E8GKswBrIDqf4uvDvU=w1280",
       "url": "https://www.mathsisfun.com/games/a/2048/index.html"
     },
     {
       "title": "8-Ball Pool",
-      "image": "",
+      "image": "https://sites.google.com/sitesv-images-rt/AMxu72uiDxyjoYKRFxdur3qAen6z5L8-uDOOI54b36-jqk_Gl1d3oeq10xo13EhuCxm1AbaH3ODDTCx5AgzkfUzgh7EbeGNq8Eg3_Cg7GXtEM6U5XcoFBWcznUFOZvLwvDVKF9hhqhznSFkWYPWWvY2a_zW_B6wN_3SNzxws3KCxIBaGZT2DUNLRfrCnVGLrsOY=w1280",
       "url": "https://bloobio-eightballpool.coolmathgames.com/8ballpool"
+    },
+    {
+      "title": "AaronOS",
+      "image": "https://sites.google.com/sitesv-images-rt/AMxu72s7wva7NiIy-KDpKDbeGGZIrAHjWuNKnvYXGi9daaCR64FBGhf-fIjanoZx9qTqYlgH6l1uqAF10cq7eAwHtkZNciJus4butMW4qdq9Rz_X6-bR8vyC6Ttn9yc8M2fZZwbjqDiPAH8pW_VF_68VB4j86btd7_fSGSwQxwgGf3Hkp8Qufq6zqZx6D4nP2J6H2lG51kWpqV9ElWQLOsmiIgT8mpmnm9mPiZhyJwFXxgc=w1280",
+      "url": "https://aaronos.dev/AaronOS/aosBeta.php"
     },
     {
       "title": "Ace Attorney",
@@ -1419,11 +1424,6 @@
       "title": "Yoshi's Story",
       "image": "",
       "url": "https://www.retrogames.cc/embed/32546-yoshi-s-story-usa-en-ja.html"
-    },
-    {
-      "title": "AaronOS",
-      "image": "",
-      "url": ""
     },
     {
       "title": "Absurd Trolley Problems",
