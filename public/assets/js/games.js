@@ -83,7 +83,10 @@ function createCardElement(card) {
   let href = card.link || card.href || card.page;
 
   if (CURRENT_LIBRARY === "orange-playground" && embedUrl) {
-    href = `/assessments/blooket-sg.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
+    const page = card.proxy === true
+      ? "/assessments/blooket-sg.html"
+      : "/worksheets/quizlet-hw.html";
+    href = `${page}?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
   } else if (CURRENT_LIBRARY && GN_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
     if (embedUrl) {
       href = embedUrl;
@@ -108,8 +111,10 @@ function createCardElement(card) {
     if (embedUrl) {
       href = `/assessments/blooket-sg.html?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
     }
-  } else if (card.hasOwnProperty("proxy") && embedUrl) {
-    const page = card.proxy ? "/assessments/blooket-sg.html" : "/worksheets/quizlet-hw.html";
+  } else if (typeof card.proxy === "boolean" && embedUrl) {
+    const page = card.proxy
+      ? "/assessments/blooket-sg.html"
+      : "/worksheets/quizlet-hw.html";
     href = `${page}?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
   }
 

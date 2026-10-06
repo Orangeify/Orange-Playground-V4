@@ -32,7 +32,10 @@ async function loadCards() {
 
       if (card.url) {
         cardDiv.addEventListener("click", () => {
-          window.location.href = `/assessments/blooket-sg.html?title=${encodeURIComponent(card.title)}&url=${encodeURIComponent(card.url)}`;
+          const page = card.proxy === true
+            ? "/assessments/blooket-sg.html"
+            : "/worksheets/quizlet-hw.html";
+          window.location.href = `${page}?title=${encodeURIComponent(card.title)}&url=${encodeURIComponent(card.url)}`;
         });
         cardDiv.style.cursor = "pointer";
       }
