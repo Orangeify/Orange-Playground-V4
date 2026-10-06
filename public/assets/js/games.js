@@ -1,6 +1,6 @@
 // games.js
 const LIB_BASE = "https://cdn.jsdelivr.net/gh/tharun9772/game-assets@main/libraries/";
-const FALLBACK_IMG = "/playground-logo.png";
+const FALLBACK_IMG = "../assets/imgs/themes/playground-logo.png";
 
 function safeArray(v) {
   if (!v) return [];
