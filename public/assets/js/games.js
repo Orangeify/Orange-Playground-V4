@@ -86,7 +86,9 @@ function createCardElement(card) {
     const page = card.proxy === true
       ? "/assessments/blooket-sg.html"
       : "/worksheets/quizlet-hw.html";
-    href = `${page}?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
+    href = card.proxy === true && card.id != null
+      ? `${page}?type=game&id=${encodeURIComponent(card.id)}`
+      : `${page}?title=${encodeURIComponent(title.textContent)}&url=${encodeURIComponent(embedUrl)}`;
   } else if (CURRENT_LIBRARY && GN_REDIRECT_LIBS.has(CURRENT_LIBRARY)) {
     if (embedUrl) {
       href = embedUrl;

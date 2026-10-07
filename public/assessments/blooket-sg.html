@@ -58,18 +58,52 @@
 
         <script>
             const params = new URLSearchParams(window.location.search);
-            const gameTitle = params.get('title') || 'Blooket SG';
-            const embedUrl = params.get('url') || '';
-
-            document.title = `Orange Playground - ${gameTitle}`;
+            let gameTitle = params.get('title') || 'Blooket SG';
+            let embedUrl = params.get('url') || '';
 
             document.addEventListener('DOMContentLoaded', async () => {
                 const loader = document.querySelector('.loader');
                 const label = document.querySelector('.nav-label');
                 const message = document.getElementById('message');
 
+                let lookupError = null;
+                if (!embedUrl && (params.has('type') || params.has('id'))) {
+                    try {
+                        const type = params.get('type');
+                        const id = params.get('id');
+                        if (!['game', 'app'].includes(type) || !/^\d+$/.test(id || '')) {
+                            throw new Error('Invalid Blooket catalog link.');
+                        }
+
+                        const catalogPath = type === 'game'
+                            ? '/assets/json/games.json'
+                            : '/assets/json/apps.json';
+                        const response = await fetch(catalogPath);
+                        if (!response.ok) {
+                            throw new Error(`Failed to load ${type} catalog (${response.status}).`);
+                        }
+
+                        const catalog = await response.json();
+                        const card = catalog.cards.find(item => String(item.id) === id);
+                        if (!card) {
+                            throw new Error(`No ${type} found with ID ${id}.`);
+                        }
+
+                        gameTitle = card.title || 'Blooket SG';
+                        embedUrl = card.url || '';
+                    } catch (err) {
+                        lookupError = err;
+                        console.error('Failed to load the selected Blooket item.', err);
+                    }
+                }
+
+                document.title = `Orange Playground - ${gameTitle}`;
                 if (label) label.textContent = gameTitle;
-                if (!embedUrl && message) message.textContent = 'No proxy game URL provided.';
+                if (!embedUrl && message) {
+                    message.textContent = lookupError
+                        ? 'Unable to load the selected proxy item.'
+                        : 'No proxy game URL provided.';
+                }
                 if (loader) loader.classList.add('loader--hidden');
 
                 try {

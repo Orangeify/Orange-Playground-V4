@@ -1,756 +1,882 @@
 {
   "cards": [
     {
+      "id": 1,
       "title": "Addicting Games",
       "image": "",
       "url": "https://www.addictinggames.com/",
       "proxy": true
     },
     {
+      "id": 2,
       "title": "Amazon",
       "image": "",
       "url": "https://www.amazon.com/",
       "proxy": true
     },
     {
+      "id": 3,
       "title": "Amazon Luna",
       "image": "",
       "url": "https://luna.amazon.com/home",
       "proxy": true
     },
     {
+      "id": 4,
       "title": "Anicrush",
       "image": "",
       "url": "https://anicrush.to/",
       "proxy": true
     },
     {
+      "id": 5,
       "title": "Android",
       "image": "",
       "url": "https://appetize.io/embed/b_vfyableb3rimkjc4gfht7aqrn4?appearance=light&centered=both&device=pixel8&deviceColor=black&launchUrl=exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version%3Dexposdk%253A52.0.0%26channel-name%3Dproduction%26snack-channel%3DMGCFfvM2i3&orientation=portrait&params=%7B%22EXDevMenuDisableAutoLaunch%22:true,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=auto",
       "proxy": true
     },
     {
+      "id": 6,
       "title": "Anura OS",
       "image": "",
       "url": "https://anura.pro/",
       "proxy": true
     },
     {
+      "id": 7,
       "title": "Aptoide",
       "image": "",
       "url": "https://nowgg.fun/apps/aptoide/5874/aptoide.html",
       "proxy": true
     },
     {
+      "id": 8,
       "title": "Bing",
       "image": "",
       "url": "https://www.bing.com/",
       "proxy": true
     },
     {
+      "id": 9,
       "title": "Bored Button",
       "image": "",
       "url": "https://www.boredbutton.com/",
       "proxy": true
     },
     {
+      "id": 10,
       "title": "Blooket Cheats",
       "image": "",
       "url": "https://xgui-client.github.io/",
       "proxy": true
     },
     {
+      "id": 11,
       "title": "Buzzfeed",
       "image": "",
       "url": "https://www.buzzfeed.com",
       "proxy": true
     },
     {
+      "id": 12,
       "title": "Calculator",
       "image": "",
       "url": "https://ti84calc.com/ti84calc",
       "proxy": true
     },
     {
+      "id": 13,
       "title": "Canva",
       "image": "",
       "url": "https://www.canva.com/",
       "proxy": true
     },
     {
+      "id": 14,
       "title": "CapCut",
       "image": "",
       "url": "https://www.capcut.com/",
       "proxy": true
     },
     {
+      "id": 15,
       "title": "Character.ai",
       "image": "",
       "url": "https://character.ai/",
       "proxy": true
     },
     {
+      "id": 16,
       "title": "ChatGPT",
       "image": "",
       "url": "https://chatgpt.com/",
       "proxy": true
     },
     {
+      "id": 17,
       "title": "Cool Math Games",
       "image": "",
       "url": "https://www.coolmathgames.com/",
       "proxy": true
     },
     {
+      "id": 18,
       "title": "CopyLeaks",
       "image": "",
       "url": "https://copyleaks.com/",
       "proxy": true
     },
     {
+      "id": 19,
       "title": "CrazyGames",
       "image": "",
       "url": "https://www.crazygames.com/",
       "proxy": true
     },
     {
+      "id": 20,
       "title": "Crunchyroll",
       "image": "",
       "url": "https://www.crunchyroll.com/",
       "proxy": true
     },
     {
+      "id": 21,
       "title": "DeepAI",
       "image": "",
       "url": "https://deepai.org/",
       "proxy": true
     },
     {
+      "id": 22,
       "title": "Discord",
       "image": "",
       "url": "https://discord.com/",
       "proxy": true
     },
     {
+      "id": 23,
       "title": "Disney+",
       "image": "",
       "url": "https://www.disneyplus.com/",
       "proxy": true
     },
     {
+      "id": 24,
       "title": "DuckDuckGo",
       "image": "",
       "url": "https://start.duckduckgo.com/",
       "proxy": true
     },
     {
+      "id": 25,
       "title": "Easyfun",
       "image": "",
       "url": "https://www.easyfun.gg/",
       "proxy": true
     },
     {
+      "id": 26,
       "title": "Edpuzzle Exploits",
       "image": "",
       "url": "https://github.com/ading2210/edpuzzle-answers.git",
       "proxy": true
     },
     {
+      "id": 27,
       "title": "EmailOnDeck",
       "image": "",
       "url": "https://www.emailondeck.com/",
       "proxy": true
     },
     {
+      "id": 28,
       "title": "EmulatorJS",
       "image": "",
       "url": "https://demo.emulatorjs.org/",
       "proxy": true
     },
     {
+      "id": 29,
       "title": "ESPN",
       "image": "",
       "url": "https://www.espn.com/watch/",
       "proxy": true
     },
     {
+      "id": 30,
       "title": "Facebook",
       "image": "",
       "url": "https://www.facebook.com/",
       "proxy": true
     },
     {
+      "id": 31,
       "title": "FIFA",
       "image": "",
       "url": "https://www.fifa.com/en",
       "proxy": true
     },
     {
+      "id": 32,
       "title": "Firefox",
       "image": "",
       "url": "https://www.browserling.com/firefox-testing",
       "proxy": true
     },
     {
+      "id": 33,
       "title": "FlixHQ",
       "image": "",
       "url": "https://flixhq.to/",
       "proxy": true
     },
     {
+      "id": 34,
       "title": "FreeDNS",
       "image": "",
       "url": "https://freedns.afraid.org/",
       "proxy": true
     },
     {
+      "id": 35,
       "title": "Free Media Heck Yeah",
       "image": "",
       "url": "https://fmhy.pages.dev/",
       "proxy": true
     },
     {
+      "id": 36,
       "title": "FreedomGPT",
       "image": "",
       "url": "https://chat.freedomgpt.com/",
       "proxy": true
     },
     {
+      "id": 37,
       "title": "GBA Games",
       "image": "",
       "url": "https://unblockedphs.github.io/GBA/",
       "proxy": true
     },
     {
+      "id": 38,
       "title": "GeForce NOW",
       "image": "",
       "url": "https://play.geforcenow.com/mall/",
       "proxy": true
     },
     {
+      "id": 39,
       "title": "Gemini",
       "image": "",
       "url": "https://gemini.google.com/",
       "proxy": true
     },
     {
+      "id": 40,
       "title": "GitHub",
       "image": "",
       "url": "https://github.com/",
       "proxy": true
     },
     {
+      "id": 41,
       "title": "Gimkit Exploits",
       "image": "",
       "url": "https://github.com/TheLazySquid/GimkitCheat.git",
       "proxy": true
     },
     {
+      "id": 42,
       "title": "Google",
       "image": "",
       "url": "https://www.google.com",
       "proxy": true
     },
     {
+      "id": 43,
       "title": "GPTZero",
       "image": "",
       "url": "https://gptzero.me/",
       "proxy": true
     },
     {
+      "id": 44,
       "title": "Grammarly",
       "image": "",
       "url": "https://www.grammarly.com/",
       "proxy": true
     },
     {
+      "id": 45,
       "title": "Grok AI",
       "image": "",
       "url": "https://grok.com/",
       "proxy": true
     },
     {
+      "id": 46,
       "title": "HBO Max",
       "image": "",
       "url": "https://www.hbomax.com/",
       "proxy": true
     },
     {
+      "id": 47,
       "title": "HiAnime",
       "image": "",
       "url": "https://hianime.to/",
       "proxy": true
     },
     {
+      "id": 48,
       "title": "Hulu",
       "image": "",
       "url": "https://www.hulu.com/welcome",
       "proxy": true
     },
     {
+      "id": 49,
       "title": "HTML Editor",
       "image": "",
       "url": "https://blooket1.com/source/html%20editor/index.html",
       "proxy": true
     },
     {
+      "id": 50,
       "title": "Instagram",
       "image": "",
       "url": "https://www.instagram.com/",
       "proxy": true
     },
     {
+      "id": 51,
       "title": "Internet Archive",
       "image": "",
       "url": "https://archive.org/",
       "proxy": true
     },
     {
+      "id": 52,
       "title": "iOS Emulator",
       "image": "",
       "url": "https://appetize.io/embed/b_7qxvlrj6u755p2rtbrmmkguvvq?appearance=light&centered=both&device=iphone16pro&deviceColor=black&launchUrl=exp://u.expo.dev/933fd9c0-1666-11e7-afca-d980795c5824?runtime-version%3Dexposdk%253A52.0.0%26channel-name%3Dproduction%26snack-channel%3DHchRh6GptR&orientation=portrait&params=%7B%22EXDevMenuDisableAutoLaunch%22:true,%22EXKernelDisableNuxDefaultsKey%22:true%7D&scale=auto",
       "proxy": true
     },
     {
+      "id": 53,
       "title": "Itch.io",
       "image": "",
       "url": "https://itch.io/",
       "proxy": true
     },
     {
+      "id": 54,
       "title": "Kahoot! Cheater",
       "image": "",
       "url": "https://kahoot.club/",
       "proxy": true
     },
     {
+      "id": 55,
       "title": "Kome.ai",
       "image": "",
       "url": "https://kome.ai/",
       "proxy": true
     },
     {
+      "id": 56,
       "title": "Lekuluent",
       "image": "",
       "url": "https://lekuluent.et/",
       "proxy": true
     },
     {
+      "id": 57,
       "title": "Microsoft Teams",
       "image": "",
       "url": "https://teams.microsoft.com/",
       "proxy": true
     },
     {
+      "id": 58,
       "title": "MLB",
       "image": "",
       "url": "https://www.mlb.com/",
       "proxy": true
     },
     {
+      "id": 59,
       "title": "Movie Web",
       "image": "",
       "url": "https://interstellar-ashen-five.vercel.app/a/hvtrs8%2F-nmt%2Fmmvke%2Fwgb%2Cvgraen.cpr%2F",
       "proxy": true
     },
     {
+      "id": 60,
       "title": "NBA",
       "image": "",
       "url": "https://www.nba.com/",
       "proxy": true
     },
     {
+      "id": 61,
       "title": "Neal.fun",
       "image": "",
       "url": "https://neal.fun/",
       "proxy": true
     },
     {
+      "id": 62,
       "title": "Netflix",
       "image": "",
       "url": "https://www.netflix.com/",
       "proxy": true
     },
     {
+      "id": 63,
       "title": "Newgrounds",
       "image": "",
       "url": "https://www.newgrounds.com/",
       "proxy": true
     },
     {
+      "id": 64,
       "title": "NFL",
       "image": "",
       "url": "https://www.nfl.com/",
       "proxy": true
     },
     {
+      "id": 65,
       "title": "Now.GG",
       "image": "",
       "url": "https://now.gg",
       "proxy": true
     },
     {
+      "id": 66,
       "title": "NowGG.fun",
       "image": "",
       "url": "https://nowgg.fun/",
       "proxy": true
     },
     {
+      "id": 67,
       "title": "NoteGPT.io",
       "image": "",
       "url": "https://notegpt.io/",
       "proxy": true
     },
     {
+      "id": 68,
       "title": "Outlook",
       "image": "",
       "url": "https://outlook.live.com/mail/0/",
       "proxy": true
     },
     {
+      "id": 69,
       "title": "Paramount+",
       "image": "",
       "url": "https://www.paramountplus.com/",
       "proxy": true
     },
     {
+      "id": 70,
       "title": "Peacock",
       "image": "",
       "url": "https://www.peacocktv.com/",
       "proxy": true
     },
     {
+      "id": 71,
       "title": "Pinterest",
       "image": "",
       "url": "https://www.pinterest.com/",
       "proxy": true
     },
     {
+      "id": 72,
       "title": "Play!.js",
       "image": "",
       "url": "https://playjs.purei.org/",
       "proxy": true
     },
     {
+      "id": 73,
       "title": "Plixlr",
       "image": "",
       "url": "https://pixlr.com/",
       "proxy": true
     },
     {
+      "id": 74,
       "title": "Pluto TV",
       "image": "",
       "url": "https://pluto.tv/",
       "proxy": true
     },
     {
+      "id": 75,
       "title": "Poki",
       "image": "",
       "url": "https://poki.com/",
       "proxy": true
     },
     {
+      "id": 76,
       "title": "Premier League",
       "image": "",
       "url": "https://www.premierleague.com/",
       "proxy": true
     },
     {
+      "id": 77,
       "title": "Prime Video",
       "image": "",
       "url": "https://www.primevideo.com/offers/nonprimehomepage/ref=dv_web_force_root",
       "proxy": true
     },
     {
+      "id": 78,
       "title": "P-Stream",
       "image": "",
       "url": "https://pstream.mov/",
       "proxy": true
     },
     {
+      "id": 79,
       "title": "Quora",
       "image": "",
       "url": "https://www.quora.com/",
       "proxy": true
     },
     {
+      "id": 80,
       "title": "Reddit",
       "image": "",
       "url": "https://www.reddit.com/",
       "proxy": true
     },
     {
+      "id": 81,
       "title": "Render",
       "image": "",
       "url": "https://render.com/",
       "proxy": true
     },
     {
+      "id": 82,
       "title": "Replit",
       "image": "",
       "url": "https://replit.com/~",
       "proxy": true
     },
     {
+      "id": 83,
       "title": "Ruffle",
       "image": "",
       "url": "https://ruffle.rs/demo/",
       "proxy": true
     },
     {
+      "id": 84,
       "title": "Rumble",
       "image": "",
       "url": "https://rumble.com/",
       "proxy": true
     },
     {
+      "id": 85,
       "title": "Scratch",
       "image": "",
       "url": "https://scratch.mit.edu/",
       "proxy": true
     },
     {
+      "id": 86,
       "title": "Shein",
       "image": "",
       "url": "https://us.shein.com/",
       "proxy": true
     },
     {
+      "id": 87,
       "title": "Snapchat",
       "image": "",
       "url": "https://www.snapchat.com/",
       "proxy": true
     },
     {
+      "id": 88,
       "title": "Soundboard",
       "image": "",
       "url": "https://www.myinstants.com/",
       "proxy": true
     },
     {
+      "id": 89,
       "title": "Soundcloud",
       "image": "",
       "url": "https://soundcloud.com/",
       "proxy": true
     },
     {
+      "id": 90,
       "title": "Speedtest Ookla",
       "image": "",
       "url": "https://www.speedtest.net/",
       "proxy": true
     },
     {
+      "id": 91,
       "title": "Spotify",
       "image": "",
       "url": "https://open.spotify.com/",
       "proxy": true
     },
     {
+      "id": 92,
       "title": "Steam",
       "image": "",
       "url": "https://store.steampowered.com/",
       "proxy": true
     },
     {
+      "id": 93,
       "title": "Symbolab",
       "image": "",
       "url": "https://www.symbolab.com/",
       "proxy": true
     },
     {
+      "id": 94,
       "title": "Telegram",
       "image": "",
       "url": "https://web.telegram.org/k/",
       "proxy": true
     },
     {
+      "id": 95,
       "title": "Temu",
       "image": "",
       "url": "https://www.temu.com/",
       "proxy": true
     },
     {
+      "id": 96,
       "title": "TextNow",
       "image": "",
       "url": "https://www.textnow.com/",
       "proxy": true
     },
     {
+      "id": 97,
       "title": "TheTVApp",
       "image": "",
       "url": "https://thetvapp.to/",
       "proxy": true
     },
     {
+      "id": 98,
       "title": "Thirty Dollar Website",
       "image": "",
       "url": "https://thirtydollar.website/",
       "proxy": true
     },
     {
+      "id": 99,
       "title": "TikTok",
       "image": "",
       "url": "https://www.tiktok.com/",
       "proxy": true
     },
     {
+      "id": 100,
       "title": "Trello",
       "image": "",
       "url": "https://trello.com/",
       "proxy": true
     },
     {
+      "id": 101,
       "title": "Tubi",
       "image": "",
       "url": "https://tubitv.com/",
       "proxy": true
     },
     {
+      "id": 102,
       "title": "Tumblr",
       "image": "",
       "url": "https://www.tumblr.com/",
       "proxy": true
     },
     {
+      "id": 103,
       "title": "TurboWarp",
       "image": "",
       "url": "https://turbowarp.org/",
       "proxy": true
     },
     {
+      "id": 104,
       "title": "TVpass",
       "image": "",
       "url": "https://tvpass.org/",
       "proxy": true
     },
     {
+      "id": 105,
       "title": "Twitch",
       "image": "",
       "url": "https://www.twitch.tv/",
       "proxy": true
     },
     {
+      "id": 106,
       "title": "Twitter (X)",
       "image": "",
       "url": "https://x.com",
       "proxy": true
     },
     {
+      "id": 107,
       "title": "Vercel",
       "image": "",
       "url": "https://vercel.com/",
       "proxy": true
     },
     {
+      "id": 108,
       "title": "Visual Studio Code",
       "image": "",
       "url": "https://vscode.dev/",
       "proxy": true
     },
     {
+      "id": 109,
       "title": "W3Schools",
       "image": "",
       "url": "https://www.w3schools.com/",
       "proxy": true
     },
     {
+      "id": 110,
       "title": "Wattpad",
       "image": "",
       "url": "https://www.wattpad.com/",
       "proxy": true
     },
     {
+      "id": 111,
       "title": "WebRetro",
       "image": "",
       "url": "https://binbashbanana.github.io/webretro/",
       "proxy": true
     },
     {
+      "id": 112,
       "title": "Wikipedia",
       "image": "",
       "url": "https://www.wikipedia.org/",
       "proxy": true
     },
     {
+      "id": 113,
       "title": "Windows 95 Emulator",
       "image": "",
       "url": "https://archive.org/embed/win95_in_dosbox",
       "proxy": true
     },
     {
+      "id": 114,
       "title": "Windows XP Emulator",
       "image": "",
       "url": "https://lrusso.github.io/VirtualXP/VirtualXP.htm",
       "proxy": true
     },
     {
+      "id": 115,
       "title": "Writer.com",
       "image": "",
       "url": "https://writer.com/",
       "proxy": true
     },
     {
+      "id": 116,
       "title": "XBOX Cloud Gaming",
       "image": "",
       "url": "https://www.xbox.com/en-us/play?msockid=051168cf7145691f3ecf7e197035681d",
       "proxy": true
     },
     {
+      "id": 117,
       "title": "Y8 Games",
       "image": "",
       "url": "https://www.y8.com/",
       "proxy": true
     },
     {
+      "id": 118,
       "title": "Yahoo!",
       "image": "",
       "url": "https://www.yahoo.com/",
       "proxy": true
     },
     {
+      "id": 119,
       "title": "YouTube",
       "image": "",
       "url": "https://www.youtube.com/",
       "proxy": true
     },
     {
+      "id": 120,
       "title": "YouTube (Invidious)",
       "image": "",
       "url": "https://yewtu.be/",
       "proxy": true
     },
     {
+      "id": 121,
       "title": "YouTube (Piped)",
       "image": "",
       "url": "https://piped.video/",
       "proxy": true
     },
     {
+      "id": 122,
       "title": "YouTube Music",
       "image": "",
       "url": "https://music.youtube.com/",
       "proxy": true
     },
     {
+      "id": 123,
       "title": "ZeroGPT",
       "image": "",
       "url": "https://www.zerogpt.com/",
       "proxy": true
     },
     {
+      "id": 124,
       "title": "Zoom",
       "image": "",
       "url": "https://zoom.us/",
       "proxy": true
     },
     {
+      "id": 125,
       "title": "Orange Playground V3",
       "image": "",
       "url": "https://sites.google.com/view/orange-playground-v3/",
       "proxy": true
     },
     {
+      "id": 126,
       "title": "Windows 11 Emulator (Coming Soon)",
       "image": "",
       "url": "",

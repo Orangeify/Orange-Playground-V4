@@ -32,10 +32,14 @@ async function loadCards() {
 
       if (card.url) {
         cardDiv.addEventListener("click", () => {
-          const page = card.proxy === true
-            ? "/assessments/blooket-sg.html"
-            : "/worksheets/quizlet-hw.html";
-          window.location.href = `${page}?title=${encodeURIComponent(card.title)}&url=${encodeURIComponent(card.url)}`;
+          if (card.proxy === true && card.id != null) {
+            window.location.href = `/assessments/blooket-sg.html?type=app&id=${encodeURIComponent(card.id)}`;
+          } else {
+            const page = card.proxy === true
+              ? "/assessments/blooket-sg.html"
+              : "/worksheets/quizlet-hw.html";
+            window.location.href = `${page}?title=${encodeURIComponent(card.title)}&url=${encodeURIComponent(card.url)}`;
+          }
         });
         cardDiv.style.cursor = "pointer";
       }
