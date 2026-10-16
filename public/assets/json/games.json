@@ -3,28 +3,28 @@
     {
       "id": 1,
       "title": "Request a Game! (Discord)",
-      "image": "../assets/imgs/icons/Discord-Logo.png",
-      "url": "https://1v1lol-unblocked-free.github.io/",
+      "image": "../assets/imgs/games/icons/Discord-Logo.png",
+      "url": "https://discord.gg/wx3rzuEBRn",
       "proxy": true
     },
     {
       "id": 2,
       "title": "DMCA Takedown",
-      "image": "../assets/imgs/icons/dmca-logo.png",
+      "image": "../assets/imgs/games/icons/dmca-logo.png",
       "url": "https://1v1lol-unblocked-free.github.io/",
       "proxy": false
     },
     {
       "id": 3,
       "title": "1v1.LOL",
-      "image": "https://sites.google.com/sitesv-images-rt/AMxu72vrPCIJ8eTuV8XCIeP44Eu9Nskw-0FR5_TF4f2C5E2YibN9u_B6QNLcROI45fzCqgXX502EFJYQxyNZRLyeBoBXSPhur5qplTpix_id2xSrwzg078NlUUst-GXKdW1jYFlRxLSRoRZbRAF612YQPhjpIQjxdyuccIyWO_5DhDoA9wjdkt4PpEPv3a50wGI=w1280",
+      "image": "../assets/imgs/games/icons/1v1lol.jpg",
       "url": "https://1v1lol-unblocked-free.github.io/",
       "proxy": true
     },
     {
       "id": 4,
       "title": "2048",
-      "image": "https://sites.google.com/sitesv-images-rt/AMxu72uKikjMjfymC0h5idf86rmuGIsnUBbuyY9aomBwX2YIJ7x25s64i5sKbyQRqyc_BUygRlbx3iAhwJU7ub0E34LXosOge6WR7Gcnz1G4c1y_PB_EtUGrTuw1M-HOb2Ur81lHkwuYb21DO97-HJeCqpbt5na0_Hdc2o_S7UMYQ10J4E8GKswBrIDqf4uvDvU=w1280",
+      "image": "../assets/imgs/games/icons/2048.png",
       "url": "https://www.mathsisfun.com/games/a/2048/index.html",
       "proxy": true
     },
