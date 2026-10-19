@@ -31,21 +31,28 @@
     {
       "id": 5,
       "title": "8-Ball Pool",
-      "image": "https://sites.google.com/sitesv-images-rt/AMxu72uiDxyjoYKRFxdur3qAen6z5L8-uDOOI54b36-jqk_Gl1d3oeq10xo13EhuCxm1AbaH3ODDTCx5AgzkfUzgh7EbeGNq8Eg3_Cg7GXtEM6U5XcoFBWcznUFOZvLwvDVKF9hhqhznSFkWYPWWvY2a_zW_B6wN_3SNzxws3KCxIBaGZT2DUNLRfrCnVGLrsOY=w1280",
+      "image": "../assets/imgs/games/icons/8-ball-pool.webp",
       "url": "https://orangeify.github.io/blooket-games/8-ball-pool/index.html",
       "proxy": true
     },
     {
       "id": 6,
       "title": "AaronOS",
-      "image": "https://sites.google.com/sitesv-images-rt/AMxu72s7wva7NiIy-KDpKDbeGGZIrAHjWuNKnvYXGi9daaCR64FBGhf-fIjanoZx9qTqYlgH6l1uqAF10cq7eAwHtkZNciJus4butMW4qdq9Rz_X6-bR8vyC6Ttn9yc8M2fZZwbjqDiPAH8pW_VF_68VB4j86btd7_fSGSwQxwgGf3Hkp8Qufq6zqZx6D4nP2J6H2lG51kWpqV9ElWQLOsmiIgT8mpmnm9mPiZhyJwFXxgc=w1280",
+      "image": "../assets/imgs/games/icons/aaronos.png",
       "url": "https://orangeify.github.io/blooket-games/aaron-os/index.html",
+      "proxy": true
+    },
+    {
+      "id": 288,
+      "title": "Absurd Trolley Problems",
+      "image": "../assets/imgs/games/icons/absurd-trolley-problems.jpg",
+      "url": "https://neal.fun/absurd-trolley-problems/",
       "proxy": true
     },
     {
       "id": 7,
       "title": "Ace Attorney",
-      "image": "",
+      "image": "../assets/imgs/games/icons/ace-attorney.jpg",
       "url": "https://www.retrogames.cc/embed/35266-phoenix-wright-ace-attorney-usa.html",
       "proxy": true
     },
@@ -2007,13 +2014,6 @@
       "title": "Yoshi's Story",
       "image": "",
       "url": "https://www.retrogames.cc/embed/32546-yoshi-s-story-usa-en-ja.html",
-      "proxy": true
-    },
-    {
-      "id": 288,
-      "title": "Absurd Trolley Problems",
-      "image": "",
-      "url": "",
       "proxy": true
     },
     {
