@@ -54,7 +54,7 @@
       "title": "Ace Attorney",
       "image": "../assets/imgs/games/icons/ace-attorney.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/ace-attorney/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 8,
@@ -82,7 +82,7 @@
       "title": "Animal Crossing: Wild World",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/animal-crossing-wild-world/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 11,
@@ -110,7 +110,7 @@
       "title": "Banjo Kazooie",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/banjo-kazooie/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 15,
@@ -180,7 +180,7 @@
       "title": "Brain Age",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/brain-age/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 25,
@@ -201,14 +201,14 @@
       "title": "Breath of Fire",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 28,
       "title": "Breath of Fire 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire-II/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 29,
@@ -222,28 +222,28 @@
       "title": "Castlevania",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 293,
       "title": "Castlevania II - Simon",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-II/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 294,
       "title": "Castlevania III - Dracula",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-III/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 30,
       "title": "Castlevania Bloodlines",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-bloodlines/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 31,
@@ -306,7 +306,7 @@
       "title": "Crash Bandicoot",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/crash-bandicoot/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 40,
@@ -376,35 +376,35 @@
       "title": "Donkey Kong",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 50,
       "title": "Donkey Kong 64",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-64/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 51,
       "title": "Donkey Kong Country",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 52,
       "title": "Diddy Kong's Quest (DKC 2)",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 295,
       "title": "Donkey Kong Country 3 - Dixie Kong",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 53,
@@ -467,35 +467,35 @@
       "title": "Dr. Robotnik's Mean Bean Machine",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/dr.robotnik's-mean-bean-machine/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 62,
       "title": "Duck Hunt",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/duck-hunt/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 63,
       "title": "DuckTales",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/ducktales/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 64,
       "title": "Earthbound",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/earthbound/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 296,
       "title": "EarthBound Beginnings",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/earthbound-beginnings/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 65,
@@ -537,7 +537,7 @@
       "title": "Final Fantasy: Dawn of Souls",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/final-fantasy-dawn-of-souls/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 71,
@@ -628,7 +628,7 @@
       "title": "F-Zero",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/f-zero/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 84,
@@ -733,63 +733,63 @@
       "title": "Kirby 64: The Crystal Shards",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby64-the-crystal-shards/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 99,
       "title": "Kirby and the Amazing Mirror",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby-and-the-amazing-mirror/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 100,
       "title": "Kirby: Nightmare in Dreamland",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby-nightmare-in-dreamland/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 101,
       "title": "Kirby Super Star",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby-superstar/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 102,
       "title": "Kirby's Adventure",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-adventure/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 103,
       "title": "Kirby's Dream Course",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-course/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 104,
       "title": "Kirby's Dream Land",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-land/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 105,
       "title": "Kirby's Dream Land 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-land-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 297,
       "title": "Kirby's Dream Land 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-land-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 106,
@@ -824,91 +824,91 @@
       "title": "Mario & Luigi: Bowser's Inside Story",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario&luigi-bowser's-inside-story/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 111,
       "title": "Mario & Luigi: Partners in Time",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario&luigi-partners-in-time/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 112,
       "title": "Mario & Luigi Superstar Saga",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario&luigi-superstar-saga/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 113,
       "title": "Mario Kart 64",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-kart-64/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 114,
       "title": "Mario Kart DS",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-kart-ds/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 115,
       "title": "Mario Kart: Super Circuit",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-kart-super-circuit/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 116,
       "title": "Mario Paint",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-paint/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 117,
       "title": "Mario Party",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-party/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 118,
       "title": "Mario Party 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-party-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 119,
       "title": "Mario Party 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mario-party-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 120,
       "title": "Mario vs. Donkey Kong",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mariovs.donkeykong/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 121,
       "title": "Metroid",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/metroid/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 122,
       "title": "Metroid Fusion",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/metroid-fusion/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 123,
@@ -936,7 +936,7 @@
       "title": "Mother 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/mother-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 127,
@@ -950,7 +950,7 @@
       "title": "New Super Mario Bros.",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/new-super-mario-bros/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 129,
@@ -992,7 +992,7 @@
       "title": "Paper Mario",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/paper-mario/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 135,
@@ -1020,189 +1020,189 @@
       "title": "Pokémon Black",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-black/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 139,
       "title": "Pokémon Blue",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-blue/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 140,
       "title": "Pokémon Crystal",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-crystal/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 141,
       "title": "Pokémon Diamond",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-diamond/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 142,
       "title": "Pokémon Emerald",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-emerald/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 143,
       "title": "Pokémon Fire Red",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-fire-red/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 144,
       "title": "Pokémon Gold",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-gold/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 145,
       "title": "Pokémon Green",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-green/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 146,
       "title": "Pokémon HeartGold",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-heartgold/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 147,
       "title": "Pokémon Leaf Green",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-leaf-green/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 148,
       "title": "Pokémon Mystery Dungeon: Blue Rescue Team",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/blue-rescue-team/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 149,
       "title": "Pokémon Mystery Dungeon: Explorers of Darkness",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/explorers-of-darkness/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 150,
       "title": "Pokémon Mystery Dungeon: Explorers of Sky",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/explorers-of-sky/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 151,
       "title": "Pokémon Mystery Dungeon: Explorers of Time",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/explorers-of-time/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 152,
       "title": "Pokémon Mystery Dungeon: Red Rescue Team",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/red-rescure-team/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 153,
       "title": "Pokémon Pearl",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-pearl/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 154,
       "title": "Pokémon Platinum",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-platinum/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 155,
       "title": "Pokémon Ranger",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-ranger/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 156,
       "title": "Pokémon Red",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-red/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 157,
       "title": "Pokémon Ruby",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-ruby/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 158,
       "title": "Pokémon Sapphire",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-sapphire/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 159,
       "title": "Pokémon Silver",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-silver/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 160,
       "title": "Pokémon Snap",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-snap/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 161,
       "title": "Pokémon SoulSilver",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-soulsilver/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 162,
       "title": "Pokémon Stadium",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-stadium/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 163,
       "title": "Pokémon White",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-white/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 164,
       "title": "Pokémon Yellow",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-yellow/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 165,
@@ -1230,7 +1230,7 @@
       "title": "Punch-Out!!",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/punch-out!!/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 169,
@@ -1251,7 +1251,7 @@
       "title": "Resident Evil",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/resident-evil/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 172,
@@ -1265,14 +1265,14 @@
       "title": "Rhythm Heaven",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/rhythm-heaven/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 173,
       "title": "Rhythm Tengoku",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/rhythm-tengoku/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 174,
@@ -1426,35 +1426,35 @@
       "title": "Sonic & Knuckles",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/sonic-&-knuckles/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 196,
       "title": "Sonic CD",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/sonic-cd/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 197,
       "title": "Sonic the Hedgehog",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/sonic-the-hedgehog/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 198,
       "title": "Sonic the Hedgehog 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/sonic-the-hedgehog-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 199,
       "title": "Sonic the Hedgehog 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/sonic-the-hedgehog-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 200,
@@ -1468,21 +1468,21 @@
       "title": "Spyro the Dragon",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/spyro-the-dragon/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 202,
       "title": "Star Fox",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/star-fox/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 203,
       "title": "Star Fox 64",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/star-fox-64/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 204,
@@ -1496,42 +1496,42 @@
       "title": "Street Fighter",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/street-fighter/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 206,
       "title": "Street Fighter II",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/street-fighter-II/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 207,
       "title": "Street Fighter III",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/street-fighter-III/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 208,
       "title": "Streets of Rage",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/streets-of-rage/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 209,
       "title": "Streets of Rage 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/streets-of-rage-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 299,
       "title": "Streets of Rage 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/streets-of-rage-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 210,
@@ -1573,98 +1573,98 @@
       "title": "Super Mario 64",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-64/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 216,
       "title": "Super Mario Advance",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 217,
       "title": "Super Mario Advance 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 218,
       "title": "Super Mario Advance 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 219,
       "title": "Super Mario Advance 4",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance-4/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 220,
       "title": "Super Mario Bros.",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-bros/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 221,
       "title": "Super Mario Bros. 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-bros-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 222,
       "title": "Super Mario Bros. 3",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-bros-3/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 223,
       "title": "Super Mario Kart",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-kart/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 224,
       "title": "Super Mario Land",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-land/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 225,
       "title": "Super Mario Land 2",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-land-2/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 226,
       "title": "Super Mario RPG",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-rpg/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 227,
       "title": "Super Mario World",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-world/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 228,
       "title": "Super Smash Bros.",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/super-smash-bros/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 229,
@@ -1713,14 +1713,14 @@
       "title": "Tetris (Gameboy)",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tetpnc-gb/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 302,
       "title": "Tetris (NES)",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tetpnc-nes/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 236,
@@ -1804,70 +1804,70 @@
       "title": "The Legend of Zelda",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 303,
       "title": "The Legend of Zelda II: The Adventure of Link",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-II-the-adventure-of-link/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 248,
       "title": "The Legend of Zelda: A Link to the Past",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-a-link-to-the-past/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 304,
       "title": "The Legend of Zelda: A Link to the Past & Four Swords",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-four-swords/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 249,
       "title": "The Legend of Zelda: Link's Awakening",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-link's-awakening/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 250,
       "title": "The Legend of Zelda: Majora's Mask",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-majora's-mask/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 251,
       "title": "The Legend of Zelda: Ocarina of Time",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-ocarina-of-time/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 252,
       "title": "The Legend of Zelda: Oracle of Ages",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-oracle-of-ages/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 253,
       "title": "The Legend of Zelda: Oracle of Seasons",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-oracle-of-seasons/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 254,
       "title": "The Legend of Zelda: The Minish Cap",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/tloz-the-minish-cap/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 255,
@@ -2042,28 +2042,28 @@
       "title": "Wario Land (Super Mario Land 3)",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/wario-land/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 280,
       "title": "Warioware Inc. Mega Microgame$",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/warioware-inc/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 281,
       "title": "Warioware Touched!",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/warioware-touched/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 305,
       "title": "WarioWare Twisted",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/warioware-twisted/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 282,
@@ -2098,14 +2098,14 @@
       "title": "Yoshi's Island (SMW2)",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/yoshi's-island/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 287,
       "title": "Yoshi's Story",
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/yoshi's-story/index.html",
-      "proxy": true
+      "proxy": false
     },
     {
       "id": 289,
