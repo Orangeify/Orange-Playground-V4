@@ -53,7 +53,7 @@
       "id": 7,
       "title": "Ace Attorney",
       "image": "../assets/imgs/games/icons/ace-attorney.jpg",
-      "url": "https://www.retrogames.cc/embed/35266-phoenix-wright-ace-attorney-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/ace-attorney/index.html",
       "proxy": true
     },
     {
@@ -75,6 +75,13 @@
       "title": "Among Us",
       "image": "",
       "url": "https://orangeify.github.io/blooket-games/among-us/index.html",
+      "proxy": true
+    },
+    {
+      "id": 291,
+      "title": "Animal Crossing: Wild World",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/animal-crossing-wild-world/index.html",
       "proxy": true
     },
     {
@@ -102,7 +109,7 @@
       "id": 14,
       "title": "Banjo Kazooie",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32914-banjo-kazooie-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/banjo-kazooie/index.html",
       "proxy": true
     },
     {
@@ -172,7 +179,7 @@
       "id": 24,
       "title": "Brain Age",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/43251-brain-age-train-your-brain-in-minutes-a-day-usa-rev-1.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/brain-age/index.html",
       "proxy": true
     },
     {
@@ -193,14 +200,14 @@
       "id": 27,
       "title": "Breath of Fire",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/19822-breath-of-fire-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire/index.html",
       "proxy": true
     },
     {
       "id": 28,
       "title": "Breath of Fire 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/19771-breath-of-fire-ii-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire-II/index.html",
       "proxy": true
     },
     {
@@ -211,10 +218,31 @@
       "proxy": true
     },
     {
+      "id": 292,
+      "title": "Castlevania",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/castlevania/index.html",
+      "proxy": true
+    },
+    {
+      "id": 293,
+      "title": "Castlevania II - Simon",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-II/index.html",
+      "proxy": true
+    },
+    {
+      "id": 294,
+      "title": "Castlevania III - Dracula",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-III/index.html",
+      "proxy": true
+    },
+    {
       "id": 30,
       "title": "Castlevania Bloodlines",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/30108-castlevania-bloodlines-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-bloodlines/index.html",
       "proxy": true
     },
     {
@@ -277,7 +305,7 @@
       "id": 39,
       "title": "Crash Bandicoot",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/40784-crash-bandicoot.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/crash-bandicoot/index.html",
       "proxy": true
     },
     {
@@ -347,28 +375,35 @@
       "id": 49,
       "title": "Donkey Kong",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/21321-donkey-kong-japan.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong/index.html",
       "proxy": true
     },
     {
       "id": 50,
       "title": "Donkey Kong 64",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32114-donkey-kong-64-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-64/index.html",
       "proxy": true
     },
     {
       "id": 51,
       "title": "Donkey Kong Country",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/23005-donkey-kong-country-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country/index.html",
       "proxy": true
     },
     {
       "id": 52,
       "title": "Diddy Kong's Quest (DKC 2)",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/17336-donkey-kong-country-2-diddy-s-kong-quest-usa-en-fr-rev-a.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country-2/index.html",
+      "proxy": true
+    },
+    {
+      "id": 295,
+      "title": "Donkey Kong Country 3 - Dixie Kong",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country-3/index.html",
       "proxy": true
     },
     {
@@ -431,28 +466,35 @@
       "id": 61,
       "title": "Dr. Robotnik's Mean Bean Machine",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/29742-dr-robotnik-s-mean-bean-machine-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/dr.robotnik's-mean-bean-machine/index.html",
       "proxy": true
     },
     {
       "id": 62,
       "title": "Duck Hunt",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/21039-duck-hunt-world.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/duck-hunt/index.html",
       "proxy": true
     },
     {
       "id": 63,
       "title": "DuckTales",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/20967-duck-tales-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/ducktales/index.html",
       "proxy": true
     },
     {
       "id": 64,
       "title": "Earthbound",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/24789-earthbound-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/earthbound/index.html",
+      "proxy": true
+    },
+    {
+      "id": 296,
+      "title": "EarthBound Beginnings",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/earthbound-beginnings/index.html",
       "proxy": true
     },
     {
@@ -494,7 +536,7 @@
       "id": 70,
       "title": "Final Fantasy: Dawn of Souls",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/28795-final-fantasy-i-ii-dawn-of-souls-u-independent.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/final-fantasy-dawn-of-souls/index.html",
       "proxy": true
     },
     {
@@ -585,7 +627,7 @@
       "id": 83,
       "title": "F-Zero",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/20082-f-zero-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/f-zero/index.html",
       "proxy": true
     },
     {
@@ -690,56 +732,63 @@
       "id": 98,
       "title": "Kirby 64: The Crystal Shards",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32122-kirby-64-the-crystal-shards-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby64-the-crystal-shards/index.html",
       "proxy": true
     },
     {
       "id": 99,
       "title": "Kirby and the Amazing Mirror",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/28667-kirby-and-the-amazing-mirror-u-rising-sun.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby-and-the-amazing-mirror/index.html",
       "proxy": true
     },
     {
       "id": 100,
       "title": "Kirby: Nightmare in Dreamland",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/26683-kirby-nightmare-in-dreamland-u-mode7.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby-nightmare-in-dreamland/index.html",
       "proxy": true
     },
     {
       "id": 101,
       "title": "Kirby Super Star",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/24938-kirby-super-star-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby-superstar/index.html",
       "proxy": true
     },
     {
       "id": 102,
       "title": "Kirby's Adventure",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/22129-kirby-s-adventure-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-adventure/index.html",
       "proxy": true
     },
     {
       "id": 103,
       "title": "Kirby's Dream Course",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/23959-kirby-s-dream-course-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-course/index.html",
       "proxy": true
     },
     {
       "id": 104,
       "title": "Kirby's Dream Land",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/24996-kirby-s-dream-land-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-land/index.html",
       "proxy": true
     },
     {
       "id": 105,
       "title": "Kirby's Dream Land 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/18524-kirby-s-dream-land-2-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-land-2/index.html",
+      "proxy": true
+    },
+    {
+      "id": 297,
+      "title": "Kirby's Dream Land 3",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/kirby's-dream-land-3/index.html",
       "proxy": true
     },
     {
@@ -774,91 +823,91 @@
       "id": 110,
       "title": "Mario & Luigi: Bowser's Inside Story",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/39310-mario-luigi-bowser-s-inside-story-usa-en-fr-es.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario&luigi-bowser's-inside-story/index.html",
       "proxy": true
     },
     {
       "id": 111,
       "title": "Mario & Luigi: Partners in Time",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/35355-mario-luigi-partners-in-time-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario&luigi-partners-in-time/index.html",
       "proxy": true
     },
     {
       "id": 112,
       "title": "Mario & Luigi Superstar Saga",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/26855-mario-and-luigi-superstar-saga-e-menace.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario&luigi-superstar-saga/index.html",
       "proxy": true
     },
     {
       "id": 113,
       "title": "Mario Kart 64",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32603-mario-kart-64-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-kart-64/index.html",
       "proxy": true
     },
     {
       "id": 114,
       "title": "Mario Kart DS",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/35307-mario-kart-ds-usa-en-fr-de-es-it.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-kart-ds/index.html",
       "proxy": true
     },
     {
       "id": 115,
       "title": "Mario Kart: Super Circuit",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/27894-mario-kart-super-circuit-u-inferno.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-kart-super-circuit/index.html",
       "proxy": true
     },
     {
       "id": 116,
       "title": "Mario Paint",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/23646-mario-paint-japan-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-paint/index.html",
       "proxy": true
     },
     {
       "id": 117,
       "title": "Mario Party",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32600-mario-party-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-party/index.html",
       "proxy": true
     },
     {
       "id": 118,
       "title": "Mario Party 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32166-mario-party-2-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-party-2/index.html",
       "proxy": true
     },
     {
       "id": 119,
       "title": "Mario Party 3",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32906-mario-party-3-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mario-party-3/index.html",
       "proxy": true
     },
     {
       "id": 120,
       "title": "Mario vs. Donkey Kong",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/26413-mario-vs-donkey-kong-u-venom.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mariovs.donkeykong/index.html",
       "proxy": true
     },
     {
       "id": 121,
       "title": "Metroid",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16899-metroid-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/metroid/index.html",
       "proxy": true
     },
     {
       "id": 122,
       "title": "Metroid Fusion",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/20567-metroid-fusion-u-gbanow.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/metroid-fusion/index.html",
       "proxy": true
     },
     {
@@ -886,7 +935,7 @@
       "id": 126,
       "title": "Mother 3",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/41675-mother-3-eng.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/mother-3/index.html",
       "proxy": true
     },
     {
@@ -900,7 +949,7 @@
       "id": 128,
       "title": "New Super Mario Bros.",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/35573-new-super-mario-bros-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/new-super-mario-bros/index.html",
       "proxy": true
     },
     {
@@ -942,7 +991,7 @@
       "id": 134,
       "title": "Paper Mario",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32120-paper-mario-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/paper-mario/index.html",
       "proxy": true
     },
     {
@@ -970,189 +1019,189 @@
       "id": 138,
       "title": "Pokémon Black",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32564-pokemon-black-version.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-black/index.html",
       "proxy": true
     },
     {
       "id": 139,
       "title": "Pokémon Blue",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/25021-pokemon-blue-version-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-blue/index.html",
       "proxy": true
     },
     {
       "id": 140,
       "title": "Pokémon Crystal",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/18243-pokemon-crystal-version-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-crystal/index.html",
       "proxy": true
     },
     {
       "id": 141,
       "title": "Pokémon Diamond",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/36154-pokemon-diamond-version-usa-rev-5.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-diamond/index.html",
       "proxy": true
     },
     {
       "id": 142,
       "title": "Pokémon Emerald",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/19514-pokemon-emerald-u-trashman.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-emerald/index.html",
       "proxy": true
     },
     {
       "id": 143,
       "title": "Pokémon Fire Red",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/19330-pokemon-fire-red-u-independent.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-fire-red/index.html",
       "proxy": true
     },
     {
       "id": 144,
       "title": "Pokémon Gold",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/18984-pokemon-gold-version-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-gold/index.html",
       "proxy": true
     },
     {
       "id": 145,
       "title": "Pokémon Green",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/25237-pocket-monsters-midori-japan.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-green/index.html",
       "proxy": true
     },
     {
       "id": 146,
       "title": "Pokémon HeartGold",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/39926-pokemon-heartgold-version-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-heartgold/index.html",
       "proxy": true
     },
     {
       "id": 147,
       "title": "Pokémon Leaf Green",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/26141-pokemon-leaf-green-u-independent.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-leaf-green/index.html",
       "proxy": true
     },
     {
       "id": 148,
       "title": "Pokémon Mystery Dungeon: Blue Rescue Team",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/35705-pokemon-mystery-dungeon-blue-rescue-team-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/blue-rescue-team/index.html",
       "proxy": true
     },
     {
       "id": 149,
       "title": "Pokémon Mystery Dungeon: Explorers of Darkness",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/37382-pokemon-mystery-dungeon-explorers-of-darkness-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/explorers-of-darkness/index.html",
       "proxy": true
     },
     {
       "id": 150,
       "title": "Pokémon Mystery Dungeon: Explorers of Sky",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/39412-pokemon-mystery-dungeon-explorers-of-sky-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/explorers-of-sky/index.html",
       "proxy": true
     },
     {
       "id": 151,
       "title": "Pokémon Mystery Dungeon: Explorers of Time",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/37383-pokemon-mystery-dungeon-explorers-of-time-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/explorers-of-time/index.html",
       "proxy": true
     },
     {
       "id": 152,
       "title": "Pokémon Mystery Dungeon: Red Rescue Team",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/27818-pokemon-mystery-dungeon-red-rescue-team-e-rising-sun.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-mystery-dungeon/red-rescure-team/index.html",
       "proxy": true
     },
     {
       "id": 153,
       "title": "Pokémon Pearl",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/36155-pokemon-pearl-version-usa-rev-5.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-pearl/index.html",
       "proxy": true
     },
     {
       "id": 154,
       "title": "Pokémon Platinum",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/38680-pokemon-platinum-version-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-platinum/index.html",
       "proxy": true
     },
     {
       "id": 155,
       "title": "Pokémon Ranger",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/35783-pokemon-ranger-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-ranger/index.html",
       "proxy": true
     },
     {
       "id": 156,
       "title": "Pokémon Red",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/25991-pokemon-red-version-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-red/index.html",
       "proxy": true
     },
     {
       "id": 157,
       "title": "Pokémon Ruby",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/26523-pokemon-ruby-e-independent.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-ruby/index.html",
       "proxy": true
     },
     {
       "id": 158,
       "title": "Pokémon Sapphire",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/26661-pokemon-sapphire-e-independent.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-sapphire/index.html",
       "proxy": true
     },
     {
       "id": 159,
       "title": "Pokémon Silver",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/17463-pokemon-silver-version-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-silver/index.html",
       "proxy": true
     },
     {
       "id": 160,
       "title": "Pokémon Snap",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32209-pokemon-snap-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-snap/index.html",
       "proxy": true
     },
     {
       "id": 161,
       "title": "Pokémon SoulSilver",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/39927-pokemon-soulsilver-version-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-soulsilver/index.html",
       "proxy": true
     },
     {
       "id": 162,
       "title": "Pokémon Stadium",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32125-pokemon-stadium-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-stadium/index.html",
       "proxy": true
     },
     {
       "id": 163,
       "title": "Pokémon White",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/41889-pokemon-white-version-usa-europe-ndsi-enhanced.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-white/index.html",
       "proxy": true
     },
     {
       "id": 164,
       "title": "Pokémon Yellow",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/27078-pokemon-yellow-version-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/pokemon-yellow/index.html",
       "proxy": true
     },
     {
@@ -1180,7 +1229,7 @@
       "id": 168,
       "title": "Punch-Out!!",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/20466-punch-out-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/punch-out!!/index.html",
       "proxy": true
     },
     {
@@ -1201,7 +1250,7 @@
       "id": 171,
       "title": "Resident Evil",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/42875-resident-evil.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/resident-evil/index.html",
       "proxy": true
     },
     {
@@ -1212,10 +1261,17 @@
       "proxy": true
     },
     {
+      "id": 298,
+      "title": "Rhythm Heaven",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/rhythm-heaven/index.html",
+      "proxy": true
+    },
+    {
       "id": 173,
       "title": "Rhythm Tengoku",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/42383-rhythm-heaven-silver.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/rhythm-tengoku/index.html",
       "proxy": true
     },
     {
@@ -1369,35 +1425,35 @@
       "id": 195,
       "title": "Sonic & Knuckles",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/28257-sonic-knuckles-world.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/sonic-&-knuckles/index.html",
       "proxy": true
     },
     {
       "id": 196,
       "title": "Sonic CD",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/40754-sonic-cd.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/sonic-cd/index.html",
       "proxy": true
     },
     {
       "id": 197,
       "title": "Sonic the Hedgehog",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/30299-sonic-the-hedgehog-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/sonic-the-hedgehog/index.html",
       "proxy": true
     },
     {
       "id": 198,
       "title": "Sonic the Hedgehog 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/18468-sonic-the-hedgehog-2-world.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/sonic-the-hedgehog-2/index.html",
       "proxy": true
     },
     {
       "id": 199,
       "title": "Sonic the Hedgehog 3",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/30349-sonic-the-hedgehog-3-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/sonic-the-hedgehog-3/index.html",
       "proxy": true
     },
     {
@@ -1411,21 +1467,21 @@
       "id": 201,
       "title": "Spyro the Dragon",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/40796-spyro-the-dragon.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/spyro-the-dragon/index.html",
       "proxy": true
     },
     {
       "id": 202,
       "title": "Star Fox",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/19754-star-fox-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/star-fox/index.html",
       "proxy": true
     },
     {
       "id": 203,
       "title": "Star Fox 64",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32121-star-fox-64-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/star-fox-64/index.html",
       "proxy": true
     },
     {
@@ -1439,35 +1495,42 @@
       "id": 205,
       "title": "Street Fighter",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/9955-street-fighter-us-set-1.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/street-fighter/index.html",
       "proxy": true
     },
     {
       "id": 206,
       "title": "Street Fighter II",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/9981-street-fighter-ii-the-world-warrior-910206-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/street-fighter-II/index.html",
       "proxy": true
     },
     {
       "id": 207,
       "title": "Street Fighter III",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/34422-street-fighter-iii-new-generation-usa-970204.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/street-fighter-III/index.html",
       "proxy": true
     },
     {
       "id": 208,
       "title": "Streets of Rage",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/30497-bare-knuckle-ikari-no-tetsuken-streets-of-rage-world.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/streets-of-rage/index.html",
       "proxy": true
     },
     {
       "id": 209,
       "title": "Streets of Rage 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/28481-streets-of-rage-2-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/streets-of-rage-2/index.html",
+      "proxy": true
+    },
+    {
+      "id": 299,
+      "title": "Streets of Rage 3",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/streets-of-rage-3/index.html",
       "proxy": true
     },
     {
@@ -1509,98 +1572,98 @@
       "id": 215,
       "title": "Super Mario 64",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32112-super-mario-64-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-64/index.html",
       "proxy": true
     },
     {
       "id": 216,
       "title": "Super Mario Advance",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/43870-super-mario-advance-color-restoration.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance/index.html",
       "proxy": true
     },
     {
       "id": 217,
       "title": "Super Mario Advance 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/44830-super-mario-advance-2-instrument-restoration.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance-2/index.html",
       "proxy": true
     },
     {
       "id": 218,
       "title": "Super Mario Advance 3",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/43869-yoshis-island-sma-3-colour-restoration.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance-3/index.html",
       "proxy": true
     },
     {
       "id": 219,
       "title": "Super Mario Advance 4",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/44444-super-mario-advance-4-super-mario-bros-3-usa-gbp-snes-palette-hack.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-advance-4/index.html",
       "proxy": true
     },
     {
       "id": 220,
       "title": "Super Mario Bros.",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16843-super-mario-bros-japan-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-bros/index.html",
       "proxy": true
     },
     {
       "id": 221,
       "title": "Super Mario Bros. 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/21523-super-mario-bros-2-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-bros-2/index.html",
       "proxy": true
     },
     {
       "id": 222,
       "title": "Super Mario Bros. 3",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16680-super-mario-bros-3-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-bros-3/index.html",
       "proxy": true
     },
     {
       "id": 223,
       "title": "Super Mario Kart",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16887-super-mario-kart-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-kart/index.html",
       "proxy": true
     },
     {
       "id": 224,
       "title": "Super Mario Land",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16871-super-mario-land-world.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-land/index.html",
       "proxy": true
     },
     {
       "id": 225,
       "title": "Super Mario Land 2",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16872-super-mario-land-2-6-golden-coins-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-land-2/index.html",
       "proxy": true
     },
     {
       "id": 226,
       "title": "Super Mario RPG",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/18627-super-mario-rpg-legend-of-the-seven-stars-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-rpg/index.html",
       "proxy": true
     },
     {
       "id": 227,
       "title": "Super Mario World",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16847-super-mario-world-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-mario-world/index.html",
       "proxy": true
     },
     {
       "id": 228,
       "title": "Super Smash Bros.",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32117-super-smash-bros-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/super-smash-bros/index.html",
       "proxy": true
     },
     {
@@ -1647,9 +1710,16 @@
     },
     {
       "id": 235,
-      "title": "Tetris",
+      "title": "Tetris (Gameboy)",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/25584-tetris-world-rev-a.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tetpnc-gb/index.html",
+      "proxy": true
+    },
+    {
+      "id": 302,
+      "title": "Tetris (NES)",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tetpnc-nes/index.html",
       "proxy": true
     },
     {
@@ -1733,56 +1803,70 @@
       "id": 247,
       "title": "The Legend of Zelda",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16778-legend-of-zelda-the-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz/index.html",
+      "proxy": true
+    },
+    {
+      "id": 303,
+      "title": "The Legend of Zelda II: The Adventure of Link",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-II-the-adventure-of-link/index.html",
       "proxy": true
     },
     {
       "id": 248,
       "title": "The Legend of Zelda: A Link to the Past",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/22709-legend-of-zelda-the-a-link-to-the-past-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-a-link-to-the-past/index.html",
+      "proxy": true
+    },
+    {
+      "id": 304,
+      "title": "The Legend of Zelda: A Link to the Past & Four Swords",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-four-swords/index.html",
       "proxy": true
     },
     {
       "id": 249,
       "title": "The Legend of Zelda: Link's Awakening",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16792-legend-of-zelda-the-link-s-awakening-usa-europe.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-link's-awakening/index.html",
       "proxy": true
     },
     {
       "id": 250,
       "title": "The Legend of Zelda: Majora's Mask",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32111-legend-of-zelda-the-majoras-mask-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-majora's-mask/index.html",
       "proxy": true
     },
     {
       "id": 251,
       "title": "The Legend of Zelda: Ocarina of Time",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32113-legend-of-zelda-the-ocarina-of-time.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-ocarina-of-time/index.html",
       "proxy": true
     },
     {
       "id": 252,
       "title": "The Legend of Zelda: Oracle of Ages",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/18217-legend-of-zelda-the-oracle-of-ages-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-oracle-of-ages/index.html",
       "proxy": true
     },
     {
       "id": 253,
       "title": "The Legend of Zelda: Oracle of Seasons",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/27297-legend-of-zelda-the-oracle-of-seasons-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-oracle-of-seasons/index.html",
       "proxy": true
     },
     {
       "id": 254,
       "title": "The Legend of Zelda: The Minish Cap",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/19454-the-legend-of-zelda-the-minish-cap-e-independent.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/tloz-the-minish-cap/index.html",
       "proxy": true
     },
     {
@@ -1957,21 +2041,28 @@
       "id": 279,
       "title": "Wario Land (Super Mario Land 3)",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/44333-wario-land-super-mario-land-3-color-edition.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/wario-land/index.html",
       "proxy": true
     },
     {
       "id": 280,
       "title": "Warioware Inc. Mega Microgame$",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/28833-wario-ware-inc-u-precision.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/warioware-inc/index.html",
       "proxy": true
     },
     {
       "id": 281,
       "title": "Warioware Touched!",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/35144-warioware-touched-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/warioware-touched/index.html",
+      "proxy": true
+    },
+    {
+      "id": 305,
+      "title": "WarioWare Twisted",
+      "image": "",
+      "url": "https://orangeify.github.io/OPv4-ROMs/warioware-twisted/index.html",
       "proxy": true
     },
     {
@@ -2006,14 +2097,14 @@
       "id": 286,
       "title": "Yoshi's Island (SMW2)",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/16890-super-mario-world-2-yoshi-s-island-usa.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/yoshi's-island/index.html",
       "proxy": true
     },
     {
       "id": 287,
       "title": "Yoshi's Story",
       "image": "",
-      "url": "https://www.retrogames.cc/embed/32546-yoshi-s-story-usa-en-ja.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/yoshi's-story/index.html",
       "proxy": true
     },
     {
