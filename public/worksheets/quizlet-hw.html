@@ -50,20 +50,52 @@
         </nav>
         <script>
             const params = new URLSearchParams(window.location.search);
-            const gameTitle = params.get('title') || 'Quizlet HW';
+            let gameTitle = params.get('title') || 'Quizlet HW';
             const embedUrl = params.get('url') || '';
+            const type = params.get('type') || '';
+            const gameId = params.get('id') || '';
 
             document.title = `Orange Playground - ${gameTitle}`;
 
-            document.addEventListener('DOMContentLoaded', () => {
+            document.addEventListener('DOMContentLoaded', async () => {
                 const loader = document.querySelector('.loader');
                 const label = document.querySelector('.nav-label');
                 const iframe = document.getElementById('frame');
                 const message = document.getElementById('message');
 
                 if (label) label.textContent = gameTitle;
-                if (iframe) iframe.src = embedUrl;
-                if (!embedUrl && message) message.textContent = 'No game URL provided.';
+
+                if (type || gameId) {
+                    try {
+                        if (type !== 'game' || !/^\d+$/.test(gameId)) {
+                            throw new Error('Invalid Quizlet game link.');
+                        }
+
+                        const response = await fetch('/assets/json/games.json');
+                        if (!response.ok) {
+                            throw new Error(`Failed to load games catalog (${response.status}).`);
+                        }
+
+                        const catalog = await response.json();
+                        const game = catalog.cards.find(item => String(item.id) === gameId);
+                        if (!game || !game.url) {
+                            throw new Error(`No game found with ID ${gameId}.`);
+                        }
+
+                        gameTitle = game.title || gameTitle;
+                        document.title = `Orange Playground - ${gameTitle}`;
+                        if (label) label.textContent = gameTitle;
+                        if (iframe) iframe.src = game.url;
+                    } catch (err) {
+                        console.error('Failed to load the selected Quizlet game.', err);
+                        if (message) message.textContent = 'Unable to load the selected game.';
+                    }
+                } else if (embedUrl) {
+                    if (iframe) iframe.src = embedUrl;
+                } else if (message) {
+                    message.textContent = 'No game URL provided.';
+                }
+
                 if (loader) loader.classList.add('loader--hidden');
             });
         </script>
