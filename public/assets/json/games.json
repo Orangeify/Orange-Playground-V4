@@ -50,6 +50,13 @@
       "proxy": true
     },
     {
+      "id": 306,
+      "title": "Achievement Unlocked",
+      "image": "../assets/imgs/games/icons/achievement-unlocked.jpg",
+      "url": "https://orangeify.github.io/blooket-games/achievementunlocked/index.html",
+      "proxy": false
+    },
+    {
       "id": 7,
       "title": "Ace Attorney",
       "image": "../assets/imgs/games/icons/ace-attorney.jpg",
