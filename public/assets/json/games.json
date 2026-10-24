@@ -66,21 +66,28 @@
     {
       "id": 8,
       "title": "A Dance of Fire and Ice",
-      "image": "",
+      "image": "../assets/imgs/games/icons/adofai.png",
       "url": "https://orangeify.github.io/blooket-games/a-dance-of-fire-and-ice/index.html",
+      "proxy": true
+    },
+    {
+      "id": 289,
+      "title": "Agar.io",
+      "image": "../assets/imgs/games/icons/agar-io.jpg",
+      "url": "https://agar.io",
       "proxy": true
     },
     {
       "id": 9,
       "title": "Alien Hominid",
-      "image": "",
+      "image": "../assets/imgs/games/icons/alien-hominid.jpg",
       "url": "https://orangeify.github.io/blooket-games/alienhominid/index.html",
       "proxy": true
     },
     {
       "id": 10,
       "title": "Among Us",
-      "image": "",
+      "image": "../assets/imgs/games/icons/amogus.jpg",
       "url": "https://orangeify.github.io/blooket-games/among-us/index.html",
       "proxy": true
     },
@@ -2113,13 +2120,6 @@
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/yoshi's-story/index.html",
       "proxy": false
-    },
-    {
-      "id": 289,
-      "title": "Agar.io",
-      "image": "",
-      "url": "https://agar.cc",
-      "proxy": true
     },
     {
       "id": 290,
