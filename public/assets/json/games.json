@@ -92,18 +92,18 @@
       "proxy": true
     },
     {
-      "id": 291,
-      "title": "Animal Crossing: Wild World",
-      "image": "",
-      "url": "https://orangeify.github.io/OPv4-ROMs/animal-crossing-wild-world/index.html",
-      "proxy": false
-    },
-    {
       "id": 11,
       "title": "Angry Birds",
-      "image": "",
+      "image": "../assets/imgs/games/icons/angry-birds.jpg",
       "url": "https://rawcdn.githack.com/lioxryt/lioxryt-assets/0cf7d107ddb99c99ea20387522aa29b8ee382049/other/angrybirds/index.html",
       "proxy": true
+    },
+    {
+      "id": 291,
+      "title": "Animal Crossing: Wild World",
+      "image": "../assets/imgs/games/icons/animal-crossing-wild.webp",
+      "url": "https://orangeify.github.io/OPv4-ROMs/animal-crossing-wild-world/index.html",
+      "proxy": false
     },
     {
       "id": 12,
