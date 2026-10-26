@@ -115,14 +115,14 @@
     {
       "id": 12,
       "title": "Asteroid Launcher",
-      "image": "",
+      "image": "../assets/imgs/games/icons/asteroid-launcher.png",
       "url": "https://neal.fun/asteroid-launcher/",
       "proxy": true
     },
     {
       "id": 13,
       "title": "Baldi's Basics",
-      "image": "",
+      "image": "../assets/imgs/games/icons/baldis-basics.png",
       "url": "https://html5.gamemonetize.co/iiifrxhcnzl5laslqf3eaedtevjzb2bu/",
       "proxy": true
     },
