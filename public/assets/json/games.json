@@ -103,7 +103,7 @@
       "title": "Animal Crossing: Population Growing!",
       "image": "../assets/imgs/games/icons/animal-crossing-gamecube.png",
       "url": "https://orangeify.github.io/blooket-games/animal-crossing/index.html",
-      "proxy": false
+      "proxy": true
     },
     {
       "id": 291,
