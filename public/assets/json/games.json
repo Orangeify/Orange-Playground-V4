@@ -120,6 +120,13 @@
       "proxy": true
     },
     {
+      "id": 301,
+      "title": "Balatro",
+      "image": "../assets/imgs/games/icons/balatro.jpg",
+      "url": "https://degloved.net/gms/balatro/index.html",
+      "proxy": true
+    },
+    {
       "id": 13,
       "title": "Baldi's Basics",
       "image": "../assets/imgs/games/icons/baldis-basics.png",

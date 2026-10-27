@@ -1,2 +1,2 @@
-Highest Games ID: 307
+Highest Games ID: 308
 Highest App ID: 126
