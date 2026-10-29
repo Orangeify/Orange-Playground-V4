@@ -170,15 +170,15 @@
     },
     {
       "id": 18,
-      "title": "Bloons TD 1",
-      "image": "",
+      "title": "Bloons TD",
+      "image": "../assets/imgs/games/icons/bloons-td.png",
       "url": "https://orangeify.github.io/blooket-games/bloonstd/index.html",
       "proxy": true
     },
     {
       "id": 19,
       "title": "Bloons TD 2",
-      "image": "",
+      "image": "../assets/imgs/games/icons/bloons-td-2.jpg",
       "url": "https://orangeify.github.io/blooket-games/bloonstd2/index.html",
       "proxy": true
     },
@@ -199,14 +199,14 @@
     {
       "id": 22,
       "title": "Bloxorz",
-      "image": "",
+      "image": "../assets/imgs/games/icons/bloxorz.png",
       "url": "https://orangeify.github.io/blooket-games/bloxors/index.html",
       "proxy": true
     },
     {
       "id": 23,
       "title": "Bomb Defuse Online",
-      "image": "",
+      "image": "../assets/imgs/games/icons/bomb-defuse.png",
       "url": "https://games.crazygames.com/en_US/talking-and-nobody-explosion/index.html?v=1.347",
       "proxy": true
     },
@@ -244,6 +244,13 @@
       "image": "",
       "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire-II/index.html",
       "proxy": false
+    },
+    {
+      "id": 309,
+      "title": "Buckshot Roulette",
+      "image": "",
+      "url": "https://orangeify.github.io/blooket-games/burger-and-frights/index.html",
+      "proxy": true
     },
     {
       "id": 29,
