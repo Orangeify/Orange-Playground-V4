@@ -136,28 +136,35 @@
     {
       "id": 14,
       "title": "Banjo Kazooie",
-      "image": "",
+      "image": "../assets/imgs/games/icons/banjo-kazooie.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/banjo-kazooie/index.html",
       "proxy": false
     },
     {
       "id": 15,
       "title": "Basket Random",
-      "image": "",
+      "image": "../assets/imgs/games/icons/basket-random.png",
       "url": "https://orangeify.github.io/blooket-games/basket-random/index.html",
       "proxy": true
     },
     {
       "id": 16,
       "title": "BitLife",
-      "image": "",
+      "image": "../assets/imgs/games/icons/bitlife.jpg",
       "url": "https://orangeify.github.io/blooket-games/bitlife/index.html",
+      "proxy": true
+    },
+    {
+      "id": 308,
+      "title": "BlackJack",
+      "image": "../assets/imgs/games/icons/blackjack.jpg",
+      "url": "https://codethislab.cdn.msnfun.com/9mt4hk2d6rcn/v2/index.html?msstart_sdk_init=eyJwYXJlbnRPcmlnaW4iOiJodHRwczovL3d3dy5tc24uY29tIiwiY2xpZW50SWQiOiIwQkVBOTVDMDQ4Mzk2NzNGMjUwNDgzNDg0OUJGNjY4QyIsImxvY2FsZSI6ImVuLXVzIiwiZW50cnlQb2ludElkIjoiY2dhbnN3ZXIiLCJzd2l0Y2hHYW1lUGF5bG9hZCI6eyJzd2l0Y2hlZFRvIjoiOW10NGhrMmQ2cmNuIiwidmFsdWUiOnt9fX0&ocid=cganswer",
       "proxy": true
     },
     {
       "id": 17,
       "title": "Block Blast",
-      "image": "",
+      "image": "../assets/imgs/games/icons/block-blast.jpg",
       "url": "https://blockblast.game/game",
       "proxy": true
     },
