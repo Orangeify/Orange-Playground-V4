@@ -213,21 +213,21 @@
     {
       "id": 24,
       "title": "Brain Age",
-      "image": "",
+      "image": "../assets/imgs/games/icons/brain-age.png",
       "url": "https://orangeify.github.io/OPv4-ROMs/brain-age/index.html",
       "proxy": false
     },
     {
       "id": 25,
       "title": "Brain Out",
-      "image": "",
+      "image": "../assets/imgs/games/icons/brain-out.png",
       "url": "https://3727783578915904364.playables.usercontent.goog/v/assets/index.html#flags=%7B%22enableServiceWorker%22%3Afalse%7D&origin=https%3A%2F%2Fwww.youtube.com",
       "proxy": true
     },
     {
       "id": 26,
       "title": "Breaking the Bank",
-      "image": "",
+      "image": "../assets/imgs/games/icons/breaking-the-bank.png",
       "url": "https://orangeify.github.io/blooket-games/breakingthebank/index.html",
       "proxy": true
     },
