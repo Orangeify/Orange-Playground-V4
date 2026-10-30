@@ -234,14 +234,14 @@
     {
       "id": 27,
       "title": "Breath of Fire",
-      "image": "",
+      "image": "../assets/imgs/games/icons/breath-of-fire.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire/index.html",
       "proxy": false
     },
     {
       "id": 28,
       "title": "Breath of Fire 2",
-      "image": "",
+      "image": "../assets/imgs/games/icons/breath-of-fire-II.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/breath-of-fire-II/index.html",
       "proxy": false
     },
