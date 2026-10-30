@@ -185,14 +185,14 @@
     {
       "id": 20,
       "title": "Bloons TD Battles",
-      "image": "",
+      "image": "../assets/imgs/games/icons/bloons-td-battles.png",
       "url": "https://play.geforcenow.com/games?game-id=20b1f3b4-5d4e-45aa-8edb-35266362a7cc",
       "proxy": true
     },
     {
       "id": 21,
       "title": "Bloons TD Battles 2",
-      "image": "",
+      "image": "../assets/imgs/games/icons/bloons-td-battles-2.png",
       "url": "https://play.geforcenow.com/games?game-id=d3b8fd6f-cad3-4779-94c3-b4617714de0c",
       "proxy": true
     },
