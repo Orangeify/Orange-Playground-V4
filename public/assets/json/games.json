@@ -276,21 +276,21 @@
     {
       "id": 294,
       "title": "Castlevania III - Dracula",
-      "image": "",
+      "image": "../assets/imgs/games/icons/castlevania-III.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-III/index.html",
       "proxy": false
     },
     {
       "id": 30,
       "title": "Castlevania Bloodlines",
-      "image": "",
+      "image": "../assets/imgs/games/icons/castlevania-bloodlines.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-bloodlines/index.html",
       "proxy": false
     },
     {
       "id": 31,
       "title": "Cat Mario",
-      "image": "",
+      "image": "../assets/imgs/games/icons/cat-mario.jpg",
       "url": "https://flashgames.cx/embed/猫里奥终极版",
       "proxy": true
     },
