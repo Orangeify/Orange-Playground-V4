@@ -262,14 +262,14 @@
     {
       "id": 292,
       "title": "Castlevania",
-      "image": "",
+      "image": "../assets/imgs/games/icons/castlvania.webp",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania/index.html",
       "proxy": false
     },
     {
       "id": 293,
       "title": "Castlevania II - Simon",
-      "image": "",
+      "image": "../assets/imgs/games/icons/castlevania-II.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/castlevania-II/index.html",
       "proxy": false
     },
