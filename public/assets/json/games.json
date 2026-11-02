@@ -248,14 +248,14 @@
     {
       "id": 309,
       "title": "Buckshot Roulette",
-      "image": "",
+      "image": "../assets/imgs/games/icons/buckshot-roulette.jpg",
       "url": "https://orangeify.github.io/blooket-games/burger-and-frights/index.html",
       "proxy": true
     },
     {
       "id": 29,
       "title": "Burger and Frights",
-      "image": "",
+      "image": "../",
       "url": "https://orangeify.github.io/blooket-games/burger-and-frights/index.html",
       "proxy": true
     },
