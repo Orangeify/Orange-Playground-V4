@@ -44,6 +44,37 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Listen for panic key press
     document.addEventListener("keydown", function (event) {
+            if (event.ctrlKey && event.shiftKey && !event.altKey && !event.metaKey && event.key.toLowerCase() === "f") {
+            const iframe = Array.from(document.querySelectorAll("iframe")).find((frame) => {
+                if (frame.classList.contains("dnone") || frame.style.display === "none" || frame.style.visibility === "hidden") {
+                    return false;
+                }
+
+                const rect = frame.getBoundingClientRect();
+                return rect.width > 0 && rect.height > 0;
+            });
+
+            if (iframe) {
+                event.preventDefault();
+                if (typeof iframe.requestFullscreen === "function") {
+                    iframe.requestFullscreen().catch((error) => {
+                        console.error("Unable to enter iframe fullscreen:", error);
+                    });
+                } else {
+                    console.error("Fullscreen is not supported by this browser.");
+                }
+                return;
+            }
+        }
+
+        if (event.key === "Escape" && document.fullscreenElement?.tagName === "IFRAME") {
+            event.preventDefault();
+            document.exitFullscreen().catch((error) => {
+                console.error("Unable to exit iframe fullscreen:", error);
+            });
+            return;
+        }
+
         const panicKey = localStorage.getItem("panicKey") || DEFAULT_PANIC_KEY;
         const panicUrl = localStorage.getItem("panicUrl") || DEFAULT_PANIC_URL;
         const ctrlRequired = localStorage.getItem("panicCtrl") === "true";
