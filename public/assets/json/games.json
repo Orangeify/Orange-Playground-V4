@@ -309,6 +309,13 @@
       "proxy": true
     },
     {
+      "id": 35,
+      "title": "Cell Machine",
+      "image": "",
+      "url": "https://orangeify.github.io/blooket-games/cell-machine/index.html",
+      "proxy": true
+    },
+    {
       "id": 33,
       "title": "Chess",
       "image": "../assets/imgs/games/icons/chess.png",
@@ -320,13 +327,6 @@
       "title": "Clash Royale",
       "image": "",
       "url": "https://www.easyfun.gg/embed/clash-royale-cloud-online.html",
-      "proxy": true
-    },
-    {
-      "id": 35,
-      "title": "Cell Machine",
-      "image": "",
-      "url": "https://orangeify.github.io/blooket-games/cell-machine/index.html",
       "proxy": true
     },
     {
