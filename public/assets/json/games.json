@@ -295,16 +295,23 @@
       "proxy": true
     },
     {
+      "id": 310,
+      "title": "Celeste",
+      "image": "../assets/imgs/games/icons/celeste.jpg",
+      "url": "https://degloved.net/gms/celeste/index.html",
+      "proxy": true
+    },
+    {
       "id": 32,
       "title": "Celeste (Pico-8)",
-      "image": "",
+      "image": "../assets/imgs/games/icons/celeste-pico-8.jpeg",
       "url": "https://exok.com/minigames/celeste.html",
       "proxy": true
     },
     {
       "id": 33,
       "title": "Chess",
-      "image": "",
+      "image": "../assets/imgs/games/icons/chess.png",
       "url": "https://chess.com",
       "proxy": true
     },
