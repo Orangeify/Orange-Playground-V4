@@ -7,6 +7,17 @@ document.addEventListener("DOMContentLoaded", function () {
     // Defaults
     const DEFAULT_PANIC_KEY = "`";
     const DEFAULT_PANIC_URL = "https://www.google.com";
+        let panicNavigation = false;
+
+    window.addEventListener("beforeunload", function (event) {
+        if (panicNavigation) {
+            panicNavigation = false;
+            return;
+        }
+
+        event.preventDefault();
+        event.returnValue = "";
+    });
 
     // Load settings from localStorage
     function loadSettings() {
@@ -91,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             // Redirect to the panic URL
+            panicNavigation = true;
             window.location.href = panicUrl;
         }
     });
