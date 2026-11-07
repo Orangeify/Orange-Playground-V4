@@ -8,13 +8,6 @@
       "proxy": true
     },
     {
-      "id": 2,
-      "title": "DMCA Takedown",
-      "image": "../assets/imgs/games/icons/dmca-logo.png",
-      "url": "https://1v1lol-unblocked-free.github.io/",
-      "proxy": false
-    },
-    {
       "id": 3,
       "title": "1v1.LOL",
       "image": "../assets/imgs/games/icons/1v1lol.jpg",
@@ -368,43 +361,50 @@
     {
       "id": 39,
       "title": "Crash Bandicoot",
-      "image": "",
+      "image": "../assets/imgs/games/icons/crash-bandicoot.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/crash-bandicoot/index.html",
       "proxy": false
     },
     {
       "id": 40,
       "title": "Crazy Cattle 3D",
-      "image": "",
+      "image": "../assets/imgs/games/icons/crazy-cattle-3d.jpg",
       "url": "https://crazycattle3d.io/game/crazycattle3d/v11/",
       "proxy": true
     },
     {
       "id": 41,
       "title": "Crossy Road",
-      "image": "",
+      "image": "../assets/imgs/games/icons/crossy-road.jpg",
       "url": "https://orangeify.github.io/blooket-games/crossyroad/index.html",
       "proxy": true
     },
     {
       "id": 42,
       "title": "Cube Field",
-      "image": "",
-      "url": "https://orangeify.github.io/blooket-games/cubefield/index.html",
+      "image": "../assets/imgs/games/icons/cube-field.jpg",
+      "url": "https://cubefield.game-files.crazygames.com/ruffle/cubefield/1/cubefield.html?v=1.288",
+      "proxy": true
+    },
+    {
+      "id": 313,
+      "title": "Cuphead",
+      "image": "../assets/imgs/games/icons/cuphead.webp",
+      "url": "https://orangeify.github.io/blooket-games/cuphead/index.html",
       "proxy": true
     },
     {
       "id": 43,
       "title": "Cut the Rope",
-      "image": "",
+      "image": "../assets/imgs/games/icons/cut-the-rope.jpg",
       "url": "https://games.cdn.famobi.com/html5games/c/cut-the-rope/v100/?fg_domain=play.famobi.com&fg_aid=A-GI418&fg_uid=4531b37c-a8e0-4a67-9ebd-e8d3190b6277&fg_pid=d9fb2e7b-aae4-4d84-b6cb-98d67606a5ef&fg_beat=160&original_ref=https%3A%2F%2Fgames.cdn.famobi.com%2F",
       "proxy": true
     },
     {
       "id": 44,
       "title": "Deal or No Deal",
-      "image": "",
-      "url": "https://orangeify.github.io/blooket-games/deal-or-no-deal/index.html",
+      "image": "../assets/imgs/games/icons/deal-or-no-deal.jpg",
+      "url": "https://nextgame.cdn.msnfun.com/9mwsg56qzgmk/v3/index.html?msstart_sdk_init=eyJwYXJlbnRPcmlnaW4iOiJodHRwczovL3d3dy5tc24uY29tIiwiY2xpZW50SWQiOiIwQkVBOTVDMDQ4Mzk2NzNGMjUwNDgzNDg0OUJGNjY4QyIsImxvY2FsZSI6ImVuLXVzIiwiZW50cnlQb2ludElkIjoiY2dhbnN3ZXIiLCJzd2l0Y2hHYW1lUGF5bG9hZCI6eyJzd2l0Y2hlZFRvIjoiOW13c2c1NnF6Z21rIiwidmFsdWUiOnt9fX0",
       "proxy": true
     },
     {
