@@ -102,14 +102,15 @@
       "id": 307,
       "title": "Animal Crossing: Population Growing!",
       "image": "../assets/imgs/games/icons/animal-crossing-gamecube.png",
-      "url": "https://orangeify.github.io/blooket-games/animal-crossing/index.html",
+      "url": "https://selenite.cc/resources/semag/slider/index.html",
       "proxy": true
     },
     {
       "id": 291,
       "title": "Animal Crossing: Wild World",
       "image": "../assets/imgs/games/icons/animal-crossing-wild.webp",
-      "url": "https://selenite.cc/resources/semag/slider/index.html",
+      "url": "https://orangeify.github.io/OPv4-ROMs/animal-crossing-wild-world/index.html",
+      
       "proxy": true
     },
     {
@@ -249,7 +250,7 @@
       "id": 309,
       "title": "Buckshot Roulette",
       "image": "../assets/imgs/games/icons/buckshot-roulette.jpg",
-      "url": "https://degloved.net/gms/buckshot-roulette/index.html",
+      "url": "https://orangeify.github.io/blooket-games/buckshot-roulette/index.html",
       "proxy": true
     },
     {
@@ -325,28 +326,42 @@
     {
       "id": 34,
       "title": "Clash Royale",
-      "image": "",
+      "image": "../assets/imgs/games/icons/clash-royale.png",
       "url": "https://www.easyfun.gg/embed/clash-royale-cloud-online.html",
+      "proxy": true
+    },
+    {
+      "id": 311,
+      "title": "Class of '09",
+      "image": "../assets/imgs/games/icons/class-of-'09.png",
+      "url": "https://orangeify.github.io/blooket-games/class-of-'09/index.html",
+      "proxy": true
+    },
+    {
+      "id": 312,
+      "title": "Clover Pit",
+      "image": "../assets/imgs/games/icons/clover-pit.jpg",
+      "url": "https://orangeify.github.io/blooket-games/clover-pit/index.html",
       "proxy": true
     },
     {
       "id": 36,
       "title": "Connect 4",
-      "image": "",
+      "image": "../assets/imgs/games/icons/connect-4.jpg",
       "url": "https://www.cbc.ca/kids/games/play/connect-4",
       "proxy": true
     },
     {
       "id": 37,
       "title": "Cookie Clicker",
-      "image": "",
-      "url": "https://scherb96.github.io/index.html",
+      "image": "../assets/imgs/games/icons/cookie-clicker.jpg",
+      "url": "https://orteil.dashnet.org/cookieclicker/",
       "proxy": true
     },
     {
       "id": 38,
       "title": "Cookie Run Kingdom",
-      "image": "",
+      "image": "../assets/imgs/games/icons/cookie-run-kingdom.jpg",
       "url": "https://nowgg.fun/apps/a/10019/b.html",
       "proxy": true
     },
