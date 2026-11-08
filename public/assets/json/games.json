@@ -408,51 +408,51 @@
       "proxy": true
     },
     {
-      "id": 45,
-      "title": "Design the Next iPhone",
-      "image": "",
-      "url": "https://neal.fun/design-the-next-iphone/",
+      "id": 46,
+      "title": "Deltarune",
+      "image": "../assets/imgs/games/icons/deltarune.png",
+      "url": "https://mollomm1.github.io/test/",
       "proxy": true
     },
     {
-      "id": 46,
-      "title": "Deltarune",
-      "image": "",
-      "url": "https://orangeify.github.io/deltarune-port/",
+      "id": 45,
+      "title": "Design the Next iPhone",
+      "image": "../assets/imgs/games/icons/design-the-next-iphone.png",
+      "url": "https://neal.fun/design-the-next-iphone/",
       "proxy": true
     },
     {
       "id": 47,
       "title": "Diep.io",
-      "image": "",
+      "image": "../assets/imgs/games/icons/diep.io.png",
       "url": "https://diep.io",
       "proxy": true
     },
     {
       "id": 48,
       "title": "Dino Run",
-      "image": "",
+      "image": "../assets/imgs/games/icons/dino-run.jpg",
       "url": "https://thedinogame.com/fullscreen/",
       "proxy": true
     },
     {
       "id": 49,
       "title": "Donkey Kong",
-      "image": "",
+      "image": "../assets/imgs/games/icons/donkey-kong.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong/index.html",
       "proxy": false
     },
     {
       "id": 50,
       "title": "Donkey Kong 64",
-      "image": "",
+      "image": "../assets/imgs/games/icons/donkey-kong-64.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-64/index.html",
       "proxy": false
     },
     {
       "id": 51,
       "title": "Donkey Kong Country",
-      "image": "",
+      "image": "../assets/imgs/games/icons/donkey-kong-country.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country/index.html",
       "proxy": false
     },
