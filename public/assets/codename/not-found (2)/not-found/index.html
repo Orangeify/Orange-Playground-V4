@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>404 - Orange Playground</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boldonse&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/not-found/not-found.css" />
+  </head>
+  <body>
+    <main class="not-found-layout">
+      <section class="not-found-game-side" aria-label="Play Tetris">
+        <div class="tetris-layout">
+          <aside class="tetris-hud">
+            <div class="tetris-hud-label">HOLD</div>
+            <div
+              class="tetris-hold-box"
+              id="hold-box"
+              aria-label="No held piece"
+            ></div>
+            <div class="tetris-stat">
+              <span>LEVEL</span>
+              <strong id="level-value">1</strong>
+            </div>
+            <div class="tetris-stat">
+              <span>SCORE</span>
+              <strong id="score-value">0</strong>
+            </div>
+          </aside>
+
+          <div class="tetris-board-wrap" aria-label="Tetris playfield">
+            <div
+              class="tetris-board"
+              id="tetris-board"
+              role="grid"
+              aria-label="10 by 20 Tetris board"
+            ></div>
+            <div class="tetris-board-overlay" id="status-overlay" aria-live="polite">
+              <span class="tetris-start-prompt" id="status-text">PRESS ENTER TO PLAY</span>
+            </div>
+          </div>
+
+          <aside class="tetris-next" aria-label="Next pieces">
+            <div class="tetris-hud-label">NEXT</div>
+            <div class="tetris-next-list" id="next-list"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="not-found-message-side">
+        <div class="not-found-copy">
+          <h1>404</h1>
+          <p id="not-found-message"></p>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/not-found/not-found-static.js"></script>
+  </body>
+</html>
