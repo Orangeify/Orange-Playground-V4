@@ -37,7 +37,14 @@ const MESSAGES = [
   "''The paper! It's gone!''",
   "The page you were looking for is gone.",
   "The school district destroyed the only copy of this page as ''degenerate art''.",
-  "No page here\u2014this one has moved on."
+  "[This tweet has been deleted.]",
+  "Poor page... Had to die so young...",
+  "Zawg, This page doesn't exist!",
+  "What are you talking about? It was never here in the first place.",
+  "Sorry, this page is now in a retirement home.",
+  "You spelled it wrong.",
+  "The system is down. I dunno what you did, moron, but you sure screwed everything up.",
+  "Computer Over. Virus = Very Yes.",
 ];
 const boardElement = document.querySelector("#tetris-board");
 const overlayElement = document.querySelector("#status-overlay");
