@@ -28,6 +28,20 @@ app.use("/baremux/", express.static(baremuxPath));
 // "/epoxy/" is where the epoxy files will be served from. epoxyPath is just the location to those files.
 app.use("/epoxy/", express.static(epoxyPath));
 app.use("/libcurl/", express.static(libcurlPath));
+// Keep this after the other static middleware.
+app.use((req, res) => {
+  res.status(404).sendFile(
+    path.join(
+      path.dirname(new URL(import.meta.url).pathname),
+      "public",
+      "assets",
+      "codename",
+      "not-found",
+      "not-found",
+      "index.html"
+    )
+  );
+});
 
 // Set wisp logging to none. Available log levels: logging.NONE, logging.INFO, logging.DEBUG.
 // Change to logging.INFO or logging.DEBUG for more verbose logging.
