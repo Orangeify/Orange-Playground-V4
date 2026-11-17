@@ -33,10 +33,10 @@ function playSound(effect) {
   });
 }
 const MESSAGES = [
-  "Looks like this page has disappeared.",
-  "This page wandered out of the playground.",
+  "''We ain't found shit!''",
+  "''The paper! It's gone!''",
   "The page you were looking for is gone.",
-  "This page cleared itself from the board.",
+  "The school district destroyed the only copy of this page as ''degenerate art''.",
   "No page here\u2014this one has moved on."
 ];
 const boardElement = document.querySelector("#tetris-board");
