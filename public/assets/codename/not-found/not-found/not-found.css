@@ -325,7 +325,7 @@ body {
   }
 }
 
-buttons-to-click {
+  .buttons-to-click {
   display: flex;
   gap: 10px;
 }
