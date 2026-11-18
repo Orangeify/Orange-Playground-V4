@@ -238,6 +238,15 @@ body {
   line-height: 1.55;
 }
 
+.not-found-copy p1 {
+  margin: 0;
+  color: #aaaaaa;
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
 @keyframes tetris-prompt-pulse {
   0%,
   100% {
