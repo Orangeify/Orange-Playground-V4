@@ -325,6 +325,13 @@ body {
   }
 }
 
+buttons-to-click {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
 /* From Uiverse.io by Yaya12085 */ 
 button {
   border: none;
