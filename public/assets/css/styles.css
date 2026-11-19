@@ -194,7 +194,7 @@ body {
 .external-icon-github img {
     width: 32px;
     height: 32px;
-    filter: #ffffff;
+    filter: var(--invert-light-or-dark);
     transition: transform 0.2s ease, filter 0.2s ease;
 }
 
