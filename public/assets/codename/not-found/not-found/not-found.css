@@ -326,8 +326,10 @@ body {
 }
 
   .buttons-to-click {
-  display: flex;
-  gap: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
 }
 
 /* From Uiverse.io by Yaya12085 */ 
