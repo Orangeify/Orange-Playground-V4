@@ -378,6 +378,6 @@ button svg {
     z-index: 1;
     width: 32px;
     height: 32px;
-    filter: var(--invert-light-or-dark);
+    filter: ;
     transition: transform 0.2s ease, filter 0.2s ease;
 }
