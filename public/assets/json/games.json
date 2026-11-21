@@ -515,7 +515,7 @@
     {
       "id": 59,
       "title": "Drift Hunters",
-      "image": "",
+      "image": "../assets/imgs/games/icons/drift-hunters.jpg",
       "url": "https://orangeify.github.io/blooket-games/drift-hunters/index.html",
       "proxy": true
     },
@@ -529,14 +529,14 @@
     {
       "id": 61,
       "title": "Dr. Robotnik's Mean Bean Machine",
-      "image": "",
+      "image": "../assets/imgs/games/icons/drmbm.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/dr.robotnik's-mean-bean-machine/index.html",
       "proxy": false
     },
     {
       "id": 62,
       "title": "Duck Hunt",
-      "image": "",
+      "image": "../assets/imgs/games/icons/duck-hunt.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/duck-hunt/index.html",
       "proxy": false
     },
