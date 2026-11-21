@@ -459,35 +459,35 @@
     {
       "id": 52,
       "title": "Diddy Kong's Quest (DKC 2)",
-      "image": "",
+      "image": "../assets/imgs/games/icons/diddy-kong's-quest.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country-2/index.html",
       "proxy": false
     },
     {
       "id": 295,
       "title": "Donkey Kong Country 3 - Dixie Kong",
-      "image": "",
+      "image": "../assets/imgs/games/icons/donkey-kong-country-3.png",
       "url": "https://orangeify.github.io/OPv4-ROMs/donkey-kong-country-3/index.html",
       "proxy": false
     },
     {
       "id": 53,
       "title": "Don't Get the Job",
-      "image": "",
+      "image": "../assets/imgs/games/icons/don't-get-the-job.jpg",
       "url": "https://kdata1.com/2023/03/dont-get-the-job/?key=y8&value=default",
       "proxy": true
     },
     {
       "id": 54,
       "title": "Doodle Jump",
-      "image": "",
+      "image": "../assets/imgs/games/icons/doodle-jump.png",
       "url": "https://orangeify.github.io/blooket-games/doodle-jump/index.html",
       "proxy": true
     },
     {
       "id": 55,
       "title": "Doom",
-      "image": "",
+      "image": "../assets/imgs/games/icons/doom.jpg",
       "url": "https://archive.org/embed/doom_dos",
       "proxy": true
     },
