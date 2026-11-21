@@ -543,9 +543,16 @@
     {
       "id": 63,
       "title": "DuckTales",
-      "image": "",
+      "image": "../assets/imgs/games/icons/ducktales.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/ducktales/index.html",
       "proxy": false
+    },
+    {
+      "id": 314,
+      "title": "Dude, Stop",
+      "image": "../assets/imgs/games/icons/dude-stop.jpg",
+      "url": "https://wasm.rip/files/dudestop/index.html?cdn=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdashiellbenton%2Fports%406953b870f9f8ac49191dec7c4293dcd8917bf00d%2Fdudestop",
+      "proxy": true
     },
     {
       "id": 64,
