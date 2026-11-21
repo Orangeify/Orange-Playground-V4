@@ -494,21 +494,21 @@
     {
       "id": 56,
       "title": "Draw a Perfect Circle",
-      "image": "",
+      "image": "../assets/imgs/games/icons/draw-a-perfect-circle.jpg",
       "url": "https://neal.fun/perfect-circle/",
       "proxy": true
     },
     {
       "id": 57,
       "title": "./dreader",
-      "image": "",
+      "image": "../assets/imgs/games/icons/dreader.jpg",
       "url": "https://kdata1.com/2020/10/2811226/?key=y8&value=default",
       "proxy": true
     },
     {
       "id": 58,
       "title": "Drift Boss",
-      "image": "",
+      "image": "../assets/imgs/games/icons/drift-boss.png",
       "url": "https://orangeify.github.io/blooket-games/drift-boss/index.html",
       "proxy": true
     },
