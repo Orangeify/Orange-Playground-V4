@@ -551,7 +551,7 @@
       "id": 314,
       "title": "Dude, Stop",
       "image": "../assets/imgs/games/icons/dude-stop.jpg",
-      "url": "https://wasm.rip/files/dudestop/index.html?cdn=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fdashiellbenton%2Fports%406953b870f9f8ac49191dec7c4293dcd8917bf00d%2Fdudestop",
+      "url": "https://dashiellbenton.github.io/ports/dudestop/index.html",
       "proxy": true
     },
     {
@@ -599,21 +599,21 @@
     {
       "id": 69,
       "title": "Fancy Pants Adventure",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fancy-pants-adventure.jpg",
       "url": "https://orangeify.github.io/blooket-games/fancypantsadventures/index.html",
       "proxy": true
     },
     {
       "id": 70,
       "title": "Final Fantasy: Dawn of Souls",
-      "image": "",
+      "image": "../assets/imgs/games/icons/final-fantasy-dawn-of-sould.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/final-fantasy-dawn-of-souls/index.html",
       "proxy": false
     },
     {
       "id": 71,
       "title": "Fireboy and Watergirl",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fireboy&watergirl.jpg",
       "url": "https://www.coolmathgames.com/sites/default/files/public_games/40034/?gd_sdk_referrer_url=https%3A%2F%2Fwww.coolmathgames.com%2F0-fireboy-and-water-girl-in-the-forest-temple",
       "proxy": true
     },
