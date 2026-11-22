@@ -557,21 +557,21 @@
     {
       "id": 64,
       "title": "Earthbound",
-      "image": "",
+      "image": "../assets/imgs/games/icons/earthbound.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/earthbound/index.html",
       "proxy": false
     },
     {
       "id": 296,
       "title": "EarthBound Beginnings",
-      "image": "",
+      "image": "../assets/imgs/games/icons/earthbound-beginnings.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/earthbound-beginnings/index.html",
       "proxy": false
     },
     {
       "id": 65,
       "title": "Elastic Man",
-      "image": "",
+      "image": "../assets/imgs/games/icons/elastic-man.jpg",
       "url": "https://orangeify.github.io/blooket-games/elasticman/index.html",
       "proxy": true
     },
