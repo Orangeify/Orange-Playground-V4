@@ -578,21 +578,21 @@
     {
       "id": 66,
       "title": "Escape Road",
-      "image": "",
+      "image": "../assets/imgs/games/icons/escape-road.png",
       "url": "https://azgames.io/game/escape-road/",
       "proxy": true
     },
     {
       "id": 67,
       "title": "Escaping the Prison",
-      "image": "",
+      "image": "../assets/imgs/games/icons/escaping-the-prison.jpg",
       "url": "https://orangeify.github.io/blooket-games/escapingtheprison/index.html",
       "proxy": true
     },
     {
       "id": 68,
       "title": "Exhibit of Sorrows",
-      "image": "",
+      "image": "../assets/imgs/games/icons/exhibit-of-sorrows.jpg",
       "url": "https://www.crazygames.com/embed/exhibit-of-sorrows",
       "proxy": true
     },
