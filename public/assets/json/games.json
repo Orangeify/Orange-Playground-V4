@@ -620,28 +620,28 @@
     {
       "id": 72,
       "title": "Fishy",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fishy.jpg",
       "url": "https://fishy.game-files.crazygames.com/ruffle/fishy.html?v=1.286&ruffle=https%3A%2F%2Ffiles.crazygames.com%2Fgameframe%2Fruffle%2F2022-09-05%2Fruffle.js",
       "proxy": true
     },
     {
       "id": 73,
       "title": "FNAF",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fnaf.jpg",
       "url": "https://frogiesarcade.win/stuff/selfhosted/fnaf1/",
       "proxy": true
     },
     {
       "id": 74,
       "title": "FNAF 2",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fnaf2.jpg",
       "url": "https://cdn.now.gg/html5-games/com.nowgg.h5.pub501.app51767/five-nights-at-freddy-s-2/index.html",
       "proxy": true
     },
     {
       "id": 75,
       "title": "FNAF 3",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fnaf3.jpg",
       "url": "https://kdata1.com/5000/2025/fnaf/3/",
       "proxy": true
     },
