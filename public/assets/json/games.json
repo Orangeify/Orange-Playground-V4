@@ -626,57 +626,57 @@
     },
     {
       "id": 73,
-      "title": "FNAF",
+      "title": "Five Nights at Freddy's",
       "image": "../assets/imgs/games/icons/fnaf.jpg",
       "url": "https://frogiesarcade.win/stuff/selfhosted/fnaf1/",
       "proxy": true
     },
     {
       "id": 74,
-      "title": "FNAF 2",
+      "title": "Five Nights at Freddy's 2",
       "image": "../assets/imgs/games/icons/fnaf2.jpg",
       "url": "https://cdn.now.gg/html5-games/com.nowgg.h5.pub501.app51767/five-nights-at-freddy-s-2/index.html",
       "proxy": true
     },
     {
       "id": 75,
-      "title": "FNAF 3",
+      "title": "Five Nights at Freddy's 3",
       "image": "../assets/imgs/games/icons/fnaf3.png",
       "url": "https://kdata1.com/5000/2025/fnaf/3/",
       "proxy": true
     },
     {
       "id": 76,
-      "title": "FNAF 4",
+      "title": "Five Nights at Freddy's 4",
       "image": "../assets/imgs/games/icons/fnaf4.jpg",
-      "url": "https://www.miniplay.com/embed/five-nights-at-freddys-4",
+      "url": "https://orangeify.github.io/blooket-games/fnaf4/index.html",
       "proxy": true
     },
     {
       "id": 77,
       "title": "Fleeing the Complex",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fleeing-the-complex.jpg",
       "url": "https://orangeify.github.io/blooket-games/fleeingthecomplex/index.html",
       "proxy": true
     },
     {
       "id": 78,
       "title": "Foono",
-      "image": "",
+      "image": "../assets/imgs/games/icons/foono.jpg",
       "url": "https://foony.com/games/foono",
       "proxy": true
     },
     {
       "id": 79,
       "title": "Fortnite",
-      "image": "",
-      "url": "https://play.geforcenow.com/games?game-id=46bfab06-d864-465d-9e56-2d9e45cdee0a",
+      "image": "../assets/imgs/games/icons/fortnite.webp",
+      "url": "https://nowgg.fun/apps/aptoide/5874/aptoide.html?deep_link=aptoidesearch://com.epicgames.fortnite",
       "proxy": true
     },
     {
       "id": 80,
       "title": "Four Second Frenzy",
-      "image": "",
+      "image": "../assets/imgs/games/icons/four-second-frenzy.jpg",
       "url": "https://four-second-frenzy.game-files.crazygames.com/ruffle/foursecondfrenzy.html?v=1.286",
       "proxy": true
     },
