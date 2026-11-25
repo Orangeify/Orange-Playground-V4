@@ -718,14 +718,21 @@
     {
       "id": 85,
       "title": "Geometry Dash",
-      "image": "",
+      "image": "../assets/imgs/games/icons/geometry-dash.png",
       "url": "https://nowgg.fun/apps/robtop-games/1400/geometry-dash.html",
+      "proxy": true
+    },
+    {
+      "id": 316,
+      "title": "Getting Over It",
+      "image": "../assets/imgs/games/icons/getting-over-it.jpg",
+      "url": "https://orangeify.github.io/blooket-games/getting-over-it/index.html",
       "proxy": true
     },
     {
       "id": 86,
       "title": "Google Feud",
-      "image": "",
+      "image": "../assets/imgs/games/icons/google-feud.jpg",
       "url": "https://orangeify.github.io/blooket-games/google-feud/index.html",
       "proxy": true
     },
