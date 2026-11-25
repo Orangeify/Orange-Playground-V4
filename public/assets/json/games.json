@@ -690,14 +690,14 @@
     {
       "id": 82,
       "title": "Fruit Ninja",
-      "image": "",
+      "image": "../assets/imgs/games/icons/fruit-ninja.jpg",
       "url": "https://orangeify.github.io/blooket-games/fruitninja/index.html",
       "proxy": true
     },
     {
       "id": 83,
       "title": "F-Zero",
-      "image": "",
+      "image": "../",
       "url": "https://orangeify.github.io/OPv4-ROMs/f-zero/index.html",
       "proxy": false
     },
