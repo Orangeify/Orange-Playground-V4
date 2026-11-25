@@ -697,14 +697,21 @@
     {
       "id": 83,
       "title": "F-Zero",
-      "image": "../",
+      "image": "../assets/imgs/games/icons/f-zero.jpg",
       "url": "https://orangeify.github.io/OPv4-ROMs/f-zero/index.html",
       "proxy": false
     },
     {
+      "id": 315,
+      "title": "Gang Beasts",
+      "image": "../assets/imgs/games/icons/gang-beasts.png",
+      "url": "https://orangeify.github.io/blooket-games/gang-beasts/index.html",
+      "proxy": true
+    },
+    {
       "id": 84,
       "title": "GeoGuessr",
-      "image": "",
+      "image": "../assets/imgs/games/icons/geoguessr.jpg",
       "url": "https://www.geoguessr.com/",
       "proxy": true
     },
