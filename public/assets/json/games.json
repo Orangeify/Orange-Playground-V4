@@ -737,6 +737,27 @@
       "proxy": true
     },
     {
+      "id": 317,
+      "title": "Grand Theft Auto III",
+      "image": "../assets/imgs/games/icons/gta3.png",
+      "url": "https://wasm.rip/files/gta3/index.html",
+      "proxy": true
+    },
+    {
+      "id": 318,
+      "title": "Grand Theft Auto IV",
+      "image": "../assets/imgs/games/icons/gta4.webp",
+      "url": "https://bigpicture.playtab.fun/play/gran-theft-auto-iv",
+      "proxy": true
+    },
+    {
+      "id": 319,
+      "title": "Grand Theft Auto V",
+      "image": "../assets/imgs/games/icons/gta5.jpg",
+      "url": "https://bigpicture.playtab.fun/play/gta-5",
+      "proxy": true
+    },
+    {
       "id": 87,
       "title": "Guess Who?",
       "image": "",
